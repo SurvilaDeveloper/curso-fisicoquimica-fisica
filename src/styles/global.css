@@ -73,6 +73,8 @@
 }
 
 html {
+  width: 100%;
+  max-width: 100%;
   background: var(--bg);
   color: var(--text);
   font-family:
@@ -86,9 +88,12 @@ html {
 }
 
 body {
-  margin: 0;
-  min-width: 320px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
   min-height: 100vh;
+  margin: 0;
+  overflow-x: clip;
   color: var(--text);
   background:
     radial-gradient(circle at 10% 0%, rgba(23, 107, 135, 0.08), transparent 30rem),
@@ -123,8 +128,10 @@ textarea {
 }
 
 .container {
-  width: min(var(--content-width), calc(100% - 2rem));
+  width: 100%;
+  max-width: calc(var(--content-width) + 2rem);
   margin-inline: auto;
+  padding-inline: 1rem;
 }
 
 .page-shell {
@@ -230,6 +237,7 @@ textarea {
 }
 
 .table-wrap {
+  max-width: 100%;
   overflow-x: auto;
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
@@ -281,6 +289,7 @@ tbody tr:hover {
 /* Helpers compartidos por contenido Markdown y componentes Astro. */
 
 .lesson-callout {
+  max-width: 100%;
   margin: 1.5rem 0;
   padding: 1rem 1.1rem;
   border: 1px solid var(--border);
@@ -322,6 +331,7 @@ tbody tr:hover {
   height: 1.5rem;
   place-items: center;
   border-radius: 50%;
+  flex: 0 0 auto;
   color: var(--callout-accent);
   background: var(--surface);
   font-size: 0.78rem;
@@ -329,6 +339,7 @@ tbody tr:hover {
 }
 
 .lesson-callout__body {
+  min-width: 0;
   margin-top: 0.55rem;
   color: var(--muted);
   line-height: 1.7;
@@ -344,6 +355,7 @@ tbody tr:hover {
 
 .lesson-checklist,
 .lesson-exercises {
+  max-width: 100%;
   margin: 1.25rem 0;
   padding: 1rem 1.15rem;
   border: 1px solid var(--border);
@@ -357,6 +369,7 @@ tbody tr:hover {
 }
 
 .lesson-quiz {
+  max-width: 100%;
   margin: 0.8rem 0;
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
@@ -368,6 +381,7 @@ tbody tr:hover {
   color: var(--text);
   font-weight: 800;
   cursor: pointer;
+  overflow-wrap: anywhere;
 }
 
 .lesson-quiz[open] summary {
@@ -375,6 +389,7 @@ tbody tr:hover {
 }
 
 .lesson-quiz__answer {
+  min-width: 0;
   padding: 0.9rem 1rem;
   color: var(--muted);
   line-height: 1.7;
@@ -383,6 +398,7 @@ tbody tr:hover {
 .lesson-comparison {
   width: 100%;
   min-width: 0;
+  max-width: 100%;
   margin: 1.25rem 0;
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
@@ -409,7 +425,9 @@ tbody tr:hover {
 
 @media (max-width: 640px) {
   .container {
-    width: min(100% - 1.25rem, var(--content-width));
+    width: 100%;
+    max-width: 100%;
+    padding-inline: 0.625rem;
   }
 
   .page-shell {
@@ -418,6 +436,8 @@ tbody tr:hover {
 
   .lesson-comparison {
     display: block;
+    width: 100%;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 }
