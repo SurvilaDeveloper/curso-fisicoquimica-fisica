@@ -1,0 +1,1775 @@
+TEMARIO MAESTRO DEFINITIVO
+CURSO WEB DE FÍSICO-QUÍMICA Y FÍSICA — NIVEL SECUNDARIO (ARGENTINA)
+
+Versión: 1.0
+Fecha de cierre: 30 de septiembre de 2026
+Destino previsto: sitio web educativo construido con Astro
+Propósito: servir como guía maestra para diseñar, construir, revisar y ampliar el curso.
+
+======================================================================
+1. OBJETIVO DEL DOCUMENTO
+======================================================================
+
+Este documento define el mapa de contenidos que usaremos como referencia durante
+la construcción del sitio. No pretende copiar un único diseño curricular jurisdiccional,
+sino construir una cobertura amplia y coherente de los saberes de Físico-Química y
+Física que un alumno puede encontrar durante la escuela secundaria argentina.
+
+La guía fue pensada con cuatro objetivos simultáneos:
+
+1) que un estudiante pueda usar el sitio para aprender o preparar una materia;
+2) que un profesor particular pueda usarlo como material de apoyo;
+3) que permita detectar rápidamente los prerrequisitos de un tema;
+4) que también sirva como hoja de ruta de autoformación para quien enseña.
+
+La estructura integra como referencia:
+- Núcleos de Aprendizajes Prioritarios (NAP) nacionales de Ciencias Naturales;
+- diseños y orientaciones curriculares de CABA;
+- diseños curriculares de la Provincia de Buenos Aires;
+- contenidos que aparecen en orientaciones de Ciencias Naturales,
+  Matemática y Física, técnicas u otras variantes del nivel secundario.
+
+IMPORTANTE:
+El orden de los temas de este documento es un ORDEN DIDÁCTICO MAESTRO.
+No significa que todas las escuelas enseñen los contenidos en ese mismo año
+o secuencia. La distribución varía según jurisdicción, orientación, modalidad
+y proyecto institucional.
+
+======================================================================
+2. CRITERIO DE COBERTURA
+======================================================================
+
+El sitio tendrá dos grandes recorridos hermanos:
+
+A. FÍSICO-QUÍMICA
+   Curso integrado de fenómenos físicos y químicos, pensado sobre todo para los
+   primeros años y como base de los cursos posteriores.
+
+B. FÍSICA
+   Curso sistemático que comienza con las herramientas de trabajo y la mecánica
+   clásica y llega hasta electromagnetismo, ondas y física moderna.
+
+Los contenidos se organizarán por TEMAS, no exclusivamente por años escolares.
+
+Cada tema podrá llevar etiquetas como:
+
+- Área: Físico-Química / Física
+- Módulo
+- Nivel: inicial / básico / intermedio / avanzado-secundario
+- Ciclo aproximado: básico / orientado
+- Años aproximados
+- Jurisdicciones donde aparece
+- Prerrequisitos
+- Profundización opcional
+- Tipo de contenido: conceptual / experimental / matemático / aplicado
+- Estado del artículo: borrador / revisado / completo
+
+======================================================================
+3. COMPETENCIAS TRANSVERSALES A TODO EL CURSO
+======================================================================
+
+Estas competencias NO deben quedar encerradas en una sola unidad.
+Deben reaparecer en ejercicios, experimentos y problemas de todas las áreas.
+
+3.1. Lenguaje científico
+- Diferenciar observación, descripción, explicación, hipótesis, modelo y teoría.
+- Leer consignas científicas con precisión.
+- Expresar resultados con unidades.
+- Justificar respuestas.
+- Distinguir dato, inferencia y conclusión.
+- Comunicar procedimientos y resultados.
+
+3.2. Medición
+- Qué significa medir.
+- Magnitud.
+- Unidad.
+- Instrumento de medición.
+- Resolución del instrumento.
+- Estimación.
+- Incertidumbre.
+- Error absoluto y relativo a nivel introductorio.
+- Precisión y exactitud.
+- Repetición de mediciones.
+- Promedio.
+- Cifras significativas.
+- Notación científica.
+- Orden de magnitud.
+
+3.3. Sistemas de unidades
+- Sistema Internacional.
+- SIMELA.
+- Unidades fundamentales y derivadas.
+- Prefijos.
+- Conversión de unidades.
+- Análisis dimensional elemental.
+- Conversión entre km/h y m/s.
+- Conversión de áreas y volúmenes.
+
+3.4. Tratamiento de datos
+- Tablas.
+- Variables.
+- Variable independiente y dependiente.
+- Gráficos cartesianos.
+- Elección de escalas.
+- Pendiente.
+- Interpolación.
+- Extrapolación y sus límites.
+- Ajuste cualitativo de tendencias.
+- Lectura de gráficos experimentales.
+
+3.5. Modelización
+- Qué es un modelo científico.
+- Diferencia entre realidad y modelo.
+- Supuestos y simplificaciones.
+- Dominio de validez de un modelo.
+- Modelos macroscópicos y microscópicos.
+- Cambio histórico de modelos científicos.
+
+3.6. Resolución de problemas
+- Identificar datos e incógnitas.
+- Dibujar la situación.
+- Elegir sistema de referencia.
+- Seleccionar el modelo físico/químico.
+- Plantear ecuaciones.
+- Controlar unidades.
+- Evaluar la razonabilidad del resultado.
+- Explicar físicamente el resultado.
+
+3.7. Trabajo experimental
+- Diseño de experiencias sencillas.
+- Control de variables.
+- Registro de datos.
+- Seguridad.
+- Repetibilidad.
+- Elaboración de conclusiones.
+- Reconocimiento de fuentes de error.
+- Comparación entre predicción y medición.
+
+3.8. Ciencia, tecnología, sociedad y ambiente
+- Ciencia como construcción histórica.
+- Relación entre evidencia, modelos y consenso científico.
+- Tecnología y aplicaciones.
+- Impactos ambientales.
+- Energía y sociedad.
+- Riesgo y seguridad.
+- Uso responsable de materiales y recursos.
+- Lectura crítica de información científica en medios.
+
+======================================================================
+PARTE I — FÍSICO-QUÍMICA
+======================================================================
+
+======================================================================
+FQ-01. INTRODUCCIÓN A LAS CIENCIAS FÍSICAS Y QUÍMICAS
+======================================================================
+
+- Qué estudia la Física.
+- Qué estudia la Química.
+- Fenómenos físicos y químicos.
+- Sistemas y objetos de estudio.
+- Escalas de observación.
+- Escala macroscópica, microscópica y submicroscópica.
+- Método científico como conjunto flexible de prácticas.
+- Problemas, preguntas e hipótesis.
+- Evidencia experimental.
+- Modelos científicos.
+- Historia y carácter provisional del conocimiento científico.
+- Ciencia escolar y ciencia profesional.
+- Seguridad básica de laboratorio.
+
+======================================================================
+FQ-02. MAGNITUDES, MEDICIONES Y UNIDADES
+======================================================================
+
+- Magnitudes físicas.
+- Longitud.
+- Masa.
+- Tiempo.
+- Temperatura.
+- Volumen.
+- Área.
+- Densidad.
+- Unidades.
+- SI y SIMELA.
+- Prefijos.
+- Conversión de unidades.
+- Notación científica.
+- Orden de magnitud.
+- Instrumentos de medición.
+- Incertidumbre.
+- Precisión y exactitud.
+- Cifras significativas.
+- Lectura e interpretación de tablas y gráficos.
+
+======================================================================
+FQ-03. MATERIA, CUERPOS, MATERIALES Y SUSTANCIAS
+======================================================================
+
+- Materia.
+- Cuerpo.
+- Material.
+- Sustancia.
+- Propiedades de los materiales.
+- Propiedades intensivas y extensivas.
+- Masa.
+- Volumen.
+- Densidad.
+- Punto de fusión.
+- Punto de ebullición.
+- Conductividad.
+- Solubilidad.
+- Uso de propiedades para identificar materiales.
+
+======================================================================
+FQ-04. ESTADOS DE AGREGACIÓN Y MODELO DE PARTÍCULAS
+======================================================================
+
+- Sólidos, líquidos y gases.
+- Modelo cinético-corpuscular.
+- Movimiento de partículas.
+- Distancias entre partículas.
+- Interacciones.
+- Temperatura y agitación térmica.
+- Fusión.
+- Solidificación.
+- Vaporización.
+- Evaporación.
+- Ebullición.
+- Condensación.
+- Sublimación.
+- Cambios de estado.
+- Curvas de calentamiento y enfriamiento a nivel introductorio.
+- Presión de los gases.
+- Difusión.
+
+======================================================================
+FQ-05. SISTEMAS MATERIALES, SUSTANCIAS Y MEZCLAS
+======================================================================
+
+- Sistema material.
+- Sistema abierto, cerrado y aislado a nivel introductorio.
+- Fases.
+- Componentes.
+- Sistemas homogéneos.
+- Sistemas heterogéneos.
+- Sustancias puras.
+- Mezclas.
+- Soluciones.
+- Suspensiones y otros ejemplos cotidianos.
+- Métodos de separación:
+  - filtración;
+  - decantación;
+  - centrifugación;
+  - tamización;
+  - imantación;
+  - evaporación;
+  - destilación;
+  - cristalización;
+  - cromatografía introductoria.
+- Criterio para seleccionar un método de separación.
+
+======================================================================
+FQ-06. SOLUCIONES Y CONCENTRACIÓN
+======================================================================
+
+- Soluto.
+- Solvente.
+- Solución.
+- Soluciones diluidas y concentradas.
+- Solubilidad.
+- Solución insaturada, saturada y sobresaturada.
+- Factores que afectan la solubilidad.
+- Temperatura.
+- Curvas de solubilidad.
+- Solubilidad de gases.
+- Concentración.
+- % m/m.
+- % m/V.
+- % V/V.
+- ppm.
+- Molaridad como ampliación de ciclo orientado.
+- Preparación y dilución de soluciones sencillas.
+
+======================================================================
+FQ-07. ESTRUCTURA ATÓMICA
+======================================================================
+
+- Idea de átomo.
+- Evolución histórica de los modelos atómicos.
+- Dalton.
+- Thomson.
+- Rutherford.
+- Bohr.
+- Protón.
+- Neutrón.
+- Electrón.
+- Núcleo y nube electrónica.
+- Número atómico.
+- Número másico.
+- Isótopos.
+- Iones.
+- Cationes y aniones.
+- Niveles de energía.
+- Relación entre estructura atómica y fenómenos eléctricos.
+- Limitaciones de los modelos clásicos.
+
+======================================================================
+FQ-08. TABLA PERIÓDICA Y PROPIEDADES DE LOS ELEMENTOS
+======================================================================
+
+- Elemento químico.
+- Símbolo químico.
+- Organización de la tabla periódica.
+- Número atómico.
+- Grupos.
+- Períodos.
+- Metales.
+- No metales.
+- Metaloides.
+- Gases nobles.
+- Electrones de valencia.
+- Tendencias periódicas a nivel secundario:
+  - radio atómico;
+  - electronegatividad;
+  - energía de ionización como profundización.
+- Relación entre ubicación y propiedades.
+
+======================================================================
+FQ-09. UNIONES QUÍMICAS
+======================================================================
+
+- Estabilidad electrónica.
+- Electrones de valencia.
+- Enlace iónico.
+- Enlace covalente.
+- Enlace metálico.
+- Representaciones sencillas.
+- Moléculas.
+- Redes iónicas.
+- Polaridad introductoria.
+- Relación estructura-propiedades:
+  - conductividad;
+  - estado de agregación;
+  - punto de fusión;
+  - solubilidad.
+
+======================================================================
+FQ-10. TRANSFORMACIONES FÍSICAS Y QUÍMICAS
+======================================================================
+
+- Diferencia entre transformación física y química.
+- Evidencias de reacción química.
+- Reactivos.
+- Productos.
+- Conservación de la masa.
+- Representación mediante ecuaciones.
+- Coeficientes estequiométricos.
+- Balanceo por tanteo.
+- Reacciones de combinación.
+- Descomposición.
+- Desplazamiento.
+- Combustión.
+- Neutralización.
+- Reacciones exotérmicas y endotérmicas.
+- Energía asociada a transformaciones.
+
+======================================================================
+FQ-11. CANTIDAD DE MATERIA Y ESTEQUIOMETRÍA BÁSICA
+======================================================================
+
+- Masa atómica relativa.
+- Masa molecular.
+- Mol.
+- Número de Avogadro.
+- Masa molar.
+- Relación masa-moles-partículas.
+- Interpretación cuantitativa de ecuaciones químicas.
+- Reactivo limitante como profundización.
+- Rendimiento como profundización.
+
+======================================================================
+FQ-12. ÁCIDOS, BASES Y pH
+======================================================================
+
+- Propiedades de ácidos y bases.
+- Indicadores.
+- Escala de pH.
+- Acidez y basicidad.
+- Neutralización.
+- Ejemplos cotidianos.
+- Seguridad en el manejo de sustancias.
+- Modelos de ácido-base como profundización.
+- Cálculos sencillos de pH sólo cuando corresponda al programa.
+
+======================================================================
+FQ-13. GASES
+======================================================================
+
+- Variables de estado.
+- Presión.
+- Volumen.
+- Temperatura absoluta.
+- Modelo cinético de gases.
+- Ley de Boyle.
+- Ley de Charles.
+- Ley de Gay-Lussac.
+- Ley combinada.
+- Gas ideal.
+- Ecuación PV = nRT como contenido de profundización/orientado.
+- Interpretación microscópica de las leyes.
+- Presión atmosférica.
+- Aplicaciones cotidianas.
+
+======================================================================
+FQ-14. ENERGÍA, CALOR Y TEMPERATURA
+======================================================================
+
+- Concepto de energía.
+- Formas de energía.
+- Transformaciones.
+- Conservación.
+- Energía interna a nivel introductorio.
+- Temperatura.
+- Equilibrio térmico.
+- Calor como transferencia de energía.
+- Conducción.
+- Convección.
+- Radiación.
+- Calor específico.
+- Calorimetría introductoria.
+- Cambios de estado.
+- Calor latente.
+- Aplicaciones cotidianas.
+
+======================================================================
+FQ-15. FUERZAS E INTERACCIONES
+======================================================================
+
+- Interacción.
+- Fuerza.
+- Efectos de una fuerza.
+- Representación vectorial.
+- Módulo.
+- Dirección.
+- Sentido.
+- Punto de aplicación.
+- Fuerzas de contacto.
+- Rozamiento.
+- Fuerza elástica.
+- Normal.
+- Tensión a nivel introductorio.
+- Fuerzas a distancia.
+- Gravitatoria.
+- Eléctrica.
+- Magnética.
+- Idea de campo.
+
+======================================================================
+FQ-16. MOVIMIENTO — INTRODUCCIÓN
+======================================================================
+
+- Posición.
+- Sistema de referencia.
+- Trayectoria.
+- Distancia.
+- Desplazamiento.
+- Rapidez.
+- Velocidad.
+- Movimiento uniforme.
+- Representaciones gráficas sencillas.
+- Aceleración como idea inicial.
+
+======================================================================
+FQ-17. PRESIÓN Y FLUIDOS
+======================================================================
+
+- Concepto de presión.
+- Fuerza por unidad de área.
+- Presión en líquidos.
+- Presión atmosférica.
+- Principio de Pascal.
+- Prensa hidráulica.
+- Empuje.
+- Principio de Arquímedes.
+- Flotación.
+- Densidad y flotabilidad.
+- Aplicaciones tecnológicas.
+
+======================================================================
+FQ-18. CARÁCTER ELÉCTRICO DE LA MATERIA
+======================================================================
+
+- Carga eléctrica.
+- Cargas positivas y negativas.
+- Conservación de la carga.
+- Electrización por frotamiento.
+- Contacto.
+- Inducción.
+- Conductores.
+- Aislantes.
+- Atracción y repulsión.
+- Electroscopio.
+- Relación con estructura atómica.
+- Ley de Coulomb a nivel introductorio cuando corresponda.
+- Campo eléctrico como idea.
+
+======================================================================
+FQ-19. CORRIENTE Y CIRCUITOS ELÉCTRICOS
+======================================================================
+
+- Corriente eléctrica.
+- Circuito.
+- Fuente.
+- Conductores.
+- Receptores.
+- Interruptores.
+- Diferencia de potencial.
+- Resistencia.
+- Ley de Ohm.
+- Circuitos serie.
+- Circuitos paralelo.
+- Potencia eléctrica.
+- Energía eléctrica.
+- Efecto Joule.
+- Consumo eléctrico.
+- Seguridad eléctrica domiciliaria.
+
+======================================================================
+FQ-20. MAGNETISMO Y ELECTROMAGNETISMO INTRODUCTORIO
+======================================================================
+
+- Imanes.
+- Polos.
+- Campo magnético.
+- Líneas de campo.
+- Magnetismo terrestre.
+- Corriente eléctrica y campo magnético.
+- Experiencia de Oersted.
+- Electroimán.
+- Aplicaciones.
+- Idea introductoria de inducción electromagnética.
+
+======================================================================
+FQ-21. ONDAS, LUZ Y SONIDO — INTRODUCCIÓN
+======================================================================
+
+- Perturbación.
+- Onda.
+- Ondas mecánicas.
+- Ondas electromagnéticas.
+- Amplitud.
+- Frecuencia.
+- Período.
+- Longitud de onda.
+- Propagación.
+- Sonido.
+- Luz.
+- Reflexión.
+- Refracción.
+- Espectro electromagnético introductorio.
+
+======================================================================
+FQ-22. ENERGÍA, RECURSOS, AMBIENTE Y TECNOLOGÍA
+======================================================================
+
+- Fuentes de energía.
+- Renovables y no renovables.
+- Combustibles.
+- Combustión.
+- Energía eléctrica.
+- Generación y transporte.
+- Energía solar.
+- Eólica.
+- Hidroeléctrica.
+- Nuclear.
+- Eficiencia energética.
+- Impacto ambiental.
+- Cambio climático.
+- Gases de efecto invernadero.
+- Materiales y reciclaje.
+- Uso responsable de sustancias.
+- Relación ciencia-tecnología-sociedad-ambiente.
+
+======================================================================
+PARTE II — FÍSICA
+======================================================================
+
+======================================================================
+F-01. HERRAMIENTAS MATEMÁTICAS PARA FÍSICA
+======================================================================
+
+- Proporcionalidad directa e inversa.
+- Despeje de ecuaciones.
+- Potencias.
+- Raíces.
+- Notación científica.
+- Funciones lineales y cuadráticas.
+- Interpretación gráfica.
+- Pendiente.
+- Trigonometría básica.
+- Seno, coseno y tangente.
+- Teorema de Pitágoras.
+- Vectores.
+- Componentes cartesianas.
+- Suma y resta de vectores.
+- Producto escalar como herramienta de trabajo y energía.
+- Uso responsable de calculadora.
+
+======================================================================
+F-02. CINEMÁTICA: DESCRIPCIÓN DEL MOVIMIENTO
+======================================================================
+
+- Sistema de referencia.
+- Posición.
+- Vector posición.
+- Trayectoria.
+- Distancia recorrida.
+- Desplazamiento.
+- Instante e intervalo de tiempo.
+- Rapidez media.
+- Velocidad media.
+- Velocidad instantánea.
+- Aceleración media e instantánea.
+- Interpretación de x(t), v(t) y a(t).
+
+======================================================================
+F-03. MOVIMIENTO RECTILÍNEO UNIFORME
+======================================================================
+
+- Velocidad constante.
+- Ecuación horaria.
+- Posición inicial.
+- Encuentros.
+- Alcances.
+- Gráfico posición-tiempo.
+- Gráfico velocidad-tiempo.
+- Pendiente e interpretación física.
+- Problemas con distintos sistemas de referencia.
+
+======================================================================
+F-04. MOVIMIENTO RECTILÍNEO UNIFORMEMENTE VARIADO
+======================================================================
+
+- Aceleración constante.
+- Ecuaciones del MRUV.
+- Relación entre posición, velocidad, aceleración y tiempo.
+- Gráficos.
+- Área bajo v(t).
+- Pendiente de v(t).
+- Frenado.
+- Encuentros.
+- Análisis del signo de las variables.
+
+======================================================================
+F-05. CAÍDA LIBRE Y TIRO VERTICAL
+======================================================================
+
+- Aceleración gravitatoria.
+- Caída libre ideal.
+- Tiro vertical.
+- Altura máxima.
+- Tiempo de subida y bajada.
+- Elección del eje.
+- Signos.
+- Independencia de la masa en caída ideal.
+- Resistencia del aire como límite del modelo.
+
+======================================================================
+F-06. MOVIMIENTO EN DOS DIMENSIONES
+======================================================================
+
+- Independencia de componentes.
+- Vectores posición, velocidad y aceleración.
+- Tiro horizontal.
+- Tiro oblicuo.
+- Trayectoria parabólica.
+- Alcance.
+- Altura máxima.
+- Tiempo de vuelo.
+- Interpretación de componentes.
+
+======================================================================
+F-07. MOVIMIENTO CIRCULAR
+======================================================================
+
+- Ángulo.
+- Radian.
+- Velocidad angular.
+- Período.
+- Frecuencia.
+- Velocidad tangencial.
+- Movimiento circular uniforme.
+- Aceleración centrípeta.
+- Fuerza centrípeta como resultante radial.
+- Movimiento circular no uniforme como profundización.
+
+======================================================================
+F-08. LEYES DE NEWTON
+======================================================================
+
+- Concepto de fuerza.
+- Sistemas de referencia inerciales.
+- Primera ley.
+- Inercia.
+- Segunda ley.
+- Masa inercial.
+- Resultante.
+- Tercera ley.
+- Pares acción-reacción.
+- Diagramas de cuerpo libre.
+- Errores frecuentes en interpretación de fuerzas.
+
+======================================================================
+F-09. FUERZAS PARTICULARES
+======================================================================
+
+- Peso.
+- Normal.
+- Tensión.
+- Rozamiento estático.
+- Rozamiento cinético.
+- Coeficiente de rozamiento.
+- Fuerza elástica.
+- Ley de Hooke.
+- Plano inclinado.
+- Sistemas de cuerpos.
+- Poleas ideales.
+- Aplicaciones de dinámica.
+
+======================================================================
+F-10. ESTÁTICA Y EQUILIBRIO
+======================================================================
+
+- Equilibrio traslacional.
+- Resultante nula.
+- Momento de una fuerza.
+- Brazo de palanca.
+- Torque.
+- Equilibrio rotacional.
+- Centro de masa.
+- Centro de gravedad.
+- Palancas.
+- Estabilidad.
+- Máquinas simples como aplicación.
+
+======================================================================
+F-11. TRABAJO, ENERGÍA Y POTENCIA
+======================================================================
+
+- Trabajo de una fuerza constante.
+- Producto escalar.
+- Trabajo positivo, negativo y nulo.
+- Energía cinética.
+- Teorema trabajo-energía.
+- Energía potencial gravitatoria.
+- Energía potencial elástica.
+- Fuerzas conservativas.
+- Fuerzas no conservativas.
+- Energía mecánica.
+- Conservación de la energía.
+- Potencia.
+- Rendimiento.
+- Diagramas energéticos.
+
+======================================================================
+F-12. CANTIDAD DE MOVIMIENTO E IMPULSO
+======================================================================
+
+- Momento lineal.
+- Impulso.
+- Teorema impulso-cantidad de movimiento.
+- Sistema aislado.
+- Conservación del momento.
+- Choques.
+- Choque elástico.
+- Choque inelástico.
+- Choque perfectamente inelástico.
+- Problemas unidimensionales.
+- Extensión a dos dimensiones como profundización.
+- Centro de masa como profundización.
+
+======================================================================
+F-13. GRAVITACIÓN
+======================================================================
+
+- Evolución histórica de modelos del movimiento planetario.
+- Leyes de Kepler a nivel apropiado.
+- Ley de gravitación universal.
+- Masa gravitatoria.
+- Campo gravitatorio.
+- Intensidad de campo.
+- Peso.
+- Variación de g.
+- Energía potencial gravitatoria.
+- Órbitas.
+- Satélites.
+- Velocidad orbital.
+- Concepto de velocidad de escape como profundización.
+- Gravitación como primera gran unificación física.
+
+======================================================================
+F-14. FLUIDOS
+======================================================================
+
+- Densidad.
+- Presión.
+- Presión hidrostática.
+- Principio fundamental de la hidrostática.
+- Pascal.
+- Prensa hidráulica.
+- Arquímedes.
+- Flotación.
+- Presión atmosférica.
+- Barómetro.
+- Caudal.
+- Ecuación de continuidad.
+- Bernoulli.
+- Aplicaciones.
+- Límites del modelo de fluido ideal.
+
+======================================================================
+F-15. TEMPERATURA, DILATACIÓN Y CALORIMETRÍA
+======================================================================
+
+- Equilibrio térmico.
+- Principio cero.
+- Temperatura.
+- Escalas Celsius, Kelvin y Fahrenheit cuando sea útil.
+- Termómetros.
+- Dilatación lineal, superficial y volumétrica.
+- Calor.
+- Calor específico.
+- Capacidad calorífica.
+- Calorimetría.
+- Mezclas térmicas.
+- Calor latente.
+- Cambios de fase.
+- Diagramas de calentamiento.
+- Transferencia:
+  - conducción;
+  - convección;
+  - radiación.
+
+======================================================================
+F-16. GASES Y TERMODINÁMICA
+======================================================================
+
+- Variables termodinámicas.
+- Sistema.
+- Estado.
+- Equilibrio.
+- Gas ideal.
+- Modelo cinético.
+- Ecuación de estado.
+- Procesos:
+  - isotérmico;
+  - isobárico;
+  - isocórico/isovolumétrico;
+  - adiabático como profundización.
+- Diagramas P-V.
+- Trabajo termodinámico.
+- Energía interna.
+- Primera ley.
+- Calor y trabajo como mecanismos de transferencia.
+- Segunda ley a nivel conceptual.
+- Irreversibilidad.
+- Entropía a nivel introductorio/profundización.
+- Máquinas térmicas.
+- Refrigeradores.
+- Rendimiento.
+- Ciclo de Carnot como profundización.
+
+======================================================================
+F-17. OSCILACIONES
+======================================================================
+
+- Movimiento periódico.
+- Período.
+- Frecuencia.
+- Amplitud.
+- Movimiento armónico simple.
+- Sistema masa-resorte.
+- Ley de Hooke y oscilaciones.
+- Energía en el MAS.
+- Péndulo simple.
+- Aproximación de pequeño ángulo.
+- Resonancia.
+- Amortiguamiento como profundización.
+
+======================================================================
+F-18. ONDAS
+======================================================================
+
+- Pulso.
+- Onda.
+- Transporte de energía.
+- Ondas mecánicas y electromagnéticas.
+- Ondas transversales y longitudinales.
+- Amplitud.
+- Longitud de onda.
+- Frecuencia.
+- Período.
+- Velocidad de propagación.
+- Relación v = λf.
+- Fase.
+- Principio de superposición.
+- Reflexión.
+- Refracción.
+- Difracción.
+- Interferencia.
+- Ondas estacionarias.
+- Nodos y vientres.
+- Resonancia.
+
+======================================================================
+F-19. ACÚSTICA
+======================================================================
+
+- Producción del sonido.
+- Propagación.
+- Velocidad del sonido.
+- Frecuencia.
+- Altura/tono.
+- Intensidad.
+- Nivel sonoro y decibelios a nivel introductorio.
+- Timbre.
+- Armónicos.
+- Resonancia.
+- Tubos y cuerdas como profundización.
+- Eco.
+- Reverberación.
+- Efecto Doppler.
+- Ultrasonido e infrasonido.
+- Cuidado auditivo.
+
+======================================================================
+F-20. ÓPTICA GEOMÉTRICA
+======================================================================
+
+- Naturaleza y propagación de la luz.
+- Rayos.
+- Sombras.
+- Reflexión.
+- Leyes de reflexión.
+- Espejo plano.
+- Espejos esféricos.
+- Foco.
+- Formación de imágenes.
+- Ecuación de espejos.
+- Aumento.
+- Refracción.
+- Índice de refracción.
+- Ley de Snell.
+- Reflexión interna total.
+- Lentes convergentes y divergentes.
+- Formación de imágenes.
+- Ecuación de lentes.
+- Instrumentos ópticos.
+- Ojo humano como aplicación.
+
+======================================================================
+F-21. ÓPTICA FÍSICA
+======================================================================
+
+- Modelo ondulatorio de la luz.
+- Principio de Huygens.
+- Interferencia.
+- Doble rendija.
+- Difracción.
+- Polarización.
+- Dispersión.
+- Espectro visible.
+- Espectro electromagnético.
+- Órdenes de magnitud de longitud de onda.
+- Límites de la óptica geométrica.
+
+======================================================================
+F-22. ELECTROSTÁTICA
+======================================================================
+
+- Carga eléctrica.
+- Conservación.
+- Cuantización.
+- Electrización.
+- Conductores y aislantes.
+- Ley de Coulomb.
+- Principio de superposición.
+- Campo eléctrico.
+- Vector campo.
+- Líneas de campo.
+- Campo de cargas puntuales.
+- Energía potencial eléctrica.
+- Potencial eléctrico.
+- Diferencia de potencial.
+- Superficies equipotenciales.
+- Capacitores como profundización.
+- Capacitancia y energía almacenada como profundización.
+
+======================================================================
+F-23. CORRIENTE ELÉCTRICA Y CIRCUITOS
+======================================================================
+
+- Corriente.
+- Intensidad.
+- Portadores de carga.
+- Diferencia de potencial.
+- Resistencia.
+- Resistividad.
+- Dependencia con longitud, sección y temperatura.
+- Ley de Ohm.
+- Potencia.
+- Efecto Joule.
+- Energía eléctrica.
+- Serie y paralelo.
+- Asociación de resistencias.
+- Fuerza electromotriz.
+- Resistencia interna como profundización.
+- Leyes de Kirchhoff.
+- Instrumentos:
+  - amperímetro;
+  - voltímetro;
+  - multímetro.
+- Seguridad eléctrica.
+
+======================================================================
+F-24. MAGNETISMO
+======================================================================
+
+- Imanes.
+- Campo magnético.
+- Líneas de campo.
+- Campo terrestre.
+- Fuerza magnética sobre una carga.
+- Fuerza de Lorentz.
+- Movimiento de cargas en campos magnéticos.
+- Fuerza sobre conductores.
+- Campo producido por corriente.
+- Oersted.
+- Regla de la mano.
+- Solenoide.
+- Electroimán.
+
+======================================================================
+F-25. INDUCCIÓN Y ELECTROMAGNETISMO
+======================================================================
+
+- Flujo magnético.
+- Inducción electromagnética.
+- Ley de Faraday.
+- Ley de Lenz.
+- Corriente alterna.
+- Generadores.
+- Motores.
+- Transformadores.
+- Campo eléctrico variable.
+- Campo magnético variable.
+- Ideas cualitativas de las ecuaciones de Maxwell.
+- Unificación electricidad-magnetismo-óptica.
+- Ondas electromagnéticas.
+- Velocidad de la luz.
+- Aplicaciones tecnológicas.
+
+======================================================================
+F-26. CRISIS DE LA FÍSICA CLÁSICA
+======================================================================
+
+- Alcance de la mecánica clásica.
+- Problemas de fines del siglo XIX y comienzos del XX.
+- Radiación térmica.
+- Cuerpo negro a nivel conceptual.
+- Cuantización de Planck.
+- Constante de Planck.
+- Naturaleza de la luz.
+- Contexto histórico del nacimiento de la física moderna.
+
+======================================================================
+F-27. EFECTO FOTOELÉCTRICO Y FOTONES
+======================================================================
+
+- Efecto fotoeléctrico.
+- Resultados experimentales.
+- Insuficiencia de la explicación ondulatoria clásica.
+- Fotón.
+- E = hf.
+- Frecuencia umbral.
+- Energía cinética máxima.
+- Interpretación de Einstein.
+- Aplicaciones.
+
+======================================================================
+F-28. MODELOS ATÓMICOS Y ESPECTROS
+======================================================================
+
+- Thomson.
+- Rutherford.
+- Dispersión.
+- Modelo nuclear.
+- Problema de estabilidad del átomo clásico.
+- Bohr.
+- Niveles discretos de energía.
+- Emisión y absorción.
+- Espectros.
+- Fotones y transiciones.
+- Limitaciones del modelo de Bohr.
+
+======================================================================
+F-29. DUALIDAD ONDA-PARTÍCULA Y MECÁNICA CUÁNTICA INTRODUCTORIA
+======================================================================
+
+- Dualidad de la luz.
+- De Broglie.
+- Longitud de onda asociada a partículas.
+- Evidencia de comportamiento ondulatorio de electrones.
+- Principio de incertidumbre de Heisenberg.
+- Diferencia entre incertidumbre cuántica y error instrumental.
+- Abandono de la órbita clásica.
+- Idea de orbital.
+- Probabilidad.
+- Estado cuántico a nivel conceptual.
+- Ecuación de Schrödinger sólo como marco conceptual, salvo orientación especializada.
+- Límite clásico.
+
+======================================================================
+F-30. RELATIVIDAD ESPECIAL
+======================================================================
+
+- Sistemas de referencia.
+- Relatividad galileana.
+- Transformaciones clásicas y su dominio de validez.
+- Problema de la propagación de la luz.
+- Contexto del experimento de Michelson-Morley, según el nivel.
+- Postulados de Einstein.
+- Constancia de c.
+- Relatividad de la simultaneidad.
+- Dilatación temporal.
+- Tiempo propio.
+- Contracción de longitud.
+- Longitud propia.
+- Factor de Lorentz.
+- Transformación relativista de velocidades como profundización.
+- Energía relativista.
+- Equivalencia masa-energía.
+- E = mc².
+- Diferencia entre relatividad especial y relatividad general.
+- Paradojas aparentes como recurso didáctico.
+- Dominio de validez de la física newtoniana.
+
+======================================================================
+F-31. FÍSICA NUCLEAR
+======================================================================
+
+- Núcleo atómico.
+- Protones y neutrones.
+- Isótopos.
+- Estabilidad nuclear.
+- Energía de enlace.
+- Defecto de masa.
+- Radiactividad.
+- Desintegración alfa.
+- Beta.
+- Gamma.
+- Ley de decaimiento a nivel apropiado.
+- Vida media.
+- Actividad.
+- Detección de radiación.
+- Radiación ionizante.
+- Efectos y protección.
+- Fisión.
+- Reacción en cadena.
+- Reactor nuclear.
+- Fusión.
+- Energía estelar.
+- Aplicaciones médicas e industriales.
+
+======================================================================
+F-32. PARTÍCULAS E INTERACCIONES FUNDAMENTALES
+======================================================================
+
+- Idea de partícula elemental.
+- Escalas subatómicas.
+- Las cuatro interacciones:
+  - gravitatoria;
+  - electromagnética;
+  - nuclear fuerte;
+  - nuclear débil.
+- Alcance relativo y escalas.
+- Mediadores como profundización.
+- Quarks y leptones como introducción.
+- Modelo Estándar a nivel panorámico.
+- Antimateria a nivel introductorio.
+- Unificación de interacciones.
+- Límites del Modelo Estándar.
+- Gravedad y unificación como problema abierto.
+
+======================================================================
+F-33. COSMOLOGÍA Y ASTROFÍSICA — MÓDULO DE PROFUNDIZACIÓN
+======================================================================
+
+Este módulo no será requisito para el núcleo general, pero es muy apropiado para
+orientaciones científicas y para conectar múltiples ramas de la Física.
+
+- Escalas astronómicas.
+- Gravitación y órbitas.
+- Espectros estelares.
+- Efecto Doppler y corrimiento al rojo.
+- Evolución estelar.
+- Fusión nuclear en estrellas.
+- Expansión del universo.
+- Modelo del Big Bang a nivel conceptual.
+- Radiación cósmica de fondo.
+- Materia oscura y energía oscura como problemas contemporáneos.
+- Evidencia observacional y límites del conocimiento actual.
+
+======================================================================
+4. MÓDULOS DE APLICACIÓN TRANSVERSAL
+======================================================================
+
+Estos módulos pueden aparecer como "Aplicaciones", artículos especiales o proyectos.
+
+A-01. Energía en la vida cotidiana.
+A-02. Consumo eléctrico domiciliario.
+A-03. Seguridad eléctrica.
+A-04. Energías renovables.
+A-05. Cambio climático y balance energético terrestre.
+A-06. Física del deporte.
+A-07. Física del tránsito y seguridad vial.
+A-08. Sonido, música y acústica.
+A-09. Óptica, cámaras y visión.
+A-10. Telecomunicaciones y espectro electromagnético.
+A-11. Motores, generadores y transformadores.
+A-12. Física médica.
+A-13. Radiaciones y salud.
+A-14. Energía nuclear.
+A-15. Satélites, GPS y relatividad.
+A-16. Astronomía y física.
+A-17. Materiales y propiedades.
+A-18. Agua, soluciones y ambiente.
+A-19. Combustión, combustibles y emisiones.
+A-20. Ciencia argentina: instituciones, desarrollos y ejemplos tecnológicos.
+
+======================================================================
+5. PRERREQUISITOS MATEMÁTICOS QUE EL SITIO DEBE PODER ENSEÑAR O REPASAR
+======================================================================
+
+El sitio no debe suponer que todos los alumnos llegan con estas herramientas dominadas.
+
+M-01. Operaciones con enteros, fracciones y decimales.
+M-02. Proporciones y regla de tres.
+M-03. Porcentajes.
+M-04. Potencias y raíces.
+M-05. Notación científica.
+M-06. Despeje de fórmulas.
+M-07. Ecuaciones lineales.
+M-08. Sistemas de ecuaciones sencillos.
+M-09. Función lineal.
+M-10. Función cuadrática.
+M-11. Interpretación de gráficos.
+M-12. Pendiente.
+M-13. Teorema de Pitágoras.
+M-14. Trigonometría básica.
+M-15. Vectores y componentes.
+M-16. Áreas y volúmenes.
+M-17. Logaritmos como apoyo para pH, decibeles o decaimiento, si fueran necesarios.
+M-18. Exponenciales como profundización para radiactividad y procesos físicos.
+
+Cada artículo que requiera una herramienta matemática deberá enlazar al repaso correspondiente.
+
+======================================================================
+6. ESTÁNDAR DE PROFUNDIDAD DE CADA LECCIÓN
+======================================================================
+
+Cada tema principal del sitio debería intentar contener, cuando corresponda:
+
+1. Pregunta o fenómeno inicial.
+2. Qué vamos a aprender.
+3. Prerrequisitos.
+4. Explicación conceptual.
+5. Modelo físico o químico.
+6. Magnitudes involucradas.
+7. Fórmulas, si corresponden.
+8. Significado físico de cada variable.
+9. Unidades.
+10. Deducción o justificación accesible, cuando sea útil.
+11. Ejemplo resuelto paso a paso.
+12. Interpretación del resultado.
+13. Gráfico o diagrama.
+14. Experiencia o demostración.
+15. Errores frecuentes.
+16. Problemas graduados.
+17. Preguntas conceptuales.
+18. Autoevaluación.
+19. Resumen.
+20. Profundización.
+21. Aplicación tecnológica o cotidiana.
+22. Contexto histórico.
+23. Siguiente tema recomendado.
+
+======================================================================
+7. NIVELES DE EJERCICIOS
+======================================================================
+
+Nivel 1 — Reconocimiento
+- identificar conceptos;
+- reconocer unidades;
+- completar definiciones;
+- leer un gráfico.
+
+Nivel 2 — Aplicación directa
+- una fórmula;
+- pocos datos;
+- conversión simple de unidades.
+
+Nivel 3 — Integración
+- elegir la fórmula;
+- combinar dos o más relaciones;
+- interpretar signos y gráficos.
+
+Nivel 4 — Problema complejo
+- construir el modelo;
+- seleccionar datos relevantes;
+- combinar distintas unidades;
+- justificar supuestos.
+
+Nivel 5 — Profundización
+- problema no rutinario;
+- comparación de modelos;
+- análisis experimental;
+- derivación o generalización.
+
+======================================================================
+8. RUTA DIDÁCTICA SUGERIDA DEL SITIO
+======================================================================
+
+RUTA A — BASE FÍSICO-QUÍMICA
+
+A1. Ciencia, medición y modelos
+A2. Materia y propiedades
+A3. Modelo de partículas
+A4. Sistemas materiales y soluciones
+A5. Átomo y tabla periódica
+A6. Enlaces y transformaciones químicas
+A7. Cantidad de materia
+A8. Gases
+A9. Energía y calor
+A10. Fuerzas y movimiento introductorio
+A11. Electricidad y magnetismo
+A12. Ondas, luz y sonido
+A13. Ambiente y tecnología
+
+RUTA B — FÍSICA CLÁSICA
+
+B1. Herramientas matemáticas
+B2. Cinemática
+B3. Dinámica
+B4. Estática
+B5. Trabajo y energía
+B6. Cantidad de movimiento
+B7. Gravitación
+B8. Fluidos
+B9. Termodinámica
+B10. Oscilaciones y ondas
+B11. Sonido
+B12. Óptica
+B13. Electricidad
+B14. Magnetismo
+B15. Electromagnetismo
+
+RUTA C — FÍSICA MODERNA
+
+C1. Crisis de la física clásica
+C2. Fotones y efecto fotoeléctrico
+C3. Modelos atómicos y espectros
+C4. Dualidad y cuántica introductoria
+C5. Relatividad especial
+C6. Física nuclear
+C7. Partículas e interacciones
+C8. Cosmología/astrofísica como profundización
+
+======================================================================
+9. RELACIÓN APROXIMADA CON LOS CICLOS SECUNDARIOS
+======================================================================
+
+NO usar esta sección como asignación legal rígida de años.
+
+CICLO BÁSICO / PRIMEROS AÑOS:
+- medición y unidades;
+- materia y propiedades;
+- modelo de partículas;
+- sistemas materiales;
+- soluciones;
+- estructura atómica básica;
+- tabla periódica;
+- transformaciones químicas;
+- energía, calor y temperatura;
+- fuerzas introductorias;
+- movimiento introductorio;
+- electricidad;
+- magnetismo;
+- ondas introductorias.
+
+CICLO ORIENTADO / AÑOS SUPERIORES:
+- cinemática formal;
+- dinámica;
+- estática;
+- trabajo y energía;
+- cantidad de movimiento;
+- gravitación;
+- fluidos;
+- calorimetría y termodinámica;
+- oscilaciones;
+- ondas y sonido;
+- óptica;
+- electrostática;
+- circuitos;
+- magnetismo;
+- inducción;
+- electromagnetismo;
+- física moderna;
+- relatividad;
+- física cuántica introductoria;
+- física nuclear;
+- interacciones fundamentales.
+
+ORIENTACIONES CIENTÍFICAS, MATEMÁTICA-FÍSICA O TÉCNICAS:
+pueden profundizar bastante más en algunos de estos bloques y agregar formalismo,
+modelización, laboratorio, electrónica, física contemporánea o aplicaciones específicas.
+
+======================================================================
+10. COBERTURA JURISDICCIONAL Y DECISIONES ADOPTADAS
+======================================================================
+
+10.1. Nación
+Los NAP de Ciencias Naturales del nivel secundario se toman como base de saberes
+federales. El curso busca superar el mínimo común sin convertirse en un curso
+universitario.
+
+10.2. CABA
+Se incorporan expresamente:
+- electricidad y magnetismo;
+- óptica física;
+- inducción electromagnética;
+- mecánica cuántica introductoria;
+- modelo de Bohr;
+- efecto fotoeléctrico;
+- principio de incertidumbre;
+- relatividad einsteiniana;
+- cuatro fuerzas de la naturaleza;
+- ideas de unificación.
+
+A septiembre de 2026, CABA cuenta además con contenidos priorizados para secundaria
+en el marco de Secundaria Aprende. El diseño curricular continúa siendo la referencia,
+mientras que las escuelas pueden reorganizar contenidos y trabajar integradamente.
+
+10.3. Provincia de Buenos Aires
+Se respeta el enfoque integrado de Fisicoquímica de los primeros años.
+Entre los ejes documentados aparecen:
+- naturaleza corpuscular de la materia;
+- carácter eléctrico de la materia;
+- materia y magnetismo;
+- fuerzas y campos.
+
+También se incorporan los contenidos de Introducción a la Física del ciclo superior,
+con particular presencia de:
+- energía;
+- energía térmica;
+- mecánica;
+- electricidad;
+- ondas;
+- aplicaciones sociales y ambientales.
+
+======================================================================
+11. CONTENIDOS QUE NO DEBEN OMITIRSE AUNQUE A VECES APAREZCAN POCO
+======================================================================
+
+Esta lista existe precisamente para evitar que el curso quede reducido a
+"MRU, MRUV, Newton y circuitos".
+
+- Error, incertidumbre y medición.
+- Modelización.
+- Lectura de gráficos.
+- Vectores.
+- Momento/torque y equilibrio.
+- Cantidad de movimiento.
+- Movimiento circular.
+- Gravitación.
+- Fluidos.
+- Termodinámica.
+- Oscilaciones.
+- Interferencia y difracción.
+- Polarización.
+- Campo eléctrico.
+- Potencial eléctrico.
+- Inducción electromagnética.
+- Espectro electromagnético.
+- Efecto fotoeléctrico.
+- Dualidad onda-partícula.
+- Principio de incertidumbre.
+- Relatividad especial.
+- Física nuclear.
+- Cuatro interacciones fundamentales.
+- Ciencia, tecnología, sociedad y ambiente.
+
+======================================================================
+12. CONTENIDOS DE PROFUNDIZACIÓN NO OBLIGATORIOS PARA LA RUTA CENTRAL
+======================================================================
+
+Pueden publicarse, pero no deben bloquear el progreso del alumno común.
+
+- Cálculo vectorial formal.
+- Derivadas e integrales como lenguaje sistemático.
+- Dinámica rotacional completa.
+- Momento angular avanzado.
+- Oscilaciones diferenciales.
+- Fourier.
+- Termodinámica estadística.
+- Ecuaciones de Maxwell en forma diferencial/integral formal.
+- Circuitos RLC completos.
+- Relatividad general.
+- Mecánica cuántica matemática.
+- Operadores y espacio de Hilbert.
+- Física de partículas avanzada.
+- Teoría cuántica de campos.
+- Modelo estándar detallado.
+- Cosmología matemática.
+
+Cuando aparezcan, deberán estar identificados claramente como PROFUNDIZACIÓN.
+
+======================================================================
+13. ESTRUCTURA RECOMENDADA PARA ASTRO
+======================================================================
+
+Ejemplo conceptual:
+
+src/content/
+  fisicoquimica/
+    01-ciencia-medicion/
+    02-materia/
+    03-modelo-particulas/
+    ...
+  fisica/
+    01-herramientas/
+    02-cinematica/
+    03-dinamica/
+    ...
+  matematicas/
+    despeje/
+    vectores/
+    trigonometria/
+    ...
+  aplicaciones/
+  experimentos/
+  ejercicios/
+
+Frontmatter sugerido:
+
+---
+title: "Movimiento Rectilíneo Uniforme"
+slug: "movimiento-rectilineo-uniforme"
+course: "fisica"
+module: "cinematica"
+order: 3
+level: "basico"
+cycle: "orientado"
+yearsApprox: [3, 4]
+jurisdictions: ["nacional", "caba", "pba"]
+prerequisites:
+  - "unidades"
+  - "graficos"
+  - "velocidad"
+skills:
+  - "modelizacion"
+  - "resolucion-problemas"
+  - "interpretacion-graficos"
+hasExercises: true
+hasQuiz: true
+hasExperiment: false
+deepening: false
+status: "draft"
+---
+
+======================================================================
+14. VISTAS RECOMENDADAS DEL SITIO
+======================================================================
+
+1. RUTA
+   Camino lineal sugerido para estudiar desde cero.
+
+2. TEMAS
+   Navegación por áreas:
+   - materia;
+   - química;
+   - mecánica;
+   - termodinámica;
+   - ondas;
+   - óptica;
+   - electricidad;
+   - magnetismo;
+   - física moderna.
+
+3. TABLA
+   Vista completa con:
+   - número;
+   - módulo;
+   - tema;
+   - nivel;
+   - ciclo;
+   - prerrequisitos;
+   - ejercicios;
+   - estado.
+
+4. POR NECESIDAD
+   Ejemplos:
+   - "Tengo prueba de MRUV".
+   - "Necesito entender circuitos".
+   - "Tengo que preparar calorimetría".
+   - "Quiero estudiar relatividad".
+
+5. EXPERIMENTOS
+   Experiencias realizables con materiales accesibles.
+
+6. PROBLEMAS
+   Banco de ejercicios por tema y dificultad.
+
+7. PROFUNDIZACIÓN
+   Contenido para estudiantes avanzados y para formación docente.
+
+======================================================================
+15. PRINCIPIO EDITORIAL
+======================================================================
+
+El sitio NO debe convertirse en un formulario de ecuaciones.
+
+Orden pedagógico recomendado:
+
+FENÓMENO
+    ↓
+PREGUNTA
+    ↓
+CONCEPTO
+    ↓
+MODELO
+    ↓
+REPRESENTACIÓN
+    ↓
+MATEMÁTICA
+    ↓
+PROBLEMA
+    ↓
+INTERPRETACIÓN
+    ↓
+APLICACIÓN
+    ↓
+LÍMITES DEL MODELO
+
+La fórmula debe aparecer como una forma compacta de expresar una relación física,
+no como el punto de partida de la explicación.
+
+======================================================================
+16. CRITERIO PARA EXPLICACIONES DESTINADAS AL ALUMNO Y AL DOCENTE
+======================================================================
+
+Cada contenido podrá tener dos capas:
+
+CAPA 1 — NIVEL SECUNDARIO
+Lo que el alumno necesita comprender y resolver.
+
+CAPA 2 — PROFUNDIZACIÓN / PARA ENTENDER MEJOR
+Explicación adicional que:
+- evita simplificaciones incorrectas;
+- explica de dónde surge una relación;
+- muestra límites del modelo;
+- conecta con cursos superiores;
+- ayuda a quien enseña.
+
+La capa 2 nunca debe volver incomprensible la capa 1.
+
+======================================================================
+17. TEMARIO MAESTRO: ESTADO
+======================================================================
+
+Con esta versión se considera CERRADA la primera definición global del temario.
+
+Durante la construcción del sitio podrán:
+- subdividirse temas;
+- fusionarse páginas demasiado pequeñas;
+- cambiarse órdenes;
+- agregarse ejemplos o aplicaciones;
+- ampliarse módulos de profundización.
+
+Pero cualquier eliminación de uno de los grandes contenidos de este documento
+debería hacerse de manera deliberada y documentada, no por omisión.
+
+======================================================================
+18. FUENTES CURRICULARES PRINCIPALES CONSULTADAS
+======================================================================
+
+FUENTES NACIONALES
+- Ministerio de Educación / Argentina.gob.ar:
+  Núcleos de Aprendizajes Prioritarios (NAP), Educación Secundaria,
+  Ciencias Naturales, Ciclo Básico y Ciclo Orientado.
+  https://www.argentina.gob.ar/nucleos-de-aprendizaje-prioritarios
+
+- Ley de Educación Nacional 26.206:
+  organización del nivel secundario en Ciclo Básico y Ciclo Orientado.
+  https://www.argentina.gob.ar/normativa/nacional/123542/actualizacion
+
+CABA
+- Diseño Curricular NES. Formación General. Ciclo Básico y Ciclo Orientado.
+- Física y Físico-Química. Orientaciones para la planificación de la enseñanza.
+- Contenidos para el Nivel Medio: Física y Físico-Química.
+- Contenidos priorizados de Formación General y Orientaciones, 2026.
+- Resolución 11.121/SSPIE/26, publicada el 31/08/2026.
+- Secundaria Aprende: normativa y documentación curricular.
+
+Referencias oficiales:
+https://buenosaires.gob.ar/areas/educacion/recursos/nes.php
+https://buenosaires.gob.ar/areas/educacion/curricula/pdf/orientaciones-fisica_media.pdf
+https://buenosaires.gob.ar/areas/educacion/curricula/pdf/media/programa_fisica.pdf
+https://buenosaires.gob.ar/gcaba_historico/proyecto-curricular-institucional-pci-secundaria-aprende/contenidos-priorizados
+
+PROVINCIA DE BUENOS AIRES
+- Diseño Curricular para 2.º año: Fisicoquímica.
+- Diseño Curricular para 4.º año: Introducción a la Física.
+- Portal ABC / Dirección General de Cultura y Educación.
+- Materiales curriculares y de desarrollo curricular de Continuemos Estudiando.
+
+Referencias oficiales:
+https://servicios.abc.gov.ar/lainstitucion/organismos/consejogeneral/disenioscurriculares/documentosdescarga/secundaria2.pdf
+https://servicios.abc.gov.ar/lainstitucion/organismos/consejogeneral/disenioscurriculares/secundaria/materias_comunes_a_todas_las_orientaciones_de_4anio/fisica_4.pdf
+https://continuemosestudiando.abc.gob.ar/
+
+======================================================================
+19. NOTA DE USO FUTURO
+======================================================================
+
+Cuando retomemos el proyecto en otra conversación, este archivo debe compartirse
+como "Temario maestro del curso de Físico-Química y Física".
+
+A partir de él podremos trabajar en este orden:
+
+ETAPA 1
+Definir arquitectura Astro, colecciones de contenido y navegación.
+
+ETAPA 2
+Crear estructura vacía de módulos y páginas.
+
+ETAPA 3
+Construir primero el núcleo de Físico-Química.
+
+ETAPA 4
+Construir Física clásica.
+
+ETAPA 5
+Construir ondas, óptica y electromagnetismo.
+
+ETAPA 6
+Construir Física moderna.
+
+ETAPA 7
+Agregar experimentos, ejercicios y autoevaluaciones.
+
+ETAPA 8
+Revisión curricular final por jurisdicción.
+
+FIN DEL TEMARIO MAESTRO — VERSIÓN 1.0
+30/09/2026
