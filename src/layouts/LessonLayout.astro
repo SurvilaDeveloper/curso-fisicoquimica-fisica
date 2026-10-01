@@ -92,7 +92,8 @@ const statusLabels = {
 
                 {lesson.data.hasExercises && <span>Incluye ejercicios</span>}
                 {lesson.data.hasQuiz && <span>Incluye autoevaluación</span>}
-                {lesson.data.hasExperiment && <span>Incluye experimento</span>}
+                {lesson.data.hasExperiment && <span>Incluye experiencia</span>}
+                {lesson.data.deepening && <span>Incluye profundización</span>}
               </div>
             )
           }
@@ -182,7 +183,7 @@ const statusLabels = {
   }
 
   .lesson-content :global(h2) {
-    margin: 2.4rem 0 0.8rem;
+    margin: 2.6rem 0 0.85rem;
     font-size: clamp(1.45rem, 3vw, 2rem);
     line-height: 1.15;
     letter-spacing: -0.025em;
@@ -224,6 +225,12 @@ const statusLabels = {
   .lesson-content :global(a) {
     color: var(--primary-strong);
     font-weight: 700;
+  }
+
+  .lesson-content :global(hr) {
+    margin: 2.5rem 0;
+    border: 0;
+    border-top: 1px solid var(--border);
   }
 
   @media (max-width: 960px) {

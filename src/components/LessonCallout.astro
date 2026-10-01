@@ -1,0 +1,99 @@
+---
+type CalloutType = "idea" | "ejemplo" | "error" | "profundizacion";
+
+interface Props {
+  type: CalloutType;
+  title?: string;
+}
+
+const { type, title } = Astro.props;
+
+const defaultTitles: Record<CalloutType, string> = {
+  idea: "Idea clave",
+  ejemplo: "Ejemplo",
+  error: "Error frecuente",
+  profundizacion: "Profundización",
+};
+
+const icons: Record<CalloutType, string> = {
+  idea: "◆",
+  ejemplo: "→",
+  error: "!",
+  profundizacion: "+",
+};
+---
+
+<aside class:list={["lesson-callout", `lesson-callout--${type}`]}>
+  <div class="lesson-callout__heading">
+    <span class="lesson-callout__icon" aria-hidden="true">{icons[type]}</span>
+    <strong>{title ?? defaultTitles[type]}</strong>
+  </div>
+
+  <div class="lesson-callout__body">
+    <slot />
+  </div>
+</aside>
+
+<style>
+  .lesson-callout {
+    margin: 1.5rem 0;
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--callout-border, var(--border));
+    border-left: 4px solid var(--callout-accent, var(--primary));
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    background: var(--callout-bg, var(--surface-soft));
+  }
+
+  .lesson-callout--idea {
+    --callout-accent: var(--primary);
+    --callout-bg: var(--primary-soft);
+  }
+
+  .lesson-callout--ejemplo {
+    --callout-accent: var(--success);
+    --callout-bg: var(--success-soft);
+  }
+
+  .lesson-callout--error {
+    --callout-accent: var(--danger);
+    --callout-bg: var(--danger-soft);
+  }
+
+  .lesson-callout--profundizacion {
+    --callout-accent: var(--secondary);
+    --callout-bg: var(--secondary-soft);
+  }
+
+  .lesson-callout__heading {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    color: var(--text);
+  }
+
+  .lesson-callout__icon {
+    display: grid;
+    width: 1.5rem;
+    height: 1.5rem;
+    place-items: center;
+    border-radius: 50%;
+    color: var(--callout-accent);
+    background: var(--surface);
+    font-size: 0.78rem;
+    font-weight: 900;
+  }
+
+  .lesson-callout__body {
+    margin-top: 0.55rem;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+
+  .lesson-callout__body :global(p:first-child) {
+    margin-top: 0;
+  }
+
+  .lesson-callout__body :global(p:last-child) {
+    margin-bottom: 0;
+  }
+</style>
