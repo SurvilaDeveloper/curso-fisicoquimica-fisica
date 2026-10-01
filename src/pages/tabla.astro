@@ -1,0 +1,134 @@
+---
+import {
+  getCollection,
+  type CollectionEntry,
+} from "astro:content";
+
+const lessons = await getCollection("lessons");
+
+type LessonEntry = CollectionEntry<"lessons">;
+
+const sortedLessons = [...lessons].sort(
+  (a: LessonEntry, b: LessonEntry) => {
+    if (a.data.course !== b.data.course) {
+      return a.data.course.localeCompare(b.data.course, "es");
+    }
+
+    if (a.data.module !== b.data.module) {
+      return a.data.module.localeCompare(b.data.module, "es");
+    }
+
+    return a.data.order - b.data.order;
+  },
+);
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Tabla de contenidos | Física y Físico-Química</title>
+  </head>
+
+  <body>
+    <main>
+      <h1>Tabla de contenidos</h1>
+
+      <p>
+        Esta página es una prueba temporal de la colección
+        <code>lessons</code>.
+      </p>
+
+      <p>
+        Lecciones detectadas:
+        <strong>{sortedLessons.length}</strong>
+      </p>
+
+      {
+        sortedLessons.length === 0 ? (
+          <p>No se detectaron lecciones.</p>
+        ) : (
+          <table>
+            <thead>
+              <tr>
+                <th>Curso</th>
+                <th>Módulo</th>
+                <th>Orden</th>
+                <th>Título</th>
+                <th>Nivel</th>
+                <th>Estado</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              {
+                sortedLessons.map((lesson: LessonEntry) => (
+                  <tr>
+                    <td>{lesson.data.course}</td>
+                    <td>{lesson.data.module}</td>
+                    <td>{lesson.data.order}</td>
+                    <td>{lesson.data.title}</td>
+                    <td>{lesson.data.level}</td>
+                    <td>{lesson.data.status}</td>
+                  </tr>
+                ))
+              }
+            </tbody>
+          </table>
+        )
+      }
+    </main>
+  </body>
+</html>
+
+<style>
+  :global(*) {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family:
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      sans-serif;
+    color: #1f2937;
+    background: #f8fafc;
+  }
+
+  main {
+    width: min(1100px, calc(100% - 2rem));
+    margin: 3rem auto;
+  }
+
+  h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  table {
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+    background: white;
+  }
+
+  th,
+  td {
+    padding: 0.8rem 1rem;
+    border: 1px solid #dbe2ea;
+    text-align: left;
+  }
+
+  th {
+    background: #eef2f7;
+  }
+
+  code {
+    padding: 0.1rem 0.35rem;
+    border-radius: 0.25rem;
+    background: #e2e8f0;
+  }
+</style>
