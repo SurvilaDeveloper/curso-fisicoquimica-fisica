@@ -1,0 +1,93 @@
+---
+interface Props {
+  title: string;
+  result?: string;
+}
+
+const { title, result } = Astro.props;
+---
+
+<aside class="worked-example">
+  <header>
+    <span>Ejemplo resuelto</span>
+    <h3>{title}</h3>
+  </header>
+
+  <div class="worked-example__body">
+    <slot />
+  </div>
+
+  {
+    result && (
+      <div class="worked-example__result">
+        <span>Resultado</span>
+        <strong>{result}</strong>
+      </div>
+    )
+  }
+</aside>
+
+<style>
+  .worked-example {
+    margin: 1.5rem 0;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    background: var(--surface);
+  }
+
+  header {
+    padding: 0.9rem 1rem;
+    border-bottom: 1px solid var(--border);
+    background: var(--success-soft);
+  }
+
+  header span {
+    color: var(--success);
+    font-size: 0.68rem;
+    font-weight: 850;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    margin: 0.25rem 0 0;
+    color: var(--text);
+    font-size: 1.05rem;
+  }
+
+  .worked-example__body {
+    padding: 1rem;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+
+  .worked-example__body :global(p:first-child) {
+    margin-top: 0;
+  }
+
+  .worked-example__body :global(p:last-child) {
+    margin-bottom: 0;
+  }
+
+  .worked-example__result {
+    display: flex;
+    padding: 0.8rem 1rem;
+    border-top: 1px solid var(--border);
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    background: var(--surface-soft);
+  }
+
+  .worked-example__result span {
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  .worked-example__result strong {
+    color: var(--text);
+  }
+</style>

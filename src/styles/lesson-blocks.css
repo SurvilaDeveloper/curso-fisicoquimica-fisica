@@ -1,0 +1,108 @@
+.formula-panel {
+  margin: 1.5rem 0;
+  padding: 1.05rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface-soft);
+}
+
+.formula-panel__label {
+  display: block;
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.formula-panel__formula {
+  margin-top: 0.45rem;
+  overflow-x: auto;
+  color: var(--text);
+  font-family: "Cambria Math", "STIX Two Math", Georgia, serif;
+  font-size: clamp(1.4rem, 4vw, 2rem);
+  line-height: 1.45;
+}
+
+.formula-panel p {
+  margin: 0.55rem 0 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.worked-example-card {
+  margin: 1.5rem 0;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--success);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  background: var(--success-soft);
+}
+
+.worked-example-card__label {
+  color: var(--success);
+  font-size: 0.68rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.worked-example-card h3 {
+  margin: 0.25rem 0 0.7rem;
+  color: var(--text);
+}
+
+.worked-example-card__steps {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.worked-example-card__steps p {
+  margin: 0.45rem 0;
+}
+
+.exercise-level {
+  margin: 1.25rem 0;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface-soft);
+}
+
+.exercise-level__header {
+  display: flex;
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid var(--border);
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.exercise-level__header span {
+  padding: 0.22rem 0.48rem;
+  border-radius: 999px;
+  color: var(--primary-strong);
+  background: var(--primary-soft);
+  font-size: 0.68rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.exercise-level__header strong {
+  color: var(--text);
+}
+
+.exercise-level ol,
+.exercise-level ul {
+  margin: 0;
+  padding: 0.9rem 1.1rem 1rem 2.35rem;
+}
+
+.exercise-level li {
+  margin: 0.45rem 0;
+}
+
+@media (max-width: 640px) {
+  .formula-panel__formula {
+    font-size: 1.35rem;
+  }
+}

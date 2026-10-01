@@ -1,0 +1,96 @@
+---
+interface Props {
+  formula: string;
+  title?: string;
+  description?: string;
+  variables?: Array<{
+    symbol: string;
+    meaning: string;
+    unit?: string;
+  }>;
+}
+
+const {
+  formula,
+  title = "Fórmula",
+  description,
+  variables = [],
+} = Astro.props;
+---
+
+<aside class="formula-block">
+  <span class="formula-block__label">{title}</span>
+  <div class="formula-block__formula">{formula}</div>
+
+  {description && <p>{description}</p>}
+
+  {
+    variables.length > 0 && (
+      <dl>
+        {
+          variables.map((variable) => (
+            <>
+              <dt>{variable.symbol}</dt>
+              <dd>
+                {variable.meaning}
+                {variable.unit && <span> · {variable.unit}</span>}
+              </dd>
+            </>
+          ))
+        }
+      </dl>
+    )
+  }
+</aside>
+
+<style>
+  .formula-block {
+    margin: 1.5rem 0;
+    padding: 1.15rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    background: var(--surface-soft);
+  }
+
+  .formula-block__label {
+    display: block;
+    color: var(--muted);
+    font-size: 0.7rem;
+    font-weight: 850;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .formula-block__formula {
+    margin-top: 0.55rem;
+    overflow-x: auto;
+    color: var(--text);
+    font-family: "Cambria Math", "STIX Two Math", Georgia, serif;
+    font-size: clamp(1.4rem, 4vw, 2rem);
+    line-height: 1.4;
+  }
+
+  p {
+    margin: 0.65rem 0 0;
+    color: var(--muted);
+    line-height: 1.65;
+  }
+
+  dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.35rem 0.75rem;
+    margin: 1rem 0 0;
+  }
+
+  dt {
+    color: var(--primary-strong);
+    font-family: "Cambria Math", "STIX Two Math", Georgia, serif;
+    font-weight: 800;
+  }
+
+  dd {
+    margin: 0;
+    color: var(--muted);
+  }
+</style>

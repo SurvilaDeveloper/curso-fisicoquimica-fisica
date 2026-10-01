@@ -1,0 +1,71 @@
+---
+interface Props {
+  level: 1 | 2 | 3 | 4 | 5;
+  title?: string;
+}
+
+const { level, title } = Astro.props;
+
+const defaultTitles: Record<number, string> = {
+  1: "Reconocimiento",
+  2: "Aplicación directa",
+  3: "Integración",
+  4: "Problema complejo",
+  5: "Profundización",
+};
+---
+
+<section class="exercise-block">
+  <header>
+    <span>Nivel {level}</span>
+    <strong>{title ?? defaultTitles[level]}</strong>
+  </header>
+
+  <div class="exercise-block__body">
+    <slot />
+  </div>
+</section>
+
+<style>
+  .exercise-block {
+    margin: 1.25rem 0;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    background: var(--surface-soft);
+  }
+
+  header {
+    display: flex;
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid var(--border);
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  header span {
+    padding: 0.2rem 0.45rem;
+    border-radius: 999px;
+    color: var(--primary-strong);
+    background: var(--primary-soft);
+    font-size: 0.68rem;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  header strong {
+    color: var(--text);
+  }
+
+  .exercise-block__body {
+    padding: 0.9rem 1rem;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+
+  .exercise-block__body :global(ol),
+  .exercise-block__body :global(ul) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+</style>
