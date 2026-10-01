@@ -117,13 +117,16 @@ const statusLabels = {
 
   .lesson-grid {
     display: grid;
+    min-width: 0;
     grid-template-columns: minmax(230px, 280px) minmax(0, 1fr);
     gap: 2rem;
     align-items: start;
   }
 
   .lesson-article {
+    width: 100%;
     min-width: 0;
+    max-width: 100%;
     padding: clamp(1.2rem, 3vw, 2.4rem);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
@@ -132,6 +135,7 @@ const statusLabels = {
   }
 
   .lesson-header {
+    min-width: 0;
     padding-bottom: 1.5rem;
     border-bottom: 1px solid var(--border);
   }
@@ -146,6 +150,7 @@ const statusLabels = {
   .lesson-header h1 {
     max-width: 850px;
     margin: 1rem 0 0;
+    overflow-wrap: anywhere;
     font-size: clamp(2.1rem, 5vw, 3.7rem);
     line-height: 1.04;
     letter-spacing: -0.045em;
@@ -176,6 +181,8 @@ const statusLabels = {
   }
 
   .lesson-content {
+    width: 100%;
+    min-width: 0;
     max-width: 820px;
     padding-top: 1.5rem;
     color: var(--text);
@@ -223,6 +230,11 @@ const statusLabels = {
     background: var(--code-bg);
   }
 
+  .lesson-content :global(pre) {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
   .lesson-content :global(a) {
     color: var(--primary-strong);
     font-weight: 700;
@@ -235,8 +247,69 @@ const statusLabels = {
   }
 
   @media (max-width: 960px) {
+    .lesson-page {
+      width: min(100% - 1.25rem, var(--content-width));
+      padding-top: 1.25rem;
+    }
+
     .lesson-grid {
-      grid-template-columns: 1fr;
+      display: block;
+      width: 100%;
+      min-width: 0;
+    }
+
+    .lesson-article {
+      width: 100%;
+      min-width: 0;
+      max-width: 100%;
+    }
+
+    .lesson-content {
+      width: 100%;
+      max-width: none;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .lesson-page {
+      padding-bottom: 3rem;
+    }
+
+    .lesson-article {
+      padding: 1rem;
+      border-radius: var(--radius-md);
+    }
+
+    .lesson-header h1 {
+      font-size: clamp(1.8rem, 9vw, 2.5rem);
+      line-height: 1.08;
+    }
+
+    .lesson-header > p {
+      font-size: 1rem;
+      line-height: 1.65;
+    }
+
+    .lesson-meta {
+      gap: 0.35rem 0.7rem;
+    }
+
+    .lesson-meta span {
+      padding-right: 0;
+      border-right: 0;
+    }
+
+    .lesson-content {
+      font-size: 1rem;
+      line-height: 1.72;
+    }
+
+    .lesson-content :global(table) {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
     }
   }
 </style>
