@@ -1,0 +1,77 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const lessons = (await getCollection("lessons"))
+  .filter((lesson) => lesson.data.course === "fisicoquimica")
+  .sort((a, b) => a.data.order - b.data.order);
+---
+
+<BaseLayout
+  title="Físico-Química"
+  description="Curso base de Físico-Química para nivel secundario."
+>
+  <main class="container page-shell">
+    <header class="page-heading">
+      <span class="eyebrow">Curso base</span>
+      <h1>Físico-Química</h1>
+      <p>
+        Una introducción integrada a materia, modelos, transformaciones,
+        energía, fuerzas, electricidad y otros fenómenos físicos y químicos.
+      </p>
+    </header>
+
+    <div class="course-list">
+      {
+        lessons.length === 0 ? (
+          <div class="empty-state">
+            Todavía no hay lecciones publicadas en este curso.
+          </div>
+        ) : (
+          lessons.map((lesson, index) => (
+            <article class="lesson-row panel">
+              <span class="number">{String(index + 1).padStart(2, "0")}</span>
+              <div>
+                <span class="badge">{lesson.data.module}</span>
+                <h2>{lesson.data.title}</h2>
+                <p>{lesson.data.description}</p>
+              </div>
+            </article>
+          ))
+        )
+      }
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .course-list {
+    display: grid;
+    gap: 0.8rem;
+    max-width: 900px;
+  }
+
+  .lesson-row {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    padding: 1.25rem;
+  }
+
+  .number {
+    color: var(--secondary);
+    font-size: 0.78rem;
+    font-weight: 900;
+  }
+
+  h2 {
+    margin: 0.65rem 0 0;
+    font-size: 1.35rem;
+  }
+
+  p {
+    margin: 0.4rem 0 0;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+</style>

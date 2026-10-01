@@ -3,6 +3,7 @@ import {
   getCollection,
   type CollectionEntry,
 } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
 
 const lessons = await getCollection("lessons");
 
@@ -23,32 +24,30 @@ const sortedLessons = [...lessons].sort(
 );
 ---
 
-<!doctype html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Tabla de contenidos | Física y Físico-Química</title>
-  </head>
-
-  <body>
-    <main>
+<BaseLayout
+  title="Tabla"
+  description="Tabla completa de lecciones del curso."
+>
+  <main class="container page-shell">
+    <header class="page-heading">
+      <span class="eyebrow">Vista completa</span>
       <h1>Tabla de contenidos</h1>
-
       <p>
-        Esta página es una prueba temporal de la colección
-        <code>lessons</code>.
+        Esta página se genera a partir de la colección
+        <code>lessons</code>. A medida que agreguemos contenido, la tabla se
+        actualizará automáticamente.
       </p>
+    </header>
 
-      <p>
-        Lecciones detectadas:
-        <strong>{sortedLessons.length}</strong>
-      </p>
+    <p class="summary">
+      Lecciones detectadas: <strong>{sortedLessons.length}</strong>
+    </p>
 
-      {
-        sortedLessons.length === 0 ? (
-          <p>No se detectaron lecciones.</p>
-        ) : (
+    {
+      sortedLessons.length === 0 ? (
+        <div class="empty-state">No se detectaron lecciones.</div>
+      ) : (
+        <div class="table-wrap">
           <table>
             <thead>
               <tr>
@@ -68,7 +67,7 @@ const sortedLessons = [...lessons].sort(
                     <td>{lesson.data.course}</td>
                     <td>{lesson.data.module}</td>
                     <td>{lesson.data.order}</td>
-                    <td>{lesson.data.title}</td>
+                    <td><strong>{lesson.data.title}</strong></td>
                     <td>{lesson.data.level}</td>
                     <td>{lesson.data.status}</td>
                   </tr>
@@ -76,59 +75,25 @@ const sortedLessons = [...lessons].sort(
               }
             </tbody>
           </table>
-        )
-      }
-    </main>
-  </body>
-</html>
+        </div>
+      )
+    }
+  </main>
+</BaseLayout>
 
 <style>
-  :global(*) {
-    box-sizing: border-box;
-  }
-
-  body {
-    margin: 0;
-    font-family:
-      system-ui,
-      -apple-system,
-      BlinkMacSystemFont,
-      "Segoe UI",
-      sans-serif;
-    color: #1f2937;
-    background: #f8fafc;
-  }
-
-  main {
-    width: min(1100px, calc(100% - 2rem));
-    margin: 3rem auto;
-  }
-
-  h1 {
-    margin-bottom: 0.5rem;
-  }
-
-  table {
-    width: 100%;
-    margin-top: 2rem;
-    border-collapse: collapse;
-    background: white;
-  }
-
-  th,
-  td {
-    padding: 0.8rem 1rem;
-    border: 1px solid #dbe2ea;
-    text-align: left;
-  }
-
-  th {
-    background: #eef2f7;
-  }
-
   code {
-    padding: 0.1rem 0.35rem;
-    border-radius: 0.25rem;
-    background: #e2e8f0;
+    padding: 0.08rem 0.3rem;
+    border-radius: 6px;
+    background: var(--surface-soft);
+  }
+
+  .summary {
+    margin: 0 0 1rem;
+    color: var(--muted);
+  }
+
+  td strong {
+    color: var(--text);
   }
 </style>

@@ -1,0 +1,124 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TopicCard from "../components/TopicCard.astro";
+
+const lessons = await getCollection("lessons");
+
+const counts = {
+  fisicoquimica: lessons.filter(
+    (lesson) => lesson.data.course === "fisicoquimica",
+  ).length,
+  fisica: lessons.filter((lesson) => lesson.data.course === "fisica").length,
+  matematicas: lessons.filter(
+    (lesson) => lesson.data.course === "matematicas",
+  ).length,
+  experimentos: lessons.filter(
+    (lesson) => lesson.data.course === "experimentos",
+  ).length,
+  aplicaciones: lessons.filter(
+    (lesson) => lesson.data.course === "aplicaciones",
+  ).length,
+};
+---
+
+<BaseLayout
+  title="Temas"
+  description="Exploración de contenidos por áreas del curso."
+>
+  <main class="container page-shell">
+    <header class="page-heading">
+      <span class="eyebrow">Navegación temática</span>
+      <h1>Explorar por temas</h1>
+      <p>
+        Esta vista prioriza el área de conocimiento. La Ruta, en cambio,
+        propone un orden de estudio.
+      </p>
+    </header>
+
+    <section>
+      <div class="card-grid">
+        <TopicCard
+          title="Físico-Química"
+          description="Materia, soluciones, estructura atómica, reacciones, calor, fuerzas, electricidad y magnetismo introductorio."
+          href="/fisicoquimica"
+          meta={`${counts.fisicoquimica} lecciones`}
+          tone="chemistry"
+        />
+
+        <TopicCard
+          title="Física"
+          description="Mecánica, termodinámica, ondas, óptica, electricidad, magnetismo y física moderna."
+          href="/fisica"
+          meta={`${counts.fisica} lecciones`}
+          tone="physics"
+        />
+
+        <TopicCard
+          title="Matemáticas para Física"
+          description="Repasos puntuales de unidades, proporcionalidad, funciones, trigonometría, gráficos y vectores."
+          href="#matematicas"
+          meta={`${counts.matematicas} lecciones`}
+          tone="support"
+        />
+      </div>
+    </section>
+
+    <section class="section" id="matematicas">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Material complementario</span>
+          <h2>Apoyos y aplicaciones</h2>
+          <p>
+            Estas colecciones crecerán a medida que las lecciones principales
+            necesiten experimentos, repasos matemáticos y casos de aplicación.
+          </p>
+        </div>
+      </div>
+
+      <div class="support-grid">
+        <div class="support panel">
+          <strong>Matemáticas</strong>
+          <span>{counts.matematicas} cargadas</span>
+        </div>
+
+        <div class="support panel">
+          <strong>Experimentos</strong>
+          <span>{counts.experimentos} cargados</span>
+        </div>
+
+        <div class="support panel">
+          <strong>Aplicaciones</strong>
+          <span>{counts.aplicaciones} cargadas</span>
+        </div>
+      </div>
+    </section>
+  </main>
+</BaseLayout>
+
+<style>
+  .support-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .support {
+    display: flex;
+    padding: 1rem 1.2rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .support span {
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+
+  @media (max-width: 760px) {
+    .support-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

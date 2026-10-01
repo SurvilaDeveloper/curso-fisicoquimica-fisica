@@ -1,0 +1,114 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  href: string;
+  eyebrow?: string;
+  meta?: string;
+  tone?: "physics" | "chemistry" | "support";
+}
+
+const {
+  title,
+  description,
+  href,
+  eyebrow,
+  meta,
+  tone = "physics",
+} = Astro.props;
+---
+
+<a class:list={["topic-card", `tone-${tone}`]} href={href}>
+  <div>
+    {eyebrow && <span class="card-eyebrow">{eyebrow}</span>}
+    <h3>{title}</h3>
+    <p>{description}</p>
+  </div>
+
+  <div class="card-footer">
+    {meta && <span>{meta}</span>}
+    <span class="arrow" aria-hidden="true">→</span>
+  </div>
+</a>
+
+<style>
+  .topic-card {
+    min-height: 240px;
+    display: flex;
+    padding: 1.35rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--text);
+    background: var(--surface);
+    box-shadow: 0 12px 35px rgba(23, 32, 51, 0.05);
+    text-decoration: none;
+    transition:
+      transform 160ms ease,
+      border-color 160ms ease,
+      box-shadow 160ms ease;
+  }
+
+  .topic-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(23, 107, 135, 0.38);
+    box-shadow: var(--shadow);
+  }
+
+  .topic-card.tone-chemistry {
+    border-top: 4px solid var(--secondary);
+  }
+
+  .topic-card.tone-physics {
+    border-top: 4px solid var(--primary);
+  }
+
+  .topic-card.tone-support {
+    border-top: 4px solid var(--accent);
+  }
+
+  .card-eyebrow {
+    display: block;
+    margin-bottom: 0.65rem;
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1.35rem;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+  }
+
+  p {
+    margin: 0.75rem 0 0;
+    color: var(--muted);
+    line-height: 1.65;
+  }
+
+  .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    color: var(--muted);
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+
+  .arrow {
+    color: var(--primary);
+    font-size: 1.35rem;
+    transition: transform 160ms ease;
+  }
+
+  .topic-card:hover .arrow {
+    transform: translateX(4px);
+  }
+</style>

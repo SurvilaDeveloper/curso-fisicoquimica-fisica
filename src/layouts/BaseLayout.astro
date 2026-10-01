@@ -1,0 +1,77 @@
+---
+import Header from "../components/Header.astro";
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = "Física y Físico-Química",
+  description = "Curso de Física y Físico-Química para el nivel secundario.",
+} = Astro.props;
+
+const fullTitle =
+  title === "Física y Físico-Química"
+    ? title
+    : `${title} | Física y Físico-Química`;
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <title>{fullTitle}</title>
+  </head>
+
+  <body>
+    <Header />
+
+    <slot />
+
+    <footer>
+      <div class="container footer-inner">
+        <p>
+          Curso abierto de Física y Físico-Química para nivel secundario.
+        </p>
+        <p>Construido con Astro.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  footer {
+    border-top: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.55);
+  }
+
+  .footer-inner {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+
+  .footer-inner p {
+    margin: 0;
+  }
+
+  @media (max-width: 650px) {
+    .footer-inner {
+      padding: 1.5rem 0;
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+</style>

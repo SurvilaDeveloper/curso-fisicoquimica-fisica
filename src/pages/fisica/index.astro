@@ -1,0 +1,80 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const lessons = (await getCollection("lessons"))
+  .filter((lesson) => lesson.data.course === "fisica")
+  .sort((a, b) => a.data.order - b.data.order);
+---
+
+<BaseLayout
+  title="Física"
+  description="Curso completo de Física para nivel secundario."
+>
+  <main class="container page-shell">
+    <header class="page-heading">
+      <span class="eyebrow">Curso principal</span>
+      <h1>Física</h1>
+      <p>
+        Desde la descripción del movimiento y las leyes de Newton hasta ondas,
+        electromagnetismo, relatividad y física moderna.
+      </p>
+    </header>
+
+    {
+      lessons.length === 0 ? (
+        <div class="empty-state">
+          La estructura del curso ya está definida, pero todavía no cargamos
+          lecciones de Física. Las iremos agregando siguiendo el temario maestro.
+        </div>
+      ) : (
+        <div class="course-list">
+          {
+            lessons.map((lesson, index) => (
+              <article class="lesson-row panel">
+                <span class="number">{String(index + 1).padStart(2, "0")}</span>
+                <div>
+                  <span class="badge">{lesson.data.module}</span>
+                  <h2>{lesson.data.title}</h2>
+                  <p>{lesson.data.description}</p>
+                </div>
+              </article>
+            ))
+          }
+        </div>
+      )
+    }
+  </main>
+</BaseLayout>
+
+<style>
+  .course-list {
+    display: grid;
+    gap: 0.8rem;
+    max-width: 900px;
+  }
+
+  .lesson-row {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    padding: 1.25rem;
+  }
+
+  .number {
+    color: var(--primary);
+    font-size: 0.78rem;
+    font-weight: 900;
+  }
+
+  h2 {
+    margin: 0.65rem 0 0;
+    font-size: 1.35rem;
+  }
+
+  p {
+    margin: 0.4rem 0 0;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+</style>

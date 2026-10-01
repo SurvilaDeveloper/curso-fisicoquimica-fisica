@@ -1,11 +1,332 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TopicCard from "../components/TopicCard.astro";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const lessons = await getCollection("lessons");
+
+const fisicoquimicaCount = lessons.filter(
+  (lesson) => lesson.data.course === "fisicoquimica",
+).length;
+
+const fisicaCount = lessons.filter(
+  (lesson) => lesson.data.course === "fisica",
+).length;
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<BaseLayout>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Nivel secundario · Argentina</span>
+
+          <h1>
+            Entender la Física antes de memorizar sus fórmulas.
+          </h1>
+
+          <p class="hero-text">
+            Un recorrido completo por Físico-Química y Física, desde materia,
+            mediciones y energía hasta electromagnetismo, relatividad y física
+            moderna.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="/ruta">Empezar por la ruta</a>
+            <a class="button secondary" href="/temas">Explorar temas</a>
+          </div>
+
+          <div class="hero-stats" aria-label="Estado del curso">
+            <div>
+              <strong>{lessons.length}</strong>
+              <span>lecciones cargadas</span>
+            </div>
+
+            <div>
+              <strong>{fisicoquimicaCount}</strong>
+              <span>de Físico-Química</span>
+            </div>
+
+            <div>
+              <strong>{fisicaCount}</strong>
+              <span>de Física</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-map" aria-label="Mapa conceptual del curso">
+          <span class="map-label">Ruta general</span>
+
+          <div class="map-step">
+            <span>01</span>
+            <div>
+              <strong>Físico-Química</strong>
+              <small>Materia, partículas, transformaciones y energía</small>
+            </div>
+          </div>
+
+          <div class="connector"></div>
+
+          <div class="map-step">
+            <span>02</span>
+            <div>
+              <strong>Física clásica</strong>
+              <small>Mecánica, termodinámica, ondas y campos</small>
+            </div>
+          </div>
+
+          <div class="connector"></div>
+
+          <div class="map-step">
+            <span>03</span>
+            <div>
+              <strong>Física moderna</strong>
+              <small>Cuántica, relatividad, núcleo e interacciones</small>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="container section">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Dos cursos, una misma base</span>
+          <h2>Elegí por dónde entrar</h2>
+          <p>
+            La estructura está organizada por temas y prerrequisitos para que
+            también puedas usarla como material de consulta.
+          </p>
+        </div>
+      </div>
+
+      <div class="card-grid">
+        <TopicCard
+          title="Físico-Química"
+          description="Materia, modelos de partículas, estructura atómica, transformaciones, calor, electricidad y fenómenos cotidianos."
+          href="/fisicoquimica"
+          eyebrow="Curso base"
+          meta={`${fisicoquimicaCount} lección${fisicoquimicaCount === 1 ? "" : "es"} cargada${fisicoquimicaCount === 1 ? "" : "s"}`}
+          tone="chemistry"
+        />
+
+        <TopicCard
+          title="Física"
+          description="Mecánica, energía, fluidos, termodinámica, ondas, óptica, electromagnetismo y física moderna."
+          href="/fisica"
+          eyebrow="Curso principal"
+          meta={`${fisicaCount} lección${fisicaCount === 1 ? "" : "es"} cargada${fisicaCount === 1 ? "" : "s"}`}
+          tone="physics"
+        />
+
+        <TopicCard
+          title="Herramientas matemáticas"
+          description="Repasos breves de unidades, gráficos, despeje, proporcionalidad, trigonometría y vectores cuando hagan falta."
+          href="/temas#matematicas"
+          eyebrow="Apoyo"
+          meta="Repasos enlazados desde cada tema"
+          tone="support"
+        />
+      </div>
+    </section>
+
+    <section class="container section final-section">
+      <div class="mission panel">
+        <div>
+          <span class="eyebrow">Criterio del curso</span>
+          <h2>Fenómeno → concepto → modelo → matemática</h2>
+        </div>
+
+        <p>
+          Las fórmulas aparecen como una forma compacta de expresar una relación
+          física. Primero buscamos comprender qué está ocurriendo, qué modelo
+          usamos y cuáles son sus límites.
+        </p>
+      </div>
+    </section>
+  </main>
+</BaseLayout>
+
+<style>
+  .hero {
+    padding: 5rem 0 2rem;
+  }
+
+  .hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(330px, 0.65fr);
+    gap: 3rem;
+    align-items: center;
+  }
+
+  h1 {
+    max-width: 850px;
+    margin: 0;
+    font-size: clamp(3rem, 7vw, 5.8rem);
+    line-height: 0.98;
+    letter-spacing: -0.065em;
+  }
+
+  .hero-text {
+    max-width: 720px;
+    margin: 1.5rem 0 0;
+    color: var(--muted);
+    font-size: clamp(1.05rem, 2vw, 1.25rem);
+    line-height: 1.75;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .button {
+    display: inline-flex;
+    min-height: 46px;
+    padding: 0.75rem 1rem;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  .button.primary {
+    color: white;
+    background: var(--primary);
+  }
+
+  .button.primary:hover {
+    background: var(--primary-strong);
+  }
+
+  .button.secondary {
+    border: 1px solid var(--border);
+    background: var(--surface);
+  }
+
+  .button.secondary:hover {
+    border-color: rgba(23, 107, 135, 0.35);
+  }
+
+  .hero-stats {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2.3rem;
+    flex-wrap: wrap;
+  }
+
+  .hero-stats div {
+    display: grid;
+    gap: 0.1rem;
+  }
+
+  .hero-stats strong {
+    font-size: 1.35rem;
+  }
+
+  .hero-stats span {
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+
+  .hero-map {
+    padding: 1.35rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: var(--shadow);
+  }
+
+  .map-label {
+    display: block;
+    margin-bottom: 1rem;
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .map-step {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    background: var(--surface);
+  }
+
+  .map-step > span {
+    display: grid;
+    min-width: 2.3rem;
+    height: 2.3rem;
+    place-items: center;
+    border-radius: 50%;
+    color: white;
+    background: var(--primary);
+    font-size: 0.72rem;
+    font-weight: 800;
+  }
+
+  .map-step strong,
+  .map-step small {
+    display: block;
+  }
+
+  .map-step small {
+    margin-top: 0.25rem;
+    color: var(--muted);
+    line-height: 1.4;
+  }
+
+  .connector {
+    width: 2px;
+    height: 1rem;
+    margin-left: calc(1rem + 1.15rem);
+    background: var(--border);
+  }
+
+  .final-section {
+    padding-bottom: 5rem;
+  }
+
+  .mission {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: end;
+  }
+
+  .mission h2 {
+    margin: 0;
+    font-size: clamp(1.7rem, 4vw, 2.6rem);
+    line-height: 1.08;
+    letter-spacing: -0.04em;
+  }
+
+  .mission p {
+    margin: 0;
+    color: var(--muted);
+    line-height: 1.75;
+  }
+
+  @media (max-width: 900px) {
+    .hero {
+      padding-top: 3rem;
+    }
+
+    .hero-grid,
+    .mission {
+      grid-template-columns: 1fr;
+    }
+
+    .hero-map {
+      max-width: 620px;
+    }
+  }
+</style>
