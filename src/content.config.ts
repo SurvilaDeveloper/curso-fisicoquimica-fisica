@@ -12,6 +12,13 @@ const lessons = defineCollection({
     title: z.string(),
     description: z.string(),
 
+    slug: z
+      .string()
+      .regex(
+        /^[a-z0-9]+(?:-[a-z0-9]+)*$/,
+        "El slug debe usar minúsculas, números y guiones.",
+      ),
+
     course: z.enum([
       "fisicoquimica",
       "fisica",

@@ -1,0 +1,133 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+type LessonEntry = CollectionEntry<"lessons">;
+
+interface Props {
+  lessons: LessonEntry[];
+  currentSlug: string;
+  basePath: string;
+  courseTitle: string;
+}
+
+const {
+  lessons,
+  currentSlug,
+  basePath,
+  courseTitle,
+} = Astro.props;
+
+const sortedLessons = [...lessons].sort(
+  (a, b) => a.data.order - b.data.order,
+);
+---
+
+<aside class="lesson-sidebar" aria-label={`Lecciones de ${courseTitle}`}>
+  <div class="sidebar-heading">
+    <span>Contenido del curso</span>
+    <strong>{courseTitle}</strong>
+  </div>
+
+  <ol>
+    {
+      sortedLessons.map((lesson, index) => {
+        const active = lesson.data.slug === currentSlug;
+
+        return (
+          <li>
+            <a
+              class:list={["lesson-link", { active }]}
+              href={`${basePath}/${lesson.data.slug}`}
+              aria-current={active ? "page" : undefined}
+            >
+              <span class="lesson-number">
+                {String(index + 1).padStart(2, "0")}
+              </span>
+
+              <span>{lesson.data.title}</span>
+            </a>
+          </li>
+        );
+      })
+    }
+  </ol>
+</aside>
+
+<style>
+  .lesson-sidebar {
+    position: sticky;
+    top: 94px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    background: var(--surface);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .sidebar-heading {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface-soft);
+  }
+
+  .sidebar-heading span,
+  .sidebar-heading strong {
+    display: block;
+  }
+
+  .sidebar-heading span {
+    color: var(--muted);
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+
+  .sidebar-heading strong {
+    margin-top: 0.25rem;
+  }
+
+  ol {
+    display: grid;
+    margin: 0;
+    padding: 0.6rem;
+    gap: 0.25rem;
+    list-style: none;
+  }
+
+  .lesson-link {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.7rem;
+    padding: 0.7rem;
+    border-radius: 10px;
+    align-items: start;
+    color: var(--muted);
+    font-size: 0.84rem;
+    line-height: 1.35;
+    text-decoration: none;
+  }
+
+  .lesson-link:hover {
+    color: var(--text);
+    background: var(--surface-hover);
+  }
+
+  .lesson-link.active {
+    color: var(--primary-strong);
+    background: var(--primary-soft);
+    font-weight: 750;
+  }
+
+  .lesson-number {
+    color: var(--muted);
+    font-size: 0.7rem;
+    font-weight: 900;
+  }
+
+  @media (max-width: 960px) {
+    .lesson-sidebar {
+      position: static;
+    }
+  }
+</style>

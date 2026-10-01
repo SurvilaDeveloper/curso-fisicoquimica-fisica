@@ -31,14 +31,26 @@ const lessons = (await getCollection("lessons"))
         <div class="course-list">
           {
             lessons.map((lesson, index) => (
-              <article class="lesson-row panel">
-                <span class="number">{String(index + 1).padStart(2, "0")}</span>
+              <a
+                class="lesson-row panel"
+                href={`/fisica/${lesson.data.slug}`}
+              >
+                <span class="number">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+
                 <div>
-                  <span class="badge">{lesson.data.module}</span>
+                  <div class="lesson-topline">
+                    <span class="badge">{lesson.data.module}</span>
+                    <span class="status">{lesson.data.status}</span>
+                  </div>
+
                   <h2>{lesson.data.title}</h2>
                   <p>{lesson.data.description}</p>
                 </div>
-              </article>
+
+                <span class="arrow" aria-hidden="true">→</span>
+              </a>
             ))
           }
         </div>
@@ -51,20 +63,47 @@ const lessons = (await getCollection("lessons"))
   .course-list {
     display: grid;
     gap: 0.8rem;
-    max-width: 900px;
+    max-width: 950px;
   }
 
   .lesson-row {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto 1fr auto;
     gap: 1rem;
     padding: 1.25rem;
+    align-items: start;
+    color: inherit;
+    text-decoration: none;
+    transition:
+      transform 160ms ease,
+      border-color 160ms ease,
+      background 160ms ease;
+  }
+
+  .lesson-row:hover {
+    transform: translateY(-2px);
+    border-color: var(--primary);
+    background: var(--surface-hover);
   }
 
   .number {
     color: var(--primary);
     font-size: 0.78rem;
     font-weight: 900;
+  }
+
+  .lesson-topline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .status {
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
   }
 
   h2 {
@@ -76,5 +115,10 @@ const lessons = (await getCollection("lessons"))
     margin: 0.4rem 0 0;
     color: var(--muted);
     line-height: 1.6;
+  }
+
+  .arrow {
+    color: var(--primary);
+    font-size: 1.35rem;
   }
 </style>

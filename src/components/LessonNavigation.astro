@@ -1,0 +1,93 @@
+---
+interface NavItem {
+  title: string;
+  href: string;
+}
+
+interface Props {
+  previous?: NavItem;
+  next?: NavItem;
+}
+
+const { previous, next } = Astro.props;
+---
+
+<nav class="lesson-navigation" aria-label="Navegación entre lecciones">
+  <div>
+    {
+      previous && (
+        <a class="nav-card previous" href={previous.href}>
+          <span>← Anterior</span>
+          <strong>{previous.title}</strong>
+        </a>
+      )
+    }
+  </div>
+
+  <div>
+    {
+      next && (
+        <a class="nav-card next" href={next.href}>
+          <span>Siguiente →</span>
+          <strong>{next.title}</strong>
+        </a>
+      )
+    }
+  </div>
+</nav>
+
+<style>
+  .lesson-navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .nav-card {
+    display: grid;
+    min-height: 100px;
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    align-content: center;
+    color: var(--text);
+    background: var(--surface);
+    text-decoration: none;
+    transition:
+      border-color 160ms ease,
+      transform 160ms ease,
+      background 160ms ease;
+  }
+
+  .nav-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--primary);
+    background: var(--surface-hover);
+  }
+
+  .nav-card span {
+    margin-bottom: 0.4rem;
+    color: var(--muted);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .next {
+    text-align: right;
+  }
+
+  @media (max-width: 700px) {
+    .lesson-navigation {
+      grid-template-columns: 1fr;
+    }
+
+    .next {
+      text-align: left;
+    }
+  }
+</style>

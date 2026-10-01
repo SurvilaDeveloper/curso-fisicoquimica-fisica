@@ -199,7 +199,7 @@ const fisicaCount = lessons.filter(
   }
 
   .button.primary:hover {
-    background: var(--primary-strong);
+    filter: brightness(0.92);
   }
 
   .button.secondary {
@@ -208,7 +208,8 @@ const fisicaCount = lessons.filter(
   }
 
   .button.secondary:hover {
-    border-color: rgba(23, 107, 135, 0.35);
+    border-color: var(--primary);
+    background: var(--surface-hover);
   }
 
   .hero-stats {
@@ -236,7 +237,7 @@ const fisicaCount = lessons.filter(
     padding: 1.35rem;
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
-    background: rgba(255, 255, 255, 0.8);
+    background: var(--surface-translucent);
     box-shadow: var(--shadow);
   }
 

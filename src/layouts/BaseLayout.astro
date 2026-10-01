@@ -27,6 +27,27 @@ const fullTitle =
     <meta name="generator" content={Astro.generator} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" href="/favicon.ico" />
+
+    <script is:inline>
+      (() => {
+        try {
+          const saved = localStorage.getItem("theme");
+          const prefersDark = window.matchMedia(
+            "(prefers-color-scheme: dark)",
+          ).matches;
+
+          document.documentElement.dataset.theme =
+            saved === "light" || saved === "dark"
+              ? saved
+              : prefersDark
+                ? "dark"
+                : "light";
+        } catch {
+          document.documentElement.dataset.theme = "light";
+        }
+      })();
+    </script>
+
     <title>{fullTitle}</title>
   </head>
 
@@ -49,7 +70,7 @@ const fullTitle =
 <style>
   footer {
     border-top: 1px solid var(--border);
-    background: rgba(255, 255, 255, 0.55);
+    background: var(--footer-bg);
   }
 
   .footer-inner {

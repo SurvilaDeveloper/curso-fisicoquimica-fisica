@@ -21,29 +21,78 @@ const isActive = (href: string) =>
       </span>
     </a>
 
-    <nav aria-label="Navegación principal">
-      {
-        navItems.map((item) => (
-          <a
-            href={item.href}
-            class:list={["nav-link", { active: isActive(item.href) }]}
-            aria-current={isActive(item.href) ? "page" : undefined}
-          >
-            {item.label}
-          </a>
-        ))
-      }
-    </nav>
+    <div class="header-actions">
+      <nav aria-label="Navegación principal">
+        {
+          navItems.map((item) => (
+            <a
+              href={item.href}
+              class:list={["nav-link", { active: isActive(item.href) }]}
+              aria-current={isActive(item.href) ? "page" : undefined}
+            >
+              {item.label}
+            </a>
+          ))
+        }
+      </nav>
+
+      <button
+        class="theme-toggle"
+        type="button"
+        data-theme-toggle
+        aria-label="Cambiar tema"
+        title="Cambiar tema"
+      >
+        <span class="theme-icon" data-theme-icon aria-hidden="true">◐</span>
+        <span class="theme-label" data-theme-label>Tema</span>
+      </button>
+    </div>
   </div>
 </header>
+
+<script>
+  const root = document.documentElement;
+  const button = document.querySelector<HTMLButtonElement>("[data-theme-toggle]");
+  const icon = document.querySelector<HTMLElement>("[data-theme-icon]");
+  const label = document.querySelector<HTMLElement>("[data-theme-label]");
+
+  const updateThemeButton = () => {
+    const current = root.dataset.theme === "dark" ? "dark" : "light";
+    const target = current === "dark" ? "claro" : "oscuro";
+
+    if (icon) {
+      icon.textContent = current === "dark" ? "☀" : "☾";
+    }
+
+    if (label) {
+      label.textContent = current === "dark" ? "Claro" : "Oscuro";
+    }
+
+    if (button) {
+      button.setAttribute("aria-label", `Cambiar a tema ${target}`);
+      button.setAttribute("title", `Cambiar a tema ${target}`);
+    }
+  };
+
+  updateThemeButton();
+
+  button?.addEventListener("click", () => {
+    const current = root.dataset.theme === "dark" ? "dark" : "light";
+    const next = current === "dark" ? "light" : "dark";
+
+    root.dataset.theme = next;
+    localStorage.setItem("theme", next);
+    updateThemeButton();
+  });
+</script>
 
 <style>
   .site-header {
     position: sticky;
     top: 0;
     z-index: 20;
-    border-bottom: 1px solid rgba(219, 227, 234, 0.9);
-    background: rgba(246, 248, 251, 0.9);
+    border-bottom: 1px solid var(--border);
+    background: var(--header-bg);
     backdrop-filter: blur(14px);
   }
 
@@ -91,9 +140,17 @@ const isActive = (href: string) =>
     font-size: 0.72rem;
   }
 
+  .header-actions,
   nav {
     display: flex;
     align-items: center;
+  }
+
+  .header-actions {
+    gap: 0.7rem;
+  }
+
+  nav {
     gap: 0.25rem;
   }
 
@@ -109,10 +166,39 @@ const isActive = (href: string) =>
   .nav-link:hover,
   .nav-link.active {
     color: var(--primary-strong);
-    background: rgba(23, 107, 135, 0.08);
+    background: var(--primary-soft);
   }
 
-  @media (max-width: 650px) {
+  .theme-toggle {
+    display: inline-flex;
+    min-height: 38px;
+    padding: 0.45rem 0.65rem;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    align-items: center;
+    gap: 0.45rem;
+    color: var(--text);
+    background: var(--surface);
+    cursor: pointer;
+  }
+
+  .theme-toggle:hover {
+    border-color: var(--primary);
+    background: var(--surface-hover);
+  }
+
+  .theme-icon {
+    width: 1rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .theme-label {
+    font-size: 0.78rem;
+    font-weight: 800;
+  }
+
+  @media (max-width: 760px) {
     .header-inner {
       min-height: auto;
       padding-top: 0.8rem;
@@ -121,13 +207,23 @@ const isActive = (href: string) =>
       flex-direction: column;
     }
 
-    nav {
+    .header-actions {
       width: 100%;
+    }
+
+    nav {
+      flex: 1;
     }
 
     .nav-link {
       flex: 1;
       text-align: center;
+    }
+  }
+
+  @media (max-width: 470px) {
+    .theme-label {
+      display: none;
     }
   }
 </style>
