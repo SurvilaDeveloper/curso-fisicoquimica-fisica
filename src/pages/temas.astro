@@ -31,10 +31,20 @@ const counts = {
       <span class="eyebrow">Navegación temática</span>
       <h1>Explorar por temas</h1>
       <p>
-        Esta vista prioriza el área de conocimiento. La Ruta, en cambio,
-        propone un orden de estudio.
+        Esta vista funciona como biblioteca de consulta: organiza por área de
+        conocimiento, sin exigir que recorras previamente las demás. La Ruta,
+        en cambio, propone un orden de estudio.
       </p>
     </header>
+
+    <div class="topics-note panel">
+      <strong>Dos formas de usar el mismo curso</strong>
+      <p>
+        Si estás estudiando desde cero, la Ruta te orienta. Si necesitás
+        encontrar un concepto puntual, Temas te lleva directamente al área
+        correspondiente.
+      </p>
+    </div>
 
     <section>
       <div class="card-grid">
@@ -48,7 +58,7 @@ const counts = {
 
         <TopicCard
           title="Física"
-          description="Mecánica, termodinámica, ondas, óptica, electricidad, magnetismo y física moderna."
+          description="Física clásica y moderna: mecánica, termodinámica, ondas, óptica, electricidad, magnetismo, relatividad, cuántica y núcleo."
           href="/fisica"
           meta={`${counts.fisica} lecciones`}
           tone="physics"
@@ -56,9 +66,9 @@ const counts = {
 
         <TopicCard
           title="Matemáticas para Física"
-          description="Repasos puntuales de unidades, proporcionalidad, funciones, trigonometría, gráficos y vectores."
+          description="Repasos independientes y puntuales de proporcionalidad, álgebra, funciones, trigonometría, gráficos y vectores."
           href="#matematicas"
-          meta={`${counts.matematicas} lecciones`}
+          meta={`${counts.matematicas} lecciones de apoyo`}
           tone="support"
         />
       </div>
@@ -67,28 +77,39 @@ const counts = {
     <section class="section" id="matematicas">
       <div class="section-heading">
         <div>
-          <span class="eyebrow">Material complementario</span>
-          <h2>Apoyos y aplicaciones</h2>
+          <span class="eyebrow">Apoyo transversal</span>
+          <h2>Matemáticas para Física</h2>
           <p>
-            Estas colecciones crecerán a medida que las lecciones principales
-            necesiten experimentos, repasos matemáticos y casos de aplicación.
+            F-01 presenta las herramientas matemáticas dentro del recorrido de
+            Física. Esta colección será distinta: reunirá repasos M-01 a M-18
+            para consultar solamente la herramienta que haga falta en cada
+            momento.
           </p>
         </div>
       </div>
 
       <div class="support-grid">
         <div class="support panel">
-          <strong>Matemáticas</strong>
+          <div>
+            <strong>Matemáticas</strong>
+            <small>Biblioteca de repaso independiente</small>
+          </div>
           <span>{counts.matematicas} cargadas</span>
         </div>
 
         <div class="support panel">
-          <strong>Experimentos</strong>
+          <div>
+            <strong>Experimentos</strong>
+            <small>Prácticas y demostraciones transversales</small>
+          </div>
           <span>{counts.experimentos} cargados</span>
         </div>
 
         <div class="support panel">
-          <strong>Aplicaciones</strong>
+          <div>
+            <strong>Aplicaciones</strong>
+            <small>Casos tecnológicos y cotidianos</small>
+          </div>
           <span>{counts.aplicaciones} cargadas</span>
         </div>
       </div>
@@ -97,6 +118,22 @@ const counts = {
 </BaseLayout>
 
 <style>
+  .topics-note {
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.2rem;
+    border-left: 4px solid var(--secondary);
+  }
+
+  .topics-note strong {
+    display: block;
+  }
+
+  .topics-note p {
+    margin: 0.35rem 0 0;
+    color: var(--muted);
+    line-height: 1.65;
+  }
+
   .support-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -111,7 +148,23 @@ const counts = {
     gap: 1rem;
   }
 
-  .support span {
+  .support div {
+    min-width: 0;
+  }
+
+  .support strong,
+  .support small {
+    display: block;
+  }
+
+  .support small {
+    margin-top: 0.25rem;
+    color: var(--muted);
+    line-height: 1.4;
+  }
+
+  .support > span {
+    flex: 0 0 auto;
     color: var(--muted);
     font-size: 0.85rem;
   }
@@ -119,6 +172,13 @@ const counts = {
   @media (max-width: 760px) {
     .support-grid {
       grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .support {
+      align-items: flex-start;
+      flex-direction: column;
     }
   }
 </style>

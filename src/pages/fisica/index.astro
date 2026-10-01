@@ -5,6 +5,14 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 const lessons = (await getCollection("lessons"))
   .filter((lesson) => lesson.data.course === "fisica")
   .sort((a, b) => a.data.order - b.data.order);
+
+const classicalLessons = lessons.filter(
+  (lesson) => lesson.data.order >= 1 && lesson.data.order <= 25,
+);
+
+const modernLessons = lessons.filter(
+  (lesson) => lesson.data.order >= 26 && lesson.data.order <= 33,
+);
 ---
 
 <BaseLayout
@@ -13,53 +21,160 @@ const lessons = (await getCollection("lessons"))
 >
   <main class="container page-shell">
     <header class="page-heading">
-      <span class="eyebrow">Curso principal</span>
+      <span class="eyebrow">Curso de Física</span>
       <h1>Física</h1>
       <p>
-        Desde la descripción del movimiento y las leyes de Newton hasta ondas,
-        electromagnetismo, relatividad y física moderna.
+        Podés comenzar directamente desde acá. La secuencia va desde las
+        herramientas matemáticas y la física clásica hasta la física moderna;
+        cada lección indicará los prerrequisitos que realmente necesite.
       </p>
     </header>
+
+    <div class="course-note panel">
+      <strong>No necesitás completar toda Físico-Química antes.</strong>
+      <p>
+        La base FQ sigue siendo una preparación recomendada. Cuando una lección
+        de Física dependa de un concepto previo concreto, lo indicaremos como
+        prerrequisito o repaso sugerido.
+      </p>
+    </div>
 
     {
       lessons.length === 0 ? (
         <div class="empty-state">
           La estructura del curso ya está definida, pero todavía no cargamos
-          lecciones de Física. Las iremos agregando siguiendo el temario maestro.
+          lecciones de Física.
         </div>
       ) : (
-        <div class="course-list">
-          {
-            lessons.map((lesson, index) => (
-              <a
-                class="lesson-row panel"
-                href={`/fisica/${lesson.data.slug}`}
-              >
-                <span class="number">
-                  {String(index + 1).padStart(2, "0")}
-                </span>
+        <>
+          <section class="physics-section" id="clasica">
+            <div class="section-heading">
+              <div>
+                <span class="eyebrow">Ruta B</span>
+                <h2>Física clásica</h2>
+                <p>
+                  Herramientas matemáticas, mecánica, energía, fluidos,
+                  termodinámica, ondas, óptica y electromagnetismo.
+                </p>
+              </div>
+              <span class="badge">
+                {classicalLessons.length} lección{classicalLessons.length === 1 ? "" : "es"}
+              </span>
+            </div>
 
-                <div>
-                  <div class="lesson-topline">
-                    <span class="badge">{lesson.data.module}</span>
-                    <span class="status">{lesson.data.status}</span>
-                  </div>
+            {
+              classicalLessons.length > 0 ? (
+                <div class="course-list">
+                  {
+                    classicalLessons.map((lesson) => (
+                      <a
+                        class="lesson-row panel"
+                        href={`/fisica/${lesson.data.slug}`}
+                      >
+                        <span class="number">
+                          F-{String(lesson.data.order).padStart(2, "0")}
+                        </span>
 
-                  <h2>{lesson.data.title}</h2>
-                  <p>{lesson.data.description}</p>
+                        <div>
+                          <div class="lesson-topline">
+                            <span class="badge">{lesson.data.module}</span>
+                            <span class="status">{lesson.data.status}</span>
+                          </div>
+
+                          <h3>{lesson.data.title}</h3>
+                          <p>{lesson.data.description}</p>
+                        </div>
+
+                        <span class="arrow" aria-hidden="true">→</span>
+                      </a>
+                    ))
+                  }
                 </div>
+              ) : (
+                <div class="empty-state">Todavía no hay lecciones clásicas cargadas.</div>
+              )
+            }
+          </section>
 
-                <span class="arrow" aria-hidden="true">→</span>
-              </a>
-            ))
-          }
-        </div>
+          <section class="physics-section" id="moderna">
+            <div class="section-heading">
+              <div>
+                <span class="eyebrow">Ruta C</span>
+                <h2>Física moderna</h2>
+                <p>
+                  Crisis de la física clásica, fotones, cuántica introductoria,
+                  relatividad, física nuclear, partículas y cosmología.
+                </p>
+              </div>
+              <span class="badge">
+                {modernLessons.length} lección{modernLessons.length === 1 ? "" : "es"}
+              </span>
+            </div>
+
+            {
+              modernLessons.length > 0 ? (
+                <div class="course-list">
+                  {
+                    modernLessons.map((lesson) => (
+                      <a
+                        class="lesson-row panel"
+                        href={`/fisica/${lesson.data.slug}`}
+                      >
+                        <span class="number">
+                          F-{String(lesson.data.order).padStart(2, "0")}
+                        </span>
+
+                        <div>
+                          <div class="lesson-topline">
+                            <span class="badge">{lesson.data.module}</span>
+                            <span class="status">{lesson.data.status}</span>
+                          </div>
+
+                          <h3>{lesson.data.title}</h3>
+                          <p>{lesson.data.description}</p>
+                        </div>
+
+                        <span class="arrow" aria-hidden="true">→</span>
+                      </a>
+                    ))
+                  }
+                </div>
+              ) : (
+                <div class="empty-state">
+                  Esta etapa comenzará en F-26, después de construir la base de
+                  física clásica.
+                </div>
+              )
+            }
+          </section>
+        </>
       )
     }
   </main>
 </BaseLayout>
 
 <style>
+  .course-note {
+    max-width: 950px;
+    margin-bottom: 2rem;
+    padding: 1rem 1.2rem;
+    border-left: 4px solid var(--primary);
+  }
+
+  .course-note strong {
+    display: block;
+  }
+
+  .course-note p {
+    margin: 0.35rem 0 0;
+    color: var(--muted);
+    line-height: 1.65;
+  }
+
+  .physics-section + .physics-section {
+    margin-top: 4rem;
+  }
+
   .course-list {
     display: grid;
     gap: 0.8rem;
@@ -68,7 +183,8 @@ const lessons = (await getCollection("lessons"))
 
   .lesson-row {
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    min-width: 0;
+    grid-template-columns: auto minmax(0, 1fr) auto;
     gap: 1rem;
     padding: 1.25rem;
     align-items: start;
@@ -106,12 +222,12 @@ const lessons = (await getCollection("lessons"))
     text-transform: uppercase;
   }
 
-  h2 {
+  h3 {
     margin: 0.65rem 0 0;
     font-size: 1.35rem;
   }
 
-  p {
+  .lesson-row p {
     margin: 0.4rem 0 0;
     color: var(--muted);
     line-height: 1.6;
@@ -120,5 +236,15 @@ const lessons = (await getCollection("lessons"))
   .arrow {
     color: var(--primary);
     font-size: 1.35rem;
+  }
+
+  @media (max-width: 560px) {
+    .lesson-row {
+      grid-template-columns: 1fr auto;
+    }
+
+    .number {
+      grid-column: 1 / -1;
+    }
   }
 </style>
