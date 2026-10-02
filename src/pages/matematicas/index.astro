@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { withBase } from "../../utils/paths";
 
 const lessons = (await getCollection("lessons"))
   .filter((lesson) => lesson.data.course === "matematicas")
@@ -41,7 +42,7 @@ const lessons = (await getCollection("lessons"))
           lessons.map((lesson) => (
             <a
               class="lesson-row panel"
-              href={`/matematicas/${lesson.data.slug}`}
+              href={withBase(`/matematicas/${lesson.data.slug}`)}
             >
               <span class="number">
                 M-{String(lesson.data.order).padStart(2, "0")}

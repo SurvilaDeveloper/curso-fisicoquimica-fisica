@@ -1,4 +1,6 @@
 ---
+import { withBase } from "../utils/paths";
+
 interface NavItem {
   title: string;
   href: string;
@@ -16,7 +18,7 @@ const { previous, next } = Astro.props;
   <div>
     {
       previous && (
-        <a class="nav-card previous" href={previous.href}>
+        <a class="nav-card previous" href={withBase(previous.href)}>
           <span>← Anterior</span>
           <strong>{previous.title}</strong>
         </a>
@@ -27,7 +29,7 @@ const { previous, next } = Astro.props;
   <div>
     {
       next && (
-        <a class="nav-card next" href={next.href}>
+        <a class="nav-card next" href={withBase(next.href)}>
           <span>Siguiente →</span>
           <strong>{next.title}</strong>
         </a>

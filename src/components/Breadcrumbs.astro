@@ -1,4 +1,6 @@
 ---
+import { withBase } from "../utils/paths";
+
 interface BreadcrumbItem {
   label: string;
   href?: string;
@@ -22,7 +24,7 @@ const { items } = Astro.props;
             {index > 0 && <span class="separator" aria-hidden="true">/</span>}
 
             {item.href && !isLast ? (
-              <a href={item.href}>{item.label}</a>
+              <a href={withBase(item.href)}>{item.label}</a>
             ) : (
               <span aria-current={isLast ? "page" : undefined}>
                 {item.label}

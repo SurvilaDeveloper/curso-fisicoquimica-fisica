@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import { withBase } from "../utils/paths";
 
 type LessonEntry = CollectionEntry<"lessons">;
 
@@ -44,7 +45,7 @@ const currentLesson = sortedLessons.find(
           <li>
             <a
               class:list={["lesson-link", { active }]}
-              href={`${basePath}/${lesson.data.slug}`}
+              href={withBase(`${basePath}/${lesson.data.slug}`)}
               aria-current={active ? "page" : undefined}
             >
               <span class="lesson-number">
@@ -84,7 +85,7 @@ const currentLesson = sortedLessons.find(
           <li>
             <a
               class:list={["lesson-link", { active }]}
-              href={`${basePath}/${lesson.data.slug}`}
+              href={withBase(`${basePath}/${lesson.data.slug}`)}
               aria-current={active ? "page" : undefined}
             >
               <span class="lesson-number">

@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import TopicCard from "../components/TopicCard.astro";
+import { withBase } from "../utils/paths";
 
 const lessons = await getCollection("lessons");
 
@@ -32,8 +33,8 @@ const fisicaCount = lessons.filter(
           </p>
 
           <div class="hero-actions">
-            <a class="button primary" href="/ruta">Empezar por la ruta</a>
-            <a class="button secondary" href="/temas">Explorar temas</a>
+            <a class="button primary" href={withBase("/ruta")}>Empezar por la ruta</a>
+            <a class="button secondary" href={withBase("/temas")}>Explorar temas</a>
           </div>
 
           <div class="hero-stats" aria-label="Estado del curso">

@@ -1,4 +1,6 @@
 ---
+import { withBase } from "../utils/paths";
+
 interface Props {
   title: string;
   description: string;
@@ -18,7 +20,7 @@ const {
 } = Astro.props;
 ---
 
-<a class:list={["topic-card", `tone-${tone}`]} href={href}>
+<a class:list={["topic-card", `tone-${tone}`]} href={withBase(href)}>
   <div>
     {eyebrow && <span class="card-eyebrow">{eyebrow}</span>}
     <h3>{title}</h3>

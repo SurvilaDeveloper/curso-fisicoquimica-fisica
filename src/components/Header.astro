@@ -1,5 +1,7 @@
 ---
-const currentPath = Astro.url.pathname;
+import { stripBase, withBase } from "../utils/paths";
+
+const currentPath = stripBase(Astro.url.pathname);
 
 const navItems = [
   { href: "/ruta", label: "Ruta" },
@@ -13,7 +15,7 @@ const isActive = (href: string) =>
 
 <header class="site-header">
   <div class="container header-inner">
-    <a class="brand" href="/" aria-label="Ir al inicio">
+    <a class="brand" href={withBase("/")} aria-label="Ir al inicio">
       <span class="brand-mark" aria-hidden="true">φ</span>
       <span>
         <strong>Física & Físico-Química</strong>
@@ -26,7 +28,7 @@ const isActive = (href: string) =>
         {
           navItems.map((item) => (
             <a
-              href={item.href}
+              href={withBase(item.href)}
               class:list={["nav-link", { active: isActive(item.href) }]}
               aria-current={isActive(item.href) ? "page" : undefined}
             >
