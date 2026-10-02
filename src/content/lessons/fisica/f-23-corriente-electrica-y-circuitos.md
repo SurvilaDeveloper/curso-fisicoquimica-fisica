@@ -271,7 +271,7 @@ donde:
 - n es número de portadores por unidad de volumen;
 - q es la carga de cada portador;
 - A es área de sección;
-- `v<sub>d</sub>` es velocidad de deriva en módulo.
+- v<sub>d</sub> es velocidad de deriva en módulo.
 
 Esta expresión conecta:
 
