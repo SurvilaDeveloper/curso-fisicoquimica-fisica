@@ -1,0 +1,159 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const lessons = (await getCollection("lessons"))
+  .filter((lesson) => lesson.data.course === "matematicas")
+  .sort((a, b) => a.data.order - b.data.order);
+---
+
+<BaseLayout
+  title="Matemáticas para Física"
+  description="Biblioteca de repaso matemático para acompañar Física y Físico-Química."
+>
+  <main class="container page-shell">
+    <header class="page-heading">
+      <span class="eyebrow">Apoyo transversal</span>
+      <h1>Matemáticas para Física</h1>
+      <p>
+        Una biblioteca de repasos independientes para consultar cuando una
+        lección de Física o Físico-Química necesite una herramienta matemática
+        concreta. No reemplaza el recorrido de Física: lo acompaña.
+      </p>
+    </header>
+
+    <div class="course-note panel">
+      <strong>No hace falta estudiar M-01 a M-18 de corrido.</strong>
+      <p>
+        Podés entrar directamente al repaso que necesites. F-01 integra varias
+        herramientas dentro de problemas físicos; esta colección las desarrolla
+        por separado para volver a ellas cuando haga falta.
+      </p>
+    </div>
+
+    <div class="course-list">
+      {
+        lessons.length === 0 ? (
+          <div class="empty-state">
+            Todavía no hay repasos matemáticos publicados.
+          </div>
+        ) : (
+          lessons.map((lesson) => (
+            <a
+              class="lesson-row panel"
+              href={`/matematicas/${lesson.data.slug}`}
+            >
+              <span class="number">
+                M-{String(lesson.data.order).padStart(2, "0")}
+              </span>
+
+              <div>
+                <div class="lesson-topline">
+                  <span class="badge">{lesson.data.module}</span>
+                  <span class="status">{lesson.data.status}</span>
+                </div>
+
+                <h2>{lesson.data.title}</h2>
+                <p>{lesson.data.description}</p>
+              </div>
+
+              <span class="arrow" aria-hidden="true">→</span>
+            </a>
+          ))
+        )
+      }
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .course-note {
+    max-width: 950px;
+    margin-bottom: 2rem;
+    padding: 1rem 1.2rem;
+    border-left: 4px solid var(--primary);
+  }
+
+  .course-note strong {
+    display: block;
+  }
+
+  .course-note p {
+    margin: 0.35rem 0 0;
+    color: var(--muted);
+    line-height: 1.65;
+  }
+
+  .course-list {
+    display: grid;
+    gap: 0.8rem;
+    max-width: 950px;
+  }
+
+  .lesson-row {
+    display: grid;
+    min-width: 0;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 1rem;
+    padding: 1.25rem;
+    align-items: start;
+    color: inherit;
+    text-decoration: none;
+    transition:
+      transform 160ms ease,
+      border-color 160ms ease,
+      background 160ms ease;
+  }
+
+  .lesson-row:hover {
+    transform: translateY(-2px);
+    border-color: var(--primary);
+    background: var(--surface-hover);
+  }
+
+  .number {
+    color: var(--primary);
+    font-size: 0.78rem;
+    font-weight: 900;
+  }
+
+  .lesson-topline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .status {
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    margin: 0.65rem 0 0;
+    font-size: 1.35rem;
+  }
+
+  .lesson-row p {
+    margin: 0.4rem 0 0;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  .arrow {
+    color: var(--primary);
+    font-size: 1.35rem;
+  }
+
+  @media (max-width: 560px) {
+    .lesson-row {
+      grid-template-columns: 1fr auto;
+    }
+
+    .number {
+      grid-column: 1 / -1;
+    }
+  }
+</style>
