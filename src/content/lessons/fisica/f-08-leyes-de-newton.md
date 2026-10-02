@@ -153,7 +153,7 @@ En forma vectorial:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Fuerza</span>
-  <div class="formula-panel__formula">F = (Fₓ, Fᵧ, F_z)</div>
+  <div class="formula-panel__formula">F = (F<sub>x</sub>, F<sub>y</sub>, F<sub>z</sub>)</div>
 </div>
 
 ---
