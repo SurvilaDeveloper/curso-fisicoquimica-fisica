@@ -741,7 +741,7 @@ pueden verse como:
 
 La intersección pertenece a:
 
-[M-09 — Función lineal](/matematicas/funcion-lineal).
+[M-09 — Función lineal](/curso-fisicoquimica-fisica/matematicas/funcion-lineal).
 
 ---
 

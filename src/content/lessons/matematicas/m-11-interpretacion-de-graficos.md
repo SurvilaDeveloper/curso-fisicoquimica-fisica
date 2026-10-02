@@ -274,7 +274,7 @@ Algunos gráficos científicos usan escalas donde iguales distancias representan
 
 Eso se estudiará con más detalle en:
 
-[M-17 — Logaritmos](/matematicas/logaritmos).
+[M-17 — Logaritmos](/curso-fisicoquimica-fisica/matematicas/logaritmos).
 
 Siempre debe indicarse.
 

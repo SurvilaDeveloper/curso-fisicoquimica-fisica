@@ -615,7 +615,7 @@ entonces:
 
 Esta relación se retomará en:
 
-[M-18 — Exponenciales](/matematicas/exponenciales).
+[M-18 — Exponenciales](/curso-fisicoquimica-fisica/matematicas/exponenciales).
 
 ---
 

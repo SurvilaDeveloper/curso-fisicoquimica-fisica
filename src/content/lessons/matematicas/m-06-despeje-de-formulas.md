@@ -794,7 +794,7 @@ Debemos:
 
 Eso será parte de:
 
-[M-07 — Ecuaciones lineales](/matematicas/ecuaciones-lineales).
+[M-07 — Ecuaciones lineales](/curso-fisicoquimica-fisica/matematicas/ecuaciones-lineales).
 
 ---
 

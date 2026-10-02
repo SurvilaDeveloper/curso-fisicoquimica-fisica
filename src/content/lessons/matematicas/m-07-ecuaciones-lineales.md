@@ -847,7 +847,7 @@ equivale a encontrar:
 
 Esto conecta con:
 
-[M-09 — Función lineal](/matematicas/funcion-lineal).
+[M-09 — Función lineal](/curso-fisicoquimica-fisica/matematicas/funcion-lineal).
 
 ---
 

@@ -696,7 +696,7 @@ y:
 
 Estas reglas serán centrales en:
 
-[M-05 — Notación científica](/matematicas/notacion-cientifica).
+[M-05 — Notación científica](/curso-fisicoquimica-fisica/matematicas/notacion-cientifica).
 
 ---
 
