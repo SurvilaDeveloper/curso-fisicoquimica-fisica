@@ -1,0 +1,67 @@
+---
+import {
+  getCollection,
+  render,
+  type CollectionEntry,
+} from "astro:content";
+import LessonLayout from "../../layouts/LessonLayout.astro";
+
+type LessonEntry = CollectionEntry<"lessons">;
+
+interface NavItem {
+  title: string;
+  href: string;
+}
+
+interface Props {
+  lesson: LessonEntry;
+  courseLessons: LessonEntry[];
+  previous?: NavItem;
+  next?: NavItem;
+}
+
+export async function getStaticPaths() {
+  const courseLessons = (await getCollection("lessons"))
+    .filter((lesson) => lesson.data.course === "aplicaciones")
+    .sort((a, b) => a.data.order - b.data.order);
+
+  return courseLessons.map((lesson, index) => {
+    const previousLesson = courseLessons[index - 1];
+    const nextLesson = courseLessons[index + 1];
+
+    return {
+      params: { slug: lesson.data.slug },
+      props: {
+        lesson,
+        courseLessons,
+        previous: previousLesson
+          ? {
+              title: previousLesson.data.title,
+              href: `/aplicaciones/${previousLesson.data.slug}`,
+            }
+          : undefined,
+        next: nextLesson
+          ? {
+              title: nextLesson.data.title,
+              href: `/aplicaciones/${nextLesson.data.slug}`,
+            }
+          : undefined,
+      },
+    };
+  });
+}
+
+const { lesson, courseLessons, previous, next } = Astro.props as Props;
+const { Content } = await render(lesson);
+---
+
+<LessonLayout
+  lesson={lesson}
+  courseLessons={courseLessons}
+  courseTitle="Aplicaciones"
+  courseHref="/aplicaciones"
+  previous={previous}
+  next={next}
+>
+  <Content />
+</LessonLayout>

@@ -1,0 +1,158 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { withBase } from "../../utils/paths";
+
+const lessons = (await getCollection("lessons"))
+  .filter((lesson) => lesson.data.course === "aplicaciones")
+  .sort((a, b) => a.data.order - b.data.order);
+---
+
+<BaseLayout
+  title="Aplicaciones"
+  description="Aplicaciones de la Física y la Físico-Química a situaciones cotidianas, tecnológicas, ambientales y sociales."
+>
+  <main class="container page-shell">
+    <header class="page-heading">
+      <span class="eyebrow">Ciencia en contexto</span>
+      <h1>Aplicaciones</h1>
+      <p>
+        Casos cotidianos, tecnológicos, ambientales y sociales para conectar
+        los modelos de Física y Físico-Química con situaciones reales.
+      </p>
+    </header>
+
+    <div class="course-note panel">
+      <strong>Aplicaciones no es una cuarta etapa obligatoria de la Ruta.</strong>
+      <p>
+        Estas lecciones son transversales: podés consultarlas cuando quieras y
+        usar sus prerrequisitos para volver a los conceptos que necesites. La
+        idea es integrar contenidos, interpretar decisiones reales y reconocer
+        qué puede explicar cada modelo y cuáles son sus límites.
+      </p>
+    </div>
+
+    <div class="course-list">
+      {
+        lessons.length === 0 ? (
+          <div class="empty-state">Todavía no hay aplicaciones publicadas.</div>
+        ) : (
+          lessons.map((lesson) => (
+            <a
+              class="lesson-row panel"
+              href={withBase(`/aplicaciones/${lesson.data.slug}`)}
+            >
+              <span class="number">
+                A-{String(lesson.data.order).padStart(2, "0")}
+              </span>
+
+              <div>
+                <div class="lesson-topline">
+                  <span class="badge">{lesson.data.module}</span>
+                  <span class="status">{lesson.data.status}</span>
+                </div>
+
+                <h2>{lesson.data.title}</h2>
+                <p>{lesson.data.description}</p>
+              </div>
+
+              <span class="arrow" aria-hidden="true">→</span>
+            </a>
+          ))
+        )
+      }
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .course-note {
+    max-width: 950px;
+    margin-bottom: 2rem;
+    padding: 1rem 1.2rem;
+    border-left: 4px solid var(--accent);
+  }
+
+  .course-note strong {
+    display: block;
+  }
+
+  .course-note p {
+    margin: 0.35rem 0 0;
+    color: var(--muted);
+    line-height: 1.65;
+  }
+
+  .course-list {
+    display: grid;
+    gap: 0.8rem;
+    max-width: 950px;
+  }
+
+  .lesson-row {
+    display: grid;
+    min-width: 0;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 1rem;
+    padding: 1.25rem;
+    align-items: start;
+    color: inherit;
+    text-decoration: none;
+    transition:
+      transform 160ms ease,
+      border-color 160ms ease,
+      background 160ms ease;
+  }
+
+  .lesson-row:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+    background: var(--surface-hover);
+  }
+
+  .number {
+    color: var(--accent);
+    font-size: 0.78rem;
+    font-weight: 900;
+  }
+
+  .lesson-topline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .status {
+    color: var(--muted);
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    margin: 0.65rem 0 0;
+    font-size: 1.35rem;
+  }
+
+  .lesson-row p {
+    margin: 0.4rem 0 0;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  .arrow {
+    color: var(--accent);
+    font-size: 1.35rem;
+  }
+
+  @media (max-width: 560px) {
+    .lesson-row {
+      grid-template-columns: 1fr auto;
+    }
+
+    .number {
+      grid-column: 1 / -1;
+    }
+  }
+</style>
