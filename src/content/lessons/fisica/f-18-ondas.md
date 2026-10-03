@@ -1288,7 +1288,7 @@ Para una cuerda ideal bajo tensión:
 
 donde:
 
-- `F<sub>T</sub>` es la tensión;
+- F<sub>T</sub> es la tensión;
 - `μ` es la masa por unidad de longitud.
 
 Esto muestra que la velocidad depende del medio.
@@ -1634,7 +1634,7 @@ No. Facilita una transferencia eficiente desde la fuente.
   <ol>
     <li>Mostrá que `v = ω/k` conduce a `v = λf`.</li>
     <li>Sumá dos ondas `A cos(kx − ωt)` y `A cos(kx + ωt)` y obtené cualitativamente una onda estacionaria.</li>
-    <li>Derivá `f<sub>n</sub> = nv/(2L)` para una cuerda fija en ambos extremos.</li>
+    <li>Derivá f<sub>n</sub> = nv/(2L) para una cuerda fija en ambos extremos.</li>
     <li>Explicá cómo continuidad de frecuencia y cambio de velocidad producen un cambio de longitud de onda durante la refracción.</li>
   </ol>
 </div>
@@ -1777,7 +1777,7 @@ en acústica.
 - Una onda estacionaria presenta nodos y vientres.
 - Los nodos consecutivos están separados `λ/2`.
 - Una cuerda fija en ambos extremos sólo admite ciertos modos.
-- Para esa cuerda ideal, `f<sub>n</sub> = nv/(2L)`.
+- Para esa cuerda ideal, f<sub>n</sub> = nv/(2L).
 - La resonancia ocurre cuando una excitación acopla eficazmente con una frecuencia natural.
 - Los modelos ondulatorios ideales tienen límites relacionados con no linealidad, dispersión, disipación y geometría real.
 

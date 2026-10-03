@@ -18,7 +18,7 @@ jurisdictions:
   - pba
 
 prerequisites:
-  - cinematica-descripcion-movimiento
+  - cinematica-descripcion-del-movimiento
   - leyes-de-newton
   - trabajo-energia-y-potencia
   - cantidad-de-movimiento-e-impulso

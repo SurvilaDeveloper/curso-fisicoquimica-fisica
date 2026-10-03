@@ -1925,7 +1925,7 @@ Los resultados reales presentan:
 2. Dibujá su normal.
 3. Dibujá B.
 4. Medí θ entre B y la normal.
-5. Usá `Φ<sub>B</sub> = BA cosθ`.
+5. Usá Φ<sub>B</sub> = BA cosθ.
 6. Conservá signos si analizás orientación.
 7. Revisá unidades.
 
@@ -1936,7 +1936,7 @@ Los resultados reales presentan:
 1. Elegí una normal positiva.
 2. Determiná el flujo inicial.
 3. Determiná el flujo final.
-4. Calculá `ΔΦ<sub>B</sub>`.
+4. Calculá ΔΦ<sub>B</sub>.
 5. Calculá el módulo de ε.
 6. Analizá si el flujo original aumenta o disminuye.
 7. Elegí el B inducido que se opone a ese cambio.
@@ -1947,7 +1947,7 @@ Los resultados reales presentan:
 ## 104. Estrategia para transformadores
 
 1. Identificá primario y secundario.
-2. Registrá `N<sub>p</sub>` y `N<sub>s</sub>`.
+2. Registrá N<sub>p</sub> y N<sub>s</sub>.
 3. Usá la relación de tensiones.
 4. Si es ideal, aplicá conservación de potencia.
 5. Obtené corrientes.
@@ -2064,7 +2064,7 @@ La unificó dentro del electromagnetismo clásico y explicó la naturaleza elect
   <ol>
     <li>Derivá `ε(t) = NBAω sen(ωt)` para una espira que gira uniformemente.</li>
     <li>Explicá por qué una bobina presenta una fem `−L dI/dt` cuando cambia su propia corriente.</li>
-    <li>Usá `c = 1/√(μ<sub>0</sub>ε<sub>0</sub>)` para explicar la unificación de óptica y electromagnetismo.</li>
+    <li>Usá c = 1/√(μ<sub>0</sub>ε<sub>0</sub>) para explicar la unificación de óptica y electromagnetismo.</li>
     <li>Describí cualitativamente cómo E variable y B variable pueden sostener una onda electromagnética que se propaga por el vacío.</li>
   </ol>
 </div>
@@ -2180,11 +2180,11 @@ Entonces:
 
 ## 109. Resumen
 
-- El flujo magnético para B uniforme y superficie plana es `Φ<sub>B</sub> = BA cosθ`.
+- El flujo magnético para B uniforme y superficie plana es Φ<sub>B</sub> = BA cosθ.
 - θ se mide entre B y la normal a la superficie.
 - Cambiar B, A, θ o la geometría relativa puede cambiar el flujo.
 - Un flujo magnético variable induce una fem.
-- La ley de Faraday es `ε<sub>ind</sub> = −N dΦ<sub>B</sub>/dt`.
+- La ley de Faraday es ε<sub>ind</sub> = −N dΦ<sub>B</sub>/dt.
 - La ley de Lenz determina el sentido de la inducción.
 - La inducción se opone al cambio de flujo, no necesariamente al campo externo.
 - Lenz es consistente con conservación de energía.
@@ -2192,19 +2192,19 @@ Entonces:
 - Un generador convierte energía mecánica en eléctrica.
 - Una bobina rotante ideal puede generar una fem sinusoidal.
 - La corriente alterna cambia periódicamente de sentido.
-- Para una sinusoidal, `V<sub>ef</sub> = V<sub>máx</sub>/√2`.
+- Para una sinusoidal, V<sub>ef</sub> = V<sub>máx</sub>/√2.
 - Un motor convierte principalmente energía eléctrica en mecánica.
 - Motor y generador son aplicaciones complementarias del electromagnetismo.
 - Un transformador utiliza inducción mutua y requiere flujo variable.
-- En un transformador ideal, `V<sub>s</sub>/V<sub>p</sub> = N<sub>s</sub>/N<sub>p</sub>`.
-- Idealmente, `V<sub>p</sub>I<sub>p</sub> = V<sub>s</sub>I<sub>s</sub>`.
+- En un transformador ideal, V<sub>s</sub>/V<sub>p</sub> = N<sub>s</sub>/N<sub>p</sub>.
+- Idealmente, V<sub>p</sub>I<sub>p</sub> = V<sub>s</sub>I<sub>s</sub>.
 - La transmisión a alta tensión permite reducir corriente y pérdidas `I²R`.
 - Una corriente variable produce autoinducción.
 - Un campo magnético variable produce campo eléctrico.
 - Un campo eléctrico variable contribuye a producir campo magnético.
 - Las ecuaciones de Maxwell unifican electricidad y magnetismo.
 - Maxwell predijo ondas electromagnéticas.
-- `c = 1/√(μ<sub>0</sub>ε<sub>0</sub>)`.
+- c = 1/√(μ<sub>0</sub>ε<sub>0</sub>).
 - La luz es una onda electromagnética.
 - En una onda EM ideal, E y B son perpendiculares entre sí y a la propagación.
 - Radio, microondas, infrarrojo, visible, ultravioleta, rayos X y gamma pertenecen al mismo espectro electromagnético.

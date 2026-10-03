@@ -214,7 +214,7 @@ En un caso uniforme:
 
 donde:
 
-- `F<sub>⊥</sub>` es la componente perpendicular de la fuerza;
+- F<sub>⊥</sub> es la componente perpendicular de la fuerza;
 - `A` es el área.
 
 ---
@@ -469,7 +469,7 @@ Entonces:
 
 ## 19. Principio de Pascal
 
-En un fluido confinado, aproximadamente incomprensible y en equilibrio, un cambio de presión aplicado se transmite por el fluido.
+En un fluido confinado, aproximadamente incompresible y en equilibrio, un cambio de presión aplicado se transmite por el fluido.
 
 En el modelo ideal:
 
@@ -518,7 +518,7 @@ podemos obtener:
 
 Pero el pistón grande se desplaza menos.
 
-Para un líquido incomprensible ideal:
+Para un líquido incompresible ideal:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Conservación de volumen</span>
@@ -537,9 +537,9 @@ La ganancia en fuerza se compensa con distancia.
 
 Datos:
 
-- `A<sub>1</sub> = 5 cm²`;
-- `A<sub>2</sub> = 100 cm²`;
-- `F<sub>1</sub> = 50 N`.
+- A<sub>1</sub> = 5 cm²;
+- A<sub>2</sub> = 100 cm²;
+- F<sub>1</sub> = 50 N.
 
 Entonces:
 
@@ -783,7 +783,7 @@ En el modelo ideal:
 
 donde:
 
-- `ρ<sub>Hg</sub>` es la densidad del mercurio;
+- ρ<sub>Hg</sub> es la densidad del mercurio;
 - h es la altura de la columna.
 
 ---
@@ -895,14 +895,14 @@ La conservación de masa exige que, en flujo estacionario:
   <div class="formula-panel__formula">ρ<sub>1</sub>A<sub>1</sub>v<sub>1</sub> = ρ<sub>2</sub>A<sub>2</sub>v<sub>2</sub></div>
 </div>
 
-Para un fluido incomprensible:
+Para un fluido incompresible:
 
 **ρ<sub>1</sub> = ρ<sub>2</sub>**
 
 y queda:
 
 <div class="formula-panel">
-  <span class="formula-panel__label">Fluido incomprensible</span>
+  <span class="formula-panel__label">Fluido incompresible</span>
   <div class="formula-panel__formula">A<sub>1</sub>v<sub>1</sub> = A<sub>2</sub>v<sub>2</sub></div>
 </div>
 
@@ -914,7 +914,7 @@ Si:
 
 **A<sub>2</sub> < A<sub>1</sub>**
 
-para conservar el caudal de un líquido incomprensible:
+para conservar el caudal de un líquido incompresible:
 
 **v<sub>2</sub> > v<sub>1</sub>**
 
@@ -926,8 +926,8 @@ Por eso el fluido acelera en la zona más estrecha del tubo.
 
 Una tubería pasa de:
 
-- `A<sub>1</sub> = 0,020 m²`;
-- a `A<sub>2</sub> = 0,005 m²`.
+- A<sub>1</sub> = 0,020 m²;
+- a A<sub>2</sub> = 0,005 m².
 
 Si:
 
@@ -952,7 +952,7 @@ entonces:
 
 Para un fluido ideal:
 
-- incomprensible;
+- incompresible;
 - sin viscosidad;
 - en flujo estacionario;
 
@@ -1052,8 +1052,8 @@ y se utiliza en diferentes dispositivos de medición y mezcla.
 
 En una tubería horizontal con agua:
 
-- `v<sub>1</sub> = 1 m/s`;
-- `v<sub>2</sub> = 3 m/s`;
+- v<sub>1</sub> = 1 m/s;
+- v<sub>2</sub> = 3 m/s;
 - `ρ = 1000 kg/m³`.
 
 Entonces:
@@ -1185,9 +1185,9 @@ En esas condiciones:
 
 ---
 
-## 57. Fluido incomprensible
+## 57. Fluido incompresible
 
-Un fluido incomprensible ideal mantiene aproximadamente constante su densidad.
+Un fluido incompresible ideal mantiene aproximadamente constante su densidad.
 
 Este modelo funciona muy bien para muchos líquidos en condiciones ordinarias.
 
@@ -1323,7 +1323,7 @@ En aplicaciones reales puede ser necesario agregar:
 En distintos problemas idealizamos que el fluido es:
 
 - continuo;
-- incomprensible;
+- incompresible;
 - sin viscosidad;
 - de densidad conocida;
 - en flujo estacionario.
@@ -1470,7 +1470,7 @@ No. Tiene hipótesis de validez.
     <li>Definí presión.</li>
     <li>Explicá por qué presión y fuerza no son lo mismo.</li>
     <li>Enunciá el principio de Arquímedes.</li>
-    <li>¿Qué significa que un fluido sea incomprensible?</li>
+    <li>¿Qué significa que un fluido sea incompresible?</li>
   </ol>
 </div>
 
@@ -1507,7 +1507,7 @@ No. Tiene hipótesis de validez.
   </div>
   <ol>
     <li>Por una tubería circulan 0,030 m³/s a través de 0,015 m². Calculá la velocidad media.</li>
-    <li>Una tubería pasa de 12 cm² a 3 cm². Si v<sub>1</sub> = 2 m/s, hallá v<sub>2</sub> para un líquido incomprensible.</li>
+    <li>Una tubería pasa de 12 cm² a 3 cm². Si v<sub>1</sub> = 2 m/s, hallá v<sub>2</sub> para un líquido incompresible.</li>
     <li>Aplicá Bernoulli a dos puntos de igual altura con velocidades conocidas y obtené una diferencia de presión.</li>
     <li>Explicá por qué no basta la frase “más rápido, menos presión” para resolver cualquier problema.</li>
   </ol>
@@ -1611,7 +1611,7 @@ pueden reducir la velocidad respecto del valor ideal.
 <details class="lesson-quiz">
   <summary>4. ¿Qué se conserva en la ecuación de continuidad?</summary>
   <div class="lesson-quiz__answer">
-    La masa que atraviesa las secciones por unidad de tiempo. Para un fluido incomprensible queda A₁v₁ = A₂v₂.
+    La masa que atraviesa las secciones por unidad de tiempo. Para un fluido incompresible queda A₁v₁ = A₂v₂.
   </div>
 </details>
 
@@ -1634,13 +1634,13 @@ pueden reducir la velocidad respecto del valor ideal.
 ## 74. Resumen
 
 - La densidad es `ρ = m/V`.
-- La presión es fuerza perpendicular por unidad de área: `p = F<sub>⊥</sub>/A`.
+- La presión es fuerza perpendicular por unidad de área: p = F<sub>⊥</sub>/A.
 - La unidad SI de presión es el pascal.
 - En hidrostática, la presión aumenta con la profundidad.
 - Para densidad y g constantes, `Δp = ρgh`.
 - En un fluido confinado ideal, Pascal permite transmitir cambios de presión.
 - Una prensa hidráulica puede multiplicar fuerza a costa de desplazamiento.
-- El principio de Arquímedes establece `E = ρ<sub>fluido</sub>gV<sub>desplazado</sub>`.
+- El principio de Arquímedes establece E = ρ<sub>fluido</sub>gV<sub>desplazado</sub>.
 - Un cuerpo flotante satisface `E = P`.
 - La fracción sumergida depende de la relación de densidades.
 - La atmósfera ejerce presión.
@@ -1648,7 +1648,7 @@ pueden reducir la velocidad respecto del valor ideal.
 - El caudal es `Q = ΔV/Δt`.
 - En un flujo simple, `Q = Av`.
 - La continuidad general expresa conservación de masa.
-- Para un fluido incomprensible, `A<sub>1</sub>v<sub>1</sub> = A<sub>2</sub>v<sub>2</sub>`.
+- Para un fluido incompresible, A<sub>1</sub>v<sub>1</sub> = A<sub>2</sub>v<sub>2</sub>.
 - Bernoulli relaciona presión, velocidad y altura.
 - La frase “más velocidad, menos presión” sólo es válida bajo condiciones apropiadas.
 - Los fluidos reales tienen viscosidad y pueden desarrollar turbulencia.

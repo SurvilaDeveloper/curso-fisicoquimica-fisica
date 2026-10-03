@@ -1679,7 +1679,7 @@ No. La energía mecánica se transforma en otras formas.
   </div>
   <ol>
     <li>Derivá `T = 2π√(m/k)` comparando `a = −(k/m)x` con `a = −ω²x`.</li>
-    <li>Mostrá mediante energía que `v<sub>máx</sub> = Aω` para masa-resorte.</li>
+    <li>Mostrá mediante energía que v<sub>máx</sub> = Aω para masa-resorte.</li>
     <li>Explicá por qué el péndulo sólo es aproximadamente armónico para pequeños ángulos.</li>
     <li>Analizá cualitativamente cómo el amortiguamiento modifica amplitud, energía y resonancia.</li>
   </ol>

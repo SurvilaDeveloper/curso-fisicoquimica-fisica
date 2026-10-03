@@ -532,7 +532,7 @@ Por eso la densidad electrónica del enlace se desplaza parcialmente hacia Cl.
 
 Se puede representar:
 
-**Hᵟ⁺—Clᵟ⁻**
+**Hδ⁺—Clδ⁻**
 
 El símbolo **δ** indica carga parcial.
 

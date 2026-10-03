@@ -571,7 +571,7 @@ También:
   <div class="formula-panel__formula">k = 1/(4πε<sub>0</sub>)</div>
 </div>
 
-donde `ε<sub>0</sub>` es la permitividad del vacío.
+donde ε<sub>0</sub> es la permitividad del vacío.
 
 ---
 
@@ -658,8 +658,8 @@ Además, las intensidades características son muy diferentes.
 
 Dos cargas:
 
-- `q<sub>1</sub> = +2,0 μC`;
-- `q<sub>2</sub> = −3,0 μC`;
+- q<sub>1</sub> = +2,0 μC;
+- q<sub>2</sub> = −3,0 μC;
 
 están separadas:
 
@@ -1016,7 +1016,7 @@ cuando:
 
 ### Cargas del mismo signo
 
-`q<sub>1</sub>q<sub>2</sub> > 0`
+q<sub>1</sub>q<sub>2</sub> > 0
 
 Entonces:
 
@@ -1024,7 +1024,7 @@ Entonces:
 
 ### Cargas de signo opuesto
 
-`q<sub>1</sub>q<sub>2</sub> < 0`
+q<sub>1</sub>q<sub>2</sub> < 0
 
 Entonces:
 
@@ -1795,7 +1795,7 @@ No mezcles:
 2. Calculá cada contribución.
 3. Conservá el signo de cada carga.
 4. Sumá escalares:
-   - `V<sub>total</sub> = ΣV<sub>i</sub>`.
+   - V<sub>total</sub> = ΣV<sub>i</sub>.
 5. Si colocás una carga q:
    - `U = qV`.
 
@@ -1963,7 +1963,7 @@ Almacena separación de carga y energía asociada al campo.
     <strong>Energía y equipotenciales</strong>
   </div>
   <ol>
-    <li>Calculá U para `q<sub>1</sub> = +2 μC`, `q<sub>2</sub> = −3 μC` y `r = 0,40 m`.</li>
+    <li>Calculá U para q<sub>1</sub> = +2 μC, q<sub>2</sub> = −3 μC y `r = 0,40 m`.</li>
     <li>Explicá el signo del resultado.</li>
     <li>Una carga se mueve sobre una equipotencial. ¿Qué trabajo realiza la fuerza electrostática?</li>
     <li>Un campo uniforme de 2000 V/m actúa entre dos puntos separados 0,030 m en la dirección del campo. Calculá el módulo de ΔV.</li>
@@ -2120,13 +2120,13 @@ Como q es negativa:
 - La electrización puede ocurrir por fricción, contacto e inducción.
 - Los conductores permiten desplazamiento macroscópico relativamente libre de portadores de carga.
 - Los aislantes pueden polarizarse aunque sus cargas no circulen libremente.
-- La ley de Coulomb es `F = k|q<sub>1</sub>q<sub>2</sub>|/r²`.
+- La ley de Coulomb es F = k|q<sub>1</sub>q<sub>2</sub>|/r².
 - Las fuerzas eléctricas se suman vectorialmente.
-- El campo eléctrico se define como `E = F/q<sub>prueba</sub>`.
+- El campo eléctrico se define como E = F/q<sub>prueba</sub>.
 - Para una carga puntual, `E = k|Q|/r²`.
 - El campo es vectorial.
 - Las líneas de campo salen de positivas y terminan en negativas o en el infinito.
-- La energía potencial de dos cargas puntuales es `U = kq<sub>1</sub>q<sub>2</sub>/r`.
+- La energía potencial de dos cargas puntuales es U = kq<sub>1</sub>q<sub>2</sub>/r.
 - El potencial es `V = U/q`.
 - Para una carga puntual, `V = kQ/r`.
 - El potencial es escalar.
@@ -2136,8 +2136,8 @@ Como q es negativa:
 - Campo cero no implica potencial cero, ni viceversa.
 - Un capacitor mantiene separación de carga y almacena energía en su campo.
 - La capacitancia es `C = Q/|ΔV|`.
-- Para placas paralelas ideales, `C = ε<sub>0</sub>A/d`.
-- La energía de un capacitor ideal puede escribirse `U<sub>C</sub> = ½C(ΔV)²`.
+- Para placas paralelas ideales, C = ε<sub>0</sub>A/d.
+- La energía de un capacitor ideal puede escribirse U<sub>C</sub> = ½C(ΔV)².
 - Estos conceptos serán la base para estudiar corriente eléctrica y circuitos.
 
 ---

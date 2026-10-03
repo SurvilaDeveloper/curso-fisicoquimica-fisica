@@ -329,7 +329,7 @@ Como profundización:
 
 donde:
 
-- `k<sub>B</sub>` es la constante de Boltzmann;
+- k<sub>B</sub> es la constante de Boltzmann;
 - T debe expresarse en kelvin.
 
 ---
@@ -525,12 +525,12 @@ Para mantener T constante mientras el gas realiza trabajo:
 
 Un gas ideal ocupa:
 
-- `V<sub>1</sub> = 2,0 L`;
-- `P<sub>1</sub> = 300 kPa`.
+- V<sub>1</sub> = 2,0 L;
+- P<sub>1</sub> = 300 kPa.
 
 Se expande isotérmicamente hasta:
 
-- `V<sub>2</sub> = 6,0 L`.
+- V<sub>2</sub> = 6,0 L.
 
 Entonces:
 
@@ -573,12 +573,12 @@ Entonces:
 
 Un gas ideal a presión constante tiene:
 
-- `V<sub>1</sub> = 3,0 L`;
-- `T<sub>1</sub> = 300 K`.
+- V<sub>1</sub> = 3,0 L;
+- T<sub>1</sub> = 300 K.
 
 Se calienta hasta:
 
-- `T<sub>2</sub> = 400 K`.
+- T<sub>2</sub> = 400 K.
 
 Entonces:
 
@@ -620,12 +620,12 @@ Entonces:
 
 Un gas rígidamente encerrado tiene:
 
-- `P<sub>1</sub> = 100 kPa`;
-- `T<sub>1</sub> = 300 K`.
+- P<sub>1</sub> = 100 kPa;
+- T<sub>1</sub> = 300 K.
 
 Se calienta hasta:
 
-- `T<sub>2</sub> = 450 K`.
+- T<sub>2</sub> = 450 K.
 
 Entonces:
 
@@ -700,7 +700,7 @@ Para un gas ideal bajo un proceso adiabático reversible:
 
 donde:
 
-- `γ = C<sub>P</sub>/C<sub>V</sub>`.
+- γ = C<sub>P</sub>/C<sub>V</sub>.
 
 Esta relación es una profundización.
 
@@ -868,7 +868,7 @@ Si P es constante:
 
 ### Expansión
 
-`V<sub>f</sub> > V<sub>i</sub>`
+V<sub>f</sub> > V<sub>i</sub>
 
 Entonces:
 
@@ -876,7 +876,7 @@ Entonces:
 
 ### Compresión
 
-`V<sub>f</sub> < V<sub>i</sub>`
+V<sub>f</sub> < V<sub>i</sub>
 
 Entonces:
 
@@ -1162,7 +1162,7 @@ Entonces:
 
 ### Expansión adiabática
 
-`W<sub>por</sub> > 0`
+W<sub>por</sub> > 0
 
 Entonces:
 
@@ -1170,7 +1170,7 @@ Entonces:
 
 ### Compresión adiabática
 
-`W<sub>por</sub> < 0`
+W<sub>por</sub> < 0
 
 Entonces:
 
@@ -1208,13 +1208,13 @@ Podría ocurrir:
 
 `Q = +500 J`
 
-`W<sub>por</sub> = 0`
+W<sub>por</sub> = 0
 
 ### Proceso B
 
 `Q = +800 J`
 
-`W<sub>por</sub> = +300 J`
+W<sub>por</sub> = +300 J
 
 En ambos:
 
@@ -1442,9 +1442,9 @@ Por eso una descripción seria debe considerar:
 
 Una **máquina térmica** opera cíclicamente y:
 
-1. recibe energía térmica `Q<sub>caliente</sub>` de una fuente caliente;
+1. recibe energía térmica Q<sub>caliente</sub> de una fuente caliente;
 2. transforma una parte en trabajo;
-3. entrega `Q<sub>fría</sub>` a una fuente más fría.
+3. entrega Q<sub>fría</sub> a una fuente más fría.
 
 En un ciclo:
 
@@ -1594,8 +1594,8 @@ Transfiere energía.
 
 El **ciclo de Carnot** es un ciclo reversible ideal que opera entre:
 
-- una fuente caliente a temperatura `T<sub>H</sub>`;
-- una fuente fría a temperatura `T<sub>C</sub>`.
+- una fuente caliente a temperatura T<sub>H</sub>;
+- una fuente fría a temperatura T<sub>C</sub>.
 
 Su importancia no es describir exactamente un motor real.
 
@@ -1640,8 +1640,8 @@ Por eso:
 
 Una máquina ideal opera entre:
 
-- `T<sub>H</sub> = 600 K`;
-- `T<sub>C</sub> = 300 K`.
+- T<sub>H</sub> = 600 K;
+- T<sub>C</sub> = 300 K.
 
 Entonces:
 
@@ -1888,7 +1888,7 @@ Consideremos un gas ideal.
 
 ### Caso A: calentamiento isocórico
 
-- `W<sub>por</sub> = 0`;
+- W<sub>por</sub> = 0;
 - `Q > 0`;
 - `ΔU > 0`;
 - T aumenta;
@@ -1897,8 +1897,8 @@ Consideremos un gas ideal.
 ### Caso B: expansión isotérmica
 
 - `ΔU = 0`;
-- `W<sub>por</sub> > 0`;
-- `Q = W<sub>por</sub>`;
+- W<sub>por</sub> > 0;
+- Q = W<sub>por</sub>;
 - T permanece constante;
 - V aumenta;
 - P disminuye.
@@ -1906,7 +1906,7 @@ Consideremos un gas ideal.
 ### Caso C: expansión adiabática
 
 - `Q = 0`;
-- `W<sub>por</sub> > 0`;
+- W<sub>por</sub> > 0;
 - `ΔU < 0`;
 - para un gas ideal, T disminuye.
 
@@ -1982,7 +1982,7 @@ Consideremos un gas ideal.
 - En un adiabático ideal, `Q = 0`.
 - Los diagramas P-V representan estados y procesos.
 - El trabajo realizado por un gas es el área bajo la curva P-V en un proceso cuasiestático.
-- Con nuestra convención, `ΔU = Q − W<sub>por</sub>`.
+- Con nuestra convención, ΔU = Q − W<sub>por</sub>.
 - La energía interna es función de estado.
 - Calor y trabajo son mecanismos de transferencia, no funciones de estado.
 - Para un gas ideal, U depende solamente de T.
@@ -1990,11 +1990,11 @@ Consideremos un gas ideal.
 - La segunda ley establece restricciones sobre la dirección de procesos y la conversión de energía.
 - Los procesos reales presentan irreversibilidad.
 - La entropía es una función de estado y no debe reducirse simplemente a “desorden”.
-- En un sistema aislado, `ΔS<sub>total</sub> ≥ 0`.
+- En un sistema aislado, ΔS<sub>total</sub> ≥ 0.
 - Una máquina térmica recibe calor de una fuente caliente, produce trabajo y entrega parte a una fuente fría.
-- `η = W<sub>salida</sub>/Q<sub>caliente</sub>`.
+- η = W<sub>salida</sub>/Q<sub>caliente</sub>.
 - Un refrigerador necesita trabajo para transferir energía de una región fría a una caliente.
-- Carnot proporciona un límite ideal: `η = 1 − T<sub>C</sub>/T<sub>H</sub>`.
+- Carnot proporciona un límite ideal: η = 1 − T<sub>C</sub>/T<sub>H</sub>.
 - Las temperaturas de Carnot deben expresarse en kelvin.
 
 ---

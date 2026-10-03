@@ -503,8 +503,8 @@ para intervalos térmicos.
 
 Una barra tiene:
 
-- `L<sub>0</sub> = 2,0 m`;
-- `α = 12 × 10<sup>−6</sup> K<sup>−1</sup>`;
+- L<sub>0</sub> = 2,0 m;
+- α = 12 × 10<sup>−6</sup> K<sup>−1</sup>;
 - `ΔT = 50 K`.
 
 Entonces:
@@ -675,7 +675,7 @@ donde:
 
 - `m` es la masa;
 - `c` es el calor específico;
-- `ΔT = T<sub>f</sub> − T<sub>i</sub>`.
+- ΔT = T<sub>f</sub> − T<sub>i</sub>.
 
 ---
 
@@ -793,7 +793,7 @@ Si dos cuerpos se ponen en contacto dentro de un calorímetro ideal:
 
 - uno puede enfriarse;
 - el otro calentarse;
-- llegan a una temperatura de equilibrio `T<sub>e</sub>`.
+- llegan a una temperatura de equilibrio T<sub>e</sub>.
 
 Si no hay cambios de fase:
 
@@ -1499,7 +1499,7 @@ No.
     <li>Convertí 20 °C a kelvin.</li>
     <li>Convertí 300 K a °C.</li>
     <li>Convertí 68 °F a °C.</li>
-    <li>Una barra de 3 m tiene `α = 15 × 10<sup>−6</sup> K<sup>−1</sup>` y aumenta 40 K. Calculá ΔL.</li>
+    <li>Una barra de 3 m tiene α = 15 × 10<sup>−6</sup> K<sup>−1</sup> y aumenta 40 K. Calculá ΔL.</li>
   </ol>
 </div>
 
@@ -1522,7 +1522,7 @@ No.
     <strong>Cambios de fase y diagramas</strong>
   </div>
   <ol>
-    <li>Calculá la energía necesaria para fundir 0,20 kg de una sustancia con `L<sub>f</sub> = 250 kJ/kg` si ya está a la temperatura de fusión.</li>
+    <li>Calculá la energía necesaria para fundir 0,20 kg de una sustancia con L<sub>f</sub> = 250 kJ/kg si ya está a la temperatura de fusión.</li>
     <li>Explicá qué ocurre con la temperatura durante una meseta ideal de fusión.</li>
     <li>Dibujá cualitativamente un diagrama de calentamiento con sólido, fusión, líquido y ebullición.</li>
     <li>Indicá en qué tramos usarías `mcΔT` y en cuáles `mL`.</li>
@@ -1560,8 +1560,8 @@ y queremos obtener agua a:
 
 Usamos como valores aproximados:
 
-- `L<sub>f</sub> = 334 kJ/kg`;
-- `c<sub>agua</sub> = 4,18 kJ/(kg·K)`.
+- L<sub>f</sub> = 334 kJ/kg;
+- c<sub>agua</sub> = 4,18 kJ/(kg·K).
 
 ### Etapa 1: fusión
 
@@ -1658,7 +1658,7 @@ Este ejemplo muestra por qué no podemos usar una sola fórmula para todo el pro
 - Kelvin es la escala termodinámica del SI.
 - `T(K) = t(°C) + 273,15`.
 - Un intervalo de 1 K tiene el mismo tamaño que uno de 1 °C.
-- Muchos sólidos se dilatan aproximadamente según `ΔL = αL<sub>0</sub>ΔT`.
+- Muchos sólidos se dilatan aproximadamente según ΔL = αL<sub>0</sub>ΔT.
 - Para sólidos isotrópicos y cambios pequeños, `β ≈ 2α` y `γ ≈ 3α`.
 - El calor es energía transferida por diferencia de temperatura.
 - Sin cambio de fase y con c aproximadamente constante, `Q = mcΔT`.

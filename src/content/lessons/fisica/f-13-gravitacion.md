@@ -272,8 +272,8 @@ La respuesta fue la gravitación universal.
 
 Dos masas puntuales:
 
-- `m<sub>1</sub>`;
-- `m<sub>2</sub>`;
+- m<sub>1</sub>;
+- m<sub>2</sub>;
 
 se atraen con una fuerza cuyo módulo es:
 
@@ -731,8 +731,8 @@ El signo negativo refleja esa elección de referencia y el carácter atractivo d
 
 Entre:
 
-- `r<sub>i</sub>`;
-- `r<sub>f</sub>`;
+- r<sub>i</sub>;
+- r<sub>f</sub>;
 
 tenemos:
 
@@ -1378,7 +1378,7 @@ No en el modelo ideal.
     <strong>Órbitas</strong>
   </div>
   <ol>
-    <li>Derivá `v<sub>orb</sub> = √(GM/r)` igualando gravedad y resultante centrípeta.</li>
+    <li>Derivá v<sub>orb</sub> = √(GM/r) igualando gravedad y resultante centrípeta.</li>
     <li>Si el radio de una órbita circular se cuadruplica, compará la velocidad orbital.</li>
     <li>Usando `T = 2πr/v`, derivá la forma circular de la tercera ley de Kepler.</li>
     <li>Explicá por qué un satélite orbital está en caída libre.</li>
@@ -1392,7 +1392,7 @@ No en el modelo ideal.
   </div>
   <ol>
     <li>Derivá la velocidad de escape mediante conservación de energía.</li>
-    <li>Demostrá que `v<sub>esc</sub> = √2 v<sub>orb</sub>` al mismo radio.</li>
+    <li>Demostrá que v<sub>esc</sub> = √2 v<sub>orb</sub> al mismo radio.</li>
     <li>Derivá la energía mecánica de una órbita circular, `E = −GMm/(2r)`.</li>
     <li>Explicá por qué masa gravitatoria y masa inercial deben distinguirse conceptualmente aunque se identifiquen en la mecánica escolar.</li>
   </ol>
@@ -1512,7 +1512,7 @@ Entonces:
 - La primera ley establece órbitas elípticas con el cuerpo central en un foco.
 - La segunda relaciona áreas barridas y tiempos.
 - La tercera establece `T² ∝ a³` para cuerpos que orbitan la misma masa central.
-- La gravitación universal es `F = Gm<sub>1</sub>m<sub>2</sub>/r²`.
+- La gravitación universal es F = Gm<sub>1</sub>m<sub>2</sub>/r².
 - La fuerza gravitatoria es atractiva y obedece la tercera ley.
 - El campo gravitatorio de una masa M tiene módulo `g = GM/r²`.
 - Cerca de la Tierra, el peso es `P = mg`.
@@ -1522,10 +1522,10 @@ Entonces:
 - `mgh` es una aproximación local para cambios pequeños de altura.
 - Una órbita puede interpretarse como caída libre continua.
 - En una órbita circular, la gravedad proporciona la aceleración centrípeta.
-- `v<sub>orb</sub> = √(GM/r)`.
+- v<sub>orb</sub> = √(GM/r).
 - `T = 2π√(r³/GM)` para una órbita circular.
 - Los satélites no están fuera de la gravedad.
-- `v<sub>esc</sub> = √(2GM/r)` en el modelo ideal.
+- v<sub>esc</sub> = √(2GM/r) en el modelo ideal.
 - La gravitación newtoniana unificó fenómenos terrestres y celestes.
 - La teoría newtoniana tiene límites y es ampliada por la relatividad general en regímenes apropiados.
 

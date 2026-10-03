@@ -531,8 +531,8 @@ Tenemos:
 
 Convertimos:
 
-- `λ = 6,00 × 10<sup>−7</sup> m`;
-- `d = 5,0 × 10<sup>−4</sup> m`.
+- λ = 6,00 × 10<sup>−7</sup> m;
+- d = 5,0 × 10<sup>−4</sup> m.
 
 Entonces:
 
@@ -1464,7 +1464,7 @@ Conviene recordar tendencias, no memorizar fronteras rígidas:
 
 - mayor λ → menor f;
 - menor λ → mayor f;
-- visible ~ `10<sup>−7</sup> m`.
+- visible ~ 10<sup>−7</sup> m.
 
 Después ubicamos las bandas por:
 
@@ -1539,7 +1539,7 @@ La frecuencia se conserva; el color espectral se asocia principalmente con la fr
   </div>
   <ol>
     <li>Calculá la frecuencia de luz de 500 nm en vacío.</li>
-    <li>Calculá λ para una onda electromagnética de `6,0 × 10<sup>14</sup> Hz`.</li>
+    <li>Calculá λ para una onda electromagnética de 6,0 × 10<sup>14</sup> Hz.</li>
     <li>Una luz entra a un medio donde su velocidad disminuye 25%. ¿Qué ocurre con λ si f permanece constante?</li>
     <li>Ordená radio, visible, ultravioleta y rayos X desde mayor a menor λ.</li>
   </ol>
@@ -1577,7 +1577,7 @@ La frecuencia se conserva; el color espectral se asocia principalmente con la fr
     <strong>Profundización</strong>
   </div>
   <ol>
-    <li>Derivá `y<sub>m</sub> ≈ mλL/d` usando diferencia de camino y ángulo pequeño.</li>
+    <li>Derivá y<sub>m</sub> ≈ mλL/d usando diferencia de camino y ángulo pequeño.</li>
     <li>Compará matemáticamente las condiciones de máximos de doble rendija y mínimos de rendija simple.</li>
     <li>Usá el criterio de Rayleigh para explicar cómo D y λ afectan la resolución.</li>
     <li>Explicá por qué la óptica geométrica puede entenderse como un límite de longitud de onda pequeña.</li>
@@ -1596,8 +1596,8 @@ Una doble rendija tiene:
 
 Convertimos:
 
-- `d = 3,0 × 10<sup>−4</sup> m`;
-- `λ = 4,50 × 10<sup>−7</sup> m`.
+- d = 3,0 × 10<sup>−4</sup> m;
+- λ = 4,50 × 10<sup>−7</sup> m.
 
 ### Separación de franjas
 
@@ -1687,14 +1687,14 @@ puede generar franjas separadas por milímetros y ser observado directamente.
 - La superposición produce interferencia.
 - Los máximos de doble rendija satisfacen `d senθ = mλ`.
 - Los mínimos satisfacen `d senθ = (m + ½)λ`.
-- Para ángulos pequeños, `y<sub>m</sub> ≈ mλL/d`.
+- Para ángulos pequeños, y<sub>m</sub> ≈ mλL/d.
 - La difracción se vuelve importante cuando dimensiones y λ son comparables.
 - Para una rendija simple, los mínimos cumplen `a senθ = mλ`, con m distinto de cero.
 - La polarización está asociada al carácter transversal de la luz.
-- La ley de Malus es `I = I<sub>máx</sub>cos²θ` para el caso ideal.
+- La ley de Malus es I = I<sub>máx</sub>cos²θ para el caso ideal.
 - La dispersión aparece cuando n depende de λ o f.
 - El prisma separa componentes espectrales; no crea los colores.
-- El visible ocupa aproximadamente el orden `10<sup>−7</sup> m`.
+- El visible ocupa aproximadamente el orden 10<sup>−7</sup> m.
 - El espectro electromagnético incluye radio, microondas, infrarrojo, visible, ultravioleta, rayos X y gamma.
 - Las fronteras entre bandas son convencionales.
 - La óptica geométrica funciona especialmente bien cuando las dimensiones relevantes son mucho mayores que λ.

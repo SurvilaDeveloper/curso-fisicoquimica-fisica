@@ -553,7 +553,7 @@ Una carga positiva:
 
 se mueve a:
 
-- `v = 3,0 × 10<sup>4</sup> m/s`;
+- v = 3,0 × 10<sup>4</sup> m/s;
 
 perpendicular a:
 
@@ -1037,7 +1037,7 @@ En vacío, a distancia r de un conductor recto ideal largo:
 
 donde:
 
-- `μ<sub>0</sub>` es la permeabilidad magnética del vacío.
+- μ<sub>0</sub> es la permeabilidad magnética del vacío.
 
 ---
 
@@ -1780,7 +1780,7 @@ No.
     <strong>Fuerza magnética</strong>
   </div>
   <ol>
-    <li>Una carga de `+3 μC` se mueve a `2×10<sup>4</sup> m/s` perpendicular a `B = 0,50 T`. Calculá F.</li>
+    <li>Una carga de +3 μC se mueve a 2×10<sup>4</sup> m/s perpendicular a B = 0,50 T. Calculá F.</li>
     <li>Repetí el problema si v es paralela a B.</li>
     <li>¿Qué cambia si la carga es negativa?</li>
     <li>Una carga se mueve formando 30° con B. ¿Qué factor `senθ` aparece?</li>
@@ -1809,7 +1809,7 @@ No.
     <li>Calculá B a 5 cm de un cable largo con I = 10 A.</li>
     <li>¿Qué ocurre con B si duplicamos la distancia?</li>
     <li>¿Qué ocurre con B si invertimos la corriente?</li>
-    <li>Un solenoide ideal tiene `n = 1000 m<sup>−1</sup>` e `I = 2 A`. Calculá B en vacío usando la aproximación de solenoide largo.</li>
+    <li>Un solenoide ideal tiene n = 1000 m<sup>−1</sup> e `I = 2 A`. Calculá B en vacío usando la aproximación de solenoide largo.</li>
   </ol>
 </div>
 
@@ -1836,12 +1836,12 @@ Un electrón entra perpendicularmente a un campo:
 
 con rapidez:
 
-- `v = 3,0 × 10<sup>6</sup> m/s`.
+- v = 3,0 × 10<sup>6</sup> m/s.
 
 Usamos:
 
-- `m<sub>e</sub> = 9,11 × 10<sup>−31</sup> kg`;
-- `|q<sub>e</sub>| = 1,602 × 10<sup>−19</sup> C`.
+- m<sub>e</sub> = 9,11 × 10<sup>−31</sup> kg;
+- |q<sub>e</sub>| = 1,602 × 10<sup>−19</sup> C.
 
 ### Fuerza magnética
 
@@ -1948,8 +1948,8 @@ Como el electrón es negativo:
 - Las líneas de B forman lazos cerrados.
 - Una brújula permite detectar la dirección local del campo.
 - La Tierra posee un campo magnético global.
-- Una carga en movimiento experimenta `F<sub>B</sub> = q(v × B)`.
-- Su módulo es `F<sub>B</sub> = |q|vB senθ`.
+- Una carga en movimiento experimenta F<sub>B</sub> = q(v × B).
+- Su módulo es F<sub>B</sub> = |q|vB senθ.
 - Una carga en reposo no recibe fuerza magnética.
 - Una carga moviéndose paralela a B tampoco recibe fuerza magnética.
 - La fuerza es máxima cuando v es perpendicular a B.
@@ -1961,9 +1961,9 @@ Como el electrón es negativo:
 - Un conductor con corriente puede recibir `F = I(L × B)`.
 - Una corriente produce su propio campo magnético.
 - Oersted mostró experimentalmente la conexión entre corriente y magnetismo.
-- En un cable recto largo, `B = μ<sub>0</sub>I/(2πr)`.
+- En un cable recto largo, B = μ<sub>0</sub>I/(2πr).
 - Una espira produce un campo a través de su centro.
-- Un solenoide largo ideal tiene `B ≈ μ<sub>0</sub>nI`.
+- Un solenoide largo ideal tiene B ≈ μ<sub>0</sub>nI.
 - Un electroimán combina una bobina con un núcleo magnético para producir un campo controlable.
 - Estos resultados preparan el estudio de la inducción electromagnética y la unificación de electricidad, magnetismo y luz.
 

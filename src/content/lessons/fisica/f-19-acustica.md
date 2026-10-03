@@ -611,7 +611,7 @@ donde:
 
 - L se expresa en decibelios;
 - I es la intensidad;
-- `I<sub>0</sub>` es una intensidad de referencia.
+- I<sub>0</sub> es una intensidad de referencia.
 
 ---
 
@@ -881,8 +881,8 @@ Dos instrumentos pueden compartir:
 
 pero tener diferentes:
 
-- amplitudes de `f<sub>2</sub>`;
-- amplitudes de `f<sub>3</sub>`;
+- amplitudes de f<sub>2</sub>;
+- amplitudes de f<sub>3</sub>;
 - parciales;
 - envolventes temporales.
 
@@ -942,7 +942,7 @@ Entonces:
 La fórmula muestra que podemos aumentar la frecuencia fundamental si:
 
 - disminuimos L;
-- aumentamos la tensión `F<sub>T</sub>`;
+- aumentamos la tensión F<sub>T</sub>;
 - disminuimos la densidad lineal μ.
 
 Esto explica principios básicos de instrumentos de cuerda.
@@ -951,7 +951,7 @@ Esto explica principios básicos de instrumentos de cuerda.
 
 ## 48. No confundir tensión con intensidad sonora
 
-En una cuerda, `F<sub>T</sub>` es:
+En una cuerda, F<sub>T</sub> es:
 
 - una fuerza mecánica de tensión.
 
@@ -1301,7 +1301,7 @@ Para un observador inmóvil y una fuente que se mueve en línea recta respecto d
 donde:
 
 - v es velocidad del sonido respecto del medio;
-- `v<sub>s</sub>` es módulo de la velocidad de la fuente.
+- v<sub>s</sub> es módulo de la velocidad de la fuente.
 
 ---
 
@@ -1722,7 +1722,7 @@ No. Significa frecuencia por encima del rango audible típico.
   <ol>
     <li>Una fuente isotrópica ideal emite potencia P. Escribí I a distancia r.</li>
     <li>Si duplicamos la distancia, ¿por qué factor cambia I?</li>
-    <li>Calculá el nivel correspondiente a `I = 10<sup>−8</sup> W/m²` usando `I<sub>0</sub> = 10<sup>−12</sup> W/m²`.</li>
+    <li>Calculá el nivel correspondiente a I = 10<sup>−8</sup> W/m² usando I<sub>0</sub> = 10<sup>−12</sup> W/m².</li>
     <li>¿Qué factor de intensidad corresponde a un aumento de 30 dB?</li>
   </ol>
 </div>
@@ -1786,7 +1786,7 @@ Una cuerda ideal tiene:
 Si el sonido radiado tiene:
 
 - `f = 200 Hz`;
-- `v<sub>aire</sub> = 340 m/s`;
+- v<sub>aire</sub> = 340 m/s;
 
 entonces:
 
@@ -1863,7 +1863,7 @@ entonces:
 - Frecuencia e intensidad son magnitudes distintas.
 - La intensidad sonora es `I = P/A`.
 - Para una fuente puntual isotrópica ideal, `I = P/(4πr²)`.
-- El nivel sonoro se expresa mediante `L = 10 log<sub>10</sub>(I/I<sub>0</sub>)`.
+- El nivel sonoro se expresa mediante L = 10 log<sub>10</sub>(I/I<sub>0</sub>).
 - La escala de decibelios es logarítmica.
 - Un aumento de 10 dB corresponde a multiplicar la intensidad por 10.
 - Aproximadamente +3 dB corresponde a duplicar la intensidad.

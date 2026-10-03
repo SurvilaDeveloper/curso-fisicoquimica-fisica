@@ -689,8 +689,8 @@ Para espejos esféricos paraxiales:
 
 donde:
 
-- `d<sub>o</sub>` es distancia de objeto;
-- `d<sub>i</sub>` es distancia de imagen;
+- d<sub>o</sub> es distancia de objeto;
+- d<sub>i</sub> es distancia de imagen;
 - f es distancia focal.
 
 ---
@@ -701,15 +701,15 @@ Para evitar ambigüedades adoptaremos:
 
 ### Objeto real frente al espejo
 
-`d<sub>o</sub> > 0`
+d<sub>o</sub> > 0
 
 ### Imagen real frente al espejo
 
-`d<sub>i</sub> > 0`
+d<sub>i</sub> > 0
 
 ### Imagen virtual detrás del espejo
 
-`d<sub>i</sub> < 0`
+d<sub>i</sub> < 0
 
 ### Espejo cóncavo
 
@@ -759,7 +759,7 @@ Reducida.
 Tenemos:
 
 - `f = +20 cm`;
-- `d<sub>o</sub> = +60 cm`.
+- d<sub>o</sub> = +60 cm.
 
 Ecuación:
 
@@ -1016,7 +1016,7 @@ Esto se llama:
 
 Para reflexión interna total necesitamos:
 
-1. `n<sub>1</sub> > n<sub>2</sub>`;
+1. n<sub>1</sub> > n<sub>2</sub>;
 2. ángulo de incidencia mayor que el ángulo crítico.
 
 No puede ocurrir de la misma manera al pasar:
@@ -1278,15 +1278,15 @@ debe aplicarse correctamente.
 
 ### Objeto real
 
-`d<sub>o</sub> > 0`
+d<sub>o</sub> > 0
 
 ### Imagen real en el lado opuesto
 
-`d<sub>i</sub> > 0`
+d<sub>i</sub> > 0
 
 ### Imagen virtual en el mismo lado que el objeto
 
-`d<sub>i</sub> < 0`
+d<sub>i</sub> < 0
 
 ### Lente convergente
 
@@ -1319,7 +1319,7 @@ La interpretación es:
 Datos:
 
 - `f = +10 cm`;
-- `d<sub>o</sub> = +30 cm`.
+- d<sub>o</sub> = +30 cm.
 
 Entonces:
 
@@ -1660,7 +1660,7 @@ Los experimentos escolares deben usar fuentes seguras y de baja potencia.
 2. Marcá la normal.
 3. Hacé incidir el haz.
 4. Marcá rayo incidente y reflejado.
-5. Medí `θ<sub>i</sub>` y `θ<sub>r</sub>`.
+5. Medí θ<sub>i</sub> y θ<sub>r</sub>.
 
 ### Resultado esperado
 
@@ -1745,7 +1745,7 @@ Así podemos detectar respuestas algebraicas incompatibles con la geometría.
 4. Trazá rayos notables.
 5. Clasificá la imagen.
 6. Aplicá la convención de signos.
-7. Usá `1/f = 1/d<sub>o</sub> + 1/d<sub>i</sub>`.
+7. Usá 1/f = 1/d<sub>o</sub> + 1/d<sub>i</sub>.
 8. Calculá M.
 9. Compará con el dibujo.
 
@@ -1837,7 +1837,7 @@ El signo es una convención geométrica que codifica orientación.
   <ol>
     <li>Un rayo incide a 35° respecto de la normal. Calculá el ángulo de reflexión.</li>
     <li>Un rayo forma 20° con la superficie. ¿Qué ángulo forma con la normal?</li>
-    <li>Calculá n para un medio donde `v = 2,25 × 10<sup>8</sup> m/s`.</li>
+    <li>Calculá n para un medio donde v = 2,25 × 10<sup>8</sup> m/s.</li>
     <li>Una luz pasa de aire a un medio de n = 1,40 con incidencia de 30°. Calculá el ángulo refractado.</li>
   </ol>
 </div>
@@ -1848,7 +1848,7 @@ El signo es una convención geométrica que codifica orientación.
     <strong>Espejos</strong>
   </div>
   <ol>
-    <li>Un espejo cóncavo tiene `f = +15 cm` y un objeto a `d<sub>o</sub> = 45 cm`. Calculá d<sub>i</sub>.</li>
+    <li>Un espejo cóncavo tiene `f = +15 cm` y un objeto a d<sub>o</sub> = 45 cm. Calculá d<sub>i</sub>.</li>
     <li>Calculá M y clasificá la imagen.</li>
     <li>Un espejo convexo tiene `f = −20 cm` y objeto a 40 cm. Calculá la imagen.</li>
     <li>Realizá un trazado de rayos que confirme cualitativamente cada resultado.</li>
@@ -1888,7 +1888,7 @@ El signo es una convención geométrica que codifica orientación.
 Una lente delgada convergente tiene:
 
 - `f = +20 cm`;
-- objeto real a `d<sub>o</sub> = 60 cm`.
+- objeto real a d<sub>o</sub> = 60 cm.
 
 ### Posición de imagen
 
@@ -1982,20 +1982,20 @@ Entonces:
 - Un rayo es una herramienta geométrica, no un objeto material.
 - En medios homogéneos y dentro del régimen geométrico, la luz se modela propagándose en línea recta.
 - Las fuentes extensas producen umbra y penumbra.
-- La reflexión cumple `θ<sub>i</sub> = θ<sub>r</sub>`.
+- La reflexión cumple θ<sub>i</sub> = θ<sub>r</sub>.
 - Los ángulos se miden respecto de la normal.
 - Un espejo plano forma una imagen virtual, derecha y de igual tamaño.
 - Los espejos cóncavos pueden formar imágenes reales o virtuales según la posición del objeto.
 - Los espejos convexos forman, para objetos reales ordinarios, imágenes virtuales, derechas y reducidas.
-- Para espejos paraxiales, `1/f = 1/d<sub>o</sub> + 1/d<sub>i</sub>`.
-- El aumento es `M = −d<sub>i</sub>/d<sub>o</sub>`.
+- Para espejos paraxiales, 1/f = 1/d<sub>o</sub> + 1/d<sub>i</sub>.
+- El aumento es M = −d<sub>i</sub>/d<sub>o</sub>.
 - La refracción aparece cuando cambia la velocidad de propagación al atravesar una frontera.
 - `n = c/v`.
-- La ley de Snell es `n<sub>1</sub>senθ<sub>1</sub> = n<sub>2</sub>senθ<sub>2</sub>`.
+- La ley de Snell es n<sub>1</sub>senθ<sub>1</sub> = n<sub>2</sub>senθ<sub>2</sub>.
 - La frecuencia permanece constante en una frontera estacionaria.
 - La reflexión interna total requiere pasar de mayor a menor índice y superar el ángulo crítico.
 - Una lente convergente tiene `f > 0`; una divergente, `f < 0` con nuestra convención.
-- Para lentes delgadas, `1/f = 1/d<sub>o</sub> + 1/d<sub>i</sub>`.
+- Para lentes delgadas, 1/f = 1/d<sub>o</sub> + 1/d<sub>i</sub>.
 - La naturaleza real o virtual de una imagen depende del signo de d<sub>i</sub> en nuestra convención.
 - Cámaras, lupas, microscopios y telescopios utilizan combinaciones de elementos ópticos.
 - El ojo forma una imagen real sobre la retina y utiliza acomodación para enfocar.
