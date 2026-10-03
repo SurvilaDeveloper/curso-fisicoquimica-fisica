@@ -4,24 +4,69 @@ import {
   type CollectionEntry,
 } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { withBase } from "../utils/paths";
 
 const lessons = await getCollection("lessons");
 
 type LessonEntry = CollectionEntry<"lessons">;
 
+const courseOrder: Record<string, number> = {
+  fisicoquimica: 1,
+  fisica: 2,
+  matematicas: 3,
+  aplicaciones: 4,
+  experimentos: 5,
+};
+
+const courseLabels: Record<string, string> = {
+  fisicoquimica: "Físico-Química",
+  fisica: "Física",
+  matematicas: "Matemáticas para Física",
+  aplicaciones: "Aplicaciones",
+  experimentos: "Experimentos",
+};
+
+const lessonPrefixes: Record<string, string> = {
+  fisicoquimica: "FQ",
+  fisica: "F",
+  matematicas: "M",
+  aplicaciones: "A",
+  experimentos: "E",
+};
+
+const levelLabels: Record<string, string> = {
+  inicial: "Inicial",
+  basico: "Básico",
+  intermedio: "Intermedio",
+  "avanzado-secundario": "Avanzado secundario",
+};
+
+const statusLabels: Record<string, string> = {
+  draft: "Borrador",
+  review: "En revisión",
+  complete: "Completa",
+};
+
 const sortedLessons = [...lessons].sort(
   (a: LessonEntry, b: LessonEntry) => {
-    if (a.data.course !== b.data.course) {
-      return a.data.course.localeCompare(b.data.course, "es");
-    }
+    const courseDifference =
+      (courseOrder[a.data.course] ?? 99) - (courseOrder[b.data.course] ?? 99);
 
-    if (a.data.module !== b.data.module) {
-      return a.data.module.localeCompare(b.data.module, "es");
+    if (courseDifference !== 0) {
+      return courseDifference;
     }
 
     return a.data.order - b.data.order;
   },
 );
+
+const lessonCode = (lesson: LessonEntry) =>
+  `${lessonPrefixes[lesson.data.course] ?? lesson.data.course}-${String(
+    lesson.data.order,
+  ).padStart(2, "0")}`;
+
+const lessonHref = (lesson: LessonEntry) =>
+  withBase(`/${lesson.data.course}/${lesson.data.slug}`);
 ---
 
 <BaseLayout
@@ -33,14 +78,14 @@ const sortedLessons = [...lessons].sort(
       <span class="eyebrow">Vista completa</span>
       <h1>Tabla de contenidos</h1>
       <p>
-        Esta página se genera a partir de la colección
-        <code>lessons</code>. A medida que agreguemos contenido, la tabla se
-        actualizará automáticamente.
+        Vista compacta de las colecciones publicadas. Está ordenada por
+        Físico-Química, Física, Matemáticas para Física y Aplicaciones, y permite
+        entrar directamente a cualquier lección.
       </p>
     </header>
 
     <p class="summary">
-      Lecciones detectadas: <strong>{sortedLessons.length}</strong>
+      Lecciones publicadas: <strong>{sortedLessons.length}</strong>
     </p>
 
     {
@@ -64,12 +109,16 @@ const sortedLessons = [...lessons].sort(
               {
                 sortedLessons.map((lesson: LessonEntry) => (
                   <tr>
-                    <td>{lesson.data.course}</td>
+                    <td>{courseLabels[lesson.data.course] ?? lesson.data.course}</td>
                     <td>{lesson.data.module}</td>
-                    <td>{lesson.data.order}</td>
-                    <td><strong>{lesson.data.title}</strong></td>
-                    <td>{lesson.data.level}</td>
-                    <td>{lesson.data.status}</td>
+                    <td>{lessonCode(lesson)}</td>
+                    <td>
+                      <a class="table-link" href={lessonHref(lesson)}>
+                        <strong>{lesson.data.title}</strong>
+                      </a>
+                    </td>
+                    <td>{levelLabels[lesson.data.level] ?? lesson.data.level}</td>
+                    <td>{statusLabels[lesson.data.status] ?? lesson.data.status}</td>
                   </tr>
                 ))
               }
@@ -95,5 +144,15 @@ const sortedLessons = [...lessons].sort(
 
   td strong {
     color: var(--text);
+  }
+
+  .table-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .table-link:hover {
+    color: var(--primary-strong);
+    text-decoration: underline;
   }
 </style>

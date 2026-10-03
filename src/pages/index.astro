@@ -13,6 +13,14 @@ const fisicoquimicaCount = lessons.filter(
 const fisicaCount = lessons.filter(
   (lesson) => lesson.data.course === "fisica",
 ).length;
+
+const matematicasCount = lessons.filter(
+  (lesson) => lesson.data.course === "matematicas",
+).length;
+
+const aplicacionesCount = lessons.filter(
+  (lesson) => lesson.data.course === "aplicaciones",
+).length;
 ---
 
 <BaseLayout>
@@ -27,9 +35,9 @@ const fisicaCount = lessons.filter(
           </h1>
 
           <p class="hero-text">
-            Un recorrido completo por Físico-Química y Física, desde materia,
-            mediciones y energía hasta electromagnetismo, relatividad y física
-            moderna.
+            Una guía completa de Físico-Química y Física para nivel secundario,
+            acompañada por una biblioteca de Matemáticas para Física y una
+            colección de aplicaciones cotidianas, tecnológicas y ambientales.
           </p>
 
           <div class="hero-actions">
@@ -51,6 +59,16 @@ const fisicaCount = lessons.filter(
             <div>
               <strong>{fisicaCount}</strong>
               <span>de Física</span>
+            </div>
+
+            <div>
+              <strong>{matematicasCount}</strong>
+              <span>de Matemáticas</span>
+            </div>
+
+            <div>
+              <strong>{aplicacionesCount}</strong>
+              <span>de Aplicaciones</span>
             </div>
           </div>
         </div>
@@ -85,6 +103,14 @@ const fisicaCount = lessons.filter(
               <small>Cuántica, relatividad, núcleo e interacciones</small>
             </div>
           </div>
+
+          <div class="map-support">
+            <strong>Apoyos transversales</strong>
+            <small>
+              Matemáticas para Física y Aplicaciones acompañan toda la ruta sin
+              convertirse en etapas obligatorias.
+            </small>
+          </div>
         </aside>
       </div>
     </section>
@@ -92,11 +118,12 @@ const fisicaCount = lessons.filter(
     <section class="container section">
       <div class="section-heading">
         <div>
-          <span class="eyebrow">Dos cursos, una misma base</span>
+          <span class="eyebrow">Cuatro colecciones conectadas</span>
           <h2>Elegí por dónde entrar</h2>
           <p>
-            La estructura está organizada por temas y prerrequisitos para que
-            también puedas usarla como material de consulta.
+            Podés seguir una progresión completa, consultar un tema puntual,
+            reforzar una herramienta matemática o comenzar desde una aplicación.
+            Los prerrequisitos te indican qué conviene repasar.
           </p>
         </div>
       </div>
@@ -121,11 +148,20 @@ const fisicaCount = lessons.filter(
         />
 
         <TopicCard
-          title="Herramientas matemáticas"
-          description="Repasos breves de unidades, gráficos, despeje, proporcionalidad, trigonometría y vectores cuando hagan falta."
-          href="/temas#matematicas"
-          eyebrow="Apoyo"
-          meta="Repasos enlazados desde cada tema"
+          title="Matemáticas para Física"
+          description="Repasos independientes de álgebra, funciones, gráficos, trigonometría, vectores, logaritmos y exponenciales."
+          href="/matematicas"
+          eyebrow="Apoyo transversal"
+          meta={`${matematicasCount} lecciones de apoyo`}
+          tone="support"
+        />
+
+        <TopicCard
+          title="Aplicaciones"
+          description="Energía, seguridad, deporte, acústica, telecomunicaciones, medicina, ambiente, astronomía y tecnología argentina."
+          href="/aplicaciones"
+          eyebrow="Ciencia en contexto"
+          meta={`${aplicacionesCount} aplicaciones`}
           tone="support"
         />
       </div>
@@ -290,6 +326,25 @@ const fisicaCount = lessons.filter(
     height: 1rem;
     margin-left: calc(1rem + 1.15rem);
     background: var(--border);
+  }
+
+  .map-support {
+    display: grid;
+    gap: 0.3rem;
+    margin-top: 1rem;
+    padding: 0.9rem 1rem;
+    border: 1px dashed var(--border-strong);
+    border-radius: var(--radius-md);
+    background: var(--surface-soft);
+  }
+
+  .map-support strong {
+    font-size: 0.85rem;
+  }
+
+  .map-support small {
+    color: var(--muted);
+    line-height: 1.5;
   }
 
   .final-section {

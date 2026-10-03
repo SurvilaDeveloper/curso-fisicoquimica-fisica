@@ -13,9 +13,6 @@ const counts = {
   matematicas: lessons.filter(
     (lesson) => lesson.data.course === "matematicas",
   ).length,
-  experimentos: lessons.filter(
-    (lesson) => lesson.data.course === "experimentos",
-  ).length,
   aplicaciones: lessons.filter(
     (lesson) => lesson.data.course === "aplicaciones",
   ).length,
@@ -102,15 +99,7 @@ const counts = {
             <strong>Matemáticas</strong>
             <small>Biblioteca de repaso independiente</small>
           </div>
-          <span>{counts.matematicas} cargadas</span>
-        </div>
-
-        <div class="support panel">
-          <div>
-            <strong>Experimentos</strong>
-            <small>Prácticas y demostraciones transversales</small>
-          </div>
-          <span>{counts.experimentos} cargados</span>
+          <span>{counts.matematicas} lecciones</span>
         </div>
 
         <div class="support panel">
@@ -118,7 +107,7 @@ const counts = {
             <strong>Aplicaciones</strong>
             <small>Casos tecnológicos, cotidianos y ambientales</small>
           </div>
-          <span>{counts.aplicaciones} cargadas</span>
+          <span>{counts.aplicaciones} aplicaciones</span>
         </div>
       </div>
     </section>
@@ -144,7 +133,7 @@ const counts = {
 
   .support-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
   }
 
