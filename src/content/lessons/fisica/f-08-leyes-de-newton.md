@@ -185,7 +185,7 @@ La **fuerza resultante** o **fuerza neta** es la suma vectorial de todas las fue
 
 <div class="formula-panel">
   <span class="formula-panel__label">Resultante</span>
-  <div class="formula-panel__formula">ΣF = F₁ + F₂ + F₃ + ...</div>
+  <div class="formula-panel__formula">ΣF = F<sub>1</sub> + F<sub>2</sub> + F<sub>3</sub> + ...</div>
 </div>
 
 El símbolo:
@@ -207,9 +207,9 @@ Elegimos derecha positiva.
 
 Entonces:
 
-**F₁ = +10 N**
+**F<sub>1</sub> = +10 N**
 
-**F₂ = −6 N**
+**F<sub>2</sub> = −6 N**
 
 Resultante:
 
@@ -586,17 +586,17 @@ Como es una ecuación vectorial:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Eje x</span>
-  <div class="formula-panel__formula">ΣFₓ = maₓ</div>
+  <div class="formula-panel__formula">ΣF<sub>x</sub> = m a<sub>x</sub></div>
 </div>
 
 <div class="formula-panel">
   <span class="formula-panel__label">Eje y</span>
-  <div class="formula-panel__formula">ΣFᵧ = maᵧ</div>
+  <div class="formula-panel__formula">ΣF<sub>y</sub> = m a<sub>y</sub></div>
 </div>
 
 Y en tres dimensiones:
 
-**ΣF_z = ma_z**
+**ΣF<sub>z</sub> = m a<sub>z</sub>**
 
 Podemos resolver cada eje por separado.
 
@@ -610,14 +610,14 @@ Sobre un cuerpo de:
 
 actúan de manera neta:
 
-- `ΣFₓ = 6 N`;
-- `ΣFᵧ = 8 N`.
+- ΣF<sub>x</sub> = 6 N;
+- ΣF<sub>y</sub> = 8 N.
 
 Entonces:
 
-**aₓ = 3 m/s²**
+**a<sub>x</sub> = 3 m/s²**
 
-**aᵧ = 4 m/s²**
+**a<sub>y</sub> = 4 m/s²**
 
 Módulo:
 
@@ -665,7 +665,7 @@ Por segunda ley:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Componente radial</span>
-  <div class="formula-panel__formula">ΣF_radial = m v²/r</div>
+  <div class="formula-panel__formula">ΣF<sub>radial</sub> = m v²/r</div>
 </div>
 
 Esto confirma lo adelantado en F-07:
@@ -685,7 +685,7 @@ En símbolos:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Tercera ley</span>
-  <div class="formula-panel__formula">F_A→B = −F_B→A</div>
+  <div class="formula-panel__formula">F<sub>A→B</sub> = −F<sub>B→A</sub></div>
 </div>
 
 ---
@@ -747,7 +747,7 @@ Entonces:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Par gravitatorio</span>
-  <div class="formula-panel__formula">F_Tierra→pelota = −F_pelota→Tierra</div>
+  <div class="formula-panel__formula">F<sub>Tierra→pelota</sub> = −F<sub>pelota→Tierra</sub></div>
 </div>
 
 Las aceleraciones no son iguales porque las masas son enormemente diferentes.
@@ -758,7 +758,7 @@ Las aceleraciones no son iguales porque las masas son enormemente diferentes.
 
 Por tercera ley:
 
-**|F_A→B| = |F_B→A|**
+**|F<sub>A→B</sub>| = |F<sub>B→A</sub>|**
 
 Pero por segunda ley:
 
@@ -766,11 +766,11 @@ Pero por segunda ley:
 
 Si:
 
-**m_A ≠ m_B**
+**m<sub>A</sub> ≠ m<sub>B</sub>**
 
 entonces:
 
-**|a_A| ≠ |a_B|**
+**|a<sub>A</sub>| ≠ |a<sub>B</sub>|**
 
 en general.
 
@@ -935,7 +935,7 @@ Si está en reposo:
 
 por lo tanto:
 
-**ΣFᵧ = 0**
+**ΣF<sub>y</sub> = 0**
 
 y en ese caso particular:
 
@@ -977,11 +977,11 @@ Entonces debemos resolver:
 
 ### Eje x
 
-**ΣFₓ = maₓ**
+**ΣF<sub>x</sub> = m a<sub>x</sub>**
 
 ### Eje y
 
-**ΣFᵧ = maᵧ**
+**ΣF<sub>y</sub> = m a<sub>y</sub>**
 
 Las fuerzas particulares se estudiarán en F-09.
 
@@ -1050,7 +1050,7 @@ recibe:
 
 Entonces:
 
-**ΣFₓ = 15 N**
+**ΣF<sub>x</sub> = 15 N**
 
 y:
 
@@ -1058,8 +1058,8 @@ y:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Segunda ley con varias fuerzas</h3>
   <div class="worked-example-card__steps">
-    <p>aₓ = 15 N / 5 kg</p>
-    <p><strong>aₓ = 3 m/s² hacia la derecha</strong></p>
+    <p>a<sub>x</sub> = 15 N / 5 kg</p>
+    <p><strong>a<sub>x</sub> = 3 m/s² hacia la derecha</strong></p>
   </div>
 </div>
 
@@ -1392,7 +1392,7 @@ Una secuencia útil es:
 4. dibujá el DCL;
 5. elegí ejes;
 6. descomponé fuerzas;
-7. escribí `ΣFₓ = maₓ`, `ΣFᵧ = maᵧ`, etc.;
+7. escribí ΣF<sub>x</sub> = m a<sub>x</sub>, ΣF<sub>y</sub> = m a<sub>y</sub>, etc.;
 8. incorporá restricciones cinemáticas si las hay;
 9. resolvé;
 10. revisá unidades y sentido físico.
@@ -1463,7 +1463,7 @@ Una secuencia útil es:
     <li>Analizá por qué la primera ley es importante para definir sistemas inerciales aunque `ΣF = 0` pueda obtenerse como caso de la segunda.</li>
     <li>Explicá la diferencia entre una fuerza individual y la fuerza neta usando un ejemplo con tres fuerzas.</li>
     <li>Construí dos DCL separados para dos cuerpos que interactúan y señalá un par de tercera ley entre ellos.</li>
-    <li>Relacioná `ΣF = ma` con `a_c = v²/r` y explicá por qué “fuerza centrípeta” no identifica por sí sola una interacción física.</li>
+    <li>Relacioná `ΣF = ma` con a<sub>c</sub> = v²/r y explicá por qué “fuerza centrípeta” no identifica por sí sola una interacción física.</li>
   </ol>
 </div>
 
@@ -1488,21 +1488,21 @@ Verticalmente:
 
 ### Resultante horizontal
 
-**ΣFₓ = 50 − 20 = 30 N**
+**ΣF<sub>x</sub> = 50 − 20 = 30 N**
 
 ### Aceleración
 
-**aₓ = 30/10**
+**a<sub>x</sub> = 30/10**
 
-**aₓ = 3 m/s²**
+**a<sub>x</sub> = 3 m/s²**
 
 <div class="worked-example-card">
   <span class="worked-example-card__label">Ejemplo integrado</span>
   <h3>De las interacciones a la aceleración</h3>
   <div class="worked-example-card__steps">
-    <p>ΣFₓ = +30 N</p>
-    <p>ΣFᵧ = 0</p>
-    <p>aₓ = +3 m/s²</p>
+    <p>ΣF<sub>x</sub> = +30 N</p>
+    <p>ΣF<sub>y</sub> = 0</p>
+    <p>a<sub>x</sub> = +3 m/s²</p>
     <p><strong>La aceleración apunta a la derecha porque ésa es la dirección de la fuerza neta.</strong></p>
   </div>
 </div>

@@ -272,7 +272,7 @@ Para un sistema con varios cuerpos definimos el momento total:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Momento total</span>
-  <div class="formula-panel__formula">p_total = p₁ + p₂ + p₃ + ...</div>
+  <div class="formula-panel__formula">p<sub>total</sub> = p<sub>1</sub> + p<sub>2</sub> + p<sub>3</sub> + ...</div>
 </div>
 
 La suma es:
@@ -289,21 +289,21 @@ Dos carritos:
 
 ### A
 
-- `m_A = 2 kg`;
-- `v_A = +4 m/s`.
+- m<sub>A</sub> = 2 kg;
+- v<sub>A</sub> = +4 m/s.
 
 Entonces:
 
-**p_A = +8 kg·m/s**
+**p<sub>A</sub> = +8 kg·m/s**
 
 ### B
 
-- `m_B = 3 kg`;
-- `v_B = −2 m/s`.
+- m<sub>B</sub> = 3 kg;
+- v<sub>B</sub> = −2 m/s.
 
 Entonces:
 
-**p_B = −6 kg·m/s**
+**p<sub>B</sub> = −6 kg·m/s**
 
 Momento total:
 
@@ -311,8 +311,8 @@ Momento total:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Suma vectorial en una dimensión</h3>
   <div class="worked-example-card__steps">
-    <p>p_total = +8 − 6</p>
-    <p><strong>p_total = +2 kg·m/s</strong></p>
+    <p>p<sub>total</sub> = +8 − 6</p>
+    <p><strong>p<sub>total</sub> = +2 kg·m/s</strong></p>
   </div>
 </div>
 
@@ -330,12 +330,12 @@ Para masa constante:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Cambio de momento</span>
-  <div class="formula-panel__formula">Δp = m(v_f − v_i)</div>
+  <div class="formula-panel__formula">Δp = m(v<sub>f</sub> − v<sub>i</sub>)</div>
 </div>
 
 En forma vectorial:
 
-**Δp = p_f − p_i**
+**Δp = p<sub>f</sub> − p<sub>i</sub>**
 
 ---
 
@@ -399,7 +399,7 @@ Es decir:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Forma desarrollada</span>
-  <div class="formula-panel__formula">J = p_f − p_i</div>
+  <div class="formula-panel__formula">J = p<sub>f</sub> − p<sub>i</sub></div>
 </div>
 
 ---
@@ -440,15 +440,15 @@ a:
 
 Entonces:
 
-**p_i = 0,50×6 = +3 kg·m/s**
+**p<sub>i</sub> = 0,50×6 = +3 kg·m/s**
 
-**p_f = 0,50×(−4) = −2 kg·m/s**
+**p<sub>f</sub> = 0,50×(−4) = −2 kg·m/s**
 
 <div class="worked-example-card">
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Cambio de sentido</h3>
   <div class="worked-example-card__steps">
-    <p>J = p_f − p_i</p>
+    <p>J = p<sub>f</sub> − p<sub>i</sub></p>
     <p>J = −2 − 3</p>
     <p><strong>J = −5 N·s</strong></p>
   </div>
@@ -464,7 +464,7 @@ Si conocemos el impulso y la duración:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Fuerza media</span>
-  <div class="formula-panel__formula">F_media = Δp / Δt</div>
+  <div class="formula-panel__formula">F<sub>media</sub> = Δp / Δt</div>
 </div>
 
 Esto es muy útil en:
@@ -487,7 +487,7 @@ la fuerza media necesaria puede disminuir:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Para Δp fijo</span>
-  <div class="formula-panel__formula">F_media = Δp/Δt</div>
+  <div class="formula-panel__formula">F<sub>media</sub> = Δp/Δt</div>
 </div>
 
 Esta idea ayuda a entender:
@@ -568,7 +568,7 @@ Y la forma más general de la segunda ley se relaciona con:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Profundización</span>
-  <div class="formula-panel__formula">F_neta = dp/dt</div>
+  <div class="formula-panel__formula">F<sub>neta</sub> = dp/dt</div>
 </div>
 
 Para masa constante recuperamos:
@@ -601,7 +601,7 @@ Dos cuerpos A y B interactúan.
 
 Por tercera ley:
 
-**F_A→B = −F_B→A**
+**F<sub>A→B</sub> = −F<sub>B→A</sub>**
 
 Si ambos pertenecen al sistema:
 
@@ -618,14 +618,14 @@ Para estos problemas llamamos **aislado**, o aproximadamente aislado, a un siste
 
 <div class="formula-panel">
   <span class="formula-panel__label">Condición</span>
-  <div class="formula-panel__formula">J_ext ≈ 0</div>
+  <div class="formula-panel__formula">J<sub>ext</sub> ≈ 0</div>
 </div>
 
 Entonces:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Conservación</span>
-  <div class="formula-panel__formula">p_total,f = p_total,i</div>
+  <div class="formula-panel__formula">p<sub>total,f</sub> = p<sub>total,i</sub></div>
 </div>
 
 ---
@@ -648,14 +648,14 @@ Para dos cuerpos:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Antes = después</span>
-  <div class="formula-panel__formula">p₁i + p₂i = p₁f + p₂f</div>
+  <div class="formula-panel__formula">p<sub>1i</sub> + p<sub>2i</sub> = p<sub>1f</sub> + p<sub>2f</sub></div>
 </div>
 
 En una dimensión:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Con signos</span>
-  <div class="formula-panel__formula">m₁v₁i + m₂v₂i = m₁v₁f + m₂v₂f</div>
+  <div class="formula-panel__formula">m<sub>1</sub>v<sub>1i</sub> + m<sub>2</sub>v<sub>2i</sub> = m<sub>1</sub>v<sub>1f</sub> + m<sub>2</sub>v<sub>2f</sub></div>
 </div>
 
 Los signos de las velocidades son esenciales.
@@ -666,12 +666,12 @@ Los signos de las velocidades son esenciales.
 
 Durante una interacción:
 
-- `p₁` puede cambiar;
-- `p₂` puede cambiar.
+- p<sub>1</sub> puede cambiar;
+- p<sub>2</sub> puede cambiar.
 
 Lo que permanece constante es:
 
-**p₁ + p₂**
+**p<sub>1</sub> + p<sub>2</sub>**
 
 si el sistema está aislado.
 
@@ -703,7 +703,7 @@ Si el impulso externo es despreciable durante el corto intervalo del choque:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Conservación</span>
-  <div class="formula-panel__formula">p_total,antes = p_total,después</div>
+  <div class="formula-panel__formula">p<sub>total,antes</sub> = p<sub>total,después</sub></div>
 </div>
 
 Esto vale tanto para choques:
@@ -723,14 +723,14 @@ En un **choque elástico** ideal se conservan:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Momento</span>
-  <div class="formula-panel__formula">p_i = p_f</div>
+  <div class="formula-panel__formula">p<sub>i</sub> = p<sub>f</sub></div>
 </div>
 
 ### Energía cinética total
 
 <div class="formula-panel">
   <span class="formula-panel__label">Energía cinética</span>
-  <div class="formula-panel__formula">K_i = K_f</div>
+  <div class="formula-panel__formula">K<sub>i</sub> = K<sub>f</sub></div>
 </div>
 
 Deben cumplirse ambas condiciones.
@@ -767,7 +767,7 @@ Entonces:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Momento</span>
-  <div class="formula-panel__formula">m₁v₁i + m₂v₂i = (m₁ + m₂)v_f</div>
+  <div class="formula-panel__formula">m<sub>1</sub>v<sub>1i</sub> + m<sub>2</sub>v<sub>2i</sub> = (m<sub>1</sub> + m<sub>2</sub>)v<sub>f</sub></div>
 </div>
 
 ---
@@ -778,7 +778,7 @@ Despejamos:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Velocidad común final</span>
-  <div class="formula-panel__formula">v_f = (m₁v₁i + m₂v₂i)/(m₁ + m₂)</div>
+  <div class="formula-panel__formula">v<sub>f</sub> = (m<sub>1</sub>v<sub>1i</sub> + m<sub>2</sub>v<sub>2i</sub>)/(m<sub>1</sub> + m<sub>2</sub>)</div>
 </div>
 
 Es un promedio ponderado de velocidades con signos.
@@ -789,19 +789,19 @@ Es un promedio ponderado de velocidades con signos.
 
 Un carrito A:
 
-- `m₁ = 2 kg`;
-- `v₁i = +6 m/s`.
+- m<sub>1</sub> = 2 kg;
+- v<sub>1i</sub> = +6 m/s.
 
 Un carrito B:
 
-- `m₂ = 4 kg`;
-- `v₂i = 0`.
+- m<sub>2</sub> = 4 kg;
+- v<sub>2i</sub> = 0.
 
 Después chocan y quedan unidos.
 
 Momento inicial:
 
-**p_i = 2×6 = 12 kg·m/s**
+**p<sub>i</sub> = 2×6 = 12 kg·m/s**
 
 Masa final:
 
@@ -813,8 +813,8 @@ Entonces:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Quedan unidos</h3>
   <div class="worked-example-card__steps">
-    <p>v_f = 12/6</p>
-    <p><strong>v_f = +2 m/s</strong></p>
+    <p>v<sub>f</sub> = 12/6</p>
+    <p><strong>v<sub>f</sub> = +2 m/s</strong></p>
   </div>
 </div>
 
@@ -824,15 +824,15 @@ Entonces:
 
 Antes:
 
-**K_i = ½×2×6² = 36 J**
+**K<sub>i</sub> = ½×2×6² = 36 J**
 
 Después:
 
-**K_f = ½×6×2² = 12 J**
+**K<sub>f</sub> = ½×6×2² = 12 J**
 
 Entonces:
 
-**K_f < K_i**
+**K<sub>f</sub> < K<sub>i</sub>**
 
 Se perdieron:
 
@@ -869,14 +869,14 @@ Para dos cuerpos necesitamos cumplir:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Momento</span>
-  <div class="formula-panel__formula">m₁v₁i + m₂v₂i = m₁v₁f + m₂v₂f</div>
+  <div class="formula-panel__formula">m<sub>1</sub>v<sub>1i</sub> + m<sub>2</sub>v<sub>2i</sub> = m<sub>1</sub>v<sub>1f</sub> + m<sub>2</sub>v<sub>2f</sub></div>
 </div>
 
 y:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Energía cinética</span>
-  <div class="formula-panel__formula">½m₁v₁i² + ½m₂v₂i² = ½m₁v₁f² + ½m₂v₂f²</div>
+  <div class="formula-panel__formula">½m<sub>1</sub>v<sub>1i</sub>² + ½m<sub>2</sub>v<sub>2i</sub>² = ½m<sub>1</sub>v<sub>1f</sub>² + ½m<sub>2</sub>v<sub>2f</sub>²</div>
 </div>
 
 Son dos ecuaciones para las dos velocidades finales desconocidas.
@@ -933,23 +933,23 @@ Dos cuerpos:
 
 ### A
 
-- `m_A = 2 kg`;
-- `v_Ai = +3 m/s`.
+- m<sub>A</sub> = 2 kg;
+- v<sub>Ai</sub> = +3 m/s.
 
 ### B
 
-- `m_B = 1 kg`;
-- `v_Bi = −4 m/s`.
+- m<sub>B</sub> = 1 kg;
+- v<sub>Bi</sub> = −4 m/s.
 
 Momento inicial:
 
-**p_i = 2×3 + 1×(−4)**
+**p<sub>i</sub> = 2×3 + 1×(−4)**
 
-**p_i = +2 kg·m/s**
+**p<sub>i</sub> = +2 kg·m/s**
 
 Si quedan unidos:
 
-**m_total = 3 kg**
+**m<sub>total</sub> = 3 kg**
 
 Entonces:
 
@@ -957,8 +957,8 @@ Entonces:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Choque con velocidades opuestas</h3>
   <div class="worked-example-card__steps">
-    <p>v_f = 2/3 m/s</p>
-    <p><strong>v_f ≈ +0,67 m/s</strong></p>
+    <p>v<sub>f</sub> = 2/3 m/s</p>
+    <p><strong>v<sub>f</sub> ≈ +0,67 m/s</strong></p>
   </div>
 </div>
 
@@ -970,7 +970,7 @@ El signo positivo indica que el conjunto final se mueve hacia el sentido elegido
 
 Es posible que:
 
-**p_total = 0**
+**p<sub>total</sub> = 0**
 
 aunque los cuerpos se estén moviendo.
 
@@ -981,7 +981,7 @@ Ejemplo:
 
 Entonces:
 
-**p₁ = −p₂**
+**p<sub>1</sub> = −p<sub>2</sub>**
 
 La suma es cero.
 
@@ -997,18 +997,18 @@ La conservación del momento también sirve cuando un sistema inicialmente unido
 
 Si inicialmente:
 
-**p_total = 0**
+**p<sub>total</sub> = 0**
 
 y luego se divide en dos partes:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Conservación</span>
-  <div class="formula-panel__formula">p₁ + p₂ = 0</div>
+  <div class="formula-panel__formula">p<sub>1</sub> + p<sub>2</sub> = 0</div>
 </div>
 
 por lo tanto:
 
-**p₁ = −p₂**
+**p<sub>1</sub> = −p<sub>2</sub>**
 
 Los momentos son iguales en módulo y opuestos.
 
@@ -1018,7 +1018,7 @@ Los momentos son iguales en módulo y opuestos.
 
 Si:
 
-**m₁v₁ = −m₂v₂**
+**m<sub>1</sub>v<sub>1</sub> = −m<sub>2</sub>v<sub>2</sub>**
 
 el fragmento de menor masa tendrá mayor módulo de velocidad.
 
@@ -1034,7 +1034,7 @@ El retroceso de un sistema puede analizarse con conservación del momento.
 
 Si inicialmente todo está en reposo:
 
-**p_total = 0**
+**p<sub>total</sub> = 0**
 
 después de una expulsión:
 
@@ -1053,7 +1053,7 @@ Sin embargo, su impulso durante ese intervalo puede ser pequeño comparado con e
 
 Entonces podemos aproximar:
 
-**J_ext ≈ 0**
+**J<sub>ext</sub> ≈ 0**
 
 durante la colisión.
 
@@ -1105,7 +1105,7 @@ En un choque:
 
 Sólo usamos:
 
-**K_i = K_f**
+**K<sub>i</sub> = K<sub>f</sub>**
 
 si el choque es:
 
@@ -1148,19 +1148,19 @@ En dos dimensiones:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Conservación vectorial</span>
-  <div class="formula-panel__formula">p_total,i = p_total,f</div>
+  <div class="formula-panel__formula">p<sub>total,i</sub> = p<sub>total,f</sub></div>
 </div>
 
 equivale a conservar cada componente:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Eje x</span>
-  <div class="formula-panel__formula">Σpₓ,i = Σpₓ,f</div>
+  <div class="formula-panel__formula">Σp<sub>x,i</sub> = Σp<sub>x,f</sub></div>
 </div>
 
 <div class="formula-panel">
   <span class="formula-panel__label">Eje y</span>
-  <div class="formula-panel__formula">Σpᵧ,i = Σpᵧ,f</div>
+  <div class="formula-panel__formula">Σp<sub>y,i</sub> = Σp<sub>y,f</sub></div>
 </div>
 
 ---
@@ -1171,17 +1171,17 @@ Un objeto inicialmente en reposo se separa en dos fragmentos.
 
 Uno adquiere:
 
-**p₁ = (3, 4) kg·m/s**
+**p<sub>1</sub> = (3, 4) kg·m/s**
 
 Como el momento inicial era cero:
 
-**p₂ = −p₁**
+**p<sub>2</sub> = −p<sub>1</sub>**
 
 Entonces:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Segundo fragmento</span>
-  <div class="formula-panel__formula">p₂ = (−3, −4) kg·m/s</div>
+  <div class="formula-panel__formula">p<sub>2</sub> = (−3, −4) kg·m/s</div>
 </div>
 
 Los vectores son opuestos.
@@ -1212,14 +1212,14 @@ Para un sistema de partículas:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Posición del centro de masa</span>
-  <div class="formula-panel__formula">r_CM = (Σmᵢrᵢ)/(Σmᵢ)</div>
+  <div class="formula-panel__formula">r<sub>CM</sub> = (Σm<sub>i</sub>r<sub>i</sub>)/(Σm<sub>i</sub>)</div>
 </div>
 
 Su velocidad es:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Velocidad del centro de masa</span>
-  <div class="formula-panel__formula">v_CM = (Σmᵢvᵢ)/(Σmᵢ)</div>
+  <div class="formula-panel__formula">v<sub>CM</sub> = (Σm<sub>i</sub>v<sub>i</sub>)/(Σm<sub>i</sub>)</div>
 </div>
 
 ---
@@ -1228,13 +1228,13 @@ Su velocidad es:
 
 Si la masa total es:
 
-**M = Σmᵢ**
+**M = Σm<sub>i</sub>**
 
 entonces:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Relación fundamental</span>
-  <div class="formula-panel__formula">p_total = M · v_CM</div>
+  <div class="formula-panel__formula">p<sub>total</sub> = M · v<sub>CM</sub></div>
 </div>
 
 Esto permite interpretar la conservación del momento como conservación del movimiento del centro de masa cuando no hay impulso externo neto.
@@ -1249,7 +1249,7 @@ Para masa total constante:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Sistema</span>
-  <div class="formula-panel__formula">ΣF_ext = M · a_CM</div>
+  <div class="formula-panel__formula">ΣF<sub>ext</sub> = M · a<sub>CM</sub></div>
 </div>
 
 Así, el centro de masa responde a:
@@ -1260,15 +1260,15 @@ Las interacciones internas pueden cambiar el movimiento relativo de los cuerpos 
 
 ---
 
-## 56. Si p_total = 0
+## 56. Si p<sub>total</sub> = 0
 
 Si:
 
-**p_total = 0**
+**p<sub>total</sub> = 0**
 
 entonces:
 
-**v_CM = 0**
+**v<sub>CM</sub> = 0**
 
 en el sistema de referencia elegido.
 
@@ -1282,13 +1282,13 @@ Pueden moverse internamente mientras el centro de masa permanece fijo.
 
 Podemos elegir un sistema de referencia que se mueva con:
 
-**v_CM**
+**v<sub>CM</sub>**
 
 En ese marco:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Marco del CM</span>
-  <div class="formula-panel__formula">p_total = 0</div>
+  <div class="formula-panel__formula">p<sub>total</sub> = 0</div>
 </div>
 
 Puede simplificar el análisis conceptual de colisiones.
@@ -1490,9 +1490,9 @@ Para un mismo cambio de momento, aumentar el tiempo reduce la fuerza media.
     <strong>Choques perfectamente inelásticos</strong>
   </div>
   <ol>
-    <li>Un carrito de 2 kg a 5 m/s choca con otro de 3 kg en reposo y quedan unidos. Calculá v_f.</li>
+    <li>Un carrito de 2 kg a 5 m/s choca con otro de 3 kg en reposo y quedan unidos. Calculá v<sub>f</sub>.</li>
     <li>Calculá K antes y después.</li>
-    <li>Dos masas de 1 kg se mueven a +4 m/s y −2 m/s y quedan unidas. Calculá v_f.</li>
+    <li>Dos masas de 1 kg se mueven a +4 m/s y −2 m/s y quedan unidas. Calculá v<sub>f</sub>.</li>
     <li>Interpretá el signo de la respuesta.</li>
   </ol>
 </div>
@@ -1503,7 +1503,7 @@ Para un mismo cambio de momento, aumentar el tiempo reduce la fuerza media.
     <strong>Choques y verificación</strong>
   </div>
   <ol>
-    <li>Dos masas iguales: A llega a 6 m/s y B está en reposo. Después de un choque elástico ideal A queda quieta. Hallá v_B y verificá p y K.</li>
+    <li>Dos masas iguales: A llega a 6 m/s y B está en reposo. Después de un choque elástico ideal A queda quieta. Hallá v<sub>B</sub> y verificá p y K.</li>
     <li>Un cuerpo de 3 kg a +4 m/s choca con uno de 1 kg a −2 m/s. Si después el primero queda a +1 m/s, hallá la velocidad final del segundo suponiendo sistema aislado.</li>
     <li>Decidí si el choque anterior es elástico calculando K antes y después.</li>
     <li>Explicá por qué conocer sólo conservación del momento no siempre determina completamente dos velocidades finales desconocidas.</li>
@@ -1519,7 +1519,7 @@ Para un mismo cambio de momento, aumentar el tiempo reduce la fuerza media.
     <li>Derivá `J = Δp` desde la segunda ley para masa constante.</li>
     <li>Explicá mediante la tercera ley por qué los impulsos internos se compensan en el momento total de dos cuerpos.</li>
     <li>Resolvé por componentes una separación bidimensional de un sistema inicialmente en reposo.</li>
-    <li>Derivá `p_total = Mv_CM` a partir de la definición de velocidad del centro de masa.</li>
+    <li>Derivá p<sub>total</sub> = M v<sub>CM</sub> a partir de la definición de velocidad del centro de masa.</li>
   </ol>
 </div>
 
@@ -1531,23 +1531,23 @@ Dos carritos chocan en una pista.
 
 ### Carrito A
 
-- `m_A = 2 kg`;
-- `v_Ai = +4 m/s`.
+- m<sub>A</sub> = 2 kg;
+- v<sub>Ai</sub> = +4 m/s.
 
 ### Carrito B
 
-- `m_B = 3 kg`;
-- `v_Bi = −1 m/s`.
+- m<sub>B</sub> = 3 kg;
+- v<sub>Bi</sub> = −1 m/s.
 
 Después del choque quedan unidos.
 
 ### Momento inicial
 
-**p_i = 2×4 + 3×(−1)**
+**p<sub>i</sub> = 2×4 + 3×(−1)**
 
-**p_i = 8 − 3**
+**p<sub>i</sub> = 8 − 3**
 
-**p_i = +5 kg·m/s**
+**p<sub>i</sub> = +5 kg·m/s**
 
 ### Velocidad final
 
@@ -1557,31 +1557,31 @@ Masa total:
 
 Entonces:
 
-**v_f = 5/5 = +1 m/s**
+**v<sub>f</sub> = 5/5 = +1 m/s**
 
 ### Energía cinética inicial
 
-**K_i = ½×2×4² + ½×3×1²**
+**K<sub>i</sub> = ½×2×4² + ½×3×1²**
 
-**K_i = 16 + 1,5**
+**K<sub>i</sub> = 16 + 1,5**
 
-**K_i = 17,5 J**
+**K<sub>i</sub> = 17,5 J**
 
 ### Energía cinética final
 
-**K_f = ½×5×1²**
+**K<sub>f</sub> = ½×5×1²**
 
-**K_f = 2,5 J**
+**K<sub>f</sub> = 2,5 J**
 
 <div class="worked-example-card">
   <span class="worked-example-card__label">Ejemplo integrado</span>
   <h3>Momento conservado, energía cinética no</h3>
   <div class="worked-example-card__steps">
-    <p>p_i = +5 kg·m/s</p>
-    <p>p_f = +5 kg·m/s</p>
-    <p>v_f = +1 m/s</p>
-    <p>K_i = 17,5 J</p>
-    <p>K_f = 2,5 J</p>
+    <p>p<sub>i</sub> = +5 kg·m/s</p>
+    <p>p<sub>f</sub> = +5 kg·m/s</p>
+    <p>v<sub>f</sub> = +1 m/s</p>
+    <p>K<sub>i</sub> = 17,5 J</p>
+    <p>K<sub>f</sub> = 2,5 J</p>
     <p><strong>El momento se conserva, pero 15 J dejan de estar en forma de energía cinética.</strong></p>
   </div>
 </div>
@@ -1652,7 +1652,7 @@ Es exactamente lo esperado para un choque perfectamente inelástico ideal de un 
 - En un choque perfectamente inelástico los cuerpos quedan unidos.
 - Momento conservado no implica energía cinética conservada.
 - La conservación del momento es vectorial y puede aplicarse por componentes en dos dimensiones.
-- El momento total se relaciona con el centro de masa mediante `p_total = Mv_CM`.
+- El momento total se relaciona con el centro de masa mediante p<sub>total</sub> = M v<sub>CM</sub>.
 - Aumentar el tiempo de una interacción puede reducir la fuerza media para el mismo cambio de momento.
 - El modelo clásico debe revisarse en situaciones relativistas o con impulsos externos importantes.
 

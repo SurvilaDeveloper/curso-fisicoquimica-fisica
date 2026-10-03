@@ -90,7 +90,7 @@ Al terminar esta lección deberías poder:
 - interpretar tensión en cuerdas ideales;
 - distinguir rozamiento estático y cinético;
 - utilizar coeficientes de rozamiento;
-- comprender que `fₛ ≤ μₛN`;
+- comprender que f<sub>s</sub> ≤ μ<sub>s</sub>N;
 - utilizar la ley de Hooke;
 - interpretar el signo de la fuerza elástica;
 - descomponer el peso en un plano inclinado;
@@ -226,7 +226,7 @@ Un libro en reposo sobre una mesa horizontal puede tener:
 
 Si no hay otras fuerzas verticales y:
 
-**aᵧ = 0**
+**a<sub>y</sub> = 0**
 
 entonces:
 
@@ -355,7 +355,7 @@ El modelo no podría mantenerse de manera ordinaria.
 
 Por eso se impone:
 
-**T₁ = T₂**
+**T<sub>1</sub> = T<sub>2</sub>**
 
 para ese tipo de cuerda ideal.
 
@@ -461,18 +461,18 @@ En módulo:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Rozamiento estático</span>
-  <div class="formula-panel__formula">0 ≤ fₛ ≤ μₛN</div>
+  <div class="formula-panel__formula">0 ≤ f<sub>s</sub> ≤ μ<sub>s</sub>N</div>
 </div>
 
 El valor:
 
-**μₛN**
+**μ<sub>s</sub>N**
 
 es el máximo rozamiento estático.
 
 ---
 
-## 19. El rozamiento estático no siempre vale μₛN
+## 19. El rozamiento estático no siempre vale μ<sub>s</sub>N
 
 Supongamos una caja que permanece quieta.
 
@@ -495,7 +495,7 @@ No necesita valer 30 N.
 <div class="lesson-callout lesson-callout--error">
   <div class="lesson-callout__heading">
     <span class="lesson-callout__icon" aria-hidden="true">!</span>
-    <strong>No uses fₛ = μₛN automáticamente</strong>
+    <strong>No uses f<sub>s</sub> = μ<sub>s</sub>N automáticamente</strong>
   </div>
   <div class="lesson-callout__body">
     <p>La igualdad corresponde al límite de deslizamiento. Mientras el cuerpo permanece adherido, el rozamiento estático adopta el valor necesario dentro del rango permitido.</p>
@@ -510,7 +510,7 @@ Cuando la tendencia a deslizar aumenta, el rozamiento estático puede alcanzar:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Máximo estático</span>
-  <div class="formula-panel__formula">fₛ,max = μₛN</div>
+  <div class="formula-panel__formula">f<sub>s,max</sub> = μ<sub>s</sub>N</div>
 </div>
 
 Si la fuerza necesaria para evitar el deslizamiento supera ese máximo:
@@ -522,11 +522,11 @@ Si la fuerza necesaria para evitar el deslizamiento supera ese máximo:
 
 ## 21. Coeficiente de rozamiento estático
 
-`μₛ` es un coeficiente adimensional que depende del modelo de las superficies en contacto.
+μ<sub>s</sub> es un coeficiente adimensional que depende del modelo de las superficies en contacto.
 
 No tiene unidades porque:
 
-**μₛ = fₛ,max / N**
+**μ<sub>s</sub> = f<sub>s,max</sub> / N**
 
 es una razón entre fuerzas.
 
@@ -542,18 +542,18 @@ Cuando las superficies deslizan una respecto de la otra, usamos un modelo aproxi
 
 <div class="formula-panel">
   <span class="formula-panel__label">Rozamiento cinético</span>
-  <div class="formula-panel__formula">f_k = μ_kN</div>
+  <div class="formula-panel__formula">f<sub>k</sub> = μ<sub>k</sub>N</div>
 </div>
 
 Su dirección se opone al deslizamiento relativo.
 
 ---
 
-## 23. μₛ y μ_k
+## 23. μ<sub>s</sub> y μ<sub>k</sub>
 
 En muchos materiales encontramos aproximadamente:
 
-**μₛ > μ_k**
+**μ<sub>s</sub> > μ<sub>k</sub>**
 
 Es decir:
 
@@ -572,7 +572,7 @@ Una caja de:
 
 desliza sobre una superficie horizontal con:
 
-**μ_k = 0,20**
+**μ<sub>k</sub> = 0,20**
 
 Usamos:
 
@@ -588,9 +588,9 @@ Entonces:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Rozamiento cinético</h3>
   <div class="worked-example-card__steps">
-    <p>f_k = μ_kN</p>
-    <p>f_k = 0,20 × 100 N</p>
-    <p><strong>f_k = 20 N</strong></p>
+    <p>f<sub>k</sub> = μ<sub>k</sub>N</p>
+    <p>f<sub>k</sub> = 0,20 × 100 N</p>
+    <p><strong>f<sub>k</sub> = 20 N</strong></p>
   </div>
 </div>
 
@@ -612,7 +612,7 @@ hacia la izquierda.
 
 Resultante:
 
-**ΣFₓ = 50 − 20 = 30 N**
+**ΣF<sub>x</sub> = 50 − 20 = 30 N**
 
 Entonces:
 
@@ -660,7 +660,7 @@ Para deformaciones dentro de cierto régimen, usamos la **ley de Hooke**:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Ley de Hooke</span>
-  <div class="formula-panel__formula">F_el = −k x</div>
+  <div class="formula-panel__formula">F<sub>el</sub> = −k x</div>
 </div>
 
 En una dimensión.
@@ -688,17 +688,17 @@ el signo de x indica hacia qué lado fue deformado el resorte.
 
 En:
 
-**F_el = −kx**
+**F<sub>el</sub> = −kx**
 
 el signo menos indica que la fuerza elástica apunta en sentido opuesto a la deformación.
 
 ### Si x > 0
 
-`F_el < 0`
+F<sub>el</sub> < 0
 
 ### Si x < 0
 
-`F_el > 0`
+F<sub>el</sub> > 0
 
 La fuerza apunta hacia la posición de equilibrio.
 
@@ -735,9 +735,9 @@ Módulo de la fuerza:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Fuerza restauradora</h3>
   <div class="worked-example-card__steps">
-    <p>|F_el| = k|x|</p>
-    <p>|F_el| = 200 × 0,05</p>
-    <p><strong>|F_el| = 10 N</strong></p>
+    <p>|F<sub>el</sub>| = k|x|</p>
+    <p>|F<sub>el</sub>| = 200 × 0,05</p>
+    <p><strong>|F<sub>el</sub>| = 10 N</strong></p>
   </div>
 </div>
 
@@ -888,13 +888,13 @@ tenemos:
 Si el cuerpo desliza cuesta abajo:
 
 - componente del peso hacia abajo: `mg senθ`;
-- rozamiento hacia arriba: `f_k`.
+- rozamiento hacia arriba: f<sub>k</sub>.
 
 Entonces:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Eje paralelo</span>
-  <div class="formula-panel__formula">mg senθ − f_k = ma</div>
+  <div class="formula-panel__formula">mg senθ − f<sub>k</sub> = ma</div>
 </div>
 
 Si:
@@ -903,13 +903,13 @@ Si:
 
 entonces:
 
-**f_k = μ_kmg cosθ**
+**f<sub>k</sub> = μ<sub>k</sub>mg cosθ**
 
 y:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Aceleración</span>
-  <div class="formula-panel__formula">a = g(senθ − μ_k cosθ)</div>
+  <div class="formula-panel__formula">a = g(senθ − μ<sub>k</sub> cosθ)</div>
 </div>
 
 para ese caso específico.
@@ -926,13 +926,13 @@ En reposo, la componente que tendería a moverlo cuesta abajo es:
 
 El máximo rozamiento estático es:
 
-**μₛN**
+**μ<sub>s</sub>N**
 
 Si:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Puede permanecer en reposo</span>
-  <div class="formula-panel__formula">mg senθ ≤ μₛN</div>
+  <div class="formula-panel__formula">mg senθ ≤ μ<sub>s</sub>N</div>
 </div>
 
 el rozamiento estático puede equilibrarlo.
@@ -943,7 +943,7 @@ el rozamiento estático puede equilibrarlo.
 
 En el límite de deslizamiento:
 
-**mg senθ = μₛmg cosθ**
+**mg senθ = μ<sub>s</sub>mg cosθ**
 
 Cancelamos:
 
@@ -953,7 +953,7 @@ y obtenemos:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Umbral</span>
-  <div class="formula-panel__formula">tan θ_c = μₛ</div>
+  <div class="formula-panel__formula">tan θ<sub>c</sub> = μ<sub>s</sub></div>
 </div>
 
 para el modelo simple del bloque sobre plano.
@@ -984,9 +984,9 @@ Conviene dibujar:
 
 Después aplicamos:
 
-**ΣF_A = m_Aa_A**
+**ΣF<sub>A</sub> = m<sub>Aa</sub>_A**
 
-**ΣF_B = m_Ba_B**
+**ΣF<sub>B</sub> = m<sub>Ba</sub>_B**
 
 Si la cuerda ideal es inextensible:
 
@@ -998,8 +998,8 @@ Si la cuerda ideal es inextensible:
 
 Bloques:
 
-- `m₁`;
-- `m₂`.
+- m<sub>1</sub>;
+- m<sub>2</sub>.
 
 Una fuerza externa F tira del sistema.
 
@@ -1007,14 +1007,14 @@ Como conjunto:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Sistema completo</span>
-  <div class="formula-panel__formula">F = (m₁ + m₂)a</div>
+  <div class="formula-panel__formula">F = (m<sub>1</sub> + m<sub>2</sub>)a</div>
 </div>
 
 Entonces:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Aceleración común</span>
-  <div class="formula-panel__formula">a = F/(m₁ + m₂)</div>
+  <div class="formula-panel__formula">a = F/(m<sub>1</sub> + m<sub>2</sub>)</div>
 </div>
 
 ---
@@ -1023,11 +1023,11 @@ Entonces:
 
 Una vez conocida a, analizamos uno de los bloques.
 
-Si sobre `m₂` horizontalmente sólo actúa la tensión:
+Si sobre m<sub>2</sub> horizontalmente sólo actúa la tensión:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Bloque 2</span>
-  <div class="formula-panel__formula">T = m₂a</div>
+  <div class="formula-panel__formula">T = m<sub>2</sub>a</div>
 </div>
 
 La tensión es una fuerza interna del sistema de dos bloques, pero externa si analizamos solamente uno.
@@ -1089,19 +1089,19 @@ con el mismo módulo T bajo el modelo ideal.
 
 Consideremos dos masas:
 
-- `m₁`;
-- `m₂`;
+- m<sub>1</sub>;
+- m<sub>2</sub>;
 
 unidas por una cuerda ideal sobre una polea ideal.
 
 Supongamos:
 
-**m₂ > m₁**
+**m<sub>2</sub> > m<sub>1</sub>**
 
 Entonces:
 
-- `m₂` baja;
-- `m₁` sube.
+- m<sub>2</sub> baja;
+- m<sub>1</sub> sube.
 
 Tienen igual módulo de aceleración si la cuerda es inextensible.
 
@@ -1109,23 +1109,23 @@ Tienen igual módulo de aceleración si la cuerda es inextensible.
 
 ## 51. Ecuaciones de Atwood
 
-Para `m₂`, tomando abajo positivo:
+Para m<sub>2</sub>, tomando abajo positivo:
 
-**m₂g − T = m₂a**
+**m<sub>2</sub>g − T = m<sub>2</sub>a**
 
-Para `m₁`, tomando arriba positivo:
+Para m<sub>1</sub>, tomando arriba positivo:
 
-**T − m₁g = m₁a**
+**T − m<sub>1</sub>g = m<sub>1</sub>a**
 
 Sumamos:
 
-**(m₂ − m₁)g = (m₁ + m₂)a**
+**(m<sub>2</sub> − m<sub>1</sub>)g = (m<sub>1</sub> + m<sub>2</sub>)a**
 
 Entonces:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Aceleración ideal</span>
-  <div class="formula-panel__formula">a = [(m₂ − m₁)/(m₁ + m₂)]g</div>
+  <div class="formula-panel__formula">a = [(m<sub>2</sub> − m<sub>1</sub>)/(m<sub>1</sub> + m<sub>2</sub>)]g</div>
 </div>
 
 ---
@@ -1134,16 +1134,16 @@ Entonces:
 
 Después de obtener a podemos usar, por ejemplo:
 
-**T − m₁g = m₁a**
+**T − m<sub>1</sub>g = m<sub>1</sub>a**
 
 Entonces:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Tensión</span>
-  <div class="formula-panel__formula">T = m₁(g + a)</div>
+  <div class="formula-panel__formula">T = m<sub>1</sub>(g + a)</div>
 </div>
 
-También debería obtenerse el mismo resultado desde la ecuación de `m₂`.
+También debería obtenerse el mismo resultado desde la ecuación de m<sub>2</sub>.
 
 Eso sirve como control.
 
@@ -1153,8 +1153,8 @@ Eso sirve como control.
 
 Tomemos:
 
-- `m₁ = 2 kg`;
-- `m₂ = 3 kg`;
+- m<sub>1</sub> = 2 kg;
+- m<sub>2</sub> = 3 kg;
 - `g = 10 m/s²`.
 
 Aceleración:
@@ -1182,48 +1182,48 @@ Tensión:
 
 Otro sistema frecuente:
 
-- bloque `m₁` sobre una mesa;
-- masa `m₂` colgante;
+- bloque m<sub>1</sub> sobre una mesa;
+- masa m<sub>2</sub> colgante;
 - cuerda y polea ideales.
 
 Si la mesa no tiene rozamiento:
 
 ### Bloque sobre mesa
 
-**T = m₁a**
+**T = m<sub>1</sub>a**
 
 ### Masa colgante
 
-**m₂g − T = m₂a**
+**m<sub>2</sub>g − T = m<sub>2</sub>a**
 
 Sumando:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Aceleración</span>
-  <div class="formula-panel__formula">a = m₂g/(m₁ + m₂)</div>
+  <div class="formula-panel__formula">a = m<sub>2</sub>g/(m<sub>1</sub> + m<sub>2</sub>)</div>
 </div>
 
 ---
 
 ## 55. Agregar rozamiento al sistema
 
-Si `m₁` desliza sobre la mesa con rozamiento cinético:
+Si m<sub>1</sub> desliza sobre la mesa con rozamiento cinético:
 
-**f_k = μ_kN**
+**f<sub>k</sub> = μ<sub>k</sub>N**
 
 y, en una mesa horizontal simple:
 
-**N = m₁g**
+**N = m<sub>1</sub>g**
 
 Entonces:
 
 ### Bloque
 
-**T − f_k = m₁a**
+**T − f<sub>k</sub> = m<sub>1</sub>a**
 
 ### Masa colgante
 
-**m₂g − T = m₂a**
+**m<sub>2</sub>g − T = m<sub>2</sub>a**
 
 Las ecuaciones deben resolverse juntas.
 
@@ -1237,7 +1237,7 @@ Primero:
 
 1. suponemos reposo;
 2. calculamos el rozamiento necesario;
-3. verificamos si cumple `fₛ ≤ μₛN`.
+3. verificamos si cumple f<sub>s</sub> ≤ μ<sub>s</sub>N.
 
 Si puede cumplirlo:
 
@@ -1273,8 +1273,8 @@ Al analizar el sistema conjunto:
 
 Dos cajas:
 
-- `m₁ = 4 kg`;
-- `m₂ = 6 kg`;
+- m<sub>1</sub> = 4 kg;
+- m<sub>2</sub> = 6 kg;
 
 sobre piso sin rozamiento.
 
@@ -1290,9 +1290,9 @@ Aceleración:
 
 **a = 2 m/s²**
 
-La fuerza de contacto necesaria para acelerar `m₂` es:
+La fuerza de contacto necesaria para acelerar m<sub>2</sub> es:
 
-**F_contacto = m₂a = 12 N**
+**F<sub>contacto</sub> = m<sub>2</sub>a = 12 N**
 
 ---
 
@@ -1392,7 +1392,7 @@ No. Es perpendicular a la superficie.
 
 No. Depende de la dinámica.
 
-### “El rozamiento estático siempre vale μₛN”
+### “El rozamiento estático siempre vale μ<sub>s</sub>N”
 
 No. Sólo alcanza ese valor máximo en el límite de deslizamiento.
 
@@ -1457,7 +1457,7 @@ Depende de la geometría y del modelo de cuerda/poleas.
     <strong>Rozamiento y plano inclinado</strong>
   </div>
   <ol>
-    <li>Una caja de 5 kg desliza en mesa horizontal con μ_k = 0,30. Calculá f_k usando g = 10 m/s².</li>
+    <li>Una caja de 5 kg desliza en mesa horizontal con μ<sub>k</sub> = 0,30. Calculá f<sub>k</sub> usando g = 10 m/s².</li>
     <li>Sobre esa caja se aplican 25 N horizontales. Calculá la aceleración.</li>
     <li>Un bloque de 2 kg está sobre un plano de 30° sin rozamiento. Calculá N y a.</li>
     <li>Explicá cómo decidirías si un bloque con rozamiento estático comienza a deslizar por un plano.</li>
@@ -1485,7 +1485,7 @@ Depende de la geometría y del modelo de cuerda/poleas.
   <ol>
     <li>Derivá la aceleración de una máquina de Atwood ideal a partir de dos diagramas de cuerpo libre.</li>
     <li>Demostrá que un bloque sobre plano sin rozamiento tiene `a = g senθ` y explicá por qué la masa se cancela.</li>
-    <li>Derivá `tanθ_c = μₛ` para el ángulo límite de deslizamiento en un plano simple.</li>
+    <li>Derivá tanθ<sub>c</sub> = μ<sub>s</sub> para el ángulo límite de deslizamiento en un plano simple.</li>
     <li>Explicá por qué una fuerza puede ser interna para un sistema y externa para otro.</li>
   </ol>
 </div>
@@ -1548,11 +1548,11 @@ Observamos:
 
 Esto ayuda a diferenciar:
 
-**fₛ**
+**f<sub>s</sub>**
 
 de:
 
-**fₛ,max**
+**f<sub>s,max</sub>**
 
 ---
 
@@ -1566,8 +1566,8 @@ está sobre una superficie horizontal.
 
 Datos:
 
-- `μₛ = 0,40`;
-- `μ_k = 0,30`;
+- μ<sub>s</sub> = 0,40;
+- μ<sub>k</sub> = 0,30;
 - `g = 10 m/s²`.
 
 Aplicamos una fuerza horizontal de:
@@ -1580,7 +1580,7 @@ Aplicamos una fuerza horizontal de:
 
 ### Máximo rozamiento estático
 
-**fₛ,max = 0,40 × 50 = 20 N**
+**f<sub>s,max</sub> = 0,40 × 50 = 20 N**
 
 Para mantener la caja en reposo sólo se necesitan:
 
@@ -1601,9 +1601,9 @@ Entonces:
   <h3>Rozamiento estático que se ajusta</h3>
   <div class="worked-example-card__steps">
     <p>N = 50 N</p>
-    <p>fₛ,max = 20 N</p>
-    <p>fₛ real = 18 N</p>
-    <p>ΣFₓ = 0</p>
+    <p>f<sub>s,max</sub> = 20 N</p>
+    <p>f<sub>s</sub> real = 18 N</p>
+    <p>ΣF<sub>x</sub> = 0</p>
     <p><strong>La caja permanece en reposo.</strong></p>
   </div>
 </div>
@@ -1616,7 +1616,7 @@ el rozamiento estático no alcanzaría.
 
 La caja comenzaría a deslizar y entonces usaríamos:
 
-**f_k = 0,30 × 50 = 15 N**
+**f<sub>k</sub> = 0,30 × 50 = 15 N**
 
 La resultante horizontal sería:
 
@@ -1628,7 +1628,7 @@ y:
 
 Este ejemplo muestra por qué no podemos sustituir automáticamente:
 
-**fₛ = μₛN**
+**f<sub>s</sub> = μ<sub>s</sub>N**
 
 desde el comienzo.
 
@@ -1651,7 +1651,7 @@ desde el comienzo.
 </details>
 
 <details class="lesson-quiz">
-  <summary>3. ¿Cuándo vale fₛ = μₛN?</summary>
+  <summary>3. ¿Cuándo vale f<sub>s</sub> = μ<sub>s</sub>N?</summary>
   <div class="lesson-quiz__answer">
     En el límite de deslizamiento, cuando el rozamiento estático alcanza su valor máximo.
   </div>
@@ -1688,11 +1688,11 @@ desde el comienzo.
 - La normal no vale automáticamente `mg`.
 - La tensión actúa a lo largo de una cuerda tensa.
 - En una cuerda ideal simple la tensión puede considerarse igual a lo largo de ella.
-- El rozamiento estático se ajusta: `0 ≤ fₛ ≤ μₛN`.
-- `μₛN` es el máximo rozamiento estático, no su valor permanente.
-- En deslizamiento usamos aproximadamente `f_k = μ_kN`.
+- El rozamiento estático se ajusta: 0 ≤ f<sub>s</sub> ≤ μ<sub>s</sub>N.
+- μ<sub>s</sub>N es el máximo rozamiento estático, no su valor permanente.
+- En deslizamiento usamos aproximadamente f<sub>k</sub> = μ<sub>k</sub>N.
 - La dirección del rozamiento depende del deslizamiento relativo o su tendencia.
-- La ley de Hooke es `F_el = −kx`.
+- La ley de Hooke es F<sub>el</sub> = −kx.
 - El signo menos indica carácter restaurador.
 - En un plano inclinado simple, el peso se descompone en `mg senθ` y `mg cosθ`.
 - Los sistemas de varios cuerpos requieren definir con claridad qué fuerzas son internas y externas.

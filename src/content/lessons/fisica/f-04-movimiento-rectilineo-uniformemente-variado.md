@@ -209,12 +209,12 @@ Partimos de:
 
 Si tomamos:
 
-- `t₀ = 0`;
-- velocidad inicial `v₀`;
+- t<sub>0</sub> = 0;
+- velocidad inicial v<sub>0</sub>;
 
 entonces:
 
-**Δv = v − v₀**
+**Δv = v − v<sub>0</sub>**
 
 y:
 
@@ -222,13 +222,13 @@ y:
 
 Por lo tanto:
 
-**a = (v − v₀)/t**
+**a = (v − v<sub>0</sub>)/t**
 
 despejamos:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Velocidad en MRUV</span>
-  <div class="formula-panel__formula">v(t) = v₀ + a · t</div>
+  <div class="formula-panel__formula">v(t) = v<sub>0</sub> + a · t</div>
 </div>
 
 ---
@@ -237,9 +237,9 @@ despejamos:
 
 En:
 
-**v = v₀ + at**
+**v = v<sub>0</sub> + at**
 
-### `v₀`
+### v<sub>0</sub>
 
 Velocidad inicial.
 
@@ -265,7 +265,7 @@ Por eso el gráfico `v-t` es una recta.
 
 Un móvil tiene:
 
-- `v₀ = 4 m/s`;
+- v<sub>0</sub> = 4 m/s;
 - `a = +3 m/s²`.
 
 Queremos v a los:
@@ -276,7 +276,7 @@ Queremos v a los:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Velocidad después de 5 s</h3>
   <div class="worked-example-card__steps">
-    <p>v = v₀ + at</p>
+    <p>v = v<sub>0</sub> + at</p>
     <p>v = 4 + 3×5</p>
     <p>v = 19 m/s</p>
     <p><strong>La velocidad aumentó 15 m/s.</strong></p>
@@ -289,7 +289,7 @@ Queremos v a los:
 
 Para MRUV:
 
-**v(t) = v₀ + at**
+**v(t) = v<sub>0</sub> + at**
 
 es una recta.
 
@@ -305,7 +305,7 @@ v
 
 La información física es:
 
-- intercepto → `v₀`;
+- intercepto → v<sub>0</sub>;
 - pendiente → `a`.
 
 ---
@@ -380,7 +380,7 @@ Por eso el área suele ser:
 
 Supongamos:
 
-- `v₀ = 4 m/s`;
+- v<sub>0</sub> = 4 m/s;
 - `v = 10 m/s`;
 - `t = 3 s`.
 
@@ -390,12 +390,12 @@ Velocidad media para aceleración constante:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Velocidad media en MRUV</span>
-  <div class="formula-panel__formula">v_media = (v₀ + v)/2</div>
+  <div class="formula-panel__formula">v<sub>media</sub> = (v<sub>0</sub> + v)/2</div>
 </div>
 
 Entonces:
 
-**v_media = (4 + 10)/2 = 7 m/s**
+**v<sub>media</sub> = (4 + 10)/2 = 7 m/s**
 
 y:
 
@@ -409,13 +409,13 @@ En MRUV, `v(t)` cambia linealmente.
 
 El valor promedio entre los extremos de una recta es:
 
-**(v₀ + v)/2**
+**(v<sub>0</sub> + v)/2**
 
 Por eso:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Desplazamiento</span>
-  <div class="formula-panel__formula">Δx = ((v₀ + v)/2) · t</div>
+  <div class="formula-panel__formula">Δx = ((v<sub>0</sub> + v)/2) · t</div>
 </div>
 
 Esta expresión vale para aceleración constante.
@@ -428,38 +428,38 @@ No debe generalizarse a cualquier movimiento.
 
 Sabemos:
 
-**v = v₀ + at**
+**v = v<sub>0</sub> + at**
 
 y:
 
-**Δx = v_media t**
+**Δx = v<sub>media</sub> t**
 
 con:
 
-**v_media = (v₀ + v)/2**
+**v<sub>media</sub> = (v<sub>0</sub> + v)/2**
 
 Sustituimos:
 
-**Δx = ((v₀ + v₀ + at)/2)t**
+**Δx = ((v<sub>0</sub> + v<sub>0</sub> + at)/2)t**
 
-**Δx = (v₀ + ½at)t**
+**Δx = (v<sub>0</sub> + ½at)t**
 
 Entonces:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Desplazamiento en MRUV</span>
-  <div class="formula-panel__formula">Δx = v₀t + ½at²</div>
+  <div class="formula-panel__formula">Δx = v<sub>0</sub>t + ½at²</div>
 </div>
 
 Y como:
 
-**x = x₀ + Δx**
+**x = x<sub>0</sub> + Δx**
 
 obtenemos:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Ecuación horaria del MRUV</span>
-  <div class="formula-panel__formula">x(t) = x₀ + v₀t + ½at²</div>
+  <div class="formula-panel__formula">x(t) = x<sub>0</sub> + v<sub>0</sub>t + ½at²</div>
 </div>
 
 ---
@@ -468,13 +468,13 @@ obtenemos:
 
 En:
 
-**x = x₀ + v₀t + ½at²**
+**x = x<sub>0</sub> + v<sub>0</sub>t + ½at²**
 
-### `x₀`
+### x<sub>0</sub>
 
 Posición inicial.
 
-### `v₀t`
+### v<sub>0</sub>t
 
 Contribución asociada a la velocidad inicial.
 
@@ -494,7 +494,7 @@ Por eso `x(t)` es una función cuadrática.
 
 En MRUV:
 
-**x(t) = x₀ + v₀t + ½at²**
+**x(t) = x<sub>0</sub> + v<sub>0</sub>t + ½at²**
 
 El gráfico es una parábola.
 
@@ -572,17 +572,17 @@ sin usar t.
 
 Partimos de:
 
-**v = v₀ + at**
+**v = v<sub>0</sub> + at**
 
 y:
 
-**Δx = ((v₀ + v)/2)t**
+**Δx = ((v<sub>0</sub> + v)/2)t**
 
 Despejando y combinando se obtiene:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Ecuación de Torricelli</span>
-  <div class="formula-panel__formula">v² = v₀² + 2aΔx</div>
+  <div class="formula-panel__formula">v² = v<sub>0</sub>² + 2aΔx</div>
 </div>
 
 Es muy útil cuando no conocemos el tiempo.
@@ -595,22 +595,22 @@ Las principales relaciones son:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Velocidad</span>
-  <div class="formula-panel__formula">v = v₀ + at</div>
+  <div class="formula-panel__formula">v = v<sub>0</sub> + at</div>
 </div>
 
 <div class="formula-panel">
   <span class="formula-panel__label">Posición</span>
-  <div class="formula-panel__formula">x = x₀ + v₀t + ½at²</div>
+  <div class="formula-panel__formula">x = x<sub>0</sub> + v<sub>0</sub>t + ½at²</div>
 </div>
 
 <div class="formula-panel">
   <span class="formula-panel__label">Sin tiempo</span>
-  <div class="formula-panel__formula">v² = v₀² + 2a(x − x₀)</div>
+  <div class="formula-panel__formula">v² = v<sub>0</sub>² + 2a(x − x<sub>0</sub>)</div>
 </div>
 
 <div class="formula-panel">
   <span class="formula-panel__label">Velocidad media en MRUV</span>
-  <div class="formula-panel__formula">v_media = (v₀ + v)/2</div>
+  <div class="formula-panel__formula">v<sub>media</sub> = (v<sub>0</sub> + v)/2</div>
 </div>
 
 La idea no es elegir por memoria.
@@ -627,7 +627,7 @@ Primero preguntamos:
 
 Supongamos que conocemos:
 
-- `v₀`;
+- v<sub>0</sub>;
 - `a`;
 - `t`;
 
@@ -635,21 +635,21 @@ y queremos `v`.
 
 La ecuación más directa es:
 
-**v = v₀ + at**
+**v = v<sub>0</sub> + at**
 
 Si queremos `x`:
 
-**x = x₀ + v₀t + ½at²**
+**x = x<sub>0</sub> + v<sub>0</sub>t + ½at²**
 
 Si no conocemos t pero sí:
 
-- `v₀`;
+- v<sub>0</sub>;
 - `v`;
 - `a`;
 
 podemos usar:
 
-**v² = v₀² + 2aΔx**
+**v² = v<sub>0</sub>² + 2aΔx**
 
 La mejor ecuación suele ser la que contiene:
 
@@ -663,8 +663,8 @@ La mejor ecuación suele ser la que contiene:
 
 Un auto parte con:
 
-- `x₀ = 0`;
-- `v₀ = 5 m/s`;
+- x<sub>0</sub> = 0;
+- v<sub>0</sub> = 5 m/s;
 - `a = 2 m/s²`.
 
 Queremos conocer posición y velocidad a los:
@@ -699,12 +699,12 @@ Queremos conocer posición y velocidad a los:
 
 En el ejemplo anterior:
 
-- `v₀ = 5 m/s`;
+- v<sub>0</sub> = 5 m/s;
 - `v = 13 m/s`.
 
 Entonces:
 
-**v_media = (5 + 13)/2 = 9 m/s**
+**v<sub>media</sub> = (5 + 13)/2 = 9 m/s**
 
 Durante 4 s:
 
@@ -725,12 +725,12 @@ En un frenado rectilíneo ideal:
 
 Si elegimos el sentido de movimiento inicial como positivo:
 
-- `v₀ > 0`;
+- v<sub>0</sub> > 0;
 - `a < 0`.
 
 Pero si el eje se eligiera al revés:
 
-- `v₀ < 0`;
+- v<sub>0</sub> < 0;
 - `a > 0`.
 
 El fenómeno físico es el mismo.
@@ -741,7 +741,7 @@ El fenómeno físico es el mismo.
 
 Un auto tiene:
 
-- `v₀ = 20 m/s`;
+- v<sub>0</sub> = 20 m/s;
 - `a = −5 m/s²`.
 
 Queremos saber cuándo se detiene.
@@ -769,13 +769,13 @@ Entonces:
 
 Con los mismos datos:
 
-- `v₀ = 20 m/s`;
+- v<sub>0</sub> = 20 m/s;
 - `v = 0`;
 - `a = −5 m/s²`.
 
 Usamos:
 
-**v² = v₀² + 2aΔx**
+**v² = v<sub>0</sub>² + 2aΔx**
 
 Entonces:
 
@@ -806,7 +806,7 @@ Podemos separar:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Distancia total de detención</span>
-  <div class="formula-panel__formula">d_total = d_reacción + d_frenado</div>
+  <div class="formula-panel__formula">d<sub>total</sub> = d<sub>reacción</sub> + d<sub>frenado</sub></div>
 </div>
 
 Este modelo ya combina:
@@ -838,7 +838,7 @@ Durante la reacción:
 
 Si luego necesita 40 m para frenar:
 
-**d_total = 56 m**
+**d<sub>total</sub> = 56 m**
 
 <div class="lesson-callout lesson-callout--idea">
   <div class="lesson-callout__heading">
@@ -856,7 +856,7 @@ Si luego necesita 40 m para frenar:
 
 Supongamos:
 
-- `v₀ = 15 m/s`;
+- v<sub>0</sub> = 15 m/s;
 - `a = −2 m/s²`;
 - observamos sólo 3 s.
 
@@ -876,7 +876,7 @@ Pero el móvil todavía se desplaza en el sentido positivo.
 
 Supongamos:
 
-- `v₀ = +6 m/s`;
+- v<sub>0</sub> = +6 m/s;
 - `a = −3 m/s²`.
 
 Entonces:
@@ -931,8 +931,8 @@ El punto de cambio de sentido es un máximo de x.
 
 Para:
 
-- `x₀ = 0`;
-- `v₀ = 6 m/s`;
+- x<sub>0</sub> = 0;
+- v<sub>0</sub> = 6 m/s;
 - `a = −3 m/s²`;
 
 sabemos que el cambio de sentido ocurre a:
@@ -969,7 +969,7 @@ y luego regresa hasta:
 
 entonces:
 
-### Desplazamiento desde x₀ = 0
+### Desplazamiento desde x<sub>0</sub> = 0
 
 **Δx = +2 m**
 
@@ -1055,7 +1055,7 @@ Entonces:
 
 que coincide con:
 
-**v = v₀ + at**
+**v = v<sub>0</sub> + at**
 
 ---
 
@@ -1063,7 +1063,7 @@ que coincide con:
 
 Para un MRUV con:
 
-- `v₀ > 0`;
+- v<sub>0</sub> > 0;
 - `a > 0`;
 
 tenemos:
@@ -1088,8 +1088,8 @@ Las tres representaciones describen el mismo movimiento.
 
 Tomemos:
 
-- `x₀ = 0`;
-- `v₀ = 2 m/s`;
+- x<sub>0</sub> = 0;
+- v<sub>0</sub> = 2 m/s;
 - `a = 2 m/s²`.
 
 | t (s) | v (m/s) | x (m) |
@@ -1130,19 +1130,19 @@ Supongamos:
 
 MRU:
 
-**x_A = 10t**
+**x<sub>A</sub> = 10t**
 
 ### Móvil B
 
 MRUV:
 
-- `x₀ = 40 m`;
-- `v₀ = 0`;
+- x<sub>0</sub> = 40 m;
+- v<sub>0</sub> = 0;
 - `a = 2 m/s²`.
 
 Entonces:
 
-**x_B = 40 + t²**
+**x<sub>B</sub> = 40 + t²**
 
 Encuentro:
 
@@ -1191,11 +1191,11 @@ No debemos elegir una solución sin interpretar el movimiento.
 
 Consideremos:
 
-**x_A = 8t**
+**x<sub>A</sub> = 8t**
 
 y:
 
-**x_B = 2t²**
+**x<sub>B</sub> = 2t²**
 
 Igualamos:
 
@@ -1225,13 +1225,13 @@ La matemática refleja dos eventos físicos.
 
 Cada móvil puede tener:
 
-**x_A = x_A0 + v_A0t + ½a_At²**
+**x<sub>A</sub> = x<sub>A0</sub> + v<sub>A0</sub>t + ½a<sub>A</sub>t²**
 
-**x_B = x_B0 + v_B0t + ½a_Bt²**
+**x<sub>B</sub> = x<sub>B0</sub> + v<sub>B0</sub>t + ½a<sub>B</sub>t²**
 
 La condición sigue siendo:
 
-**x_A = x_B**
+**x<sub>A</sub> = x<sub>B</sub>**
 
 Puede resultar una ecuación cuadrática.
 
@@ -1289,7 +1289,7 @@ no dependen de elegir derecha o izquierda como positivo.
 
 En:
 
-**v = v₀ + at**
+**v = v<sub>0</sub> + at**
 
 el término:
 
@@ -1303,11 +1303,11 @@ compatible con velocidad.
 
 En:
 
-**x = x₀ + v₀t + ½at²**
+**x = x<sub>0</sub> + v<sub>0</sub>t + ½at²**
 
 tenemos:
 
-**v₀t → (m/s)(s) = m**
+**v<sub>0</sub>t → (m/s)(s) = m**
 
 y:
 
@@ -1439,11 +1439,11 @@ No. En MRUV es cuadrática.
 
 No. Es desplazamiento algebraico.
 
-### “La velocidad media siempre es (v₀ + v)/2”
+### “La velocidad media siempre es (v<sub>0</sub> + v)/2”
 
 Sólo en aceleración constante.
 
-### “La ecuación v² = v₀² + 2aΔx siempre necesita tiempo”
+### “La ecuación v² = v<sub>0</sub>² + 2aΔx siempre necesita tiempo”
 
 Precisamente una de sus ventajas es que no contiene t.
 
@@ -1475,8 +1475,8 @@ No. Primero hay que interpretar el intervalo físico.
     <strong>Aplicación directa</strong>
   </div>
   <ol>
-    <li>Un móvil tiene v₀ = 3 m/s y a = 2 m/s². Calculá v a los 6 s.</li>
-    <li>Con los mismos datos y x₀ = 0, calculá x a los 6 s.</li>
+    <li>Un móvil tiene v<sub>0</sub> = 3 m/s y a = 2 m/s². Calculá v a los 6 s.</li>
+    <li>Con los mismos datos y x<sub>0</sub> = 0, calculá x a los 6 s.</li>
     <li>Un móvil pasa de 25 m/s a 5 m/s en 4 s. Calculá a.</li>
     <li>Un móvil parte del reposo con a = 4 m/s². Calculá el desplazamiento en 3 s.</li>
   </ol>
@@ -1490,8 +1490,8 @@ No. Primero hay que interpretar el intervalo físico.
   <ol>
     <li>Un auto va a 30 m/s y frena con a = −6 m/s². Calculá tiempo de detención.</li>
     <li>Calculá la distancia de frenado del ejercicio anterior.</li>
-    <li>Un móvil tiene v₀ = −10 m/s y a = −2 m/s². Explicá qué ocurre con la rapidez.</li>
-    <li>Un móvil tiene v₀ = −10 m/s y a = +2 m/s². ¿Cuándo se detiene?</li>
+    <li>Un móvil tiene v<sub>0</sub> = −10 m/s y a = −2 m/s². Explicá qué ocurre con la rapidez.</li>
+    <li>Un móvil tiene v<sub>0</sub> = −10 m/s y a = +2 m/s². ¿Cuándo se detiene?</li>
   </ol>
 </div>
 
@@ -1501,9 +1501,9 @@ No. Primero hay que interpretar el intervalo físico.
     <strong>Gráficos y encuentros</strong>
   </div>
   <ol>
-    <li>Construí v(t), a(t) y un bosquejo de x(t) para v₀ = 4 m/s y a = 2 m/s².</li>
+    <li>Construí v(t), a(t) y un bosquejo de x(t) para v<sub>0</sub> = 4 m/s y a = 2 m/s².</li>
     <li>Para v(t) = 12 − 3t entre 0 y 6 s, calculá desplazamiento y distancia total mediante áreas.</li>
-    <li>Un móvil A cumple x_A = 6t y B cumple x_B = t². Hallá los encuentros.</li>
+    <li>Un móvil A cumple x<sub>A</sub> = 6t y B cumple x<sub>B</sub> = t². Hallá los encuentros.</li>
     <li>Explicá por qué una ecuación de encuentro puede tener dos soluciones físicas.</li>
   </ol>
 </div>
@@ -1514,8 +1514,8 @@ No. Primero hay que interpretar el intervalo físico.
     <strong>Profundización</strong>
   </div>
   <ol>
-    <li>Derivá `x = x₀ + v₀t + ½at²` usando el área bajo un gráfico v(t) lineal.</li>
-    <li>Derivá `v² = v₀² + 2aΔx` eliminando el tiempo entre dos ecuaciones del MRUV.</li>
+    <li>Derivá x = x<sub>0</sub> + v<sub>0</sub>t + ½at² usando el área bajo un gráfico v(t) lineal.</li>
+    <li>Derivá v² = v<sub>0</sub>² + 2aΔx eliminando el tiempo entre dos ecuaciones del MRUV.</li>
     <li>Analizá dimensionalmente las tres ecuaciones principales del MRUV.</li>
     <li>Explicá por qué un gráfico x(t) con pendiente cero en un punto puede tener aceleración distinta de cero.</li>
   </ol>
@@ -1527,7 +1527,7 @@ No. Primero hay que interpretar el intervalo físico.
 
 Un auto se mueve inicialmente a:
 
-**v₀ = 18 m/s**
+**v<sub>0</sub> = 18 m/s**
 
 y frena con aceleración constante:
 
@@ -1535,7 +1535,7 @@ y frena con aceleración constante:
 
 desde:
 
-**x₀ = 0**
+**x<sub>0</sub> = 0**
 
 ### Tiempo hasta detenerse
 
@@ -1545,7 +1545,7 @@ desde:
 
 ### Distancia de frenado
 
-**v² = v₀² + 2aΔx**
+**v² = v<sub>0</sub>² + 2aΔx**
 
 **0 = 18² + 2(−3)Δx**
 
@@ -1555,7 +1555,7 @@ desde:
 
 ### Verificación mediante velocidad media
 
-**v_media = (18 + 0)/2 = 9 m/s**
+**v<sub>media</sub> = (18 + 0)/2 = 9 m/s**
 
 **Δx = 9 × 6 = 54 m**
 
@@ -1563,9 +1563,9 @@ desde:
   <span class="worked-example-card__label">Ejemplo integrado</span>
   <h3>Frenado completo</h3>
   <div class="worked-example-card__steps">
-    <p>t_detención = 6 s</p>
+    <p>t<sub>detención</sub> = 6 s</p>
     <p>Δx = 54 m</p>
-    <p>v_media = 9 m/s</p>
+    <p>v<sub>media</sub> = 9 m/s</p>
     <p><strong>Las ecuaciones, el área bajo v(t) y la velocidad media son consistentes.</strong></p>
   </div>
 </div>
@@ -1584,14 +1584,14 @@ desde:
 <details class="lesson-quiz">
   <summary>2. ¿Qué forma tiene v(t) en MRUV?</summary>
   <div class="lesson-quiz__answer">
-    Es una función lineal del tiempo: v = v₀ + at.
+    Es una función lineal del tiempo: v = v<sub>0</sub> + at.
   </div>
 </details>
 
 <details class="lesson-quiz">
   <summary>3. ¿Qué forma tiene x(t)?</summary>
   <div class="lesson-quiz__answer">
-    Es una función cuadrática: x = x₀ + v₀t + ½at².
+    Es una función cuadrática: x = x<sub>0</sub> + v<sub>0</sub>t + ½at².
   </div>
 </details>
 
@@ -1622,11 +1622,11 @@ desde:
 
 - En MRUV la aceleración es constante.
 - La velocidad cambia linealmente con el tiempo.
-- `v = v₀ + at`.
+- v = v<sub>0</sub> + at.
 - La posición cambia cuadráticamente.
-- `x = x₀ + v₀t + ½at²`.
-- `v² = v₀² + 2aΔx` relaciona velocidad, aceleración y desplazamiento sin usar tiempo.
-- Para aceleración constante, `v_media = (v₀ + v)/2`.
+- x = x<sub>0</sub> + v<sub>0</sub>t + ½at².
+- v² = v<sub>0</sub>² + 2aΔx relaciona velocidad, aceleración y desplazamiento sin usar tiempo.
+- Para aceleración constante, v<sub>media</sub> = (v<sub>0</sub> + v)/2.
 - La pendiente de `v(t)` es la aceleración.
 - El área bajo `v(t)` es el desplazamiento.
 - El área bajo `a(t)` es el cambio de velocidad.

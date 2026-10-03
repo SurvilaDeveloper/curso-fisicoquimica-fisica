@@ -144,13 +144,13 @@ En dos dimensiones:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Equilibrio traslacional</span>
-  <div class="formula-panel__formula">ΣFₓ = 0</div>
-  <div class="formula-panel__formula">ΣFᵧ = 0</div>
+  <div class="formula-panel__formula">ΣF<sub>x</sub> = 0</div>
+  <div class="formula-panel__formula">ΣF<sub>y</sub> = 0</div>
 </div>
 
 En tres dimensiones también:
 
-**ΣF_z = 0**
+**ΣF<sub>z</sub> = 0**
 
 Cada eje debe equilibrarse por separado.
 
@@ -166,9 +166,9 @@ Un cartel cuelga de manera que sobre él actúan:
 
 Entonces:
 
-**ΣFₓ = 0**
+**ΣF<sub>x</sub> = 0**
 
-**ΣFᵧ = 0**
+**ΣF<sub>y</sub> = 0**
 
 No existe aceleración traslacional.
 
@@ -388,14 +388,14 @@ Una barra puede girar alrededor de un eje.
 
 Actúan:
 
-- `F₁ = 10 N` a `2 m`, antihorario;
-- `F₂ = 20 N` a `0,5 m`, horario.
+- F<sub>1</sub> = 10 N a `2 m`, antihorario;
+- F<sub>2</sub> = 20 N a `0,5 m`, horario.
 
 Torques:
 
-**τ₁ = +20 N·m**
+**τ<sub>1</sub> = +20 N·m**
 
-**τ₂ = −10 N·m**
+**τ<sub>2</sub> = −10 N·m**
 
 Entonces:
 
@@ -540,7 +540,7 @@ La condición de torque nos permitió obtener F.
 
 Pero si queremos conocer la reacción del apoyo también necesitamos:
 
-**ΣFᵧ = 0**
+**ΣF<sub>y</sub> = 0**
 
 El equilibrio completo exige usar:
 
@@ -559,7 +559,7 @@ Para masas puntuales en una dimensión:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Centro de masa</span>
-  <div class="formula-panel__formula">x_CM = (m₁x₁ + m₂x₂ + ...)/(m₁ + m₂ + ...)</div>
+  <div class="formula-panel__formula">x<sub>CM</sub> = (m<sub>1</sub>x<sub>1</sub> + m<sub>2</sub>x<sub>2</sub> + ...)/(m<sub>1</sub> + m<sub>2</sub> + ...)</div>
 </div>
 
 Es un promedio ponderado por las masas.
@@ -570,20 +570,20 @@ Es un promedio ponderado por las masas.
 
 Tenemos:
 
-- `m₁ = 2 kg` en `x₁ = 0 m`;
-- `m₂ = 3 kg` en `x₂ = 5 m`.
+- m<sub>1</sub> = 2 kg en x<sub>1</sub> = 0 m;
+- m<sub>2</sub> = 3 kg en x<sub>2</sub> = 5 m.
 
 Entonces:
 
-**x_CM = (2×0 + 3×5)/(2+3)**
+**x<sub>CM</sub> = (2×0 + 3×5)/(2+3)**
 
-**x_CM = 15/5**
+**x<sub>CM</sub> = 15/5**
 
 <div class="worked-example-card">
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Centro de masa de dos cuerpos</h3>
   <div class="worked-example-card__steps">
-    <p><strong>x_CM = 3 m</strong></p>
+    <p><strong>x<sub>CM</sub> = 3 m</strong></p>
     <p>Queda más cerca de la masa mayor.</p>
   </div>
 </div>
@@ -672,7 +672,7 @@ Una barra uniforme de longitud L tiene su centro de masa en:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Barra uniforme</span>
-  <div class="formula-panel__formula">x_CM = L/2</div>
+  <div class="formula-panel__formula">x<sub>CM</sub> = L/2</div>
 </div>
 
 Si calculamos torques respecto de un extremo:
@@ -845,7 +845,7 @@ Para una palanca ideal en equilibrio:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Ley de la palanca</span>
-  <div class="formula-panel__formula">F₁ d₁ = F₂ d₂</div>
+  <div class="formula-panel__formula">F<sub>1</sub> d<sub>1</sub> = F<sub>2</sub> d<sub>2</sub></div>
 </div>
 
 cuando las fuerzas son perpendiculares a sus brazos y producen torques opuestos.
@@ -866,7 +866,7 @@ En el caso ideal:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Relación de fuerzas</span>
-  <div class="formula-panel__formula">F_aplicada / F_carga = d_carga / d_aplicada</div>
+  <div class="formula-panel__formula">F<sub>aplicada</sub> / F<sub>carga</sub> = d<sub>carga</sub> / d<sub>aplicada</sub></div>
 </div>
 
 Una fuerza menor requiere actuar a una distancia mayor del fulcro.
@@ -948,7 +948,7 @@ Definimos de manera introductoria:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Ventaja mecánica</span>
-  <div class="formula-panel__formula">VM = F_salida / F_entrada</div>
+  <div class="formula-panel__formula">VM = F<sub>salida</sub> / F<sub>entrada</sub></div>
 </div>
 
 Si:
@@ -1000,7 +1000,7 @@ Una fuerza aplicada en un radio grande puede equilibrar una fuerza mayor aplicad
 
 <div class="formula-panel">
   <span class="formula-panel__label">Equilibrio ideal</span>
-  <div class="formula-panel__formula">F_R · R = F_r · r</div>
+  <div class="formula-panel__formula">F<sub>R</sub> · R = F<sub>r</sub> · r</div>
 </div>
 
 Es otra aplicación directa del momento de una fuerza.
@@ -1115,7 +1115,7 @@ Entonces:
   <h3>Equilibrio traslacional y rotacional</h3>
   <div class="worked-example-card__steps">
     <p>Στ = 0 → F = 50 N</p>
-    <p>ΣFᵧ = 0 → R = 50 N</p>
+    <p>ΣF<sub>y</sub> = 0 → R = 50 N</p>
     <p><strong>Las dos condiciones son necesarias para resolver el equilibrio completo.</strong></p>
   </div>
 </div>
@@ -1130,7 +1130,7 @@ Una secuencia útil es:
 2. dibujá el diagrama de cuerpo libre;
 3. identificá puntos de aplicación y líneas de acción;
 4. elegí ejes;
-5. escribí `ΣFₓ = 0`, `ΣFᵧ = 0`;
+5. escribí ΣF<sub>x</sub> = 0, ΣF<sub>y</sub> = 0;
 6. elegí un punto conveniente para torques;
 7. definí el signo horario/antihorario;
 8. escribí `Στ = 0`;
@@ -1227,7 +1227,7 @@ No. En el modelo ideal, la reducción de fuerza se compensa con distancia.
     <strong>Centro de masa y estabilidad</strong>
   </div>
   <ol>
-    <li>Dos masas de 2 kg y 6 kg están en x = 0 m y x = 4 m. Calculá x_CM.</li>
+    <li>Dos masas de 2 kg y 6 kg están en x = 0 m y x = 4 m. Calculá x<sub>CM</sub>.</li>
     <li>Explicá por qué bajar el centro de masa puede aumentar la estabilidad de un objeto apoyado.</li>
     <li>Compará dos objetos de igual altura pero bases de diferente ancho frente al vuelco.</li>
     <li>Diseñá un criterio para decidir cuándo un bloque inclinado comienza a volcar usando la proyección de su centro de masa.</li>
@@ -1274,7 +1274,7 @@ Comprobar cualitativamente el equilibrio de torques.
 
 Aproximadamente:
 
-**F₁d₁ ≈ F₂d₂**
+**F<sub>1</sub>d<sub>1</sub> ≈ F<sub>2</sub>d<sub>2</sub>**
 
 ### Seguridad
 

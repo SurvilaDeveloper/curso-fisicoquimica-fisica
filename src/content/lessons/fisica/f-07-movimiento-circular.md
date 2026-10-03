@@ -267,17 +267,17 @@ Entonces:
 
 Si el objeto pasa de:
 
-**θᵢ**
+**θ<sub>i</sub>**
 
 a:
 
-**θ_f**
+**θ<sub>f</sub>**
 
 definimos:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Desplazamiento angular</span>
-  <div class="formula-panel__formula">Δθ = θ_f − θᵢ</div>
+  <div class="formula-panel__formula">Δθ = θ<sub>f</sub> − θ<sub>i</sub></div>
 </div>
 
 El signo depende de la convención elegida.
@@ -302,7 +302,7 @@ Si conocemos el ángulo en radianes:
 
 Si queremos desplazamiento angular con signo:
 
-**Δs_tangencial** requiere más cuidado vectorial.
+**Δs<sub>tangencial</sub>** requiere más cuidado vectorial.
 
 Pero para la longitud recorrida sobre la circunferencia usamos el módulo angular.
 
@@ -338,7 +338,7 @@ La velocidad angular media mide cuánto cambia el ángulo por unidad de tiempo:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Velocidad angular media</span>
-  <div class="formula-panel__formula">ω_media = Δθ / Δt</div>
+  <div class="formula-panel__formula">ω<sub>media</sub> = Δθ / Δt</div>
 </div>
 
 Unidad SI:
@@ -405,12 +405,12 @@ Entonces:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Ecuación angular</span>
-  <div class="formula-panel__formula">θ(t) = θ₀ + ωt</div>
+  <div class="formula-panel__formula">θ(t) = θ<sub>0</sub> + ωt</div>
 </div>
 
 Es análoga a:
 
-**x(t) = x₀ + vt**
+**x(t) = x<sub>0</sub> + vt**
 
 del MRU.
 
@@ -423,7 +423,7 @@ del MRU.
 | posición `x` | posición angular `θ` |
 | desplazamiento `Δx` | desplazamiento angular `Δθ` |
 | velocidad `v` | velocidad angular `ω` |
-| `x = x₀ + vt` | `θ = θ₀ + ωt` |
+| x = x<sub>0</sub> + vt | θ = θ<sub>0</sub> + ωt |
 
 La analogía es útil, pero no debemos olvidar:
 
@@ -643,13 +643,13 @@ Un disco gira con:
 
 `r = 0,10 m`
 
-**v_A = 1,0 m/s**
+**v<sub>A</sub> = 1,0 m/s**
 
 ### Punto B
 
 `r = 0,30 m`
 
-**v_B = 3,0 m/s**
+**v<sub>B</sub> = 3,0 m/s**
 
 Ambos tienen la misma velocidad angular.
 
@@ -697,14 +697,14 @@ Se llama:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Aceleración centrípeta</span>
-  <div class="formula-panel__formula">a_c = v² / r</div>
+  <div class="formula-panel__formula">a<sub>c</sub> = v² / r</div>
 </div>
 
 También podemos escribir:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Usando ω</span>
-  <div class="formula-panel__formula">a_c = ω²r</div>
+  <div class="formula-panel__formula">a<sub>c</sub> = ω²r</div>
 </div>
 
 porque:
@@ -728,7 +728,7 @@ En MCU ideal:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Geometría</span>
-  <div class="formula-panel__formula">v ⟂ a_c</div>
+  <div class="formula-panel__formula">v ⟂ a<sub>c</sub></div>
 </div>
 
 Son perpendiculares en cada instante.
@@ -754,11 +754,11 @@ Describe la dirección radial necesaria para curvar la velocidad.
 
 En:
 
-**a_c = v²/r**
+**a<sub>c</sub> = v²/r**
 
 si duplicamos v manteniendo r:
 
-**a_c' = (2v)²/r = 4a_c**
+**a<sub>c</sub>' = (2v)²/r = 4a<sub>c</sub>**
 
 Entonces:
 
@@ -772,7 +772,7 @@ Esta dependencia cuadrática será muy importante.
 
 Si mantenemos v constante:
 
-**a_c = v²/r**
+**a<sub>c</sub> = v²/r**
 
 un radio menor requiere una aceleración centrípeta mayor.
 
@@ -784,13 +784,13 @@ Por eso una curva más cerrada exige un cambio de dirección más rápido.
 
 También:
 
-**a_c = ω²r**
+**a<sub>c</sub> = ω²r**
 
-Si mantenemos ω constante, aumentar r aumenta a_c.
+Si mantenemos ω constante, aumentar r aumenta a<sub>c</sub>.
 
 No hay contradicción con:
 
-**a_c = v²/r**
+**a<sub>c</sub> = v²/r**
 
 porque si ω es constante:
 
@@ -823,9 +823,9 @@ Entonces:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Aceleración hacia el centro</h3>
   <div class="worked-example-card__steps">
-    <p>a_c = v²/r</p>
-    <p>a_c = 36/3</p>
-    <p><strong>a_c = 12 m/s²</strong></p>
+    <p>a<sub>c</sub> = v²/r</p>
+    <p>a<sub>c</sub> = 36/3</p>
+    <p><strong>a<sub>c</sub> = 12 m/s²</strong></p>
   </div>
 </div>
 
@@ -855,7 +855,7 @@ Los vectores cambian continuamente.
 
 Como:
 
-- `a_c` es perpendicular a `v`;
+- a<sub>c</sub> es perpendicular a `v`;
 
 en MCU cambia:
 
@@ -884,7 +884,7 @@ De manera introductoria:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Resultante radial</span>
-  <div class="formula-panel__formula">F_radial,neta = m a_c = mv²/r</div>
+  <div class="formula-panel__formula">F<sub>radial,neta</sub> = m a<sub>c</sub> = mv²/r</div>
 </div>
 
 La explicación completa pertenece a las leyes de Newton.
@@ -923,7 +923,7 @@ La tensión puede aportar la resultante radial necesaria.
 
 En ese caso, bajo un modelo sencillo:
 
-**T_radial = mv²/r**
+**T<sub>radial</sub> = mv²/r**
 
 Pero no decimos:
 
@@ -1019,7 +1019,7 @@ también:
 
 Partimos de:
 
-**a_c = v²/r**
+**a<sub>c</sub> = v²/r**
 
 y:
 
@@ -1029,14 +1029,14 @@ Entonces:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Usando período</span>
-  <div class="formula-panel__formula">a_c = 4π²r / T²</div>
+  <div class="formula-panel__formula">a<sub>c</sub> = 4π²r / T²</div>
 </div>
 
 También:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Usando frecuencia</span>
-  <div class="formula-panel__formula">a_c = 4π²rf²</div>
+  <div class="formula-panel__formula">a<sub>c</sub> = 4π²rf²</div>
 </div>
 
 ---
@@ -1063,7 +1063,7 @@ con período:
 
 ### Aceleración centrípeta
 
-**a_c = ω²r**
+**a<sub>c</sub> = ω²r**
 
 <div class="worked-example-card">
   <span class="worked-example-card__label">Ejemplo integrado</span>
@@ -1071,7 +1071,7 @@ con período:
   <div class="worked-example-card__steps">
     <p>ω ≈ 3,14 rad/s</p>
     <p>v ≈ 1,57 m/s</p>
-    <p>a_c ≈ 4,93 m/s²</p>
+    <p>a<sub>c</sub> ≈ 4,93 m/s²</p>
     <p><strong>La aceleración apunta siempre hacia el centro.</strong></p>
   </div>
 </div>
@@ -1082,7 +1082,7 @@ con período:
 
 Como:
 
-**θ = θ₀ + ωt**
+**θ = θ<sub>0</sub> + ωt**
 
 el gráfico ángulo-tiempo es una recta.
 
@@ -1221,7 +1221,7 @@ De manera introductoria:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Aceleración angular media</span>
-  <div class="formula-panel__formula">α_media = Δω / Δt</div>
+  <div class="formula-panel__formula">α<sub>media</sub> = Δω / Δt</div>
 </div>
 
 Unidad:
@@ -1238,7 +1238,7 @@ Para un punto a radio r:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Aceleración tangencial</span>
-  <div class="formula-panel__formula">a_t = αr</div>
+  <div class="formula-panel__formula">a<sub>t</sub> = αr</div>
 </div>
 
 Esta componente:
@@ -1254,14 +1254,14 @@ En movimiento circular no uniforme pueden coexistir:
 
 ### Aceleración centrípeta
 
-**a_c = v²/r**
+**a<sub>c</sub> = v²/r**
 
 - radial;
 - cambia dirección de la velocidad.
 
 ### Aceleración tangencial
 
-**a_t**
+**a<sub>t</sub>**
 
 - tangente;
 - cambia el módulo de la velocidad.
@@ -1276,16 +1276,16 @@ Si ambas componentes están presentes:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Módulo de la aceleración total</span>
-  <div class="formula-panel__formula">a = √(a_c² + a_t²)</div>
+  <div class="formula-panel__formula">a = √(a<sub>c</sub>² + a<sub>t</sub>²)</div>
 </div>
 
 En MCU:
 
-**a_t = 0**
+**a<sub>t</sub> = 0**
 
 por eso:
 
-**a = a_c**
+**a = a<sub>c</sub>**
 
 ---
 
@@ -1376,9 +1376,9 @@ No. Surge de una razón entre longitudes.
     <strong>Aceleración centrípeta</strong>
   </div>
   <ol>
-    <li>Un objeto gira con v = 8 m/s en un radio de 4 m. Calculá a_c.</li>
+    <li>Un objeto gira con v = 8 m/s en un radio de 4 m. Calculá a<sub>c</sub>.</li>
     <li>Repetí si la rapidez se duplica manteniendo el radio.</li>
-    <li>Un punto gira con ω = 5 rad/s a r = 0,8 m. Calculá v y a_c.</li>
+    <li>Un punto gira con ω = 5 rad/s a r = 0,8 m. Calculá v y a<sub>c</sub>.</li>
     <li>Explicá por qué un punto más alejado del eje tiene mayor v si ω es la misma.</li>
   </ol>
 </div>
@@ -1389,8 +1389,8 @@ No. Surge de una razón entre longitudes.
     <strong>Interpretación física</strong>
   </div>
   <ol>
-    <li>Dibujá v y a_c en cuatro puntos de una circunferencia.</li>
-    <li>Explicá por qué a_c puede ser distinta de cero aunque la rapidez sea constante.</li>
+    <li>Dibujá v y a<sub>c</sub> en cuatro puntos de una circunferencia.</li>
+    <li>Explicá por qué a<sub>c</sub> puede ser distinta de cero aunque la rapidez sea constante.</li>
     <li>Un auto toma dos curvas con la misma rapidez, una de radio 20 m y otra de 80 m. Compará las aceleraciones centrípetas.</li>
     <li>Explicá por qué “fuerza centrípeta” no debe agregarse automáticamente como una fuerza adicional en un diagrama.</li>
   </ol>
@@ -1403,9 +1403,9 @@ No. Surge de una razón entre longitudes.
   </div>
   <ol>
     <li>Derivá `v = ωr` a partir de `s = rθ`.</li>
-    <li>Derivá `a_c = ω²r` a partir de `a_c = v²/r`.</li>
-    <li>Derivá `a_c = 4π²r/T²`.</li>
-    <li>Para movimiento circular no uniforme, explicá el papel diferente de a_t y a_c y construí el vector aceleración total.</li>
+    <li>Derivá a<sub>c</sub> = ω²r a partir de a<sub>c</sub> = v²/r.</li>
+    <li>Derivá a<sub>c</sub> = 4π²r/T².</li>
+    <li>Para movimiento circular no uniforme, explicá el papel diferente de a<sub>t</sub> y a<sub>c</sub> y construí el vector aceleración total.</li>
   </ol>
 </div>
 
@@ -1445,9 +1445,9 @@ gira a:
 
 ### Aceleración centrípeta
 
-**a_c = ω²r**
+**a<sub>c</sub> = ω²r**
 
-**a_c ≈ 35,5 m/s²**
+**a<sub>c</sub> ≈ 35,5 m/s²**
 
 <div class="worked-example-card">
   <span class="worked-example-card__label">Ejemplo integrado</span>
@@ -1457,7 +1457,7 @@ gira a:
     <p>T ≈ 0,667 s</p>
     <p>ω ≈ 9,42 rad/s</p>
     <p>v ≈ 3,77 m/s</p>
-    <p><strong>a_c ≈ 35,5 m/s² hacia el centro</strong></p>
+    <p><strong>a<sub>c</sub> ≈ 35,5 m/s² hacia el centro</strong></p>
   </div>
 </div>
 
@@ -1515,7 +1515,7 @@ gira a:
 - El radián se define por `θ = s/r`.
 - Una vuelta completa equivale a `2π rad`.
 - La velocidad angular mide cambio de ángulo por tiempo.
-- En MCU, `θ = θ₀ + ωt`.
+- En MCU, θ = θ<sub>0</sub> + ωt.
 - El período es el tiempo de una vuelta.
 - La frecuencia es la cantidad de vueltas por unidad de tiempo.
 - `f = 1/T`.
@@ -1524,7 +1524,7 @@ gira a:
 - En un disco rígido, todos los puntos comparten ω pero no necesariamente v.
 - En MCU la rapidez es constante, pero la velocidad cambia de dirección.
 - Por eso existe aceleración centrípeta.
-- `a_c = v²/r = ω²r`.
+- a<sub>c</sub> = v²/r = ω²r.
 - La aceleración centrípeta apunta hacia el centro.
 - La velocidad es tangente a la trayectoria.
 - La fuerza centrípeta no es una fuerza nueva: es la resultante radial necesaria.

@@ -323,7 +323,7 @@ En una dimensión:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Desplazamiento</span>
-  <div class="formula-panel__formula">Δx = x_f − x_i</div>
+  <div class="formula-panel__formula">Δx = x<sub>f</sub> − x<sub>i</sub></div>
 </div>
 
 Es una magnitud vectorial.
@@ -341,11 +341,11 @@ Volvamos al recorrido:
 
 Si empezamos en:
 
-**x_i = 0**
+**x<sub>i</sub> = 0**
 
 terminamos en:
 
-**x_f = +5 m**
+**x<sub>f</sub> = +5 m**
 
 Entonces:
 
@@ -419,14 +419,14 @@ En dos dimensiones:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Desplazamiento vectorial</span>
-  <div class="formula-panel__formula">Δr = r_f − r_i</div>
+  <div class="formula-panel__formula">Δr = r<sub>f</sub> − r<sub>i</sub></div>
 </div>
 
 Por componentes:
 
-**Δx = x_f − x_i**
+**Δx = x<sub>f</sub> − x<sub>i</sub>**
 
-**Δy = y_f − y_i**
+**Δy = y<sub>f</sub> − y<sub>i</sub>**
 
 Y su módulo es:
 
@@ -441,11 +441,11 @@ Y su módulo es:
 
 Un móvil pasa de:
 
-**r_i = (2 m, 1 m)**
+**r<sub>i</sub> = (2 m, 1 m)**
 
 a:
 
-**r_f = (8 m, 5 m)**
+**r<sub>f</sub> = (8 m, 5 m)**
 
 Entonces:
 
@@ -487,13 +487,13 @@ Un **intervalo de tiempo** es la diferencia entre dos instantes:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Intervalo temporal</span>
-  <div class="formula-panel__formula">Δt = t_f − t_i</div>
+  <div class="formula-panel__formula">Δt = t<sub>f</sub> − t<sub>i</sub></div>
 </div>
 
 Ejemplo:
 
-- `t_i = 2 s`;
-- `t_f = 9 s`.
+- t<sub>i</sub> = 2 s;
+- t<sub>f</sub> = 9 s.
 
 Entonces:
 
@@ -551,14 +551,14 @@ En una dimensión:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Velocidad media</span>
-  <div class="formula-panel__formula">v_media = Δx / Δt</div>
+  <div class="formula-panel__formula">v<sub>media</sub> = Δx / Δt</div>
 </div>
 
 En forma vectorial:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Velocidad media vectorial</span>
-  <div class="formula-panel__formula">v_media = Δr / Δt</div>
+  <div class="formula-panel__formula">v<sub>media</sub> = Δr / Δt</div>
 </div>
 
 La velocidad media es vectorial.
@@ -672,14 +672,14 @@ La **aceleración media** mide cuánto cambia la velocidad durante un intervalo.
 
 <div class="formula-panel">
   <span class="formula-panel__label">Aceleración media</span>
-  <div class="formula-panel__formula">a_media = Δv / Δt</div>
+  <div class="formula-panel__formula">a<sub>media</sub> = Δv / Δt</div>
 </div>
 
 En una dimensión:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Forma desarrollada</span>
-  <div class="formula-panel__formula">a_media = (v_f − v_i)/(t_f − t_i)</div>
+  <div class="formula-panel__formula">a<sub>media</sub> = (v<sub>f</sub> − v<sub>i</sub>)/(t<sub>f</sub> − t<sub>i</sub>)</div>
 </div>
 
 Unidad SI:
@@ -726,9 +726,9 @@ Entonces:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Aceleración media</h3>
   <div class="worked-example-card__steps">
-    <p>a_media = (17 − 5) / 4</p>
-    <p>a_media = 12/4</p>
-    <p><strong>a_media = 3 m/s²</strong></p>
+    <p>a<sub>media</sub> = (17 − 5) / 4</p>
+    <p>a<sub>media</sub> = 12/4</p>
+    <p><strong>a<sub>media</sub> = 3 m/s²</strong></p>
   </div>
 </div>
 
@@ -1101,13 +1101,13 @@ Esto será central en tiro oblicuo y movimiento circular.
 
 Si la velocidad tiene componentes:
 
-**v = (v_x, v_y)**
+**v = (v<sub>x</sub>, v<sub>y</sub>)**
 
 la rapidez es su módulo:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Rapidez</span>
-  <div class="formula-panel__formula">|v| = √(v_x² + v_y²)</div>
+  <div class="formula-panel__formula">|v| = √(v<sub>x</sub>² + v<sub>y</sub>²)</div>
 </div>
 
 Por eso:
@@ -1337,7 +1337,7 @@ Depende del gráfico. En `x(t)` la pendiente es velocidad; en `v(t)` es acelerac
   </div>
   <ol>
     <li>Una persona camina 20 m al este y luego 8 m al oeste en 14 s. Calculá distancia, desplazamiento, rapidez media y velocidad media tomando este positivo.</li>
-    <li>Un móvil va de r_i = (1, 2) m a r_f = (7, 10) m. Calculá el vector desplazamiento y su módulo.</li>
+    <li>Un móvil va de r<sub>i</sub> = (1, 2) m a r<sub>f</sub> = (7, 10) m. Calculá el vector desplazamiento y su módulo.</li>
     <li>Una velocidad cambia de −6 m/s a −18 m/s en 4 s. Calculá la aceleración media e interpretá qué ocurre con la rapidez.</li>
     <li>Explicá una situación en la que v = 0 pero a ≠ 0.</li>
   </ol>
@@ -1377,19 +1377,19 @@ Un móvil se desplaza en línea recta.
 
 A:
 
-**t₁ = 2 s**
+**t<sub>1</sub> = 2 s**
 
 está en:
 
-**x₁ = 5 m**
+**x<sub>1</sub> = 5 m**
 
 A:
 
-**t₂ = 8 s**
+**t<sub>2</sub> = 8 s**
 
 está en:
 
-**x₂ = 23 m**
+**x<sub>2</sub> = 23 m**
 
 ### Intervalo
 
@@ -1405,9 +1405,9 @@ está en:
   <span class="worked-example-card__label">Ejemplo integrado</span>
   <h3>Descripción entre dos instantes</h3>
   <div class="worked-example-card__steps">
-    <p>v_media = Δx/Δt</p>
-    <p>v_media = 18 m / 6 s</p>
-    <p><strong>v_media = +3 m/s</strong></p>
+    <p>v<sub>media</sub> = Δx/Δt</p>
+    <p>v<sub>media</sub> = 18 m / 6 s</p>
+    <p><strong>v<sub>media</sub> = +3 m/s</strong></p>
   </div>
 </div>
 

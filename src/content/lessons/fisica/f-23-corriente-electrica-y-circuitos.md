@@ -623,9 +623,9 @@ en una regla universal.
 
 Un alambre tiene:
 
-- resistividad `ρ = 1,7 × 10<sup>−8</sup> Ω·m`;
+- resistividad ρ = 1,7 × 10<sup>−8</sup> Ω·m;
 - longitud `L = 10 m`;
-- sección `A = 1,0 × 10<sup>−6</sup> m²`.
+- sección A = 1,0 × 10<sup>−6</sup> m².
 
 Entonces:
 
@@ -833,7 +833,7 @@ En una conexión en serie:
 - la misma corriente atraviesa todos los resistores.
 
 ```text
-──R₁──R₂──R₃──
+──R<sub>1</sub>──R<sub>2</sub>──R<sub>3</sub>──
 ```
 
 Entonces:
@@ -879,8 +879,8 @@ La resistencia equivalente es mayor que:
 
 Tenemos:
 
-- `R<sub>1</sub> = 10 Ω`;
-- `R<sub>2</sub> = 20 Ω`;
+- R<sub>1</sub> = 10 Ω;
+- R<sub>2</sub> = 20 Ω;
 - `ΔV = 12 V`.
 
 Entonces:
@@ -911,9 +911,9 @@ Se verifica:
 En paralelo, los resistores están conectados entre los mismos dos nodos:
 
 ```text
-      ┌─R₁─┐
+      ┌─R<sub>1</sub>─┐
 ──────┤    ├──────
-      └─R₂─┘
+      └─R<sub>2</sub>─┘
 ```
 
 Tienen la misma diferencia de potencial:
@@ -984,8 +984,8 @@ Esto es una buena verificación de plausibilidad.
 
 Tenemos:
 
-- `R<sub>1</sub> = 6 Ω`;
-- `R<sub>2</sub> = 3 Ω`;
+- R<sub>1</sub> = 6 Ω;
+- R<sub>2</sub> = 3 Ω;
 - `ΔV = 12 V`.
 
 Corrientes:
@@ -1232,12 +1232,12 @@ Equivalente, con signos:
 
 Llegan:
 
-- `I<sub>1</sub> = 5 A`;
-- `I<sub>2</sub> = 2 A`.
+- I<sub>1</sub> = 5 A;
+- I<sub>2</sub> = 2 A.
 
 Sale:
 
-- `I<sub>3</sub>`.
+- I<sub>3</sub>.
 
 Entonces:
 
@@ -1331,8 +1331,8 @@ Fuente ideal:
 
 Resistores en serie:
 
-- `R<sub>1</sub> = 2 Ω`;
-- `R<sub>2</sub> = 4 Ω`.
+- R<sub>1</sub> = 2 Ω;
+- R<sub>2</sub> = 4 Ω.
 
 Aplicando Kirchhoff:
 
@@ -1843,7 +1843,7 @@ Nunca conectar un LED directamente a una fuente sin limitar corriente cuando el 
 1. Dibujá el circuito claramente.
 2. Identificá nodos.
 3. Detectá serie y paralelo reales.
-4. Calculá `R<sub>eq</sub>`.
+4. Calculá R<sub>eq</sub>.
 5. Hallá corriente total.
 6. Reconstruí tensiones y corrientes.
 7. Calculá potencias.
@@ -2145,9 +2145,9 @@ Parte de la potencia se transforma:
 - Para resistores óhmicos, `P = I²R = (ΔV)²/R`.
 - El efecto Joule transforma energía eléctrica en energía interna.
 - La energía es `E = Pt`.
-- `1 kWh = 3,6 × 10<sup>6</sup> J`.
-- En serie, la corriente es la misma y `R<sub>eq</sub> = ΣR`.
-- En paralelo, la tensión es la misma y `1/R<sub>eq</sub> = Σ(1/R)`.
+- 1 kWh = 3,6 × 10<sup>6</sup> J.
+- En serie, la corriente es la misma y R<sub>eq</sub> = ΣR.
+- En paralelo, la tensión es la misma y 1/R<sub>eq</sub> = Σ(1/R).
 - La fuerza electromotriz es energía suministrada por unidad de carga.
 - Una fuente real puede modelarse con resistencia interna.
 - La ley de nodos expresa conservación de carga.

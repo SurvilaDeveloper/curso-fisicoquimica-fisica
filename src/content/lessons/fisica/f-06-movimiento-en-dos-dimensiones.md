@@ -124,14 +124,14 @@ La velocidad también tiene componentes:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Vector velocidad</span>
-  <div class="formula-panel__formula">v(t) = (vₓ(t), vᵧ(t))</div>
+  <div class="formula-panel__formula">v(t) = (v<sub>x</sub>(t), v<sub>y</sub>(t))</div>
 </div>
 
 Su módulo, que corresponde a la rapidez, es:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Rapidez</span>
-  <div class="formula-panel__formula">|v| = √(vₓ² + vᵧ²)</div>
+  <div class="formula-panel__formula">|v| = √(v<sub>x</sub>² + v<sub>y</sub>²)</div>
 </div>
 
 La dirección depende de la relación entre ambas componentes.
@@ -144,7 +144,7 @@ En dos dimensiones:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Vector aceleración</span>
-  <div class="formula-panel__formula">a(t) = (aₓ(t), aᵧ(t))</div>
+  <div class="formula-panel__formula">a(t) = (a<sub>x</sub>(t), a<sub>y</sub>(t))</div>
 </div>
 
 Cada componente describe cómo cambia la componente correspondiente de la velocidad.
@@ -157,8 +157,8 @@ Una idea fundamental de la cinemática vectorial es que podemos estudiar las com
 
 Si:
 
-- conocemos `aₓ`;
-- conocemos `aᵧ`;
+- conocemos a<sub>x</sub>;
+- conocemos a<sub>y</sub>;
 
 podemos resolver:
 
@@ -230,8 +230,8 @@ la aceleración es:
 
 Por lo tanto:
 
-- `aₓ = 0`;
-- `aᵧ = −g`.
+- a<sub>x</sub> = 0;
+- a<sub>y</sub> = −g.
 
 ---
 
@@ -239,20 +239,20 @@ Por lo tanto:
 
 Como:
 
-**aₓ = 0**
+**a<sub>x</sub> = 0**
 
 la componente horizontal de velocidad permanece constante:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Componente horizontal</span>
-  <div class="formula-panel__formula">vₓ(t) = v₀ₓ</div>
+  <div class="formula-panel__formula">v<sub>x</sub>(t) = v<sub>0x</sub></div>
 </div>
 
 y:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Posición horizontal</span>
-  <div class="formula-panel__formula">x(t) = x₀ + v₀ₓt</div>
+  <div class="formula-panel__formula">x(t) = x<sub>0</sub> + v<sub>0x</sub>t</div>
 </div>
 
 Horizontalmente tenemos MRU.
@@ -263,25 +263,25 @@ Horizontalmente tenemos MRU.
 
 Como:
 
-**aᵧ = −g**
+**a<sub>y</sub> = −g**
 
 tenemos MRUV vertical:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Velocidad vertical</span>
-  <div class="formula-panel__formula">vᵧ(t) = v₀ᵧ − gt</div>
+  <div class="formula-panel__formula">v<sub>y</sub>(t) = v<sub>0y</sub> − gt</div>
 </div>
 
 <div class="formula-panel">
   <span class="formula-panel__label">Posición vertical</span>
-  <div class="formula-panel__formula">y(t) = y₀ + v₀ᵧt − ½gt²</div>
+  <div class="formula-panel__formula">y(t) = y<sub>0</sub> + v<sub>0y</sub>t − ½gt²</div>
 </div>
 
 Estas ecuaciones son las mismas del tiro vertical.
 
 ---
 
-## 9. La gravedad no reduce vₓ en el modelo ideal
+## 9. La gravedad no reduce v<sub>x</sub> en el modelo ideal
 
 En ausencia de resistencia del aire:
 
@@ -290,7 +290,7 @@ En ausencia de resistencia del aire:
 
 Por eso:
 
-**vₓ = constante**
+**v<sub>x</sub> = constante**
 
 durante todo el vuelo.
 
@@ -300,7 +300,7 @@ durante todo el vuelo.
     <strong>El proyectil no “se queda sin velocidad horizontal”</strong>
   </div>
   <div class="lesson-callout__body">
-    <p>En el modelo ideal, la componente horizontal no disminuye durante el vuelo. La trayectoria se curva porque cambia vᵧ, no porque vₓ desaparezca.</p>
+    <p>En el modelo ideal, la componente horizontal no disminuye durante el vuelo. La trayectoria se curva porque cambia v<sub>y</sub>, no porque v<sub>x</sub> desaparezca.</p>
   </div>
 </div>
 
@@ -314,8 +314,8 @@ Entonces:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Condiciones iniciales</span>
-  <div class="formula-panel__formula">v₀ₓ = v₀</div>
-  <div class="formula-panel__formula">v₀ᵧ = 0</div>
+  <div class="formula-panel__formula">v<sub>0x</sub> = v<sub>0</sub></div>
+  <div class="formula-panel__formula">v<sub>0y</sub> = 0</div>
 </div>
 
 El objeto puede salir, por ejemplo, desde el borde de una mesa.
@@ -326,15 +326,15 @@ El objeto puede salir, por ejemplo, desde el borde de una mesa.
 
 Tomemos:
 
-- `x₀ = 0`;
-- altura inicial `y₀ = h`;
+- x<sub>0</sub> = 0;
+- altura inicial y<sub>0</sub> = h;
 - arriba positivo.
 
 Horizontal:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Horizontal</span>
-  <div class="formula-panel__formula">x(t) = v₀t</div>
+  <div class="formula-panel__formula">x(t) = v<sub>0</sub>t</div>
 </div>
 
 Vertical:
@@ -346,9 +346,9 @@ Vertical:
 
 Velocidades:
 
-**vₓ = v₀**
+**v<sub>x</sub> = v<sub>0</sub>**
 
-**vᵧ = −gt**
+**v<sub>y</sub> = −gt**
 
 ---
 
@@ -401,7 +401,7 @@ Una pelota sale horizontalmente desde una altura de:
 
 con:
 
-**v₀ = 10 m/s**
+**v<sub>0</sub> = 10 m/s**
 
 Usamos:
 
@@ -417,7 +417,7 @@ Usamos:
 
 ### Alcance horizontal
 
-**x = v₀t**
+**x = v<sub>0</sub>t**
 
 **x = 10×2**
 
@@ -425,9 +425,9 @@ Usamos:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Tiro horizontal</h3>
   <div class="worked-example-card__steps">
-    <p>t_caída = 2 s</p>
+    <p>t<sub>caída</sub> = 2 s</p>
     <p>x = 20 m</p>
-    <p>vₓ = 10 m/s constante</p>
+    <p>v<sub>x</sub> = 10 m/s constante</p>
     <p><strong>La pelota avanza 20 m mientras cae 20 m.</strong></p>
   </div>
 </div>
@@ -438,11 +438,11 @@ Usamos:
 
 En el ejemplo:
 
-**vₓ = 10 m/s**
+**v<sub>x</sub> = 10 m/s**
 
 y:
 
-**vᵧ = −gt = −20 m/s**
+**v<sub>y</sub> = −gt = −20 m/s**
 
 Entonces:
 
@@ -465,7 +465,7 @@ Podemos obtener el ángulo mediante:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Dirección</span>
-  <div class="formula-panel__formula">tan θ = |vᵧ| / |vₓ|</div>
+  <div class="formula-panel__formula">tan θ = |v<sub>y</sub>| / |v<sub>x</sub>|</div>
 </div>
 
 En el ejemplo:
@@ -491,8 +491,8 @@ Eso hace que la relación espacial entre x e y no sea una recta.
 
 La velocidad cambia de dirección continuamente porque:
 
-- vₓ permanece constante;
-- vᵧ se vuelve cada vez más negativa.
+- v<sub>x</sub> permanece constante;
+- v<sub>y</sub> se vuelve cada vez más negativa.
 
 ---
 
@@ -500,11 +500,11 @@ La velocidad cambia de dirección continuamente porque:
 
 En tiro horizontal:
 
-**x = v₀t**
+**x = v<sub>0</sub>t**
 
 Entonces:
 
-**t = x/v₀**
+**t = x/v<sub>0</sub>**
 
 Sustituimos en:
 
@@ -514,7 +514,7 @@ Obtenemos:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Trayectoria</span>
-  <div class="formula-panel__formula">y = h − (g / 2v₀²)x²</div>
+  <div class="formula-panel__formula">y = h − (g / 2v<sub>0</sub>²)x²</div>
 </div>
 
 Esta es una ecuación cuadrática en x.
@@ -535,12 +535,12 @@ Si el ángulo θ se mide desde el eje x positivo:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Componente horizontal</span>
-  <div class="formula-panel__formula">v₀ₓ = v₀ cos θ</div>
+  <div class="formula-panel__formula">v<sub>0x</sub> = v<sub>0</sub> cos θ</div>
 </div>
 
 <div class="formula-panel">
   <span class="formula-panel__label">Componente vertical</span>
-  <div class="formula-panel__formula">v₀ᵧ = v₀ sen θ</div>
+  <div class="formula-panel__formula">v<sub>0y</sub> = v<sub>0</sub> sen θ</div>
 </div>
 
 ---
@@ -549,7 +549,7 @@ Si el ángulo θ se mide desde el eje x positivo:
 
 Lanzamos un proyectil con:
 
-**v₀ = 20 m/s**
+**v<sub>0</sub> = 20 m/s**
 
 a:
 
@@ -557,19 +557,19 @@ a:
 
 Entonces:
 
-**v₀ₓ = 20 cos 30°**
+**v<sub>0x</sub> = 20 cos 30°**
 
-**v₀ₓ ≈ 17,3 m/s**
+**v<sub>0x</sub> ≈ 17,3 m/s**
 
 y:
 
-**v₀ᵧ = 20 sen 30°**
+**v<sub>0y</sub> = 20 sen 30°**
 
-**v₀ᵧ = 10 m/s**
+**v<sub>0y</sub> = 10 m/s**
 
 La velocidad inicial completa es:
 
-**v₀ ≈ (17,3, 10) m/s**
+**v<sub>0</sub> ≈ (17,3, 10) m/s**
 
 ---
 
@@ -586,21 +586,21 @@ tenemos:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Posición horizontal</span>
-  <div class="formula-panel__formula">x = x₀ + v₀ cos θ · t</div>
+  <div class="formula-panel__formula">x = x<sub>0</sub> + v<sub>0</sub> cos θ · t</div>
 </div>
 
 ### Vertical
 
 <div class="formula-panel">
   <span class="formula-panel__label">Posición vertical</span>
-  <div class="formula-panel__formula">y = y₀ + v₀ sen θ · t − ½gt²</div>
+  <div class="formula-panel__formula">y = y<sub>0</sub> + v<sub>0</sub> sen θ · t − ½gt²</div>
 </div>
 
 ### Velocidad
 
-**vₓ = v₀ cos θ**
+**v<sub>x</sub> = v<sub>0</sub> cos θ**
 
-**vᵧ = v₀ sen θ − gt**
+**v<sub>y</sub> = v<sub>0</sub> sen θ − gt**
 
 ---
 
@@ -608,13 +608,13 @@ tenemos:
 
 Durante todo el tiro:
 
-**vₓ = v₀ cos θ**
+**v<sub>x</sub> = v<sub>0</sub> cos θ**
 
 si ignoramos el aire.
 
 En cambio:
 
-**vᵧ**
+**v<sub>y</sub>**
 
 disminuye linealmente.
 
@@ -629,7 +629,7 @@ La velocidad total cambia:
 
 En la altura máxima:
 
-**vᵧ = 0**
+**v<sub>y</sub> = 0**
 
 No significa:
 
@@ -637,7 +637,7 @@ No significa:
 
 porque todavía existe:
 
-**vₓ ≠ 0**
+**v<sub>x</sub> ≠ 0**
 
 <div class="lesson-callout lesson-callout--error">
   <div class="lesson-callout__heading">
@@ -655,17 +655,17 @@ porque todavía existe:
 
 Usamos:
 
-**vᵧ = v₀ᵧ − gt**
+**v<sub>y</sub> = v<sub>0y</sub> − gt**
 
 En la cima:
 
-**vᵧ = 0**
+**v<sub>y</sub> = 0**
 
 Entonces:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Tiempo de subida</span>
-  <div class="formula-panel__formula">t_subida = v₀ sen θ / g</div>
+  <div class="formula-panel__formula">t<sub>subida</sub> = v<sub>0</sub> sen θ / g</div>
 </div>
 
 Es el mismo resultado del tiro vertical aplicado a la componente vertical.
@@ -676,17 +676,17 @@ Es el mismo resultado del tiro vertical aplicado a la componente vertical.
 
 La componente vertical cumple:
 
-**vᵧ² = v₀ᵧ² − 2gΔy**
+**v<sub>y</sub>² = v<sub>0y</sub>² − 2gΔy**
 
 En la altura máxima:
 
-**vᵧ = 0**
+**v<sub>y</sub> = 0**
 
 Entonces:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Altura ganada</span>
-  <div class="formula-panel__formula">Δy_max = v₀² sen²θ / (2g)</div>
+  <div class="formula-panel__formula">Δy<sub>max</sub> = v<sub>0</sub>² sen²θ / (2g)</div>
 </div>
 
 La altura depende de la componente vertical inicial.
@@ -705,7 +705,7 @@ el tiempo total es:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Tiempo total</span>
-  <div class="formula-panel__formula">t_vuelo = 2v₀ sen θ / g</div>
+  <div class="formula-panel__formula">t<sub>vuelo</sub> = 2v<sub>0</sub> sen θ / g</div>
 </div>
 
 Es dos veces el tiempo de subida.
@@ -718,21 +718,21 @@ Esta fórmula no vale en general si la altura final es diferente.
 
 Si vuelve al mismo nivel:
 
-**R = vₓ · t_vuelo**
+**R = v<sub>x</sub> · t<sub>vuelo</sub>**
 
 Sustituimos:
 
-**vₓ = v₀ cos θ**
+**v<sub>x</sub> = v<sub>0</sub> cos θ**
 
 y:
 
-**t_vuelo = 2v₀ sen θ/g**
+**t<sub>vuelo</sub> = 2v<sub>0</sub> sen θ/g**
 
 Entonces:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Alcance al mismo nivel</span>
-  <div class="formula-panel__formula">R = v₀² sen(2θ) / g</div>
+  <div class="formula-panel__formula">R = v<sub>0</sub>² sen(2θ) / g</div>
 </div>
 
 Esta fórmula tiene condiciones específicas.
@@ -743,7 +743,7 @@ Esta fórmula tiene condiciones específicas.
 
 La expresión:
 
-**R = v₀² sen(2θ)/g**
+**R = v<sub>0</sub>² sen(2θ)/g**
 
 supone:
 
@@ -760,9 +760,9 @@ No debe usarse automáticamente en cualquier lanzamiento.
 
 Para:
 
-**R = v₀² sen(2θ)/g**
+**R = v<sub>0</sub>² sen(2θ)/g**
 
-con v₀ y g fijos, el alcance es máximo cuando:
+con v<sub>0</sub> y g fijos, el alcance es máximo cuando:
 
 **sen(2θ) = 1**
 
@@ -815,20 +815,20 @@ Pero tienen:
 
 Datos:
 
-- `v₀ = 20 m/s`;
+- v<sub>0</sub> = 20 m/s;
 - `θ = 30°`;
 - `g = 10 m/s²`;
 - vuelve al mismo nivel.
 
 Componentes:
 
-**v₀ₓ ≈ 17,3 m/s**
+**v<sub>0x</sub> ≈ 17,3 m/s**
 
-**v₀ᵧ = 10 m/s**
+**v<sub>0y</sub> = 10 m/s**
 
 ### Tiempo de subida
 
-**t_subida = 10/10 = 1 s**
+**t<sub>subida</sub> = 10/10 = 1 s**
 
 ### Tiempo total
 
@@ -836,7 +836,7 @@ Componentes:
 
 ### Altura máxima
 
-**Δy_max = 10²/(2×10) = 5 m**
+**Δy<sub>max</sub> = 10²/(2×10) = 5 m**
 
 ### Alcance
 
@@ -846,10 +846,10 @@ Componentes:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Tiro oblicuo completo</h3>
   <div class="worked-example-card__steps">
-    <p>v₀ₓ ≈ 17,3 m/s</p>
-    <p>v₀ᵧ = 10 m/s</p>
-    <p>t_vuelo = 2 s</p>
-    <p>h_max = 5 m</p>
+    <p>v<sub>0x</sub> ≈ 17,3 m/s</p>
+    <p>v<sub>0y</sub> = 10 m/s</p>
+    <p>t<sub>vuelo</sub> = 2 s</p>
+    <p>h<sub>max</sub> = 5 m</p>
     <p><strong>R ≈ 34,6 m</strong></p>
   </div>
 </div>
@@ -860,8 +860,8 @@ Componentes:
 
 En el ejemplo:
 
-- `vᵧ = 0`;
-- `vₓ ≈ 17,3 m/s`.
+- v<sub>y</sub> = 0;
+- v<sub>x</sub> ≈ 17,3 m/s.
 
 Entonces:
 
@@ -882,18 +882,18 @@ No es cero.
 
 En el modelo ideal:
 
-- `vₓ` conserva el mismo valor;
-- `vᵧ` cambia de signo.
+- v<sub>x</sub> conserva el mismo valor;
+- v<sub>y</sub> cambia de signo.
 
 Si inicialmente:
 
-**v₀ = (v₀ₓ, v₀ᵧ)**
+**v<sub>0</sub> = (v<sub>0x</sub>, v<sub>0y</sub>)**
 
 al regresar al mismo nivel:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Simetría ideal</span>
-  <div class="formula-panel__formula">v_f = (v₀ₓ, −v₀ᵧ)</div>
+  <div class="formula-panel__formula">v<sub>f</sub> = (v<sub>0x</sub>, −v<sub>0y</sub>)</div>
 </div>
 
 La rapidez final es igual a la inicial.
@@ -906,17 +906,17 @@ Podemos eliminar el tiempo.
 
 Desde:
 
-**x = x₀ + v₀ cos θ · t**
+**x = x<sub>0</sub> + v<sub>0</sub> cos θ · t**
 
-si tomamos `x₀ = 0`:
+si tomamos x<sub>0</sub> = 0:
 
-**t = x/(v₀ cos θ)**
+**t = x/(v<sub>0</sub> cos θ)**
 
 Sustituyendo en y(t):
 
 <div class="formula-panel">
   <span class="formula-panel__label">Ecuación de trayectoria</span>
-  <div class="formula-panel__formula">y = y₀ + x tan θ − [g x² / (2v₀² cos²θ)]</div>
+  <div class="formula-panel__formula">y = y<sub>0</sub> + x tan θ − [g x² / (2v<sub>0</sub>² cos²θ)]</div>
 </div>
 
 Es una función cuadrática de x.
@@ -959,8 +959,8 @@ Para un tiro oblicuo ideal:
 
 | Magnitud | Componente x | Componente y |
 | --- | --- | --- |
-| Posición | `x₀ + v₀ₓt` | `y₀ + v₀ᵧt − ½gt²` |
-| Velocidad | `v₀ₓ` | `v₀ᵧ − gt` |
+| Posición | x<sub>0</sub> + v<sub>0x</sub>t | y<sub>0</sub> + v<sub>0y</sub>t − ½gt² |
+| Velocidad | v<sub>0x</sub> | v<sub>0y</sub> − gt |
 | Aceleración | `0` | `−g` |
 
 Esta tabla resume prácticamente todo el modelo.
@@ -975,18 +975,18 @@ Durante un tiro oblicuo:
 
 ### Subida
 
-- `vₓ > 0`;
-- `vᵧ > 0`.
+- v<sub>x</sub> > 0;
+- v<sub>y</sub> > 0.
 
 ### Cima
 
-- `vₓ > 0`;
-- `vᵧ = 0`.
+- v<sub>x</sub> > 0;
+- v<sub>y</sub> = 0.
 
 ### Bajada
 
-- `vₓ > 0`;
-- `vᵧ < 0`.
+- v<sub>x</sub> > 0;
+- v<sub>y</sub> < 0.
 
 La dirección cambia continuamente.
 
@@ -1032,7 +1032,7 @@ Esta distinción prepara el estudio de dinámica y movimiento circular.
 
 Si:
 
-- `y₀ ≠ y_f`;
+- y<sub>0</sub> ≠ y<sub>f</sub>;
 
 no podemos usar automáticamente las fórmulas simétricas.
 
@@ -1040,14 +1040,14 @@ Debemos resolver:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Ecuación vertical general</span>
-  <div class="formula-panel__formula">y_f = y₀ + v₀ᵧt − ½gt²</div>
+  <div class="formula-panel__formula">y<sub>f</sub> = y<sub>0</sub> + v<sub>0y</sub>t − ½gt²</div>
 </div>
 
 para encontrar el tiempo.
 
 Luego usamos ese mismo t en:
 
-**x = x₀ + v₀ₓt**
+**x = x<sub>0</sub> + v<sub>0x</sub>t**
 
 ---
 
@@ -1056,7 +1056,7 @@ Luego usamos ese mismo t en:
 Una pelota se lanza horizontalmente desde:
 
 - `h = 45 m`;
-- `v₀ = 12 m/s`;
+- v<sub>0</sub> = 12 m/s;
 - `g = 10 m/s²`.
 
 Tiempo:
@@ -1075,7 +1075,7 @@ Alcance:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Desde una plataforma</h3>
   <div class="worked-example-card__steps">
-    <p>t_caída = 3 s</p>
+    <p>t<sub>caída</sub> = 3 s</p>
     <p><strong>x = 36 m</strong></p>
   </div>
 </div>
@@ -1193,7 +1193,7 @@ Buscamos una aproximación coherente con el modelo.
 Si el aire importa:
 
 - aparece aceleración horizontal;
-- `vₓ` ya no es constante;
+- v<sub>x</sub> ya no es constante;
 - la aceleración vertical tampoco es simplemente `−g`;
 - la trayectoria deja de ser una parábola perfecta.
 
@@ -1247,13 +1247,13 @@ Estos efectos no forman parte del tiro parabólico ideal.
 
 No en el modelo ideal.
 
-### “Si cae más tiempo, también aumenta vₓ”
+### “Si cae más tiempo, también aumenta v<sub>x</sub>”
 
-No. vₓ permanece constante.
+No. v<sub>x</sub> permanece constante.
 
 ### “En la altura máxima la velocidad total es cero”
 
-No en tiro oblicuo. Sólo vᵧ es cero.
+No en tiro oblicuo. Sólo v<sub>y</sub> es cero.
 
 ### “La aceleración es tangente a la trayectoria”
 
@@ -1269,7 +1269,7 @@ Sólo bajo condiciones ideales específicas, especialmente igual altura de salid
 
 ### “Tiro horizontal y caída libre son movimientos verticales distintos”
 
-Verticalmente tienen las mismas ecuaciones si parten con la misma v₀ᵧ.
+Verticalmente tienen las mismas ecuaciones si parten con la misma v<sub>0y</sub>.
 
 ### “La parábola del gráfico y(t) es la trayectoria”
 
@@ -1287,8 +1287,8 @@ No. La trayectoria corresponde a y(x).
   <ol>
     <li>Escribí las componentes de la aceleración de un proyectil ideal.</li>
     <li>¿Qué componente de la velocidad permanece constante?</li>
-    <li>¿Qué ocurre con vᵧ en la altura máxima?</li>
-    <li>¿Qué ocurre con vₓ en ese mismo instante?</li>
+    <li>¿Qué ocurre con v<sub>y</sub> en la altura máxima?</li>
+    <li>¿Qué ocurre con v<sub>x</sub> en ese mismo instante?</li>
     <li>¿Qué forma tiene la trayectoria ideal y(x)?</li>
   </ol>
 </div>
@@ -1301,7 +1301,7 @@ No. La trayectoria corresponde a y(x).
   <ol>
     <li>Una pelota sale horizontalmente a 8 m/s desde 20 m de altura. Usando g = 10 m/s², calculá tiempo de caída.</li>
     <li>Calculá el alcance horizontal.</li>
-    <li>Calculá vᵧ al impactar.</li>
+    <li>Calculá v<sub>y</sub> al impactar.</li>
     <li>Calculá la rapidez final.</li>
   </ol>
 </div>
@@ -1327,8 +1327,8 @@ No. La trayectoria corresponde a y(x).
   <ol>
     <li>Compará tiros ideales de 30° y 60° con la misma rapidez inicial y mismo nivel de salida y llegada.</li>
     <li>Explicá por qué tienen el mismo alcance pero distinta altura máxima.</li>
-    <li>Construí cualitativamente vₓ(t), vᵧ(t), aₓ(t) y aᵧ(t).</li>
-    <li>Explicá por qué un tiro desde una plataforma no puede resolverse siempre con `t_vuelo = 2v₀ senθ/g`.</li>
+    <li>Construí cualitativamente v<sub>x</sub>(t), v<sub>y</sub>(t), a<sub>x</sub>(t) y a<sub>y</sub>(t).</li>
+    <li>Explicá por qué un tiro desde una plataforma no puede resolverse siempre con t<sub>vuelo</sub> = 2v<sub>0</sub> senθ/g.</li>
   </ol>
 </div>
 
@@ -1339,7 +1339,7 @@ No. La trayectoria corresponde a y(x).
   </div>
   <ol>
     <li>Derivá la ecuación parabólica y(x) eliminando t de las ecuaciones paramétricas.</li>
-    <li>Derivá la expresión del alcance `R = v₀² sen(2θ)/g` para igual altura inicial y final.</li>
+    <li>Derivá la expresión del alcance R = v<sub>0</sub>² sen(2θ)/g para igual altura inicial y final.</li>
     <li>Demostrá que, bajo esas condiciones, ángulos complementarios tienen igual alcance.</li>
     <li>Analizá qué partes de la derivación dejan de ser válidas cuando la resistencia del aire es importante.</li>
   </ol>
@@ -1351,7 +1351,7 @@ No. La trayectoria corresponde a y(x).
 
 Una pelota se lanza desde el suelo con:
 
-- `v₀ = 25 m/s`;
+- v<sub>0</sub> = 25 m/s;
 - `θ = 37°`;
 - `g = 10 m/s²`.
 
@@ -1362,17 +1362,17 @@ Usamos aproximadamente:
 
 ### Componentes iniciales
 
-**v₀ₓ = 25×0,80 = 20 m/s**
+**v<sub>0x</sub> = 25×0,80 = 20 m/s**
 
-**v₀ᵧ = 25×0,60 = 15 m/s**
+**v<sub>0y</sub> = 25×0,60 = 15 m/s**
 
 ### Tiempo de subida
 
-**t_subida = 15/10 = 1,5 s**
+**t<sub>subida</sub> = 15/10 = 1,5 s**
 
 ### Tiempo total
 
-**t_vuelo = 3 s**
+**t<sub>vuelo</sub> = 3 s**
 
 ### Altura máxima
 
@@ -1388,10 +1388,10 @@ Usamos aproximadamente:
   <span class="worked-example-card__label">Ejemplo integrado</span>
   <h3>Tiro oblicuo por componentes</h3>
   <div class="worked-example-card__steps">
-    <p>v₀ = (20, 15) m/s</p>
-    <p>t_subida = 1,5 s</p>
-    <p>t_vuelo = 3,0 s</p>
-    <p>h_max = 11,25 m</p>
+    <p>v<sub>0</sub> = (20, 15) m/s</p>
+    <p>t<sub>subida</sub> = 1,5 s</p>
+    <p>t<sub>vuelo</sub> = 3,0 s</p>
+    <p>h<sub>max</sub> = 11,25 m</p>
     <p><strong>R = 60 m</strong></p>
   </div>
 </div>
@@ -1414,21 +1414,21 @@ La solución completa surge de combinar:
 </details>
 
 <details class="lesson-quiz">
-  <summary>2. ¿Qué vale aₓ en un proyectil ideal?</summary>
+  <summary>2. ¿Qué vale a<sub>x</sub> en un proyectil ideal?</summary>
   <div class="lesson-quiz__answer">
     Cero, porque en el modelo sólo actúa la aceleración gravitatoria vertical.
   </div>
 </details>
 
 <details class="lesson-quiz">
-  <summary>3. ¿Qué ocurre con vᵧ en la altura máxima?</summary>
+  <summary>3. ¿Qué ocurre con v<sub>y</sub> en la altura máxima?</summary>
   <div class="lesson-quiz__answer">
     Vale cero instantáneamente.
   </div>
 </details>
 
 <details class="lesson-quiz">
-  <summary>4. ¿Qué ocurre con vₓ en la altura máxima?</summary>
+  <summary>4. ¿Qué ocurre con v<sub>x</sub> en la altura máxima?</summary>
   <div class="lesson-quiz__answer">
     Permanece constante y generalmente no es cero.
   </div>
@@ -1455,19 +1455,19 @@ La solución completa surge de combinar:
 - En dos dimensiones usamos vectores de posición, velocidad y aceleración.
 - Las componentes cartesianas pueden analizarse por separado.
 - Ambas componentes comparten el mismo tiempo.
-- En un proyectil ideal, `aₓ = 0` y `aᵧ = −g`.
+- En un proyectil ideal, a<sub>x</sub> = 0 y a<sub>y</sub> = −g.
 - Por eso horizontalmente hay MRU.
 - Verticalmente hay MRUV.
-- En tiro horizontal, `v₀ᵧ = 0`.
+- En tiro horizontal, v<sub>0y</sub> = 0.
 - El tiempo de caída depende del movimiento vertical.
 - El alcance horizontal se obtiene usando ese mismo tiempo en x(t).
-- En tiro oblicuo, `v₀ₓ = v₀ cosθ` y `v₀ᵧ = v₀ senθ`.
-- En la altura máxima, `vᵧ = 0` pero `vₓ` permanece.
+- En tiro oblicuo, v<sub>0x</sub> = v<sub>0</sub> cosθ y v<sub>0y</sub> = v<sub>0</sub> senθ.
+- En la altura máxima, v<sub>y</sub> = 0 pero v<sub>x</sub> permanece.
 - La trayectoria ideal y(x) es parabólica.
 - Si el proyectil vuelve al mismo nivel, existen fórmulas simples para tiempo de vuelo y alcance.
-- `R = v₀² sen(2θ)/g` sólo vale bajo condiciones específicas.
+- R = v<sub>0</sub>² sen(2θ)/g sólo vale bajo condiciones específicas.
 - En el modelo ideal y a igual nivel, 45° maximiza el alcance.
-- La resistencia del aire rompe la constancia de vₓ y la trayectoria deja de ser una parábola perfecta.
+- La resistencia del aire rompe la constancia de v<sub>x</sub> y la trayectoria deja de ser una parábola perfecta.
 
 ---
 

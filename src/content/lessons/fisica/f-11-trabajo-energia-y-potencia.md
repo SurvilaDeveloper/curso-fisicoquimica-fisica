@@ -315,18 +315,18 @@ vale directamente para una fuerza constante.
 
 Si la fuerza cambia con la posición, podemos interpretar el trabajo mediante el área bajo una gráfica:
 
-**Fₓ(x)**
+**F<sub>x</sub>(x)**
 
 En una dimensión:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Profundización</span>
-  <div class="formula-panel__formula">W = área algebraica bajo Fₓ(x)</div>
+  <div class="formula-panel__formula">W = área algebraica bajo F<sub>x</sub>(x)</div>
 </div>
 
 Con cálculo integral:
 
-**W = ∫ Fₓ dx**
+**W = ∫ F<sub>x</sub> dx**
 
 No necesitamos usar integrales formalmente para aprovechar la interpretación gráfica.
 
@@ -442,35 +442,35 @@ El trabajo neto realizado sobre un cuerpo es igual al cambio de su energía cin�
 
 <div class="formula-panel">
   <span class="formula-panel__label">Teorema trabajo-energía</span>
-  <div class="formula-panel__formula">W_neto = ΔK</div>
+  <div class="formula-panel__formula">W<sub>neto</sub> = ΔK</div>
 </div>
 
 Es decir:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Forma desarrollada</span>
-  <div class="formula-panel__formula">W_neto = K_f − K_i</div>
+  <div class="formula-panel__formula">W<sub>neto</sub> = K<sub>f</sub> − K<sub>i</sub></div>
 </div>
 
 ---
 
 ## 18. Qué significa el teorema
 
-### Si W_neto > 0
+### Si W<sub>neto</sub> > 0
 
-**K_f > K_i**
+**K<sub>f</sub> > K<sub>i</sub>**
 
 La rapidez aumenta.
 
-### Si W_neto < 0
+### Si W<sub>neto</sub> < 0
 
-**K_f < K_i**
+**K<sub>f</sub> < K<sub>i</sub>**
 
 La rapidez disminuye.
 
-### Si W_neto = 0
+### Si W<sub>neto</sub> = 0
 
-**K_f = K_i**
+**K<sub>f</sub> = K<sub>i</sub>**
 
 La rapidez final es igual a la inicial.
 
@@ -486,25 +486,25 @@ Para una fuerza neta constante en una dimensión:
 
 Trabajo neto:
 
-**W_neto = ΣF · Δx**
+**W<sub>neto</sub> = ΣF · Δx**
 
 Entonces:
 
-**W_neto = maΔx**
+**W<sub>neto</sub> = maΔx**
 
 En MRUV:
 
-**v_f² = v_i² + 2aΔx**
+**v<sub>f</sub>² = v<sub>i</sub>² + 2aΔx**
 
 por lo tanto:
 
-**aΔx = (v_f² − v_i²)/2**
+**aΔx = (v<sub>f</sub>² − v<sub>i</sub>²)/2**
 
 Sustituimos:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Resultado</span>
-  <div class="formula-panel__formula">W_neto = ½mv_f² − ½mv_i² = ΔK</div>
+  <div class="formula-panel__formula">W<sub>neto</sub> = ½mv<sub>f</sub>² − ½mv<sub>i</sub>² = ΔK</div>
 </div>
 
 ---
@@ -533,7 +533,7 @@ Cambio de energía cinética:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Trabajo neto</h3>
   <div class="worked-example-card__steps">
-    <p><strong>W_neto = ΔK = 40 J</strong></p>
+    <p><strong>W<sub>neto</sub> = ΔK = 40 J</strong></p>
   </div>
 </div>
 
@@ -545,7 +545,7 @@ Si actúan varias fuerzas:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Trabajo neto</span>
-  <div class="formula-panel__formula">W_neto = W₁ + W₂ + W₃ + ...</div>
+  <div class="formula-panel__formula">W<sub>neto</sub> = W<sub>1</sub> + W<sub>2</sub> + W<sub>3</sub> + ...</div>
 </div>
 
 El teorema usa la suma de todos los trabajos sobre el cuerpo.
@@ -583,7 +583,7 @@ En una región donde g puede tratarse como constante:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Energía potencial gravitatoria</span>
-  <div class="formula-panel__formula">U_g = mgh</div>
+  <div class="formula-panel__formula">U<sub>g</sub> = mgh</div>
 </div>
 
 respecto de un nivel de referencia elegido.
@@ -600,7 +600,7 @@ donde resulte conveniente.
 
 Entonces los valores de:
 
-**U_g**
+**U<sub>g</sub>**
 
 dependen de ese nivel.
 
@@ -608,7 +608,7 @@ Pero las diferencias:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Cambio de energía potencial</span>
-  <div class="formula-panel__formula">ΔU_g = mg(h_f − h_i)</div>
+  <div class="formula-panel__formula">ΔU<sub>g</sub> = mg(h<sub>f</sub> − h<sub>i</sub>)</div>
 </div>
 
 son las que tienen significado físico en los problemas.
@@ -639,18 +639,18 @@ Cerca de la superficie terrestre:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Relación</span>
-  <div class="formula-panel__formula">W_g = −ΔU_g</div>
+  <div class="formula-panel__formula">W<sub>g</sub> = −ΔU<sub>g</sub></div>
 </div>
 
 Si el cuerpo baja:
 
-- `ΔU_g < 0`;
-- `W_g > 0`.
+- ΔU<sub>g</sub> < 0;
+- W<sub>g</sub> > 0.
 
 Si sube:
 
-- `ΔU_g > 0`;
-- `W_g < 0`.
+- ΔU<sub>g</sub> > 0;
+- W<sub>g</sub> < 0.
 
 ---
 
@@ -670,14 +670,14 @@ Usamos:
 
 Cambio de energía potencial:
 
-**ΔU_g = 2×10×(−5)**
+**ΔU<sub>g</sub> = 2×10×(−5)**
 
 <div class="worked-example-card">
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Descenso gravitatorio</h3>
   <div class="worked-example-card__steps">
-    <p>ΔU_g = −100 J</p>
-    <p><strong>W_g = +100 J</strong></p>
+    <p>ΔU<sub>g</sub> = −100 J</p>
+    <p><strong>W<sub>g</sub> = +100 J</strong></p>
   </div>
 </div>
 
@@ -689,7 +689,7 @@ Para un resorte ideal que cumple la ley de Hooke:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Energía potencial elástica</span>
-  <div class="formula-panel__formula">U_el = ½kx²</div>
+  <div class="formula-panel__formula">U<sub>el</sub> = ½kx²</div>
 </div>
 
 donde:
@@ -717,7 +717,7 @@ El signo de x sí importa para la dirección de la fuerza:
 
 pero no para el valor de:
 
-**U_el = ½kx²**
+**U<sub>el</sub> = ½kx²**
 
 ---
 
@@ -734,8 +734,8 @@ Entonces:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Energía almacenada en un resorte ideal</h3>
   <div class="worked-example-card__steps">
-    <p>U_el = ½ × 200 × 0,10²</p>
-    <p><strong>U_el = 1 J</strong></p>
+    <p>U<sub>el</sub> = ½ × 200 × 0,10²</p>
+    <p><strong>U<sub>el</sub> = 1 J</strong></p>
   </div>
 </div>
 
@@ -747,7 +747,7 @@ Para una fuerza elástica ideal:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Relación</span>
-  <div class="formula-panel__formula">W_el = −ΔU_el</div>
+  <div class="formula-panel__formula">W<sub>el</sub> = −ΔU<sub>el</sub></div>
 </div>
 
 Cuando el resorte se acerca al equilibrio:
@@ -765,7 +765,7 @@ Equivalentemente, podemos asociarle una energía potencial tal que:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Fuerza conservativa</span>
-  <div class="formula-panel__formula">W_c = −ΔU</div>
+  <div class="formula-panel__formula">W<sub>c</sub> = −ΔU</div>
 </div>
 
 Ejemplos ideales:
@@ -787,7 +787,7 @@ Si el sistema vuelve exactamente a la misma configuración:
 
 y entonces:
 
-**W_c = 0**
+**W<sub>c</sub> = 0**
 
 sobre el recorrido completo.
 
@@ -829,14 +829,14 @@ Definimos:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Energía mecánica</span>
-  <div class="formula-panel__formula">E_m = K + U</div>
+  <div class="formula-panel__formula">E<sub>m</sub> = K + U</div>
 </div>
 
 Si existen varias energías potenciales:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Ejemplo</span>
-  <div class="formula-panel__formula">E_m = K + U_g + U_el</div>
+  <div class="formula-panel__formula">E<sub>m</sub> = K + U<sub>g</sub> + U<sub>el</sub></div>
 </div>
 
 según el sistema estudiado.
@@ -849,14 +849,14 @@ Si sobre el sistema sólo realizan trabajo fuerzas conservativas relevantes:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Conservación mecánica</span>
-  <div class="formula-panel__formula">E_m,i = E_m,f</div>
+  <div class="formula-panel__formula">E<sub>m,i</sub> = E<sub>m,f</sub></div>
 </div>
 
 Es decir:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Forma expandida</span>
-  <div class="formula-panel__formula">K_i + U_i = K_f + U_f</div>
+  <div class="formula-panel__formula">K<sub>i</sub> + U<sub>i</sub> = K<sub>f</sub> + U<sub>f</sub></div>
 </div>
 
 ---
@@ -865,12 +865,12 @@ Es decir:
 
 En una caída ideal:
 
-- U_g disminuye;
+- U<sub>g</sub> disminuye;
 - K aumenta.
 
 La suma:
 
-**K + U_g**
+**K + U<sub>g</sub>**
 
 permanece constante.
 
@@ -902,13 +902,13 @@ en el suelo.
 
 Inicialmente:
 
-**K_i = 0**
+**K<sub>i</sub> = 0**
 
-**U_i = mgh**
+**U<sub>i</sub> = mgh**
 
 Al llegar:
 
-**U_f = 0**
+**U<sub>f</sub> = 0**
 
 Entonces:
 
@@ -954,7 +954,7 @@ Dos enfoques diferentes llevan al mismo resultado.
 
 Lanzamos un cuerpo hacia arriba con rapidez:
 
-**v₀**
+**v<sub>0</sub>**
 
 En la altura máxima:
 
@@ -962,13 +962,13 @@ En la altura máxima:
 
 Conservación:
 
-**½mv₀² = mgh_max**
+**½mv<sub>0</sub>² = mgh<sub>max</sub>**
 
 Entonces:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Altura máxima</span>
-  <div class="formula-panel__formula">h_max = v₀²/(2g)</div>
+  <div class="formula-panel__formula">h<sub>max</sub> = v<sub>0</sub>²/(2g)</div>
 </div>
 
 Es el mismo resultado obtenido mediante MRUV.
@@ -981,13 +981,13 @@ Un bloque sobre una superficie sin rozamiento comprime un resorte y luego es lib
 
 Si parte del reposo con compresión x:
 
-**K_i = 0**
+**K<sub>i</sub> = 0**
 
-**U_el,i = ½kx²**
+**U<sub>el,i</sub> = ½kx²**
 
 Cuando el resorte pasa por el equilibrio:
 
-**U_el,f = 0**
+**U<sub>el,f</sub> = 0**
 
 Entonces:
 
@@ -1008,14 +1008,14 @@ Cuando existen fuerzas no conservativas externas al almacenamiento potencial con
 
 <div class="formula-panel">
   <span class="formula-panel__label">Balance mecánico</span>
-  <div class="formula-panel__formula">W_nc = ΔE_m</div>
+  <div class="formula-panel__formula">W<sub>nc</sub> = ΔE<sub>m</sub></div>
 </div>
 
 es decir:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Forma expandida</span>
-  <div class="formula-panel__formula">W_nc = (K_f + U_f) − (K_i + U_i)</div>
+  <div class="formula-panel__formula">W<sub>nc</sub> = (K<sub>f</sub> + U<sub>f</sub>) − (K<sub>i</sub> + U<sub>i</sub>)</div>
 </div>
 
 Esto permite contabilizar pérdidas o aportes de energía mecánica.
@@ -1028,7 +1028,7 @@ Si un bloque desliza una distancia d sobre una superficie horizontal y el rozami
 
 <div class="formula-panel">
   <span class="formula-panel__label">Rozamiento</span>
-  <div class="formula-panel__formula">W_roz = −f_k d</div>
+  <div class="formula-panel__formula">W<sub>roz</sub> = −f<sub>k</sub> d</div>
 </div>
 
 si el rozamiento se opone al desplazamiento.
@@ -1057,28 +1057,28 @@ de trabajo hasta cierto punto.
 
 Energía cinética inicial:
 
-**K_i = ½×2×25 = 25 J**
+**K<sub>i</sub> = ½×2×25 = 25 J**
 
 Entonces:
 
-**K_f = 25 − 9 = 16 J**
+**K<sub>f</sub> = 25 − 9 = 16 J**
 
 Como:
 
-**K_f = ½×2×v_f²**
+**K<sub>f</sub> = ½×2×v<sub>f</sub>²**
 
 tenemos:
 
-**v_f² = 16**
+**v<sub>f</sub>² = 16**
 
 <div class="worked-example-card">
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Pérdida de energía mecánica</h3>
   <div class="worked-example-card__steps">
-    <p>K_i = 25 J</p>
-    <p>W_roz = −9 J</p>
-    <p>K_f = 16 J</p>
-    <p><strong>v_f = 4 m/s</strong></p>
+    <p>K<sub>i</sub> = 25 J</p>
+    <p>W<sub>roz</sub> = −9 J</p>
+    <p>K<sub>f</sub> = 16 J</p>
+    <p><strong>v<sub>f</sub> = 4 m/s</strong></p>
   </div>
 </div>
 
@@ -1204,7 +1204,7 @@ Potencia media:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Potencia media</span>
-  <div class="formula-panel__formula">P_media = W / Δt</div>
+  <div class="formula-panel__formula">P<sub>media</sub> = W / Δt</div>
 </div>
 
 Unidad SI:
@@ -1338,14 +1338,14 @@ Definimos:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Rendimiento energético</span>
-  <div class="formula-panel__formula">η = E_útil / E_entrada</div>
+  <div class="formula-panel__formula">η = E<sub>útil</sub> / E<sub>entrada</sub></div>
 </div>
 
 También puede expresarse:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Con potencias</span>
-  <div class="formula-panel__formula">η = P_útil / P_entrada</div>
+  <div class="formula-panel__formula">η = P<sub>útil</sub> / P<sub>entrada</sub></div>
 </div>
 
 si las condiciones son apropiadas.
@@ -1358,7 +1358,7 @@ Multiplicamos por 100:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Porcentaje</span>
-  <div class="formula-panel__formula">η(%) = 100 · E_útil/E_entrada</div>
+  <div class="formula-panel__formula">η(%) = 100 · E<sub>útil</sub>/E<sub>entrada</sub></div>
 </div>
 
 En un sistema pasivo real:
@@ -1427,7 +1427,7 @@ Una relación central es:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Conservativa</span>
-  <div class="formula-panel__formula">W_c = −ΔU</div>
+  <div class="formula-panel__formula">W<sub>c</sub> = −ΔU</div>
 </div>
 
 Esto permite reemplazar en muchos problemas:
@@ -1456,7 +1456,7 @@ Usamos:
 
 Conservación:
 
-**mgh_i = ½mv² + mgh_f**
+**mgh<sub>i</sub> = ½mv² + mgh<sub>f</sub>**
 
 Cancelamos m:
 
@@ -1489,7 +1489,7 @@ En un modelo sin rozamiento podemos tener:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Balance</span>
-  <div class="formula-panel__formula">½kx_i² + mgh_i + ½mv_i² = ½kx_f² + mgh_f + ½mv_f²</div>
+  <div class="formula-panel__formula">½kx<sub>i</sub>² + mgh<sub>i</sub> + ½mv<sub>i</sub>² = ½kx<sub>f</sub>² + mgh<sub>f</sub> + ½mv<sub>f</sub>²</div>
 </div>
 
 No todos los términos estarán presentes siempre.
@@ -1669,10 +1669,10 @@ No. Esa fracción se transforma en formas no consideradas útiles.
     <strong>Energías potenciales</strong>
   </div>
   <ol>
-    <li>Una masa de 5 kg sube 8 m. Usando g = 10 m/s², calculá ΔU_g.</li>
+    <li>Una masa de 5 kg sube 8 m. Usando g = 10 m/s², calculá ΔU<sub>g</sub>.</li>
     <li>Calculá el trabajo de la gravedad en ese desplazamiento.</li>
-    <li>Un resorte de k = 400 N/m se comprime 0,15 m. Calculá U_el.</li>
-    <li>Explicá por qué elegir otro cero de U_g no cambia una predicción física basada en ΔU.</li>
+    <li>Un resorte de k = 400 N/m se comprime 0,15 m. Calculá U<sub>el</sub>.</li>
+    <li>Explicá por qué elegir otro cero de U<sub>g</sub> no cambia una predicción física basada en ΔU.</li>
   </ol>
 </div>
 
@@ -1696,7 +1696,7 @@ No. Esa fracción se transforma en formas no consideradas útiles.
   </div>
   <ol>
     <li>Derivá el teorema trabajo-energía para fuerza neta constante usando MRUV.</li>
-    <li>Mostrá cómo obtener `h_max = v₀²/(2g)` mediante conservación de energía.</li>
+    <li>Mostrá cómo obtener h<sub>max</sub> = v<sub>0</sub>²/(2g) mediante conservación de energía.</li>
     <li>Explicá por qué el trabajo de una fuerza conservativa sobre un camino cerrado es cero.</li>
     <li>Analizá cómo cambia el balance energético si ampliamos el sistema para incluir una superficie que se calienta por rozamiento.</li>
   </ol>
@@ -1716,7 +1716,7 @@ No. Esa fracción se transforma en formas no consideradas útiles.
 <details class="lesson-quiz">
   <summary>2. ¿Qué establece el teorema trabajo-energía?</summary>
   <div class="lesson-quiz__answer">
-    Que el trabajo neto sobre un cuerpo es igual al cambio de su energía cinética: W_neto = ΔK.
+    Que el trabajo neto sobre un cuerpo es igual al cambio de su energía cinética: W<sub>neto</sub> = ΔK.
   </div>
 </details>
 
@@ -1757,12 +1757,12 @@ No. Esa fracción se transforma en formas no consideradas útiles.
 - Puede ser positivo, negativo o nulo.
 - La unidad de trabajo y energía es el joule.
 - La energía cinética es `K = ½mv²`.
-- El trabajo neto cumple `W_neto = ΔK`.
-- Cerca de la Tierra, `U_g = mgh` respecto de un nivel elegido.
-- Para un resorte ideal, `U_el = ½kx²`.
-- Para una fuerza conservativa, `W_c = −ΔU`.
+- El trabajo neto cumple W<sub>neto</sub> = ΔK.
+- Cerca de la Tierra, U<sub>g</sub> = mgh respecto de un nivel elegido.
+- Para un resorte ideal, U<sub>el</sub> = ½kx².
+- Para una fuerza conservativa, W<sub>c</sub> = −ΔU.
 - La energía mecánica es la suma de energía cinética y potencial relevante.
-- Si sólo actúan fuerzas conservativas en el balance mecánico, `E_m` se conserva.
+- Si sólo actúan fuerzas conservativas en el balance mecánico, E<sub>m</sub> se conserva.
 - Con rozamiento puede disminuir la energía mecánica y aumentar la energía interna.
 - La energía total no desaparece.
 - La potencia media es `P = W/Δt`.

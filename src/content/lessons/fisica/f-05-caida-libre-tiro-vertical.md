@@ -167,17 +167,17 @@ las ecuaciones son:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Velocidad</span>
-  <div class="formula-panel__formula">v = v₀ + at</div>
+  <div class="formula-panel__formula">v = v<sub>0</sub> + at</div>
 </div>
 
 <div class="formula-panel">
   <span class="formula-panel__label">Posición</span>
-  <div class="formula-panel__formula">y = y₀ + v₀t + ½at²</div>
+  <div class="formula-panel__formula">y = y<sub>0</sub> + v<sub>0</sub>t + ½at²</div>
 </div>
 
 <div class="formula-panel">
   <span class="formula-panel__label">Sin tiempo</span>
-  <div class="formula-panel__formula">v² = v₀² + 2a(y − y₀)</div>
+  <div class="formula-panel__formula">v² = v<sub>0</sub>² + 2a(y − y<sub>0</sub>)</div>
 </div>
 
 La diferencia es que ahora:
@@ -196,7 +196,7 @@ Eso significa:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Condición inicial</span>
-  <div class="formula-panel__formula">v₀ = 0</div>
+  <div class="formula-panel__formula">v<sub>0</sub> = 0</div>
 </div>
 
 No significa:
@@ -301,14 +301,14 @@ Si elegimos:
 
 entonces:
 
-- `v₀ > 0`;
+- v<sub>0</sub> > 0;
 - `a = −g`.
 
 La velocidad cumple:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Tiro vertical, arriba positivo</span>
-  <div class="formula-panel__formula">v = v₀ − gt</div>
+  <div class="formula-panel__formula">v = v<sub>0</sub> − gt</div>
 </div>
 
 ---
@@ -366,7 +366,7 @@ Pero:
 
 Con arriba positivo:
 
-**v = v₀ − gt**
+**v = v<sub>0</sub> − gt**
 
 En la altura máxima:
 
@@ -374,13 +374,13 @@ En la altura máxima:
 
 Entonces:
 
-**0 = v₀ − gt_subida**
+**0 = v<sub>0</sub> − g t<sub>subida</sub>**
 
 Despejamos:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Tiempo de subida</span>
-  <div class="formula-panel__formula">t_subida = v₀ / g</div>
+  <div class="formula-panel__formula">t<sub>subida</sub> = v<sub>0</sub> / g</div>
 </div>
 
 ---
@@ -389,7 +389,7 @@ Despejamos:
 
 Lanzamos una pelota hacia arriba con:
 
-**v₀ = 19,6 m/s**
+**v<sub>0</sub> = 19,6 m/s**
 
 Usando:
 
@@ -399,9 +399,9 @@ Usando:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Tiempo hasta la altura máxima</h3>
   <div class="worked-example-card__steps">
-    <p>t_subida = v₀/g</p>
-    <p>t_subida = 19,6 / 9,8</p>
-    <p><strong>t_subida = 2,0 s</strong></p>
+    <p>t<sub>subida</sub> = v<sub>0</sub>/g</p>
+    <p>t<sub>subida</sub> = 19,6 / 9,8</p>
+    <p><strong>t<sub>subida</sub> = 2,0 s</strong></p>
   </div>
 </div>
 
@@ -411,7 +411,7 @@ Usando:
 
 Podemos usar:
 
-**v² = v₀² + 2aΔy**
+**v² = v<sub>0</sub>² + 2aΔy**
 
 En la altura máxima:
 
@@ -420,11 +420,11 @@ En la altura máxima:
 
 Entonces:
 
-**0 = v₀² − 2gΔy**
+**0 = v<sub>0</sub>² − 2gΔy**
 
 <div class="formula-panel">
   <span class="formula-panel__label">Altura ganada</span>
-  <div class="formula-panel__formula">Δy_max = v₀² / (2g)</div>
+  <div class="formula-panel__formula">Δy<sub>max</sub> = v<sub>0</sub>² / (2g)</div>
 </div>
 
 ---
@@ -433,21 +433,21 @@ Entonces:
 
 Con:
 
-**v₀ = 19,6 m/s**
+**v<sub>0</sub> = 19,6 m/s**
 
 tenemos:
 
-**Δy_max = 19,6² / (2×9,8)**
+**Δy<sub>max</sub> = 19,6² / (2×9,8)**
 
-**Δy_max = 19,6 m**
+**Δy<sub>max</sub> = 19,6 m**
 
 <div class="worked-example-card">
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Altura máxima</h3>
   <div class="worked-example-card__steps">
     <p>v = 0 en el punto más alto</p>
-    <p>0 = v₀² − 2gΔy</p>
-    <p><strong>Δy_max = 19,6 m</strong></p>
+    <p>0 = v<sub>0</sub>² − 2gΔy</p>
+    <p><strong>Δy<sub>max</sub> = 19,6 m</strong></p>
   </div>
 </div>
 
@@ -486,7 +486,7 @@ entonces existe una simetría importante.
 
 ### Tiempo
 
-**t_bajada = t_subida**
+**t<sub>bajada</sub> = t<sub>subida</sub>**
 
 ### Rapidez al volver
 
@@ -498,7 +498,7 @@ Tiene signo opuesto:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Al regresar a la misma altura</span>
-  <div class="formula-panel__formula">v_f = −v₀</div>
+  <div class="formula-panel__formula">v<sub>f</sub> = −v<sub>0</sub></div>
 </div>
 
 si arriba es positivo.
@@ -511,7 +511,7 @@ Bajo esas condiciones:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Tiempo total</span>
-  <div class="formula-panel__formula">t_total = 2v₀/g</div>
+  <div class="formula-panel__formula">t<sub>total</sub> = 2v<sub>0</sub>/g</div>
 </div>
 
 Esta fórmula sólo vale si:
@@ -528,7 +528,7 @@ Si cae a otra altura:
 
 Con:
 
-**v₀ = 19,6 m/s**
+**v<sub>0</sub> = 19,6 m/s**
 
 y:
 
@@ -545,8 +545,8 @@ Entonces:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Regreso al nivel de lanzamiento</h3>
   <div class="worked-example-card__steps">
-    <p>t_total = 4,0 s</p>
-    <p>v_f = −19,6 m/s</p>
+    <p>t<sub>total</sub> = 4,0 s</p>
+    <p>v<sub>f</sub> = −19,6 m/s</p>
     <p><strong>Regresa con la misma rapidez ideal con la que fue lanzado.</strong></p>
   </div>
 </div>
@@ -557,7 +557,7 @@ Entonces:
 
 Para arriba positivo:
 
-**v(t) = v₀ − gt**
+**v(t) = v<sub>0</sub> − gt**
 
 es una recta descendente.
 
@@ -614,7 +614,7 @@ Con arriba positivo:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Posición vertical</span>
-  <div class="formula-panel__formula">y(t) = y₀ + v₀t − ½gt²</div>
+  <div class="formula-panel__formula">y(t) = y<sub>0</sub> + v<sub>0</sub>t − ½gt²</div>
 </div>
 
 Es una parábola que abre hacia abajo.
@@ -684,7 +684,7 @@ Los módulos son iguales.
 
 Entonces:
 
-**Δy_total = 0**
+**Δy<sub>total</sub> = 0**
 
 Pero la distancia recorrida no es cero.
 
@@ -731,7 +731,7 @@ Entonces:
 
 El tiempo total ya no es:
 
-**2v₀/g**
+**2v<sub>0</sub>/g**
 
 porque el punto final está más abajo.
 
@@ -747,7 +747,7 @@ Podemos elegir:
 
 Entonces:
 
-- `y₀ > 0`.
+- y<sub>0</sub> > 0.
 
 ### Opción B
 
@@ -773,8 +773,8 @@ sobre el suelo.
 
 Datos:
 
-- `y₀ = 20 m`;
-- `v₀ = 10 m/s`;
+- y<sub>0</sub> = 20 m;
+- v<sub>0</sub> = 10 m/s;
 - `a = −10 m/s²`.
 
 Posición:
@@ -1129,13 +1129,13 @@ La tabla resume una de las ideas más importantes de esta lección.
 
 Lanzamos una pelota desde el suelo con:
 
-- `v₀ = 24,5 m/s`;
+- v<sub>0</sub> = 24,5 m/s;
 - arriba positivo;
 - `g = 9,8 m/s²`.
 
 ### Tiempo de subida
 
-**t = v₀/g**
+**t = v<sub>0</sub>/g**
 
 **t = 24,5/9,8**
 
@@ -1143,7 +1143,7 @@ Lanzamos una pelota desde el suelo con:
 
 ### Altura máxima
 
-**Δy = v₀²/(2g)**
+**Δy = v<sub>0</sub>²/(2g)**
 
 **Δy = 24,5²/19,6**
 
@@ -1161,10 +1161,10 @@ Lanzamos una pelota desde el suelo con:
   <span class="worked-example-card__label">Ejemplo integrado</span>
   <h3>Tiro vertical ideal completo</h3>
   <div class="worked-example-card__steps">
-    <p>t_subida = 2,5 s</p>
-    <p>y_max ≈ 30,6 m</p>
-    <p>t_total = 5,0 s</p>
-    <p>v_regreso = −24,5 m/s</p>
+    <p>t<sub>subida</sub> = 2,5 s</p>
+    <p>y<sub>max</sub> ≈ 30,6 m</p>
+    <p>t<sub>total</sub> = 5,0 s</p>
+    <p>v<sub>regreso</sub> = −24,5 m/s</p>
     <p><strong>La simetría aparece porque vuelve a la misma altura y despreciamos el aire.</strong></p>
   </div>
 </div>
@@ -1255,7 +1255,7 @@ No. Si la resistencia del aire importa, la aceleración cambia.
     <strong>Lanzamiento desde altura</strong>
   </div>
   <ol>
-    <li>Una pelota se lanza hacia arriba desde 15 m con v₀ = 10 m/s. Escribí y(t) tomando el suelo como y = 0 y g = 10 m/s².</li>
+    <li>Una pelota se lanza hacia arriba desde 15 m con v<sub>0</sub> = 10 m/s. Escribí y(t) tomando el suelo como y = 0 y g = 10 m/s².</li>
     <li>Calculá la altura máxima sobre el suelo.</li>
     <li>Calculá cuándo llega al suelo.</li>
     <li>Calculá la velocidad de impacto e interpretá su signo.</li>
@@ -1268,8 +1268,8 @@ No. Si la resistencia del aire importa, la aceleración cambia.
     <strong>Profundización</strong>
   </div>
   <ol>
-    <li>Demostrá que el tiempo de subida es v₀/g usando la ecuación de velocidad.</li>
-    <li>Derivá la altura máxima v₀²/(2g) usando la ecuación sin tiempo.</li>
+    <li>Demostrá que el tiempo de subida es v<sub>0</sub>/g usando la ecuación de velocidad.</li>
+    <li>Derivá la altura máxima v<sub>0</sub>²/(2g) usando la ecuación sin tiempo.</li>
     <li>Explicá por qué el tiempo de subida y bajada es igual sólo cuando el punto final tiene la misma altura que el inicial bajo el modelo ideal.</li>
     <li>Analizá cómo la resistencia del aire rompe la simetría ideal de un tiro vertical.</li>
   </ol>
@@ -1329,12 +1329,12 @@ No. Si la resistencia del aire importa, la aceleración cambia.
 - Cerca de la superficie terrestre usamos `g ≈ 9,8 m/s²`.
 - g representa un módulo; el signo depende del eje.
 - Si arriba es positivo, `a = −g`.
-- Un cuerpo dejado caer tiene `v₀ = 0`, no `a = 0`.
+- Un cuerpo dejado caer tiene v<sub>0</sub> = 0, no `a = 0`.
 - En un tiro vertical hacia arriba, la rapidez disminuye durante la subida.
 - En la altura máxima, `v = 0` pero `a = −g`.
 - Después, la velocidad cambia de signo y el cuerpo baja.
-- El tiempo de subida ideal es `v₀/g`.
-- La altura máxima ganada es `v₀²/(2g)`.
+- El tiempo de subida ideal es v<sub>0</sub>/g.
+- La altura máxima ganada es v<sub>0</sub>²/(2g).
 - Si vuelve a la misma altura, subida y bajada son simétricas en el modelo ideal.
 - En ese caso regresa con la misma rapidez y velocidad de signo opuesto.
 - En caída libre ideal, la aceleración no depende de la masa.

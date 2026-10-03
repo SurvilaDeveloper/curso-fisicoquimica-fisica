@@ -184,12 +184,12 @@ Entonces:
 
 Si elegimos:
 
-- tiempo inicial `t₀ = 0`;
-- posición inicial `x₀`;
+- tiempo inicial t<sub>0</sub> = 0;
+- posición inicial x<sub>0</sub>;
 
 tenemos:
 
-**Δx = x − x₀**
+**Δx = x − x<sub>0</sub>**
 
 y:
 
@@ -199,7 +199,7 @@ Por lo tanto:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Ecuación horaria del MRU</span>
-  <div class="formula-panel__formula">x(t) = x₀ + v · t</div>
+  <div class="formula-panel__formula">x(t) = x<sub>0</sub> + v · t</div>
 </div>
 
 ---
@@ -208,7 +208,7 @@ Por lo tanto:
 
 En:
 
-**x(t) = x₀ + vt**
+**x(t) = x<sub>0</sub> + vt**
 
 tenemos:
 
@@ -216,7 +216,7 @@ tenemos:
 
 Posición en el instante t.
 
-### `x₀`
+### x<sub>0</sub>
 
 Posición inicial, es decir:
 
@@ -236,7 +236,7 @@ Tiempo transcurrido desde el instante elegido como cero.
 
 Un error frecuente es suponer:
 
-**x₀ = 0**
+**x<sub>0</sub> = 0**
 
 siempre.
 
@@ -251,7 +251,7 @@ Ejemplo:
 
 Entonces:
 
-**x₀ = +120 m**
+**x<sub>0</sub> = +120 m**
 
 Si se mueve con:
 
@@ -270,7 +270,7 @@ su ecuación es:
 
 Un ciclista comienza en:
 
-**x₀ = 20 m**
+**x<sub>0</sub> = 20 m**
 
 con velocidad:
 
@@ -284,7 +284,7 @@ Queremos la posición a:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Posición futura</h3>
   <div class="worked-example-card__steps">
-    <p>x = x₀ + vt</p>
+    <p>x = x<sub>0</sub> + vt</p>
     <p>x = 20 m + (4 m/s)(15 s)</p>
     <p>x = 20 m + 60 m</p>
     <p><strong>x = 80 m</strong></p>
@@ -387,7 +387,7 @@ La diferencia entre posiciones consecutivas es constante para intervalos iguales
 
 Para MRU:
 
-**x(t) = x₀ + vt**
+**x(t) = x<sub>0</sub> + vt**
 
 es una función lineal.
 
@@ -418,7 +418,7 @@ Cuando:
 
 la ecuación queda:
 
-**x(0) = x₀**
+**x(0) = x<sub>0</sub>**
 
 Entonces el punto donde la recta corta el eje vertical representa la posición inicial.
 
@@ -460,9 +460,9 @@ Por eso:
 
 Supongamos dos móviles:
 
-**A: x_A = 2t**
+**A: x<sub>A</sub> = 2t**
 
-**B: x_B = 5t**
+**B: x<sub>B</sub> = 5t**
 
 Ambos parten del origen.
 
@@ -603,7 +603,7 @@ conserva el signo.
 
 Un móvil tiene:
 
-- `x₀ = 50 m`;
+- x<sub>0</sub> = 50 m;
 - `v = −6 m/s`.
 
 Durante:
@@ -628,7 +628,7 @@ Durante:
   <div class="worked-example-card__steps">
     <p>Δx = −30 m</p>
     <p>d = 30 m</p>
-    <p><strong>x_f = 20 m</strong></p>
+    <p><strong>x<sub>f</sub> = 20 m</strong></p>
   </div>
 </div>
 
@@ -638,13 +638,13 @@ Durante:
 
 Desde:
 
-**x = x₀ + vt**
+**x = x<sub>0</sub> + vt**
 
 podemos despejar:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Tiempo</span>
-  <div class="formula-panel__formula">t = (x − x₀)/v</div>
+  <div class="formula-panel__formula">t = (x − x<sub>0</sub>)/v</div>
 </div>
 
 Siempre debemos revisar:
@@ -690,7 +690,7 @@ Matemáticamente:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Condición de encuentro</span>
-  <div class="formula-panel__formula">x_A(t) = x_B(t)</div>
+  <div class="formula-panel__formula">x<sub>A</sub>(t) = x<sub>B</sub>(t)</div>
 </div>
 
 No necesitamos memorizar una fórmula nueva.
@@ -706,18 +706,18 @@ Supongamos:
 ### Móvil A
 
 - parte de `x = 0`;
-- `v_A = +10 m/s`.
+- v<sub>A</sub> = +10 m/s.
 
 ### Móvil B
 
 - parte de `x = 100 m`;
-- `v_B = −15 m/s`.
+- v<sub>B</sub> = −15 m/s.
 
 Ecuaciones:
 
-**x_A = 10t**
+**x<sub>A</sub> = 10t**
 
-**x_B = 100 − 15t**
+**x<sub>B</sub> = 100 − 15t**
 
 Encuentro:
 
@@ -735,7 +735,7 @@ Posición:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Encuentro frontal</h3>
   <div class="worked-example-card__steps">
-    <p>x_A = x_B</p>
+    <p>x<sub>A</sub> = x<sub>B</sub></p>
     <p>10t = 100 − 15t</p>
     <p>25t = 100</p>
     <p><strong>t = 4 s</strong></p>
@@ -763,7 +763,7 @@ Las coordenadas del punto de intersección son:
     <strong>La solución algebraica y la gráfica describen lo mismo</strong>
   </div>
   <div class="lesson-callout__body">
-    <p>Resolver x_A(t) = x_B(t) es equivalente a buscar la intersección de las dos rectas en el gráfico posición-tiempo.</p>
+    <p>Resolver x<sub>A</sub>(t) = x<sub>B</sub>(t) es equivalente a buscar la intersección de las dos rectas en el gráfico posición-tiempo.</p>
   </div>
 </div>
 
@@ -779,7 +779,7 @@ Uno parte detrás pero tiene mayor velocidad y finalmente alcanza al otro.
 
 La condición sigue siendo:
 
-**x_A(t) = x_B(t)**
+**x<sub>A</sub>(t) = x<sub>B</sub>(t)**
 
 Lo que cambia es la geometría del problema.
 
@@ -789,21 +789,21 @@ Lo que cambia es la geometría del problema.
 
 ### Auto A
 
-- `x_A0 = 0`;
-- `v_A = 25 m/s`.
+- x<sub>A0</sub> = 0;
+- v<sub>A</sub> = 25 m/s.
 
 ### Auto B
 
-- `x_B0 = 150 m`;
-- `v_B = 15 m/s`.
+- x<sub>B0</sub> = 150 m;
+- v<sub>B</sub> = 15 m/s.
 
 Ambos hacia el sentido positivo.
 
 Ecuaciones:
 
-**x_A = 25t**
+**x<sub>A</sub> = 25t**
 
-**x_B = 150 + 15t**
+**x<sub>B</sub> = 150 + 15t**
 
 Igualamos:
 
@@ -856,7 +856,7 @@ Si dos móviles avanzan en el mismo sentido:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Rapidez de acercamiento</span>
-  <div class="formula-panel__formula">v_rel = |v_A − v_B|</div>
+  <div class="formula-panel__formula">v<sub>rel</sub> = |v<sub>A</sub> − v<sub>B</sub>|</div>
 </div>
 
 si realmente uno está alcanzando al otro.
@@ -871,7 +871,7 @@ Si dos móviles se acercan uno al otro en sentidos opuestos:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Rapidez de acercamiento</span>
-  <div class="formula-panel__formula">v_rel = |v_A| + |v_B|</div>
+  <div class="formula-panel__formula">v<sub>rel</sub> = |v<sub>A</sub>| + |v<sub>B</sub>|</div>
 </div>
 
 cuando usamos módulos.
@@ -899,11 +899,11 @@ Usar un reloj común y escribir una ecuación por tramos.
 
 Definir para B el tiempo transcurrido desde que comienza:
 
-**t_B = t − 5 s**
+**t<sub>B</sub> = t − 5 s**
 
 Entonces la ecuación de B puede usar:
 
-**x_B = x_B0 + v_B(t − 5 s)**
+**x<sub>B</sub> = x<sub>B0</sub> + v<sub>B</sub>(t − 5 s)**
 
 para:
 
@@ -929,9 +929,9 @@ a:
 
 Para `t ≥ 5 s`:
 
-**x_A = 10t**
+**x<sub>A</sub> = 10t**
 
-**x_B = 20(t − 5)**
+**x<sub>B</sub> = 20(t − 5)**
 
 Encuentro:
 
@@ -964,7 +964,7 @@ En problemas con distintos tiempos de partida es fácil mezclar:
     <strong>El mismo símbolo t debe referirse al mismo reloj</strong>
   </div>
   <div class="lesson-callout__body">
-    <p>Si usamos un reloj común, un móvil que parte después necesita una expresión como t − t_inicio. No podemos hacer como si hubiera estado moviéndose desde t = 0.</p>
+    <p>Si usamos un reloj común, un móvil que parte después necesita una expresión como t − t<sub>inicio</sub>. No podemos hacer como si hubiera estado moviéndose desde t = 0.</p>
   </div>
 </div>
 
@@ -1104,8 +1104,8 @@ La elección del cero temporal también es convencional.
 
 Supongamos:
 
-- A: `v_A = 30 m/s`;
-- B: `v_B = 20 m/s`;
+- A: v<sub>A</sub> = 30 m/s;
+- B: v<sub>B</sub> = 20 m/s;
 - ambos en la misma dirección.
 
 Respecto del suelo:
@@ -1115,7 +1115,7 @@ Respecto del suelo:
 
 Desde A, B cambia su posición a:
 
-**v_B/A = 20 − 30 = −10 m/s**
+**v<sub>B/A</sub> = 20 − 30 = −10 m/s**
 
 Parece moverse hacia atrás a 10 m/s.
 
@@ -1143,7 +1143,7 @@ En relatividad especial veremos que no es exacta para velocidades comparables co
 
 La ecuación:
 
-**x = x₀ + vt**
+**x = x<sub>0</sub> + vt**
 
 exige unidades compatibles.
 
@@ -1296,7 +1296,7 @@ No debemos esperar perfección matemática de una experiencia física.
 
 No. La velocidad completa debe permanecer constante y la trayectoria es recta.
 
-### “x₀ siempre vale cero”
+### “x<sub>0</sub> siempre vale cero”
 
 No.
 
@@ -1340,7 +1340,7 @@ No. Puede indicar un evento anterior al origen temporal elegido.
   <ol>
     <li>Definí MRU.</li>
     <li>¿Cuál es la aceleración en MRU?</li>
-    <li>¿Qué representa x₀ en la ecuación horaria?</li>
+    <li>¿Qué representa x<sub>0</sub> en la ecuación horaria?</li>
     <li>¿Qué representa la pendiente de x(t)?</li>
     <li>¿Cómo es el gráfico v(t) de un MRU?</li>
   </ol>
@@ -1352,8 +1352,8 @@ No. Puede indicar un evento anterior al origen temporal elegido.
     <strong>Ecuación horaria</strong>
   </div>
   <ol>
-    <li>Un móvil parte de x₀ = 5 m con v = 4 m/s. Calculá x a los 8 s.</li>
-    <li>Un móvil tiene x₀ = 40 m y v = −3 m/s. Calculá x a los 10 s.</li>
+    <li>Un móvil parte de x<sub>0</sub> = 5 m con v = 4 m/s. Calculá x a los 8 s.</li>
+    <li>Un móvil tiene x<sub>0</sub> = 40 m y v = −3 m/s. Calculá x a los 10 s.</li>
     <li>Un móvil cumple x = 12 + 6t. Indicá posición inicial y velocidad.</li>
     <li>¿Cuándo llega a x = 72 m el móvil del ejercicio anterior?</li>
   </ol>
@@ -1391,9 +1391,9 @@ No. Puede indicar un evento anterior al origen temporal elegido.
     <strong>Profundización</strong>
   </div>
   <ol>
-    <li>Mostrá algebraicamente que cambiar el origen espacial modifica x₀ pero no la velocidad si mantenemos la orientación del eje.</li>
+    <li>Mostrá algebraicamente que cambiar el origen espacial modifica x<sub>0</sub> pero no la velocidad si mantenemos la orientación del eje.</li>
     <li>Explicá por qué un encuentro corresponde a la intersección de dos gráficos x(t).</li>
-    <li>Dos móviles tienen ecuaciones x_A = 40 + 5t y x_B = 10 + 8t. Hallá el encuentro e interpretá qué móvil estaba inicialmente adelante.</li>
+    <li>Dos móviles tienen ecuaciones x<sub>A</sub> = 40 + 5t y x<sub>B</sub> = 10 + 8t. Hallá el encuentro e interpretá qué móvil estaba inicialmente adelante.</li>
     <li>Analizá qué significa físicamente obtener un tiempo negativo al igualar dos ecuaciones horarias.</li>
   </ol>
 </div>
@@ -1406,21 +1406,21 @@ Dos ciclistas se mueven sobre una ruta recta.
 
 ### Ciclista A
 
-- `x_A0 = 0`;
-- `v_A = 8 m/s`.
+- x<sub>A0</sub> = 0;
+- v<sub>A</sub> = 8 m/s.
 
 ### Ciclista B
 
-- `x_B0 = 90 m`;
-- `v_B = 5 m/s`.
+- x<sub>B0</sub> = 90 m;
+- v<sub>B</sub> = 5 m/s.
 
 Ambos avanzan hacia el sentido positivo.
 
 ### Ecuaciones
 
-**x_A = 8t**
+**x<sub>A</sub> = 8t**
 
-**x_B = 90 + 5t**
+**x<sub>B</sub> = 90 + 5t**
 
 ### Condición de alcance
 
@@ -1466,7 +1466,7 @@ Las tres representaciones deben ser compatibles.
 </details>
 
 <details class="lesson-quiz">
-  <summary>2. ¿Qué significa x₀?</summary>
+  <summary>2. ¿Qué significa x<sub>0</sub>?</summary>
   <div class="lesson-quiz__answer">
     La posición del móvil en el instante elegido como t = 0.
   </div>
@@ -1489,7 +1489,7 @@ Las tres representaciones deben ser compatibles.
 <details class="lesson-quiz">
   <summary>5. ¿Cuál es la condición matemática de encuentro?</summary>
   <div class="lesson-quiz__answer">
-    Que las posiciones sean iguales en el mismo instante: x_A(t) = x_B(t).
+    Que las posiciones sean iguales en el mismo instante: x<sub>A</sub>(t) = x<sub>B</sub>(t).
   </div>
 </details>
 
@@ -1506,11 +1506,11 @@ Las tres representaciones deben ser compatibles.
 
 - El MRU tiene trayectoria recta y velocidad constante.
 - En MRU la aceleración es cero.
-- La ecuación horaria es `x(t) = x₀ + vt`.
+- La ecuación horaria es x(t) = x<sub>0</sub> + vt.
 - La posición inicial no tiene por qué ser cero.
 - El signo de v indica sentido según el eje elegido.
 - El gráfico `x(t)` es una recta.
-- Su intercepto es `x₀`.
+- Su intercepto es x<sub>0</sub>.
 - Su pendiente es la velocidad.
 - El gráfico `v(t)` es horizontal.
 - El área algebraica bajo `v(t)` representa desplazamiento.
