@@ -372,7 +372,7 @@ Entre dos estados:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Boyle entre dos estados</span>
-  <div class="formula-panel__formula">P₁V₁ = P₂V₂</div>
+  <div class="formula-panel__formula">P<sub>1</sub>V<sub>1</sub> = P<sub>2</sub>V<sub>2</sub></div>
 </div>
 
 ---
@@ -397,23 +397,23 @@ La clave es que cambia el espacio disponible.
 
 Un gas ocupa:
 
-- V₁ = 2,0 L;
-- P₁ = 100 kPa.
+- V<sub>1</sub> = 2,0 L;
+- P<sub>1</sub> = 100 kPa.
 
 Se comprime isotérmicamente hasta:
 
-- V₂ = 1,0 L.
+- V<sub>2</sub> = 1,0 L.
 
-¿Cuál es P₂?
+¿Cuál es P<sub>2</sub>?
 
 <div class="worked-example-card">
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Compresión isotérmica</h3>
   <div class="worked-example-card__steps">
-    <p>P₁V₁ = P₂V₂</p>
-    <p>P₂ = P₁V₁ / V₂</p>
-    <p>P₂ = (100 kPa × 2,0 L) / 1,0 L</p>
-    <p><strong>P₂ = 200 kPa</strong></p>
+    <p>P<sub>1</sub>V<sub>1</sub> = P<sub>2</sub>V<sub>2</sub></p>
+    <p>P<sub>2</sub> = P<sub>1</sub>V<sub>1</sub> / V<sub>2</sub></p>
+    <p>P<sub>2</sub> = (100 kPa × 2,0 L) / 1,0 L</p>
+    <p><strong>P<sub>2</sub> = 200 kPa</strong></p>
   </div>
 </div>
 
@@ -464,7 +464,7 @@ Entre dos estados:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Charles entre dos estados</span>
-  <div class="formula-panel__formula">V₁ / T₁ = V₂ / T₂</div>
+  <div class="formula-panel__formula">V<sub>1</sub> / T<sub>1</sub> = V<sub>2</sub> / T<sub>2</sub></div>
 </div>
 
 **T debe expresarse en kelvin.**
@@ -493,12 +493,12 @@ Por eso, a presión constante, V aumenta con T.
 
 Un gas ocupa:
 
-- V₁ = 2,0 L;
-- T₁ = 300 K.
+- V<sub>1</sub> = 2,0 L;
+- T<sub>1</sub> = 300 K.
 
 Se calienta a:
 
-- T₂ = 450 K.
+- T<sub>2</sub> = 450 K.
 
 A presión constante:
 
@@ -506,10 +506,10 @@ A presión constante:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Expansión a presión constante</h3>
   <div class="worked-example-card__steps">
-    <p>V₁/T₁ = V₂/T₂</p>
-    <p>V₂ = V₁T₂ / T₁</p>
-    <p>V₂ = 2,0 L × 450 K / 300 K</p>
-    <p><strong>V₂ = 3,0 L</strong></p>
+    <p>V<sub>1</sub>/T<sub>1</sub> = V<sub>2</sub>/T<sub>2</sub></p>
+    <p>V<sub>2</sub> = V<sub>1</sub>T<sub>2</sub> / T<sub>1</sub></p>
+    <p>V<sub>2</sub> = 2,0 L × 450 K / 300 K</p>
+    <p><strong>V<sub>2</sub> = 3,0 L</strong></p>
   </div>
 </div>
 
@@ -554,7 +554,7 @@ Entre dos estados:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Gay-Lussac entre dos estados</span>
-  <div class="formula-panel__formula">P₁ / T₁ = P₂ / T₂</div>
+  <div class="formula-panel__formula">P<sub>1</sub> / T<sub>1</sub> = P<sub>2</sub> / T<sub>2</sub></div>
 </div>
 
 ---
@@ -589,21 +589,21 @@ Esto explica por qué calentar un recipiente cerrado puede ser peligroso.
 
 Un gas en un recipiente rígido tiene:
 
-- P₁ = 100 kPa;
-- T₁ = 300 K.
+- P<sub>1</sub> = 100 kPa;
+- T<sub>1</sub> = 300 K.
 
 Se calienta hasta:
 
-- T₂ = 360 K.
+- T<sub>2</sub> = 360 K.
 
 <div class="worked-example-card">
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Calentamiento a volumen constante</h3>
   <div class="worked-example-card__steps">
-    <p>P₁/T₁ = P₂/T₂</p>
-    <p>P₂ = P₁T₂ / T₁</p>
-    <p>P₂ = 100 kPa × 360 K / 300 K</p>
-    <p><strong>P₂ = 120 kPa</strong></p>
+    <p>P<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>/T<sub>2</sub></p>
+    <p>P<sub>2</sub> = P<sub>1</sub>T<sub>2</sub> / T<sub>1</sub></p>
+    <p>P<sub>2</sub> = 100 kPa × 360 K / 300 K</p>
+    <p><strong>P<sub>2</sub> = 120 kPa</strong></p>
   </div>
 </div>
 
@@ -658,7 +658,7 @@ podemos utilizar la ley combinada:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Ley combinada</span>
-  <div class="formula-panel__formula">P₁V₁ / T₁ = P₂V₂ / T₂</div>
+  <div class="formula-panel__formula">P<sub>1</sub>V<sub>1</sub> / T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub> / T<sub>2</sub></div>
 </div>
 
 La temperatura debe estar en kelvin.
@@ -671,25 +671,25 @@ Esta relación contiene a Boyle, Charles y Gay-Lussac como casos particulares.
 
 Un gas está inicialmente a:
 
-- P₁ = 100 kPa;
-- V₁ = 2,0 L;
-- T₁ = 300 K.
+- P<sub>1</sub> = 100 kPa;
+- V<sub>1</sub> = 2,0 L;
+- T<sub>1</sub> = 300 K.
 
 Luego pasa a:
 
-- V₂ = 1,5 L;
-- T₂ = 330 K.
+- V<sub>2</sub> = 1,5 L;
+- T<sub>2</sub> = 330 K.
 
-¿Cuál es P₂?
+¿Cuál es P<sub>2</sub>?
 
 <div class="worked-example-card">
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Cambio simultáneo de P, V y T</h3>
   <div class="worked-example-card__steps">
-    <p>P₁V₁/T₁ = P₂V₂/T₂</p>
-    <p>P₂ = P₁V₁T₂ / (T₁V₂)</p>
-    <p>P₂ = 100 × 2,0 × 330 / (300 × 1,5)</p>
-    <p><strong>P₂ ≈ 147 kPa</strong></p>
+    <p>P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub></p>
+    <p>P<sub>2</sub> = P<sub>1</sub>V<sub>1</sub>T<sub>2</sub> / (T<sub>1</sub>V<sub>2</sub>)</p>
+    <p>P<sub>2</sub> = 100 × 2,0 × 330 / (300 × 1,5)</p>
+    <p><strong>P<sub>2</sub> ≈ 147 kPa</strong></p>
   </div>
 </div>
 

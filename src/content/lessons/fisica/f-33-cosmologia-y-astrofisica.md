@@ -1196,7 +1196,7 @@ donde:
 
 ---
 
-## 64. No usar v = H₀d como ley universal para cualquier distancia
+## 64. No usar v = H<sub>0</sub>d como ley universal para cualquier distancia
 
 La relación lineal simple es una aproximación útil a:
 

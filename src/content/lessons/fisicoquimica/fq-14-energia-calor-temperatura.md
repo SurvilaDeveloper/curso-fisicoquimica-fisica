@@ -767,7 +767,7 @@ La energía total es la suma:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Proceso por etapas</span>
-  <div class="formula-panel__formula">Qtotal = Q₁ + Q₂ + Q₃</div>
+  <div class="formula-panel__formula">Qtotal = Q<sub>1</sub> + Q<sub>2</sub> + Q<sub>3</sub></div>
 </div>
 
 Cada tramo utiliza la relación apropiada:

@@ -541,7 +541,7 @@ Cuando repetimos una medición varias veces, una primera forma de resumir los re
 
 <div class="formula-panel">
   <span class="formula-panel__label">Promedio</span>
-  <div class="formula-panel__formula">x̄ = (x₁ + x₂ + ... + xₙ) / n</div>
+  <div class="formula-panel__formula">x̄ = (x<sub>1</sub> + x<sub>2</sub> + ... + x<sub>n</sub>) / n</div>
   <p>El promedio no elimina la incertidumbre, pero resume el centro de un conjunto de mediciones repetidas.</p>
 </div>
 

@@ -213,8 +213,8 @@ Para un líquido de densidad aproximadamente constante:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Presión hidrostática</span>
-  <div class="formula-panel__formula">P = P₀ + ρgh</div>
-  <p>P₀ es la presión en la superficie, ρ la densidad del líquido, g la intensidad gravitatoria y h la profundidad.</p>
+  <div class="formula-panel__formula">P = P<sub>0</sub> + ρgh</div>
+  <p>P<sub>0</sub> es la presión en la superficie, ρ la densidad del líquido, g la intensidad gravitatoria y h la profundidad.</p>
 </div>
 
 La parte:
@@ -369,34 +369,34 @@ Imaginemos dos pistones conectados por un líquido.
 
 Área:
 
-**A₁**
+**A<sub>1</sub>**
 
 Fuerza aplicada:
 
-**F₁**
+**F<sub>1</sub>**
 
 ### Pistón grande
 
 Área:
 
-**A₂**
+**A<sub>2</sub>**
 
 Fuerza obtenida:
 
-**F₂**
+**F<sub>2</sub>**
 
 En un modelo ideal:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Prensa hidráulica ideal</span>
-  <div class="formula-panel__formula">F₁/A₁ = F₂/A₂</div>
+  <div class="formula-panel__formula">F<sub>1</sub>/A<sub>1</sub> = F<sub>2</sub>/A<sub>2</sub></div>
 </div>
 
 Entonces:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Multiplicación de fuerza</span>
-  <div class="formula-panel__formula">F₂ = F₁ · A₂/A₁</div>
+  <div class="formula-panel__formula">F<sub>2</sub> = F<sub>1</sub> · A<sub>2</sub>/A<sub>1</sub></div>
 </div>
 
 ---
@@ -405,17 +405,17 @@ Entonces:
 
 Tenemos:
 
-- A₁ = 0,010 m²;
-- A₂ = 0,20 m²;
-- F₁ = 100 N.
+- A<sub>1</sub> = 0,010 m²;
+- A<sub>2</sub> = 0,20 m²;
+- F<sub>1</sub> = 100 N.
 
 <div class="worked-example-card">
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Fuerza en el pistón grande</h3>
   <div class="worked-example-card__steps">
-    <p>F₂ = F₁ · A₂/A₁</p>
-    <p>F₂ = 100 × 0,20/0,010</p>
-    <p><strong>F₂ = 2000 N</strong></p>
+    <p>F<sub>2</sub> = F<sub>1</sub> · A<sub>2</sub>/A<sub>1</sub></p>
+    <p>F<sub>2</sub> = 100 × 0,20/0,010</p>
+    <p><strong>F<sub>2</sub> = 2000 N</strong></p>
   </div>
 </div>
 
@@ -903,7 +903,7 @@ El empuje ideal depende del fluido y del volumen desplazado.
     <li>Una fuerza de 300 N actúa perpendicularmente sobre 0,20 m². Calculá la presión.</li>
     <li>Calculá el aumento de presión a 5,0 m de profundidad en agua usando ρ = 1000 kg/m³ y g = 9,8 N/kg.</li>
     <li>Un cuerpo desplaza 0,002 m³ de agua. Calculá el empuje.</li>
-    <li>Una prensa tiene A₁ = 0,005 m² y A₂ = 0,10 m². Si F₁ = 50 N, calculá F₂ ideal.</li>
+    <li>Una prensa tiene A<sub>1</sub> = 0,005 m² y A<sub>2</sub> = 0,10 m². Si F<sub>1</sub> = 50 N, calculá F<sub>2</sub> ideal.</li>
   </ol>
 </div>
 
@@ -1000,7 +1000,7 @@ El empuje ideal depende del fluido y del volumen desplazado.
 - Su unidad SI es el pascal.
 - A igual fuerza, menor área produce mayor presión.
 - En un líquido en reposo la presión aumenta con profundidad.
-- La presión hidrostática puede modelarse mediante `P = P₀ + ρgh`.
+- La presión hidrostática puede modelarse mediante P = P<sub>0</sub> + ρgh.
 - La atmósfera ejerce presión.
 - El principio de Pascal explica el funcionamiento de sistemas hidráulicos.
 - Una prensa hidráulica puede multiplicar fuerza sin crear energía.

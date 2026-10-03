@@ -1905,7 +1905,7 @@ Como el electrón es negativo:
 <details class="lesson-quiz">
   <summary>2. ¿Cuál es la fuerza magnética sobre una carga inmóvil?</summary>
   <div class="lesson-quiz__answer">
-    Cero, porque F_B = q(v × B) y v = 0.
+    Cero, porque F<sub>B</sub> = q(v × B) y v = 0.
   </div>
 </details>
 
@@ -1933,7 +1933,7 @@ Como el electrón es negativo:
 <details class="lesson-quiz">
   <summary>6. ¿Qué variables aumentan el campo de un solenoide largo ideal?</summary>
   <div class="lesson-quiz__answer">
-    En B ≈ μ₀nI, aumenta al aumentar la corriente I o el número de espiras por unidad de longitud n.
+    En B ≈ μ<sub>0</sub>nI, aumenta al aumentar la corriente I o el número de espiras por unidad de longitud n.
   </div>
 </details>
 

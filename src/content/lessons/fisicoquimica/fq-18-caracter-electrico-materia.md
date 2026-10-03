@@ -598,8 +598,8 @@ Para cargas puntuales o distribuciones que puedan aproximarse como puntuales, la
 
 <div class="formula-panel">
   <span class="formula-panel__label">Ley de Coulomb — introducción</span>
-  <div class="formula-panel__formula">F = k · |q₁q₂| / r²</div>
-  <p>q₁ y q₂ son las cargas, r la distancia entre ellas y k una constante que depende del medio.</p>
+  <div class="formula-panel__formula">F = k · |q<sub>1</sub>q<sub>2</sub>| / r²</div>
+  <p>q<sub>1</sub> y q<sub>2</sub> son las cargas, r la distancia entre ellas y k una constante que depende del medio.</p>
 </div>
 
 En el vacío:
@@ -641,9 +641,9 @@ No disminuye linealmente con la distancia.
   <h3>Duplicar la separación</h3>
   <div class="worked-example-card__steps">
     <p>F ∝ 1/r²</p>
-    <p>r₂ = 2r₁</p>
-    <p>F₂/F₁ = 1/2²</p>
-    <p><strong>F₂ = F₁/4</strong></p>
+    <p>r<sub>2</sub> = 2r<sub>1</sub></p>
+    <p>F<sub>2</sub>/F<sub>1</sub> = 1/2²</p>
+    <p><strong>F<sub>2</sub> = F<sub>1</sub>/4</strong></p>
   </div>
 </div>
 
@@ -653,8 +653,8 @@ No disminuye linealmente con la distancia.
 
 Dos cargas:
 
-- `q₁ = +2,0 μC`;
-- `q₂ = −3,0 μC`;
+- q<sub>1</sub> = +2,0 μC;
+- q<sub>2</sub> = −3,0 μC;
 
 se encuentran separadas:
 
@@ -670,7 +670,7 @@ Usamos:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Fuerza entre dos cargas</h3>
   <div class="worked-example-card__steps">
-    <p>F = k|q₁q₂|/r²</p>
+    <p>F = k|q<sub>1</sub>q<sub>2</sub>|/r²</p>
     <p>F = 8,99×10⁹ · (2,0×10⁻⁶)(3,0×10⁻⁶) / (0,50)²</p>
     <p><strong>F ≈ 0,216 N</strong></p>
     <p>Como las cargas tienen signos opuestos, la interacción es atractiva.</p>
@@ -699,7 +699,7 @@ Si sobre una carga actúan varias cargas, la fuerza total es la suma vectorial d
 
 <div class="formula-panel">
   <span class="formula-panel__label">Principio de superposición</span>
-  <div class="formula-panel__formula">Fresultante = F₁ + F₂ + F₃ + ...</div>
+  <div class="formula-panel__formula">Fresultante = F<sub>1</sub> + F<sub>2</sub> + F<sub>3</sub> + ...</div>
 </div>
 
 En una dimensión podemos trabajar con signos.

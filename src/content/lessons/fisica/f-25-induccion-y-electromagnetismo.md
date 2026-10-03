@@ -2137,7 +2137,7 @@ Entonces:
 <details class="lesson-quiz">
   <summary>1. ¿Qué magnitudes determinan el flujo magnético uniforme a través de una superficie plana?</summary>
   <div class="lesson-quiz__answer">
-    El módulo B, el área A y el ángulo θ entre B y la normal: Φ_B = BA cosθ.
+    El módulo B, el área A y el ángulo θ entre B y la normal: Φ<sub>B</sub> = BA cosθ.
   </div>
 </details>
 
@@ -2158,14 +2158,14 @@ Entonces:
 <details class="lesson-quiz">
   <summary>4. ¿Por qué un transformador ideal no funciona con corriente continua estacionaria?</summary>
   <div class="lesson-quiz__answer">
-    Porque una corriente constante produce un flujo constante después del transitorio, por lo que dΦ_B/dt = 0 y no se mantiene una fem inducida en el secundario.
+    Porque una corriente constante produce un flujo constante después del transitorio, por lo que dΦ<sub>B</sub>/dt = 0 y no se mantiene una fem inducida en el secundario.
   </div>
 </details>
 
 <details class="lesson-quiz">
   <summary>5. ¿Qué predicción de Maxwell conectó electromagnetismo y óptica?</summary>
   <div class="lesson-quiz__answer">
-    Que las perturbaciones electromagnéticas se propagan con una velocidad c = 1/√(μ₀ε₀), coincidente con la velocidad de la luz; por eso la luz es una onda electromagnética.
+    Que las perturbaciones electromagnéticas se propagan con una velocidad c = 1/√(μ<sub>0</sub>ε<sub>0</sub>), coincidente con la velocidad de la luz; por eso la luz es una onda electromagnética.
   </div>
 </details>
 

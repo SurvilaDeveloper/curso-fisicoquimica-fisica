@@ -1611,7 +1611,7 @@ pueden reducir la velocidad respecto del valor ideal.
 <details class="lesson-quiz">
   <summary>4. ¿Qué se conserva en la ecuación de continuidad?</summary>
   <div class="lesson-quiz__answer">
-    La masa que atraviesa las secciones por unidad de tiempo. Para un fluido incompresible queda A₁v₁ = A₂v₂.
+    La masa que atraviesa las secciones por unidad de tiempo. Para un fluido incompresible queda A<sub>1</sub>v<sub>1</sub> = A<sub>2</sub>v<sub>2</sub>.
   </div>
 </details>
 

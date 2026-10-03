@@ -173,9 +173,9 @@ Entonces:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Masa molecular relativa del agua</h3>
   <div class="worked-example-card__steps">
-    <p>Mᵣ(H₂O) = 2 × 1,008 + 16,00</p>
-    <p>Mᵣ(H₂O) = 18,016</p>
-    <p><strong>Mᵣ(H₂O) ≈ 18,02</strong></p>
+    <p>M<sub>r</sub>(H₂O) = 2 × 1,008 + 16,00</p>
+    <p>M<sub>r</sub>(H₂O) = 18,016</p>
+    <p><strong>M<sub>r</sub>(H₂O) ≈ 18,02</strong></p>
   </div>
 </div>
 

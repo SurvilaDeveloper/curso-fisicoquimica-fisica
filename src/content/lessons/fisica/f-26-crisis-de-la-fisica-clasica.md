@@ -1806,7 +1806,7 @@ Ese vínculo será decisivo en la próxima lección.
 <details class="lesson-quiz">
   <summary>4. ¿Qué hipótesis introdujo Planck?</summary>
   <div class="lesson-quiz__answer">
-    Que la energía de los osciladores del modelo aparece en valores discretos E_n = nhf, de modo que la separación energética está determinada por hf.
+    Que la energía de los osciladores del modelo aparece en valores discretos E<sub>n</sub> = nhf, de modo que la separación energética está determinada por hf.
   </div>
 </details>
 

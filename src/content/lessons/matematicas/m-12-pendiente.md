@@ -1000,7 +1000,7 @@ La recta correspondiente es:
 <details class="lesson-quiz">
   <summary>1. ¿Cómo se calcula la pendiente entre dos puntos?</summary>
   <div class="lesson-quiz__answer">
-    m=(y₂−y₁)/(x₂−x₁), manteniendo el mismo orden en numerador y denominador.
+    m=(y<sub>2</sub>−y<sub>1</sub>)/(x<sub>2</sub>−x<sub>1</sub>), manteniendo el mismo orden en numerador y denominador.
   </div>
 </details>
 
@@ -1030,7 +1030,7 @@ La recta correspondiente es:
 ## 50. Resumen
 
 - La pendiente es una razón de cambio.
-- Δx=x₂−x₁ representa una variación.
+- Δx=x<sub>2</sub>−x<sub>1</sub> representa una variación.
 - m=Δy/Δx.
 - El orden usado en numerador y denominador debe ser consistente.
 - Pendiente positiva indica crecimiento; negativa, decrecimiento.

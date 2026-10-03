@@ -2084,7 +2084,7 @@ Como q es negativa:
 <details class="lesson-quiz">
   <summary>3. ¿Cómo se define el campo eléctrico?</summary>
   <div class="lesson-quiz__answer">
-    Como la fuerza por unidad de carga de prueba positiva: E = F/q_prueba.
+    Como la fuerza por unidad de carga de prueba positiva: E = F/q<sub>prueba</sub>.
   </div>
 </details>
 

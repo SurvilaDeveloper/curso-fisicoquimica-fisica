@@ -1012,7 +1012,7 @@ También:
 </details>
 
 <details class="lesson-quiz">
-  <summary>2. ¿Qué significa λ en N=N₀e<sup>−λt</sup>?</summary>
+  <summary>2. ¿Qué significa λ en N=N<sub>0</sub>e<sup>−λt</sup>?</summary>
   <div class="lesson-quiz__answer">
     Es la constante de decaimiento, con unidades de inverso de tiempo; cuanto mayor es λ, más rápidamente decae el sistema.
   </div>
@@ -1021,7 +1021,7 @@ También:
 <details class="lesson-quiz">
   <summary>3. ¿Cómo se relacionan semivida y λ?</summary>
   <div class="lesson-quiz__answer">
-    T₁/₂=ln2/λ.
+    T<sub>1/2</sub>=ln2/λ.
   </div>
 </details>
 

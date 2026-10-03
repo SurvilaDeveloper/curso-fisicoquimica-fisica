@@ -528,7 +528,7 @@ En un circuito serie ideal:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Resistencia equivalente en serie</span>
-  <div class="formula-panel__formula">Req = R₁ + R₂ + R₃ + ...</div>
+  <div class="formula-panel__formula">Req = R<sub>1</sub> + R<sub>2</sub> + R<sub>3</sub> + ...</div>
 </div>
 
 ---
@@ -541,7 +541,7 @@ La carga que atraviesa una sección por unidad de tiempo debe coincidir con la q
 
 Por eso:
 
-**I₁ = I₂ = I₃ = ...**
+**I<sub>1</sub> = I<sub>2</sub> = I<sub>3</sub> = ...**
 
 en un circuito serie ideal en régimen estacionario.
 
@@ -551,8 +551,8 @@ en un circuito serie ideal en régimen estacionario.
 
 Tenemos:
 
-- R₁ = 4 Ω;
-- R₂ = 8 Ω;
+- R<sub>1</sub> = 4 Ω;
+- R<sub>2</sub> = 8 Ω;
 - fuente = 24 V.
 
 Resistencia equivalente:
@@ -565,8 +565,8 @@ Corriente:
 
 Caídas de tensión:
 
-- V₁ = 2 × 4 = 8 V;
-- V₂ = 2 × 8 = 16 V.
+- V<sub>1</sub> = 2 × 4 = 8 V;
+- V<sub>2</sub> = 2 × 8 = 16 V.
 
 Comprobación:
 
@@ -578,9 +578,9 @@ Comprobación:
   <div class="worked-example-card__steps">
     <p>Req = 12 Ω</p>
     <p>I = 2 A</p>
-    <p>V₁ = 8 V</p>
-    <p>V₂ = 16 V</p>
-    <p><strong>V₁ + V₂ = 24 V</strong></p>
+    <p>V<sub>1</sub> = 8 V</p>
+    <p>V<sub>2</sub> = 16 V</p>
+    <p><strong>V<sub>1</sub> + V<sub>2</sub> = 24 V</strong></p>
   </div>
 </div>
 
@@ -603,7 +603,7 @@ En paralelo ideal:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Corriente total</span>
-  <div class="formula-panel__formula">Itotal = I₁ + I₂ + I₃ + ...</div>
+  <div class="formula-panel__formula">Itotal = I<sub>1</sub> + I<sub>2</sub> + I<sub>3</sub> + ...</div>
 </div>
 
 ---
@@ -614,14 +614,14 @@ Para resistencias en paralelo:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Resistencia equivalente en paralelo</span>
-  <div class="formula-panel__formula">1/Req = 1/R₁ + 1/R₂ + 1/R₃ + ...</div>
+  <div class="formula-panel__formula">1/Req = 1/R<sub>1</sub> + 1/R<sub>2</sub> + 1/R<sub>3</sub> + ...</div>
 </div>
 
 Para dos resistencias puede utilizarse:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Dos resistencias en paralelo</span>
-  <div class="formula-panel__formula">Req = R₁R₂ / (R₁ + R₂)</div>
+  <div class="formula-panel__formula">Req = R<sub>1</sub>R<sub>2</sub> / (R<sub>1</sub> + R<sub>2</sub>)</div>
 </div>
 
 La resistencia equivalente en paralelo es menor que cualquiera de las resistencias individuales.
@@ -632,15 +632,15 @@ La resistencia equivalente en paralelo es menor que cualquiera de las resistenci
 
 Tenemos:
 
-- R₁ = 6 Ω;
-- R₂ = 3 Ω;
+- R<sub>1</sub> = 6 Ω;
+- R<sub>2</sub> = 3 Ω;
 - V = 12 V.
 
 Corrientes:
 
-**I₁ = 12/6 = 2 A**
+**I<sub>1</sub> = 12/6 = 2 A**
 
-**I₂ = 12/3 = 4 A**
+**I<sub>2</sub> = 12/3 = 4 A**
 
 Corriente total:
 
@@ -654,9 +654,9 @@ Entonces:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Dos ramas en paralelo</h3>
   <div class="worked-example-card__steps">
-    <p>V₁ = V₂ = 12 V</p>
-    <p>I₁ = 2 A</p>
-    <p>I₂ = 4 A</p>
+    <p>V<sub>1</sub> = V<sub>2</sub> = 12 V</p>
+    <p>I<sub>1</sub> = 2 A</p>
+    <p>I<sub>2</sub> = 4 A</p>
     <p>Itotal = 6 A</p>
     <p><strong>Req = 2 Ω</strong></p>
   </div>
@@ -1320,16 +1320,16 @@ Tenemos una fuente ideal de:
 
 y dos resistencias en paralelo:
 
-- R₁ = 12 Ω;
-- R₂ = 6 Ω.
+- R<sub>1</sub> = 12 Ω;
+- R<sub>2</sub> = 6 Ω.
 
-### Corriente en R₁
+### Corriente en R<sub>1</sub>
 
-**I₁ = 12/12 = 1 A**
+**I<sub>1</sub> = 12/12 = 1 A**
 
-### Corriente en R₂
+### Corriente en R<sub>2</sub>
 
-**I₂ = 12/6 = 2 A**
+**I<sub>2</sub> = 12/6 = 2 A**
 
 ### Corriente total
 
@@ -1343,8 +1343,8 @@ y dos resistencias en paralelo:
 
 También:
 
-- P₁ = 12 × 1 = 12 W;
-- P₂ = 12 × 2 = 24 W.
+- P<sub>1</sub> = 12 × 1 = 12 W;
+- P<sub>2</sub> = 12 × 2 = 24 W.
 
 Entonces:
 
@@ -1354,11 +1354,11 @@ Entonces:
   <span class="worked-example-card__label">Ejemplo integrado</span>
   <h3>Paralelo, corriente y potencia</h3>
   <div class="worked-example-card__steps">
-    <p>I₁ = 1 A</p>
-    <p>I₂ = 2 A</p>
+    <p>I<sub>1</sub> = 1 A</p>
+    <p>I<sub>2</sub> = 2 A</p>
     <p>Itotal = 3 A</p>
-    <p>P₁ = 12 W</p>
-    <p>P₂ = 24 W</p>
+    <p>P<sub>1</sub> = 12 W</p>
+    <p>P<sub>2</sub> = 24 W</p>
     <p><strong>Ptotal = 36 W</strong></p>
   </div>
 </div>

@@ -387,24 +387,24 @@ Podemos recordar una relación y despejar.
 
 Supongamos:
 
-**x = x₀ + vt**
+**x = x<sub>0</sub> + vt**
 
 Queremos despejar t.
 
-Restamos x₀:
+Restamos x<sub>0</sub>:
 
-**x − x₀ = vt**
+**x − x<sub>0</sub> = vt**
 
 Dividimos por v:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Resultado</span>
-  <div class="formula-panel__formula">t = (x − x₀) / v</div>
+  <div class="formula-panel__formula">t = (x − x<sub>0</sub>) / v</div>
 </div>
 
 Los paréntesis son importantes.
 
-Todo `x − x₀` debe dividirse por v.
+Todo x − x<sub>0</sub> debe dividirse por v.
 
 ---
 
@@ -641,14 +641,14 @@ La pendiente mide cuánto cambia y cuando cambia x.
 
 Si tenemos dos puntos:
 
-- `(x₁, y₁)`;
-- `(x₂, y₂)`;
+- (x<sub>1</sub>, y<sub>1</sub>);
+- (x<sub>2</sub>, y<sub>2</sub>);
 
 entonces:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Entre dos puntos</span>
-  <div class="formula-panel__formula">m = (y₂ − y₁)/(x₂ − x₁)</div>
+  <div class="formula-panel__formula">m = (y<sub>2</sub> − y<sub>1</sub>)/(x<sub>2</sub> − x<sub>1</sub>)</div>
 </div>
 
 ---
@@ -726,7 +726,7 @@ Su gráfico es una parábola.
 
 En Física aparecerá, por ejemplo, en movimientos con aceleración constante:
 
-**x(t) = x₀ + v₀t + ½at²**
+**x(t) = x<sub>0</sub> + v<sub>0</sub>t + ½at²**
 
 La presencia de `t²` hace que la posición no cambie linealmente con el tiempo.
 
@@ -950,12 +950,12 @@ Si A forma un ángulo θ desde el eje x positivo:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Componente x</span>
-  <div class="formula-panel__formula">Aₓ = A cos θ</div>
+  <div class="formula-panel__formula">A<sub>x</sub> = A cos θ</div>
 </div>
 
 <div class="formula-panel">
   <span class="formula-panel__label">Componente y</span>
-  <div class="formula-panel__formula">Aᵧ = A sen θ</div>
+  <div class="formula-panel__formula">A<sub>y</sub> = A sen θ</div>
 </div>
 
 Los signos dependen del cuadrante y de la orientación elegida.
@@ -966,21 +966,21 @@ Los signos dependen del cuadrante y de la orientación elegida.
 
 Si conocemos:
 
-- Aₓ;
-- Aᵧ;
+- A<sub>x</sub>;
+- A<sub>y</sub>;
 
 entonces:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Módulo</span>
-  <div class="formula-panel__formula">A = √(Aₓ² + Aᵧ²)</div>
+  <div class="formula-panel__formula">A = √(A<sub>x</sub>² + A<sub>y</sub>²)</div>
 </div>
 
 Para el ángulo:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Dirección</span>
-  <div class="formula-panel__formula">tan θ = Aᵧ / Aₓ</div>
+  <div class="formula-panel__formula">tan θ = A<sub>y</sub> / A<sub>x</sub></div>
 </div>
 
 Al usar la calculadora debemos revisar el cuadrante, porque la tangente sola puede ser ambigua.
@@ -1064,7 +1064,7 @@ También, en componentes:
 
 <div class="formula-panel">
   <span class="formula-panel__label">En dos dimensiones</span>
-  <div class="formula-panel__formula">A · B = AₓBₓ + AᵧBᵧ</div>
+  <div class="formula-panel__formula">A · B = A<sub>x</sub>B<sub>x</sub> + A<sub>y</sub>B<sub>y</sub></div>
 </div>
 
 ---

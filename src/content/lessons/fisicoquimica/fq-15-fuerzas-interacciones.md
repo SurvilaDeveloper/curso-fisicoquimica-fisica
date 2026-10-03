@@ -394,7 +394,7 @@ Una expresión habitual es:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Modelo simple de rozamiento cinético — profundización</span>
-  <div class="formula-panel__formula">Fᵣ ≈ μ · N</div>
+  <div class="formula-panel__formula">F<sub>r</sub> ≈ μ · N</div>
   <p>μ representa un coeficiente de rozamiento y N el módulo de la fuerza normal.</p>
 </div>
 

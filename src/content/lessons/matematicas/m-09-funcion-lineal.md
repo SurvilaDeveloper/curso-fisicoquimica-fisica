@@ -1114,9 +1114,9 @@ Entonces:
 </details>
 
 <details class="lesson-quiz">
-  <summary>4. En x(t)=x₀+vt, ¿qué representan pendiente y ordenada?</summary>
+  <summary>4. En x(t)=x<sub>0</sub>+vt, ¿qué representan pendiente y ordenada?</summary>
   <div class="lesson-quiz__answer">
-    La pendiente representa la velocidad v y la ordenada al origen representa la posición inicial x₀.
+    La pendiente representa la velocidad v y la ordenada al origen representa la posición inicial x<sub>0</sub>.
   </div>
 </details>
 
@@ -1132,7 +1132,7 @@ Entonces:
 - Si m>0 la recta es creciente; si m<0 es decreciente; si m=0 es constante.
 - y=mx representa proporcionalidad directa y pasa por el origen.
 - En sentido estricto y=mx es lineal y y=mx+b es afín, aunque en la escuela suele llamarse lineal a ambas.
-- En MRU, x(t)=x₀+vt es una función afín del tiempo.
+- En MRU, x(t)=x<sub>0</sub>+vt es una función afín del tiempo.
 - La pendiente del gráfico posición-tiempo es la velocidad.
 - La ordenada es la posición inicial.
 - La pendiente puede tener unidades y significado físico.

@@ -2091,7 +2091,7 @@ y:
 <details class="lesson-quiz">
   <summary>5. ¿Qué representa E = mc² en su forma más precisa para una partícula masiva?</summary>
   <div class="lesson-quiz__answer">
-    La energía de reposo E₀ = mc². Si la partícula se mueve, su energía total es E = γmc².
+    La energía de reposo E<sub>0</sub> = mc². Si la partícula se mueve, su energía total es E = γmc².
   </div>
 </details>
 

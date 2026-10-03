@@ -1949,7 +1949,7 @@ Consideremos un gas ideal.
 <details class="lesson-quiz">
   <summary>4. Con nuestra convención, ¿cómo se escribe la primera ley?</summary>
   <div class="lesson-quiz__answer">
-    ΔU = Q − W_por, donde Q es positivo cuando el sistema recibe energía térmica y W_por es positivo cuando el sistema realiza trabajo sobre el entorno.
+    ΔU = Q − W<sub>por</sub>, donde Q es positivo cuando el sistema recibe energía térmica y W<sub>por</sub> es positivo cuando el sistema realiza trabajo sobre el entorno.
   </div>
 </details>
 

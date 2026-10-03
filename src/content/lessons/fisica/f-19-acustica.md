@@ -1832,7 +1832,7 @@ entonces:
 <details class="lesson-quiz">
   <summary>4. ¿Por qué 0 dB no significa intensidad cero?</summary>
   <div class="lesson-quiz__answer">
-    Porque el nivel es logarítmico y 0 dB corresponde a I = I₀, no a I = 0.
+    Porque el nivel es logarítmico y 0 dB corresponde a I = I<sub>0</sub>, no a I = 0.
   </div>
 </details>
 

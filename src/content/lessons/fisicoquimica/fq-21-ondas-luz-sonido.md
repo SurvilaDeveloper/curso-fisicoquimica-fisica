@@ -781,7 +781,7 @@ La relación cuantitativa entre ángulos puede expresarse mediante:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Ley de Snell</span>
-  <div class="formula-panel__formula">n₁ sen θ₁ = n₂ sen θ₂</div>
+  <div class="formula-panel__formula">n<sub>1</sub> sen θ<sub>1</sub> = n<sub>2</sub> sen θ<sub>2</sub></div>
 </div>
 
 Los ángulos se miden respecto de la normal.

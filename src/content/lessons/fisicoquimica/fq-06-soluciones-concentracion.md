@@ -537,7 +537,7 @@ En una dilución de una solución molar:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Relación de dilución</span>
-  <div class="formula-panel__formula">M₁V₁ = M₂V₂</div>
+  <div class="formula-panel__formula">M<sub>1</sub>V<sub>1</sub> = M<sub>2</sub>V<sub>2</sub></div>
   <p>Se basa en conservar la cantidad de soluto durante la dilución.</p>
 </div>
 
@@ -545,17 +545,17 @@ En una dilución de una solución molar:
 
 Tenemos:
 
-- M₁ = 2,0 mol/L;
-- V₁ = 50 mL;
-- queremos V₂ = 200 mL.
+- M<sub>1</sub> = 2,0 mol/L;
+- V<sub>1</sub> = 50 mL;
+- queremos V<sub>2</sub> = 200 mL.
 
 <div class="worked-example-card">
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Concentración después de diluir</h3>
   <div class="worked-example-card__steps">
-    <p>M₂ = M₁V₁ / V₂</p>
-    <p>M₂ = (2,0 mol/L × 50 mL) / 200 mL</p>
-    <p><strong>M₂ = 0,50 mol/L</strong></p>
+    <p>M<sub>2</sub> = M<sub>1</sub>V<sub>1</sub> / V<sub>2</sub></p>
+    <p>M<sub>2</sub> = (2,0 mol/L × 50 mL) / 200 mL</p>
+    <p><strong>M<sub>2</sub> = 0,50 mol/L</strong></p>
   </div>
 </div>
 

@@ -809,7 +809,7 @@ por encima del eje +x.
 <details class="lesson-quiz">
   <summary>3. Si θ se mide desde +x, ¿cómo se obtienen las componentes de un vector A?</summary>
   <div class="lesson-quiz__answer">
-    Aₓ=A cosθ y Aᵧ=A senθ, asignando los signos correspondientes al cuadrante.
+    A<sub>x</sub>=A cosθ y A<sub>y</sub>=A senθ, asignando los signos correspondientes al cuadrante.
   </div>
 </details>
 

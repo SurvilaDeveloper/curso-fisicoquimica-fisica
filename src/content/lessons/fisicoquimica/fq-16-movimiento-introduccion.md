@@ -474,8 +474,8 @@ En una dimensión:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Movimiento uniforme</span>
-  <div class="formula-panel__formula">x = x₀ + v · t</div>
-  <p>x₀ es la posición inicial, v la velocidad constante y t el tiempo medido desde el instante inicial elegido.</p>
+  <div class="formula-panel__formula">x = x<sub>0</sub> + v · t</div>
+  <p>x<sub>0</sub> es la posición inicial, v la velocidad constante y t el tiempo medido desde el instante inicial elegido.</p>
 </div>
 
 También podemos escribir:
@@ -490,7 +490,7 @@ si trabajamos con intervalos.
 
 Un ciclista comienza en:
 
-**x₀ = 20 m**
+**x<sub>0</sub> = 20 m**
 
 y se mueve con:
 
@@ -504,7 +504,7 @@ durante:
   <span class="worked-example-card__label">Ejemplo resuelto</span>
   <h3>Posición después de 12 s</h3>
   <div class="worked-example-card__steps">
-    <p>x = x₀ + v·t</p>
+    <p>x = x<sub>0</sub> + v·t</p>
     <p>x = 20 m + 5 m/s × 12 s</p>
     <p><strong>x = 80 m</strong></p>
   </div>
@@ -848,7 +848,7 @@ No. También puede representar cambios de dirección o disminución de rapidez.
     <li>Una persona recorre 150 m en 30 s. Calculá su rapidez media.</li>
     <li>Un móvil pasa de x = 5 m a x = 29 m en 6 s. Calculá desplazamiento y velocidad media.</li>
     <li>Un auto viaja a 72 km/h. Expresá la rapidez en m/s.</li>
-    <li>Un móvil parte de x₀ = 4 m con v = 3 m/s. Calculá su posición a los 10 s.</li>
+    <li>Un móvil parte de x<sub>0</sub> = 4 m con v = 3 m/s. Calculá su posición a los 10 s.</li>
   </ol>
 </div>
 
@@ -871,7 +871,7 @@ No. También puede representar cambios de dirección o disminución de rapidez.
     <strong>Gráficos y modelos</strong>
   </div>
   <ol>
-    <li>Construí un gráfico x-t para x₀ = 10 m y v = −2 m/s entre 0 y 6 s.</li>
+    <li>Construí un gráfico x-t para x<sub>0</sub> = 10 m y v = −2 m/s entre 0 y 6 s.</li>
     <li>Dos rectas x-t tienen pendientes +3 m/s y +7 m/s. Compará sus movimientos.</li>
     <li>Diseñá una experiencia para determinar si una persona camina aproximadamente con velocidad constante.</li>
   </ol>
@@ -947,7 +947,7 @@ No. También puede representar cambios de dirección o disminución de rapidez.
 - Rapidez y velocidad no son lo mismo.
 - Rapidez media usa distancia; velocidad media usa desplazamiento.
 - En movimiento uniforme la velocidad permanece constante.
-- En una dimensión puede utilizarse `x = x₀ + vt`.
+- En una dimensión puede utilizarse x = x<sub>0</sub> + vt.
 - En un gráfico posición-tiempo, la pendiente representa la velocidad.
 - La aceleración describe cambios de la velocidad.
 - Un cambio de dirección también implica aceleración.

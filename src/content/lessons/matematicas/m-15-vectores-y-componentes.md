@@ -895,7 +895,7 @@ Como ambas componentes son positivas:
 <details class="lesson-quiz">
   <summary>2. ¿Cómo se suman dos vectores por componentes?</summary>
   <div class="lesson-quiz__answer">
-    Se suman separadamente sus componentes correspondientes: Rₓ=Aₓ+Bₓ y Rᵧ=Aᵧ+Bᵧ.
+    Se suman separadamente sus componentes correspondientes: R<sub>x</sub>=A<sub>x</sub>+B<sub>x</sub> y R<sub>y</sub>=A<sub>y</sub>+B<sub>y</sub>.
   </div>
 </details>
 

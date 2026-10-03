@@ -836,13 +836,13 @@ De:
 la gráfica es una recta:
 
 ```text
-K_máx
+K<sub>máx</sub>
 │
 │          /
 │        /
 │      /
 │_____/____________ f
-     f₀
+     f<sub>0</sub>
 ```
 
 La pendiente es:
@@ -1722,7 +1722,7 @@ Para electrones:
 <details class="lesson-quiz">
   <summary>4. ¿Cuál es la ecuación de Einstein para el efecto fotoeléctrico?</summary>
   <div class="lesson-quiz__answer">
-    hf = φ + K_máx, o equivalentemente K_máx = hf − φ.
+    hf = φ + K<sub>máx</sub>, o equivalentemente K<sub>máx</sub> = hf − φ.
   </div>
 </details>
 

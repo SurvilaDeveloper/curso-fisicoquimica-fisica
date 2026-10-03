@@ -961,7 +961,7 @@ Eso conecta:
 <details class="lesson-quiz">
   <summary>2. ¿Qué representa un nivel en decibeles?</summary>
   <div class="lesson-quiz__answer">
-    Una medida logarítmica relativa; para intensidad puede escribirse L=10log(I/I₀).
+    Una medida logarítmica relativa; para intensidad puede escribirse L=10log(I/I<sub>0</sub>).
   </div>
 </details>
 

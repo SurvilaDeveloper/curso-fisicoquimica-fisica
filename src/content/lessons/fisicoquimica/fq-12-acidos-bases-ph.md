@@ -272,7 +272,7 @@ En el tratamiento escolar habitual:
 
 <div class="formula-panel">
   <span class="formula-panel__label">Definición introductoria</span>
-  <div class="formula-panel__formula">pH = −log₁₀[H₃O⁺]</div>
+  <div class="formula-panel__formula">pH = −log<sub>10</sub>[H₃O⁺]</div>
   <p>[H₃O⁺] representa, en una aproximación escolar, la concentración molar de iones hidronio.</p>
 </div>
 
@@ -723,7 +723,7 @@ Cuando conocemos directamente la concentración de H₃O⁺ en un caso ideal:
 
 <div class="formula-panel">
   <span class="formula-panel__label">pH</span>
-  <div class="formula-panel__formula">pH = −log₁₀[H₃O⁺]</div>
+  <div class="formula-panel__formula">pH = −log<sub>10</sub>[H₃O⁺]</div>
 </div>
 
 ### Ejemplo 1
