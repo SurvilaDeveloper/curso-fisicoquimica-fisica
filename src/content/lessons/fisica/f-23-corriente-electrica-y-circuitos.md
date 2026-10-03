@@ -833,7 +833,7 @@ En una conexión en serie:
 - la misma corriente atraviesa todos los resistores.
 
 ```text
-──R<sub>1</sub>──R<sub>2</sub>──R<sub>3</sub>──
+──R₁──R₂──R₃──
 ```
 
 Entonces:
@@ -911,9 +911,9 @@ Se verifica:
 En paralelo, los resistores están conectados entre los mismos dos nodos:
 
 ```text
-      ┌─R<sub>1</sub>─┐
+      ┌─R₁─┐
 ──────┤    ├──────
-      └─R<sub>2</sub>─┘
+      └─R₂─┘
 ```
 
 Tienen la misma diferencia de potencial:

@@ -1263,12 +1263,12 @@ Una representación útil es:
 ```text
 energía ↑
 
-E<sub>4</sub> ─────────
-E<sub>3</sub> ─────────
+E₄ ─────────
+E₃ ─────────
        ↓ fotón
-E<sub>2</sub> ─────────
+E₂ ─────────
        ↓
-E<sub>1</sub> ─────────
+E₁ ─────────
 ```
 
 La longitud vertical del salto representa:

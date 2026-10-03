@@ -836,13 +836,13 @@ De:
 la gráfica es una recta:
 
 ```text
-K<sub>máx</sub>
+K_máx
 │
 │          /
 │        /
 │      /
 │_____/____________ f
-     f<sub>0</sub>
+     f₀
 ```
 
 La pendiente es:
