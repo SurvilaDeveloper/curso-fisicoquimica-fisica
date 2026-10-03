@@ -1,0 +1,328 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { withBase } from "../../utils/paths";
+
+const tools = [
+  ["ChatGPT de OpenAI", "Apoyo para planificar, redactar, revisar, programar y auditar el contenido."],
+  ["Astro 7.3.5", "Estructura las páginas y genera un sitio estático rápido y liviano."],
+  ["Markdown", "Permite mantener las lecciones separadas de la presentación visual."],
+  ["Content Collections", "Organiza las lecciones como una colección con datos estructurados."],
+  ["Zod", "Comprueba que los datos de cada lección respeten el esquema esperado."],
+  ["Node.js", "Ejecuta controles automáticos sobre el conjunto completo de contenidos."],
+];
+---
+
+<BaseLayout
+  title="Cómo se construyó"
+  description="Herramientas y metodología utilizadas para crear y revisar el contenido del sitio."
+>
+  <main class="container page-shell build-page">
+    <div class="page-heading">
+      <span class="eyebrow">Cómo se creó</span>
+      <h1>Herramientas, revisión y trabajo con IA</h1>
+      <p>
+        El sitio fue construido por etapas. La elaboración combina decisiones
+        humanas, asistencia de inteligencia artificial, una estructura web
+        pensada para el contenido educativo y controles automáticos para reducir
+        inconsistencias.
+      </p>
+    </div>
+
+    <section class="tools-grid">
+      {
+        tools.map(([name, description]) => (
+          <article class="panel tool-card">
+            <strong>{name}</strong>
+            <p>{description}</p>
+          </article>
+        ))
+      }
+    </section>
+
+    <section class="section roles-grid">
+      <article class="panel role-card">
+        <span class="card-kicker">Gabriel Survila</span>
+        <h2>Dirección, criterio y revisión</h2>
+        <ul>
+          <li>define qué temas cubrir y con qué profundidad;</li>
+          <li>plantea dudas, objetivos y mejoras;</li>
+          <li>evalúa las propuestas de contenido;</li>
+          <li>prueba las páginas localmente;</li>
+          <li>revisa la presentación y el funcionamiento;</li>
+          <li>decide qué cambios se incorporan.</li>
+        </ul>
+      </article>
+
+      <article class="panel role-card">
+        <span class="card-kicker">ChatGPT · OpenAI</span>
+        <h2>Coautoría y asistencia</h2>
+        <ul>
+          <li>participa en la redacción del contenido;</li>
+          <li>propone explicaciones, ejemplos y ejercicios;</li>
+          <li>ayuda a estructurar los temas;</li>
+          <li>colabora con el código del sitio;</li>
+          <li>detecta inconsistencias y errores;</li>
+          <li>participa en auditorías y revisiones.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section panel model-note">
+      <div>
+        <span class="eyebrow">Modelo utilizado</span>
+        <h2>ChatGPT de OpenAI</h2>
+      </div>
+
+      <div>
+        <p>
+          Durante la etapa documentada en octubre de 2026 se utiliza
+          <strong>GPT-5.6 Sol</strong> en parte del trabajo de asistencia y
+          coautoría.
+        </p>
+        <p>
+          Como el sitio fue construido a lo largo de múltiples etapas, la
+          configuración disponible de ChatGPT puede cambiar con el tiempo. Por
+          eso no se atribuye todo el desarrollo histórico a una única versión
+          del modelo.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Metodología</span>
+          <h2>Trabajar en bloques pequeños</h2>
+          <p>
+            Cada grupo de cambios se revisa antes de continuar. Esto permite
+            detectar problemas de contenido, notación o navegación sin tener
+            que rehacer grandes partes del sitio.
+          </p>
+        </div>
+      </div>
+
+      <div class="process-flow" aria-label="Proceso de elaboración">
+        <span>Definir el objetivo</span>
+        <b>→</b>
+        <span>Redactar o modificar</span>
+        <b>→</b>
+        <span>Probar localmente</span>
+        <b>→</b>
+        <span>Revisar</span>
+        <b>→</b>
+        <span>Corregir</span>
+        <b>→</b>
+        <span>Publicar</span>
+      </div>
+    </section>
+
+    <section class="section architecture-grid">
+      <article class="panel architecture-card">
+        <span class="card-kicker">Lecciones</span>
+        <h2>Contenido en Markdown</h2>
+        <p>
+          Cada lección vive en un archivo independiente. Eso permite corregir,
+          ampliar y revisar un tema sin mezclarlo con la estructura visual de la
+          página.
+        </p>
+      </article>
+
+      <article class="panel architecture-card">
+        <span class="card-kicker">Datos educativos</span>
+        <h2>Información estructurada</h2>
+        <p>
+          Cada lección declara título, curso, módulo, orden, nivel,
+          prerrequisitos y otros datos que después utiliza automáticamente el
+          sitio para organizarse.
+        </p>
+      </article>
+
+      <article class="panel architecture-card">
+        <span class="card-kicker">Presentación</span>
+        <h2>Astro genera las páginas</h2>
+        <p>
+          Astro transforma las lecciones y componentes en páginas estáticas. El
+          resultado es un sitio liviano, rápido y usable tanto en computadora
+          como en pantallas pequeñas.
+        </p>
+      </article>
+
+      <article class="panel architecture-card">
+        <span class="card-kicker">Revisión</span>
+        <h2>Controles automáticos</h2>
+        <p>
+          Además de la revisión humana, un validador controla que no haya slugs
+          duplicados, prerrequisitos inexistentes, ciclos, enlaces internos
+          inválidos y varios errores de formato.
+        </p>
+      </article>
+    </section>
+
+    <section class="section panel validation-card">
+      <div>
+        <span class="eyebrow">Por qué validar</span>
+        <h2>Noventa y tres lecciones requieren consistencia</h2>
+      </div>
+
+      <div>
+        <p>
+          Cuando el contenido crece, revisar todo manualmente se vuelve difícil.
+          Por eso parte de la calidad estructural se controla de forma
+          automática.
+        </p>
+        <p>
+          Estos controles no sustituyen la revisión conceptual. Sirven para
+          detectar problemas mecánicos y liberar tiempo para concentrarse en la
+          claridad de las explicaciones.
+        </p>
+      </div>
+    </section>
+
+    <section class="section panel authorship-card">
+      <span class="card-kicker">Autoría del contenido</span>
+      <h2>Gabriel Survila y ChatGPT</h2>
+      <p>
+        El material del sitio surge de un proceso colaborativo: las preguntas,
+        prioridades, revisiones y decisiones se combinan con la capacidad de
+        ChatGPT para proponer texto, código, explicaciones y alternativas.
+      </p>
+      <p>
+        Cuando un tema requiere especial precisión, la intención es revisar las
+        afirmaciones, distinguir modelos de realidad y evitar presentar como
+        certeza aquello que depende de supuestos o límites del modelo.
+      </p>
+    </section>
+
+    <section class="section back-link">
+      <a class="text-link" href={withBase("/proyecto")}>
+        ← Volver a Sobre el sitio
+      </a>
+    </section>
+  </main>
+</BaseLayout>
+
+<style>
+  .build-page {
+    max-width: 1180px;
+  }
+
+  .tools-grid,
+  .roles-grid,
+  .architecture-grid {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .tools-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .roles-grid,
+  .architecture-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tool-card,
+  .role-card,
+  .architecture-card,
+  .model-note,
+  .validation-card,
+  .authorship-card {
+    padding: 1.35rem;
+  }
+
+  .tool-card strong {
+    font-size: 1rem;
+  }
+
+  .tool-card p,
+  .role-card li,
+  .architecture-card p,
+  .model-note p,
+  .validation-card p,
+  .authorship-card p {
+    color: var(--muted);
+    line-height: 1.7;
+  }
+
+  .tool-card p,
+  .architecture-card p,
+  .authorship-card p:last-child {
+    margin-bottom: 0;
+  }
+
+  .role-card h2,
+  .architecture-card h2,
+  .model-note h2,
+  .validation-card h2,
+  .authorship-card h2 {
+    margin: 0.25rem 0 0;
+    letter-spacing: -0.025em;
+  }
+
+  .card-kicker {
+    color: var(--primary);
+    font-size: 0.75rem;
+    font-weight: 850;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .role-card ul {
+    margin-bottom: 0;
+    padding-left: 1.2rem;
+  }
+
+  .process-flow {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .process-flow span {
+    padding: 0.65rem 0.8rem;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--surface);
+    font-size: 0.86rem;
+    font-weight: 750;
+  }
+
+  .process-flow b {
+    color: var(--primary);
+  }
+
+  .model-note,
+  .validation-card {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .back-link {
+    padding-bottom: 1rem;
+  }
+
+  @media (max-width: 900px) {
+    .tools-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 760px) {
+    .roles-grid,
+    .architecture-grid,
+    .model-note,
+    .validation-card {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .tools-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

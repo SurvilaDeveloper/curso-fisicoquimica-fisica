@@ -61,10 +61,19 @@ const fullTitle =
 
     <footer>
       <div class="container footer-inner">
-        <p>
-          Curso abierto de Física y Físico-Química para nivel secundario.
-        </p>
-        <p>Construido con Astro.</p>
+        <div>
+          <p>
+            Curso abierto de Física y Físico-Química para nivel secundario.
+          </p>
+          <p class="footer-author">
+            Contenido: Gabriel Survila + ChatGPT (OpenAI).
+          </p>
+        </div>
+
+        <nav class="footer-links" aria-label="Información del sitio">
+          <a href={withBase("/proyecto")}>Sobre el sitio</a>
+          <a href={withBase("/proyecto/como-se-construyo")}>Cómo se creó</a>
+        </nav>
       </div>
     </footer>
   </body>
@@ -77,11 +86,11 @@ const fullTitle =
   }
 
   .footer-inner {
-    min-height: 100px;
+    min-height: 110px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 1.5rem;
     color: var(--muted);
     font-size: 0.85rem;
   }
@@ -90,12 +99,38 @@ const fullTitle =
     margin: 0;
   }
 
-  @media (max-width: 650px) {
+  .footer-author {
+    margin-top: 0.3rem !important;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-links a {
+    color: var(--muted);
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .footer-links a:hover {
+    color: var(--primary-strong);
+    text-decoration: underline;
+  }
+
+  @media (max-width: 760px) {
     .footer-inner {
       padding: 1.5rem 0;
       align-items: flex-start;
       flex-direction: column;
       justify-content: center;
+    }
+
+    .footer-links {
+      gap: 0.8rem 1rem;
     }
   }
 </style>
