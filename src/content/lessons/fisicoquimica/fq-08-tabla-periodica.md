@@ -82,6 +82,15 @@ Al terminar esta lección deberías poder:
 - relacionar posición en la tabla con propiedades sin convertir las tendencias en reglas absolutas.
 
 ---
+<div> Ver 
+<a href="https://es.wikipedia.org/wiki/Tabla_peri%C3%B3dica_de_los_elementos#/media/Archivo:Periodic_table_large-es-updated-2018.svg"
+  style="color:yellow; font-size: 22px;">
+Tabla periódica
+</a>
+ (en Wikipedia)
+</div>
+
+---
 
 ## 1. Elemento químico
 
