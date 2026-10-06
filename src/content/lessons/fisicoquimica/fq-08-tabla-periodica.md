@@ -85,6 +85,8 @@ Al terminar esta lección deberías poder:
 
 <div>Ver
 <a href="https://es.wikipedia.org/wiki/Tabla%20peri%C3%B3dica%20de%20los%20elementos"
+  target="_blank"
+  rel="noopener noreferrer"
   style="color:yellow; font-size: 22px;">
   Tabla periódica
 </a>
